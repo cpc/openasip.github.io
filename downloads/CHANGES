@@ -1,0 +1,1323 @@
+1.25        June 2022
+=====================
+
+Notable changes and features
+----------------------------
+- Added support for LLVM 14.
+- TDGen: Register-file marked as 'reserved' will not be used by LLVM
+  RegAlloc anymore. This is needed for the upcoming inline asm named
+  reg support.
+- Initial partial inline assembly support. It supports GNU's extended
+  assembly constructs such as local register variables and clobbers
+  in C code. Consequently, this enables clobber and physical register
+  constraints in LLVM IR.
+- Experimental hardware loop compiler support based on LLVM's generic
+  hardware loop pass.
+
+Notable bugfixes
+----------------------------
+- DDG: Operations mapped to different FU should not have false-dependency edge
+
+1.24     October 2021
+=====================
+
+Notable changes and features
+----------------------------
+- Added support for LLVM 13.
+- Experimental tool support for Blocks-CGRA [1] designs. Currently
+  tooling is limited to translation of VLIW like Blocks (xml representation)
+  to ADF file  and re-using TCE compiler for Blocks codegeneration.
+  [1] Wijtvliet, M. (2020). Blocks, a reconfigurable architecture combining
+  energy efficiency and flexibility. Technische Universiteit Eindhoven.
+- Support for wxWidgets 3.1
+
+Notable bugfixes
+----------------------------
+- tcecc: did not disable loop unrolling properly, even if asked to do so.
+- OSEd: Element-width for SIntWord was fixed to 32.
+- ProDe: Added an operation even when its operand width exceeded the socket
+  width.
+
+1.23        June 2021
+=====================
+
+Notable changes and features
+----------------------------
+- Added support for LLVM 12.
+  Dropped support for LLVM versions older than 11.
+
+Notable bugfixes
+----------------
+- Compiler instruction scheduler does not any more
+  assume an FU state dependency between operations
+  if the operations are forced to different FUs
+  (thus modify different states).
+  Fixes GitHub issue #114.
+
+1.22    December 2020
+=====================
+
+Notable changes and features
+----------------------------
+- Added support for LLVM 11.
+  Dropped support for LLVM 3.5, LLVM 3.6 and LLVM 3.7.
+- Experimental support for 64-bit little-endian processor designs.
+  Please note that the support is at the architecture level yet;
+  compilation and simulation is implemented, but RTL generation is
+  still incomplete (HDB for 64b FUs not yet added).
+- New instruction scheduler which is much more aggressive at
+  performing software bypasses, which reduces register pressure.
+  Creates considerably faster code with processor architectures with
+  small number of register file ports.
+  The old instruction scheduler can still be used by giving --td-scheduler
+  parameter to tcecc.
+- Compiler backend plugin compilation speedup by over 3x by creating a
+  pluginwrapperfile that includes multiple sourcefiles such that commonly
+  included files are linked and compiled only once for all the sourcefiles
+  in the wrapper.
+- Upgraded Python scripts to version 3. Python 2 no longer supported.
+
+Notable bugfixes
+----------------
+- Stack spill alias analysis now should finally work.
+
+1.21       March 2020
+=====================
+
+Notable changes and features
+----------------------------
+- Added support for LLVM 10.
+- Brought back the alias analysis which knows that spills of variables
+  into stack cannot alias with other memory operations.
+  This was working on some old TCE versions and ancient LLVM versions,
+  but has not been supported with the recent LLVM versions.
+- 8-bit loads are no longer needed in a minimal machine; they can be
+  emulated with 32-bit loads with masking and shifting. Of course, this is
+  typically very slow and naturally should be used only in cases where
+  they are not needed in performance-critical parts of the applications
+  of interest.
+- tcecc can now emulate 16-bit aligned loads, but emulation of 16-bit unaligned
+  loads not yet supported, so all code will not compile if 16-bit loads are
+  left out from the machine (a work in progress).
+- Both sign-extending and zero-extending loads are no longer needed in a
+  minimal machine; tcecc can now use either one to emulate the other
+  one (naturally with a performance penalty).
+- The LLVM installer scripts for LLVM 9 and LLVM 10 updated to use the git
+  repo instead of svn to download the llvm sources.
+
+1.20     October 2019
+=====================
+
+Notable changes and features
+----------------------------
+- Modified guard evaluation in the simulation model and the guarded register
+  file implementations. Guard now evaluates as true if and only if the least
+  significant bit stored in the register is 1.
+- Support for LLVM 9
+- Added new 1-bit shift instructions (shl1_32, shr1_32 and shru1_32) and
+  compiler support to use sequences of these for all shifts. This allows
+  compiling any C code to architecture without barrel shifter.
+  For static shift amounts, also sequences of shift instructions that
+  shift by multiple bits can be supported, if they are named like
+  shlN_32 where N is the number of bits shifted and have the DAG set.
+  Also left shift is now optional, can use multiple additions to achive
+  left shifting.
+- Support for LLVM 9
+
+Notable bugfixes
+----------------
+- Fixed broken software floating point conversion from unsigned int to float.
+- Fixed instruction scheduler testbench to also work with little-endian ADFs.
+
+Cleanups
+--------
+- Remove deprecated dynamic exception specifications.
+
+1.19       April 2019
+=====================
+
+Notable changes and features
+----------------------------
+- Support for LLVM 8
+
+Usability features
+------------------
+- ProDe connection tool now tries to more intelligently figure out the
+  direction of a previously unconnected socket based on the connected
+  FU port or RF port, from the bound FU operands or the RF port name.
+- ProDe implementation selector dialog now shortens the HDB paths for
+  easier readability.
+
+1.18   September 2018
+=====================
+
+Notable changes and features
+----------------------------
+- Support for LLVM 7.0.
+- Added hexadecimal output to PIG.
+- Added HDB with register files and a basic ALU optimized for Xilinx Series 7
+  devices. Thanks to Stephan Nolting and Guillermo Payá-Vayá / IMS, Leibniz
+  Univ. Hannover for the contribution of the shifter.
+
+Notable bugfixes
+----------------
+- Bugfixes related to handling of long immediate units with
+  sign extension. Values to these could break in case multiple
+  instruction templates could write to these.
+- Fix support for some math library routines (ceil, floor, round, exp2)
+
+1.17       March 2018
+=====================
+
+Notable changes and features
+----------------------------
+- Support for LLVM 6.0.
+
+Usability features
+------------------
+- Sane defaults for OSEd GUI text editor.
+
+Misc.
+-----
+- Clarified the TCE tour text.
+
+1.16   September 2017
+=====================
+
+Notable changes and features
+----------------------------
+- Support for LLVM 5.0.
+- Support for little-endian TTAs.
+- VLIWConnectIC: An explorer plugin which creates a VLIW-like interconnection
+  network and creates a separate RF for each distinct bus width.
+
+Usability features
+----------------------------
+- Proxim: Added ability to search for a certain pattern in dissasembly window
+  The feature can be accessed by pressing ctrl-f in the main window.
+- ProDe/Proxim: Zoom in/out the machine canvas with mouse wheel.
+- ProDe: Improved search in 'Add FU From HDB'-dialog.
+- OSEd: Fixed OperationDAGDialog scaling at resize time.
+
+Notable bugfixes
+----------------
+- ProDe: fix crashes in "Add from OSAL"-dialog.
+- ProDe: Address space dialog now displays max-address correctly with 32bits.
+- Fixed execution of TCE tools from the build tree in Debian Stretch.
+
+1.15       March 2017
+=====================
+
+Notable changes and features
+----------------------------
+- Support for LLVM 4.0.
+
+Other features and improvements
+-------------------------------
+- Bus trace format is changed to comma separated values listing. Bus
+  values are displayed in hexadecimals and more than 32 bits.
+- GHDL test bench scripts updated to work with its latest version.
+
+Notable bugfixes
+----------------
+- ttasim: Operation state is now reset with 'kill' command.
+- tcecc: Fix alias analysis or separating RA save/restore on function.
+- tcecc: Register renamer did not handle frame pointer correctly.
+
+1.14    November 2016
+=====================
+
+Notable changes and features
+----------------------------
+- Support for LLVM 3.9.
+- Support for wxWidgets 3.x and thus Ubuntu 16.04 which doesn't ship wxW 2.x
+  anymore. Check the TROUBLESHOOTING file in case encountering problems.
+- Support for variable-length local arrays and alloca, that is, dynamic
+  stack objects. When using dynamic stack objects, the architecture must
+  have an additional 32-bit register (total minimum of 6) as one of them
+  will be used as a frame pointer in functions with dynamic stack objects.
+- ProGe now can generate a simple control interface "AlmaIF" that can be
+  used for control and debug access to TCE processors integrated in SoCs.
+- Added source code debugging window to Proxim.
+
+Other features and improvements
+-------------------------------
+- TCE_INSTALL_DIR environment variable can be set pointing to directory where
+  user manually installed TCE.
+- Added ability to modify memory in simulator with load_data command.
+
+Usability features
+------------------
+- HBDEditor automatically fills new implementations with sequential opcode
+  numbers.
+- Made IDF's more portable: In case referring to the TCE-shipped HDB files,
+  a magic string tce: can be used instead of absolute paths which differ from
+  the system to system.
+- SVG export was added when using wxWidgets 3.0 (replaces the EPS export)
+- ProDe shows machine instruction width in status bar.
+- ProDe now shows more information of the operations in the opset dialog.
+- Column/list sorting in various ProDe/OSEd dialogs.
+- List filtering in ProDe dialogs 'Add from opset' and 'Add FU from HDB'.
+- Directory where ttasim dumps simulation traces can be changed using an
+  environment variable TTASIM_TRACE_DIR.
+
+Documentation
+-------------
+- Added descriptions for all non-obvious base.opp operations.
+
+Notable bugfixes
+----------------
+- If the processor had narrower than 32-bit buses that can transport
+  immediate values, broken code could have been generated
+
+1.13   February 2016
+====================
+
+Notable changes and features
+----------------------------
+- Support for LLVM 3.8
+- Semantics of extraBits in BEM changed: when the encoding is zero,
+  the encoding size is now calculated as 0 and one more extra bit is
+  needed than before to create the same encoding.
+  When new bem files are generated, this one more
+  extra bit is created. BEM files with the new semantic have version number
+  of >= 1.2. When an older BEM file is loaded, the amount of extrabits
+  is automatically converted to the new format.
+  Loading a new BEM file with older version of TCE is not supported.
+- Support for LLVM 3.8
+
+Notable bugfixes
+----------------
+- Bus having only one source or destination socket which has a subfield
+  (trigger opcode index, register index, or immediate field) and no
+  nop encoding (nop encoding done by always false guard)
+  no longer loses the index field in the instruction encoding.
+
+1.12  September 2015
+====================
+
+Notable changes and features
+----------------------------
+- Support for LLVM 3.7
+
+Other features and improvements
+------------------------------
+- Operation definitions can be now overridden one-by-one
+  by redefining them in a local OSAL search path.
+- Register files can be implemented using synchronous SRAMs. Included one
+  RF implementation using Xilinx's BRAMs.
+
+Notable bugfixes
+----------------
+- Basic block with only call may have crashed the compiler
+- If converter broke with floating point immediate values
+- Fixes to FMA unit implementations.
+- ICDecoder sometimes generated VHDL syntax when should have generated Verilog
+
+1.11      March 2015
+====================
+
+Notable changes and features
+----------------------------
+- Support for LLVM 3.6.
+- tcecc: Support for the "address of label" extension:
+  http://blog.llvm.org/2010/01/address-of-label-and-indirect-branches.html
+- tcecc: Support for using SUB to flip the sign of constants in case the
+  constant cannot be encoded directly.
+- HDBEditor: External ports and additional parameters can be defined for RF 
+  implementations.
+- ProGe: RF's external ports can be now generated.
+- tcecc --init-sp: force the initial stack pointer value
+- ProGe: DefaultICDecoderPlugin generates better VHDL code for code coverage.
+- ProGe: Simulating processor can now generate bus trace variant that excludes
+  all locked states. The new variant is enabled when the regular bus trace is 
+  enabled in the DefaultICDecoderPlugin.
+- MachInfo prints bindings between ADF ports and OSAL operations' operands 
+  in the function unit table.
+- Clustered TTA mode compilation dropped when using LLVM 3.6.
+
+Other features and improvements
+------------------------------
+- TestOsal: test context bitwidth attribute has been removed, since Operands
+  know their own width. Also, values that are printed in hex format are printed
+  using Operand's whole width, including leading zeroes.
+- osed: Operand type can be set to Bool.
+- ProGe: Generated HDL output files now have registers in deterministic order.
+- Improved code coverage for default ic decoder plugin.
+- Added verilog implementation to output global lock trace.
+- The way SimValue stores values has been changed from little-endian to 
+  big-endian convention. This doesn't affect the way how SimValue should be 
+  used.
+- Transfer of immediate 1 into boolean register no longer uses
+  long immediate when it's not needed.
+- Better descriptions on some OSAL operations.
+- Added helper script generatebustrace.sh under tools/scripts/ that generates 
+  bustrace from given ADF and TPEF. 
+- tcecc: More user friendly error messages for several failures caused by
+  unsupported ADFs.
+
+Notable bugfixes
+----------------
+- Fixed ProGe not generating valid verilog code for core with IUs.
+- Fixed PIG failure if ADF had 2+ IUs one having size of one and others size 
+  of one plus.
+- SystemC simulation hook crash fixes.
+- Fixes to FMA unit implementations.
+
+Usability features
+------------------
+- ttasim: register values are always printed in hex format for the whole width.
+- buildopset: use LDFLAGS environment variable to fix linking in 3rd party libs.
+
+1.10  September 2014
+====================
+
+Notable changes and features
+----------------------------
+- Support for LLVM 3.5.
+- machinfo: a tool for automatically printing out documentation of
+  the designed ADF in LaTeX.
+
+Other features and improvements
+------------------------------
+- Compilation times improved.
+- Functions marked as 'noinline' are not removed from the final program
+  even though the program itself does not refer to them.
+- Template Slots can be edited in ProDe's Intruction Templates-dialog.
+- Added select operation that can be used for select(?) operator
+  instead of conditional moves.
+- Added patterns which can do select(?) operator without conditional moves
+  or select operations with series of ors ands etc.
+- Better error message when trying to compile to adf with broken port bindings.
+- Build fixes for latest Mac OSX versions.
+- Support for calling custom operations to be executed in any FU with given
+  addressspace (e.g. _TCEAS_LDW("#1", addr, result) where 1 is the address
+  space numeric identifier), or _TCEAS_LDW("data" where data is the name
+  of the address space.
+- SLEEP operation that locks the core until an external signal has been
+  asserted. 
+- Always false guard can be used for encoding NOPs, potentially saving
+  bits in source and destination fields.
+- Processor may not have ldq and ldh instructions and compiler
+  can then compile code which does not load 8/16 bit values.
+  Previously these operations were needed even when not used.
+- C++11 compiling mode can be manually enabled by giving --enable-cxx11 for the
+  configure script. The mode is always enabled if LLVM version is 3.5 or higher.
+- Default ic decoder plugin can print a separate global lock trace.
+- Fixed issues spotted by compiling TCE using Clang++ 3.5.
+- Added a SLEEP operation to the base operation set.
+- tcecc no longer asserts/breaks if LDQ/STQ or LDH/STH is missing.
+  It, however, cannot emulate these, so only code which
+  does not load/store 8/16-bit values will compile if these are missing.
+- tcecc: Lacking some immediate width no longer force one register to be
+  wasted for regcopyadder.
+
+Code generator improvements
+---------------------------
+- Generation of conversions between half float and integers automatically.
+
+Usability features
+------------------
+- ProDe: Bus-socket -connection can be edited with single click in the
+  Edit Connections mode.
+- ProDe: When unit details are not printed, the unit label is printed
+  with a larger font for readability. The unit details toggle button is
+  now added by default to the toolbar.
+- ProDe: The units are now rounded in case they are function units,
+  "more rounded" in case of a control unit, rectangles in case
+  of register files, and trapezoids in case of immediate units.
+  Also coloured: FU blue, LSU green, CU purple, IMMU orange, RF yellow.
+- ProDe: In the non-unit-details mode only the unit's name is printed.
+  This enables making the unit visualization (and thus the whole processor
+  visualization) smaller.
+- ProDe: Wider ports, sockets and buses look wider, narrower look narrower.
+- ProDe: Units, ports and buses are closer to each others in the main view.
+- tcecc: More user friendly error printouts when lacking immediate 
+  capabilities or when running out of imem.
+
+Notable bugfixes
+----------------
+- Fix PIG and ProGe when generating bits or RTL for a machine with a bus 
+  (slot) that does not have any connections.
+- Having volatile variables could have caused broken code being generated.
+- Compiler sometimes refused to schedule to processors with relatively
+  sparse connectivity but no need for register copies.
+- Wrong number of parameters in osed dags might now have reasonable error
+  message instead of crash.
+- Boolean return values no longer cause compiler to fail.
+- PIG generates initalization data also for variables initialized to zero.
+- ProGe: Reset also immediate unit control signals.
+
+1.9     January 2014
+====================
+
+Notable changes and features
+----------------------------
+- Support for LLVM 3.4.
+- OSAL Operation: optional element-count and element-width attribute fields 
+  added for in/out operands in operation schema. From now on operands have 
+  information of their subword width and subword count.
+
+Code generator improvements
+---------------------------
+- Support for vector comparisons with the vectorbackend.
+
+Misc. smaller improvements
+--------------------------
+- Fixed the TCE sources to compile with Clang++, a lot of new warnings 
+  exposed by it fixed.
+- Standalone OpenCL support: More OpenCL API functions implemented; 
+  support added for zero-copy buffers and reading from and writing to 
+  buffers by manipulation of buffer pointers. Also reduced kernel call
+  overhead.
+- Explorer: HDB files which are given with -b switch are now searched under
+  current working dir and default hdb search paths.
+- OSEd: element width and element count of an operand are now displayed in
+  operation property dialog, and these fields can also be modified for input 
+  and output operands.
+- all memory accesses to volatile variables now happen in original order
+- TCE code base builds and works now in g++'s C++11 mode (but does not yet
+  require it!) and Clang++
+- Make the simulation function symbols of the compiled simulator unique 
+  per compiled simulator engine instance so one can have multiple of them 
+  in the same process to simulate (heterogeneous) multi-TTA setups.
+
+Bugfixes
+--------
+- ldh_ldhu_ldq_ldqu_ldw_sth_stq_stw.vhdl did not react to glock properly but
+  updated a new value too early to the output.
+- ttasim -q now simulates half float programs correctly
+- some half float comparison routine fixed
+- bottom-up-scheduler caused broken schedule with function units with
+  pipeline resource usage after last port usage (for example stores with
+  less than store op/cycle bandwidth)
+- FPU's were buggy with numbers close to 2.
+
+1.8       June 2013
+===================
+
+Notable changes and features
+----------------------------
+- Support for LLVM 3.3.
+- Removed the use of llvm-ld (and its copy in the TCE source tree) for linking 
+  bitcode libraries. It now uses llvm-link instead. Beware: it might require your 
+  Newlib bitcode libraries to be rebuilt.
+
+Code generator improvements
+---------------------------
+- If conversion enabled in llvm side of the compiler backend.
+- Post-pass operand sharing removes some unnecessary operand writes
+  after instruction scheduler. Does not improve performance, only saves power.
+- Computation support for half-precision floats.
+- The trigger operand can be now changed on the fly for commutative
+  operations in case the schedule benefits from it.
+
+Misc. smaller improvements
+--------------------------
+- Some ALU vhdl implementations in default HDB optimized to be smaller.
+- Instruction decoder optimized to be smaller and faster.
+- Added shl1add and shl2add operations for faster array indexing calculations
+  into base operation set and some ALU implementations.
+- Estimator can print out info of the found and unfound cost data
+  with -v (thanks to Jani Boutellier).
+- Fixed some issues when using libtce through a dlopen (icd loader or some other
+  "plugin interface"). When TCE loaded the operation behavior descriptions as
+  plugins, not all symbols of libtce they needed were found. Now tries to link
+  the OPBs against libtce whenever possible to mark the dependency.
+- generatebits: -v (verbose) parameter now prints amount of full instruction
+  NOPs and amounts of consecutive 2, 3 and 4+ full instruction NOP groups
+- Support for Boost versions up to 1.53.0 (1.42.0 is the oldest
+  tested version).
+
+Misc. changes
+------------
+- -lcpp parameter needed when compiling/linking c++ programs.
+- tcecc: --emit-llvm not the default anymore
+- tcecc: --sequential-schedule now passes -O0 to the llvmtce only to
+  enable aggressive LLVM optimization combined with a sequential
+  schedule.
+
+Hardware Database Additions
+---------------------------
+- 2-wide SIMD units for half floats
+
+Usability features
+------------------
+- HDBEditor: Double-clicking some lists in the "Add Implementation"-dialog
+  now opens editing the list item. (no need to press the "edit"-button)
+- ProDe: User can add guards for all indices of a register file at once in the
+  "Register File Guard"-dialog
+- ProDe: Multiselection and deletion enabled for register file guards in the 
+  "Bus"-dialog
+- ProDe: Added a UI element to assign IDs for address spaces in the
+  "Address Space"-dialog
+- ProDe: Ordering of register file guard list changed to be more user 
+  friendly in the "Bus"-dialog
+- ProDe: When .idf is saved to a file, all file paths (.hdb, .vhdl, etc.)
+  pointing under the current working directory are made relative paths,
+  meaning that the absolute path above current working directory is cut off.
+- ProDe: When loading an IDF file, implementation files are checked if they
+  exist under absolute path or current working dir. Files that are not found,
+  are searched under default search paths and if a file is found from there,
+  the file path is fixed to that location. User is prompted about this.
+- ProDe: Cached HDB files are now monitored for changes, and they update 
+  correctly to the list of FUs/RFs that can be added from HDB. 
+- ProDe: When saving IDF, default save location is the directory of the ADF.
+- ProDe: Automatic implementation selection added to "Processor 
+  Implementation"-dialog.
+
+Bugfixes
+--------
+- ProGe/PlatformIntegrator: imem_mau_pkg.vhdl is now prepended with top
+  level entity name like the actual package. (bug: #1063667)
+
+1.7     January 2013
+====================
+
+Notable changes and features
+----------------------------
+- Support for LLVM 3.2. Dropped support for LLVM 3.0.
+- Initial support for half-precision floats.
+- OpenCL host-tta-device mode simulation using pocl's ttasim driver.
+
+Misc. smaller improvements
+--------------------------
+- GrowMachine explorer now copies the guards when it duplicates
+  buses. 
+- Several vector operations such as vector load/stores added to the
+  base operation set.
+- Added support for vectors of 8- and 16-bit numbers in the vector backend.
+- tcecc now compiles big basic blocks faster.
+- tcecc --analyze-instruction-patterns dumps the operation graph just
+  after instruction selection. This is helpful in finding custom operation
+  candidates that are automatically selectable.
+- ConnectionSweeper now starts from the loosest worsening threshold
+  and makes it gradually more strict. This leads to finding the
+  least-connected machines first. Also the default sweep mode is
+  more coarse grained: it tries to remove all connections (RF or
+  bypasses) of a bus at once, not one by one.
+- explore: can now list plugin parameter descriptions (-p).
+- Parts of the user manual revised by Dr. Erno Salminen. Thanks to Erno
+  for his contributions.
+- Added a RawData data type to OSAL. This should be used as operand data type
+  for all load/store/io methods which just transfer raw data which can be of
+  any type.  If using some other data type, data curruption may occur when 
+  calling these operations as custom operations.
+- DefaultDecoderGenerator produces slightly smaller and faster decoders.
+- Added optimized ALUs to the asic_130nm_1.5V database.
+
+Code generator improvements
+---------------------------
+- min, minu, max, maxu, minf, maxf support in codegen.
+  Now the compiler can use these operations automatically, if
+  available in the architecture.
+
+Usability features
+------------------
+- HDBEditor: Source files section of FU Implementation dialog has now 
+  Move Up/Move Down-buttons for rearranging the (compilation) order
+  of the files. Thanks to Antti Häyrinen for this contribution.
+- ProDe: Editing processor implementation allows double clicking on the
+  component lists to get to the "select component implementation" dialog,
+  no need to press the select FU/IU/RF buttons anymore. 
+  Also double clicking implementation in the dialog closes the dialog.
+- ProDe: When editing processor implementation, pressing close button
+  no longer loses all unsaved idf data. If there is unsaved data,
+  it asks if the user wants to save the idf.
+- ProDe: Selecting implementation for FU or RF no longer causes the RF or FU
+  list to scroll to the beginning.
+- Pressing Close on OsED DAG editing dialog no longer loses unsaved data,
+  it saves all unsaved data.
+
+Major bugfixes
+--------------
+- __attribute__((aligned)) now works for global variables.
+- register to itself move as only instruction in llvm bb could cause
+  tce compiler to fail.
+- explorer: The -f switch to pass compiler options to exploration took only
+  the first argument. Now takes the whole command line (e.g.: -f'-a -b -c').
+- multiple address spaces with reduced connectivity could cause broken
+  code to be generated or compiler to abort.
+- Operations with more than 3 inputs could cause usage of freed memory,
+  causing compiler failures
+- TCEFU macros did not work correctly with memory operations,
+  the operation could end up in wrong LSU.
+- Major simulator memory leaks fixed. Now very long automated DS explorations
+  are feasible again.
+- Failed bypassing could cause compiler to fail on sparsely connected
+  machines.
+- signed immediate with equal amount of bits to insruction address space
+  (1 too few becauses of the sign bit) could cause broken code
+  (negative jump addresses) to be generated
+- If long immediate template consisted of multiple slots, long immediate
+  encoded instruction references were updated incorrectly to the
+  instruction bit image during the image creation.
+- OSAL DAGs with constants work a bit better, smaller change
+  to get strange error of invalid pattern.
+
+Misc.
+-----
+- Removed the deprecated schedule binary and the old scheduler configuration
+  file framework. Now programs are always compiled with tcecc and all 
+  compiler options are given as command line parameters.
+
+Known problems
+--------------
+- If more than one read port or more than one write port of an RF
+  is connected to same bus, but there are other buses which connect only
+  either of those ports, loading the compiled program may fail or hang.
+  Workaround: either reduce connections so that all buses connect to 
+  a maximum of only one read port of any RF and one write port of any RF
+  (it may still have connections to many ports in different RF's), or 
+  add connections so that all buses that connect to some read port or some 
+  write ports in some RF connect to  all read or write ports.
+  
+1.6         June 2012 
+=====================
+
+Notable changes and features
+----------------------------
+- Support for LLVM 3.1.
+
+  LLVM 3.0 *might* still work but is unsupported and some features
+  do not work with llvm 3.0.
+  Dropped support for LLVM 2.9.
+- ProGe: Experimental support for Verilog and a small Verilog hardware
+  database (mixed_hdl.hdb) supporting minimal.adf. Thanks to
+  Vinogradov Viacheslav for contributing this!
+- Support for the address_space attribute to allow using multiple
+  separate memories from C code.
+- Simplified C++ interface to the processor simulation engine for making it
+  easier to build C++-based system simulation models.
+- ADFCombiner: an explorer plugin to generate clustered-style TTA
+  machines from two input ADFs.
+  
+Usability features
+------------------
+- dumptpef -m has now more user friendly output (thanks to Kalle
+  Raiskila).
+- OSAL files are searched also from environment variable TCE_OSAL_PATH.
+
+Smaller features
+----------------
+- OSAL.hh: FU_NAME macro for accessing the name of the function
+  unit the operation is executed in. The standard STREAM operations
+  now use filenames FU_NAME.in and FU_NAME.out instead of the fixed
+  names. This allows easier simulation of TTAs with multiple 
+  I/O FUs. By Jani Boutellier from University of Oulu.
+- Allow program.ll (a fully linked LLVM assembly file) as an option for
+  program.bc as an input file for the DSExplorer applications.
+
+Experimental features
+---------------------
+- Support for vector input to the compiler. Code is generated from 
+  LLVM vector instructions by combining multiple TCE registers into vector 
+  registers and mapping the incoming LLVM vector regs to them.
+  Allows using wide loads (ldw2, ldw4, ldw4) and stores (stw2, stw4, stw8)
+  to load and store these vectors. This can be enabled with parameter
+  --vector-backend. This feature requires prededefined register file naming
+  to identify the "lanes", as generated with the ADFCombiner clustered machine
+  generator plugin. Works only with LLVM 3.1.
+- Added experimental bottom-up-instruction scheduler. Can be enabled with
+  --bottom-up-scheduler command line parameter.
+
+Misc. code generator improvements
+---------------------------------
+- Immediates marked as rematerializable; This should reduce spilling as
+  values that come from immediates are not spilled to stack.
+- Registers can now be renamed to different RF during scheduling.
+  This is however not yet used to reduce number of register-to-registe copies
+  on sparsely connected machines.
+- Compiler can now make floating point constant values to be used from
+  immediates instead of always putting them to constant pool.
+- No longer floating point aliases for 32-bit registers on llvm backend;
+  The same registers now belong to both i32 and f32 register classes. 
+
+Noteble bugfixes
+----------------
+- tcecc: Missing antidependence edges could cause broken schedule when
+  bypasser used on partially connected machines.
+- ttasim: Try to simulate machines with unconnected ports (only a warning
+  is printed in such cases). 
+- tcecc: some scheduling errors didn't fail gracefully
+  https://bugs.launchpad.net/tce/+bug/894816
+- hdb: fpu_sp_mul.vhdl didn't freeze the pipeline with glock
+  https://bugs.launchpad.net/tce/+bug/942551
+- Removed one broken fu architecture from hdb;
+  There was no implementation for it anyway
+- ttasim: In compiling mode failed to generate simulation code for
+  operation with some dags.
+- compatibility fix for Fedora 16's default libedit 
+  (thanks to Vinogradov Viacheslav)
+- tcecc: Scheduling of operations with more than 2 inputs sometimes failed.
+
+1.5    December 2011
+====================
+
+Notable changes and features
+----------------------------
+- Support for LLVM 3.0. 
+  LLVM 2.9 might still work but is unsupported.
+  Dropped support for LLVM 2.8 and older. 
+- Experimental OpenCL C Embedded Profile support in offline compilation 
+  mode (we call it the OpenCL "standalone mode").
+- tcecc: Floating point emulation code is not included by default anymore,
+  use --swfp in case you use floating points and your machine does
+  not support them.
+- bclib: added a Light Weight PRinting library. Small functions useful
+  for debug printouts.
+- Support for calling custom operations to be executed in specified 
+  function unit (e.g. _TCEFU_ADD("ALU8", A1_Cb, A1_Cr, result2)).
+  Thanks to Hervé Yviquel for the patch.
+- Generalizations to the architecture description format to allow
+  using the instruction scheduler for operation triggered architectures. 
+  The Cell SPU is the proof of the concept architecture which can be
+  scheduled for out-of-the-box with LLVM 3.0 (see tcecc-spu).    
+
+Bugfixes
+--------
+- HDB: Hardware bug fix for load-store units in hibi_adapter.hdb and 
+  stratixII.hdb.
+  Global lock signal might cause pipelined load result to be ignored.
+- tcecc: Scheduler could sometimes fail to schedule on sparsely connected 
+  machines.
+- OSEd: OSEd crashed when selecting an operation for which there was no 
+  simulation model in an otherwise valid .opb.
+- OSEd: Reload modified simulation functions from a rebuilt simulation
+  function module (.opb) (Bug 179).
+- OSEd: Renaming an operation might cause osed to crash.
+- OSEd: Checking of operation with same name already exists was broken.
+- OSEd: When new operation is created, the DAG can now be edited immediately
+  without false error messages about missing outputs.
+- ProDe: Bit width calculation of address spaces was incorrect if max-address
+  was power of 2.
+- tcecc: standard libcalls are now converted to cheaper ones again using
+  the llvm -simplify-libcalls (e.g. printf("foo\n") -> puts("foo").
+  This was broken due to adding -fno-libcall switch as default. Now it's
+  added only while building Newlib.
+- Build system: Fixed build when --as-needed is used as link flag by some of 
+  the libraries.
+- 1-bit global constants had invalid size calculation. This could cause
+  compiler to fail to write program.
+- tcedisasm: the starting address of data section initialization
+  output was computed wrongly.
+- generatebits: MIF data image output had a rounding error which led to
+  missing data words at the end of image in case the number of words was
+  not divisible with the row width.
+- OSAL DAG language had broken illegal recursive dag detection, which
+  resulted some legal DAG's not to be used. This happened in cases
+  where same operation was used multiple times inside a dag.
+- OSAL: Added check of operation DAGs which do not write to some output
+  operand. Refuse to load this kind of broken DAGs.
+- OSAL DAG language could not recursively use smaller patterns as
+  part of bigger patterns in instruction selection.
+- tcecc: fail with an error in case the compiled program uses dynamic
+  stack objects (not yet supported by tcecc) instead of silently 
+  producing invalid code.
+- Do not save the backend plugins to disk while running the design
+  space exploration. This caused disk space fillup with long explorations
+  and small hard disks.
+- Proxim: clicking OK on the options dialog crashed Proxim in case a simulation
+  was not initialized.
+- ProDe: fixed a crash when checking programmability on a machine with more 
+  than 1 boolean registers/no boolean register files.
+- tcecc: On some platforms an exception thrown when a symbol (usually a
+  from a call to a function not linked in) crashes at LLVM/TCE library
+  boundaries. Moved the exception handling closer to the call position
+  to produce a graceful error message printout for this case.
+- Proxim: the configuration file was not saved to the correct location in
+  the user home dir.
+- tcecc: fixed an issue compiling multiple source code in the same
+  command line with the same basename (but with a different suffix or
+  directory).
+
+Code generator improvements
+---------------------------
+- Introduced jump with negative guard to llvm. This makes llvm's
+  BranchFolding pass to generate more sane CFGs, and should result
+  in slightly better code being generated.
+- Can rename registers during scheduling
+- Does not save return address to stack in leaf functions.
+- Alias analysis of LLVM is now exploited in DDG building to improve 
+  parallelization.
+- TCE instruction scheduler CFG is now generated directly from the LLVM CFG.
+  The old "builder" that builds the TCE CFG from a "flat" program 
+  representation can still be used with --old-builder parameter, but this 
+  disables also some other new features and will be removed in the next 
+  TCE release.
+- A major reorganization of the phases in the compiler backend. The memory 
+  consumption of the compiler should be now smaller, but compile time for 
+  small programs longer. NOTE: The old scheduler configuration system is now
+  deprecated (not used with the default tcecc options) and will be removed in
+  the next release. 
+
+Smaller features
+----------------
+- ProGe: switch -s that can be used to define a separate directory for
+  files that are potentially shared between multiple TTA processors in
+  the same (heterogeneous) TTA multicore design.
+- ProGe and PIG: the string given with --entity-name is now used to make
+  the generated VHDL entity etc. names unique to allow easier
+  instantiation of multiple TTA cores in designs.
+- tcecc: support for LLVM assembly files (.ll) as input. 
+  Thanks to Hervé Yviquel for the patch.
+- ProGe: test bench generation is now disabled by default, use '-t'
+  to generate the test bench.
+  Thanks to Hervé Yviquel for the patch.
+- ProGe: HDL-file compilation order in Modelsim compilation script is
+  now fixed. Thanks to Vinogradov Vyacheslav for the patch
+- tcedisasm now outputs to filename.tpef.S by default.
+- generate_cachegrind now uses line numbering and counts NOPs per
+  instruction in case an assembly file is present as foobar.tpef.S.
+- Generatebits prints out info about the imem usage and instruction compression
+  with the verbose flag (-v).
+- tcecc: added switches --bypass-distance, --bypass-distance-nodre and
+  --no-kill-dead-results to control the software bypassing aggressiveness and
+  the dead result elimination.
+- explorer: added switch --compiler_options="XYZ" to pass XYZ to tcecc when 
+  calling it from during exploration.
+
+Usability features
+------------------
+- ProGe: Reasonable error message when implementation for some FU is invalid.
+
+External interface changes
+--------------------------
+- OSAL.hh: removed RUNTIME_ERROR_WITH_DATA as it's a too specific helper
+  for OSAL API. Let's keep it minimal and clean.
+
+Documentation
+-------------
+- Documented the different "datapath connectivity levels" and 
+  their support in TCE.
+- Added an "Unsupported C Language Features"-section.
+- Added and fixed documentation on the floating point TTA designs.
+- Added some documentation about the dialog used to define operation operand
+  bindings and timings to a function unit in ProDe.
+- Added hints about avoiding the most common bottlenecks on TTA designs with
+  the current TCE compiler.
+- Added some documentation for the OpenCL support.
+
+1.4       April 2011
+====================
+
+Notable new features
+--------------------
+- Support for LLVM 2.9.
+  LLVM 2.7 and 2.8 unsupported but might still work, see below for known 
+  problems.  We strongly recommend upgrading to LLVM 2.9.
+- OpenCL Embedded compliant FPU implementations by Timo Viitanen / TUT
+- Generic VHDL implementations for the basic streaming operations
+  from Jani Boutellier / University of Oulu.
+- ConnectionSweeper IC network exploration algorithm.
+  Optimizes the IC network by sweeping the buses of the machine and 
+  removing the least important connections first until a cycle count
+  worsening threshold is reached. Tries to remove RF connections 
+  first as they are usually more expensive than the bypass connections.
+- Added --pareto_set switch to the explorer for printing pareto efficient
+  configurations. Currently supports the connectivity and cycle count as
+  the quality metrics.
+- proge: IP-XACT support updated to version 1.5
+- Added switch --print-resource-constraints to tcecc to assist in 
+  deciding which resources to add to the machine to improve the
+  schedule. Dumps DDGs to dot files along with dependence and
+  resource constraint analysis data.
+
+Code generator improvements
+---------------------------
+- Passes the first function parameter in register instead of stack.
+- Uses negative guard more aggressively, less stupid guard xoring operations.
+- Emulation pattern generation improved, can use immediates directly when
+  using DAG to emulate missing operations.
+- Some other minor pattern improvements leading to slightly better code
+  on some situations.
+- Alias analysis improvements, understands that register spills to stack
+  cannot alias with other memory operations
+- Software Bypasser is much more aggressive.
+
+Optimizations
+-------------
+- tcecc: Decreased scheduling time.
+- tcecc: Decreased memory usage.
+- ttasim: Compiled simulation (-q) can correctly simulate machines with
+  guard latency higher than 1. Simulating such machines no longer makes 
+  the simulator revert to interpreting mode.
+
+Smaller features
+----------------
+- tcecc: Reasonable error message if disk space runs out during TPEF writing.
+- ttasim: Refuses to simulate a program that moves a too wide immediate to 
+  a too narrow jump/PC port in the control unit. It would result in wrong
+  execution as it jumps to a clipped address.
+- ProDe: Scroll position is kept when zooming.
+- ttasim: In case of memory access alignment error, prints the address.
+- explore: the explorer can now reuse old architectures in the
+  design space database (DSDB). Thus it's possible to speed up resumed
+  explorations by using the DSDB from the previous exploration to
+  get cycle counts from the DSDB instead of a new compile&simulation.
+- Improved error handling caused by broken operation DAGs. Now sometimes
+  gives reasonable error message instead of cryptic error message or crash
+  when operation DAG has some error.
+- tcecc: tceops.h is now included automatically, not necessary to
+  include it explicitly.
+- tcecc: added --emit-llvm switch for fully linked LLVM .bc output.
+
+Bugfixes
+--------
+- ProDe: Shows the machine which is being edited immediately also with
+  WxWidgets 2.8
+- ProDe: When some editing command is cancelled, and nothing is changed, 
+  the machine is not marked as modified so ProDe does not want to save it.
+- ProDe: Copying FU from one machine to another no longer causes
+  prode to crash. The address space of FU copied from one machine to
+  another is left unset.
+- ProDe: No longer asks the filename again when editing a adf file in
+  current directory and saving it.
+- ttasim: when the last instruction executed was a jump and the
+  simulation was killed (reseted), the jump was executed in the 
+  new simulation.
+- ProGe: Some FUs had unnecessary 'SHIFTW' parameters in the default HDB
+  causing broken top level VHDL to be generated. Fixed by Jani Boutellier of 
+  University of Oulu.
+- tcecc: Some missing patterns could cause internal compiler error while compiling.
+- Missing operation behaviour file could cause simulator or osal tester to 
+  fail. Now warning message is given and the .opp without corresponding .opb
+  is ignored, if behaviour source file is found. If source file not found,
+  the module is still loaded(assumes all operation executed via dag code)
+- Trying to load machine which used same socket as source for multiple 
+  register reads (either reads same register, or moves are guarded and
+  always exclusive moves) might cause the simulation to hang.
+- When a machine was fully RF connected but not fully connected
+  (direct busses from all RF's to FU's and FU's to RF's, but all
+  buses were not connected to all sockets) some registers were never used.
+- If machine has SUBF operation but no NEGF operation, compiler could
+  fail to compile code for the machine.
+- Default OSEd.conf which may be broken on some machine no longer comes
+  with TCE. This file is now autogenerated when OSEd is ran for first
+  time, and the autogeneration should create a working one.
+- ProGe: Stratix2DSP platform integrator now sets LD_LIBRARY_PATH to
+  ALTERA_LIBRARY_PATH before calling qmegawiz as a workaround to 
+  a problem where TCE was compiled against a different C++ library
+  than the Quartus tools.
+- handling for llvm's TRAP intrinsic was missing, and could cause
+  compiler complain about missing "abort"-function and to fail.
+
+Documentation
+-------------
+- Documented the use of OperationDAGs to describe operation semantics.
+- Added example of using ConnectionSweeper and pareto_vis to visualize
+  connectivity-wise interesting architectures.
+- A tutorial on using the hardware FPUs provided by TCE.
+
+Misc
+----
+- llvm-gcc support deprecated. Only Clang will work correctly with LLVM 2.9
+  and TCE 1.4. llvm-gcc might still work with LLVM 2.7 and LLVM 2.8,
+  but is unsupported.
+- ABI change: Alignment rules for some data types changes when using
+  LLVM 2.9. This means that old .o and .bc files have to be regenerated when 
+  upgrading TCE from using llvm 2.7 or llvm 2.8 into llvm 2.9.
+
+Known problems
+--------------
+No known problems with LLVM 2.9 and Clang. See below for the known 
+problems in TCE 1.3 if you have to use an older LLVM for some reason.
+
+1.3    November 2010
+====================
+
+Notable new features
+--------------------
+- Support for LLVM 2.8 (support for LLVM 2.7 retained)
+- ttasim: call info (setting profile_transfer_tracking) and the instruction
+  profile (ttasim setting profile_data_saving) are now saved to separate
+  pure text files to speed up simulation when these traces are enabled.
+- ttasim: instruction profile can be converted to cachegrind-compatible 
+  traces which can be visualized with kcachegrind.
+- SystemC integration: Possibility to add TTA simulation models to system
+  level simulations with the ability to override the operation pipeline 
+  simulation models for the function units.
+- Improved the scheduling for unconnected machines through temporary
+  register copies based on the maze algorithm for ASIC place & route.
+  Not restricted to maximum of two copies anymore.
+- Basic support for debugging info when compiled with 'tcecc -g'. 
+  The source code line numbers are displayed as comments in 'tcedisasm' 
+  output and ttasim's disassembly.
+- Platform Integration support is improved. New integrator components
+  include AvalonIntegrator which can be used to integrate TTA to a
+  Altera SOPC Builder component and KoskiIntegrator which can be used
+  to integrate TTA processor to Koski toolset compatible IP blocks with
+  IP-XACT 1.2 component description file.
+
+Code generator improvements
+---------------------------
+- New register assignment strategy that avoids reuse of registers to
+  produce more ILP for the post-pass scheduler.
+- Improved code generation for comparisons of boolean values.
+- Avoids putting immediate value into register with some comparisons,
+  more often passes the immediate directly to the comparison operation.
+
+Usability features
+------------------
+- ProDe: when copying a load-store unit (FU), also copies the address 
+  space parameter.
+
+Bugfixes
+--------
+- tcecc: stdout/stderr redirection was broken for running subcommands
+  and caused occasional false failures.
+- tcecc: sometimes generated incorrect code when there was a jump to 
+  llvm select instruction (usually c/c++ ?-operator).
+- ttasim: In compiling mode value written to memory sometimes appeared
+  to load operations triggered at same cycle. Those should read
+  the old value from the memory.
+
+Optimizations
+-------------
+- ttasim: destruction was extremely slow after simulating large
+  programs due to extremely slow destructor of InstructionMemory
+- tcecc: Decreased scheduling time.
+
+Misc
+----
+- ttasim: removed support for simulating the experimental 'sequential
+  TTA programs'. Sequential a.out programs was the intermediate representation 
+  from the old (now unsupported) gcc 2.7.0 compiler frontend.
+
+Known problems
+--------------
+- LLVM 2.8 has a bug which may cause incorrectly compiled programs when
+  the is a comparison of (only) lowest bits of integers in the code 
+  being compiled.
+  A patch for this bug is included in TCE release, it should be applied
+  to the LLVM source tree and LLVM recompiled and reinstalled with the patch.
+  LLVM 2.7 might also be affected, but we have not seen the bug appear with
+  LLVM 2.7.
+- Clang has a bug related to code generation of bitfields, illegal
+  code may be generated if the code contains bitfield and clang is used 
+  as C frontend (which is the default). This bug appears with libmad.
+  See http://llvm.org/bugs/show_bug.cgi?id=8171 for the bug report.
+  
+1.2    June 2010
+================
+
+New features
+------------
+- Support for LLVM 2.7 (dropped support for LLVM 2.6)
+- Proper support for Clang. Clang now the default compiler frontend
+  in tcecc.
+- Preliminary support for automated platform integration. 
+  First supported platform is the Stratix II DSP board.
+- Added parameter --no-fp-emu to tcecc. This parameter disables 
+  linking any floating point emulation code. It can be used to
+  make the compiled program smaller in the case the dead code 
+  elimination fails to remove unused FP code.
+- Added parameter --conservative-pre-ra-scheduler which leads to 
+  faster schedule with machines with low amount of registers but usually
+  decreases performance with machines with lots of registers.
+
+Bugfixes
+--------
+- sqrt() calls are now correctly converted to SQRTF operations
+  only in case the operation is supported by the ADF, otherwise
+  to emulation function calls.
+- tcecc: compilation warnings and errors are now always output to
+  stderr unbuffered (used to output only in case of compilation error)
+- Data alignment rules of data types fixed to be same in backend
+  and frontend. 
+- Compiled simulation does not handle long guard latencies,
+  implemented fallback to the interpreted engine when simulating 
+  machines which have long guard latencies.
+- Multi-bit registers can no longer be used as boolean registers by the 
+  compiler; support for them was buggy and using them could cause incorrectly
+  scheduled programs. Now every machine has to have at least 2 one-bit
+  registers which are used for guards(predicates) and boolean values.
+
+1.1 unreleased
+==============
+
+This version was never released as tar balls, but can be only 
+checked out from the version control system.
+
+New features
+------------
+- Support for LLVM 2.6 (dropped support for LLVM 2.5)
+- Sign extension operations are not required anymore.
+- Program Image Generator supports MIF-format (Memory
+  Initialization File) used by Altera.
+- ttasim-tandem: a tool for comparing the two simulation engines
+  to assist in tracking simulation bugs.
+- Operation code numbering guideline changed. Operation codes should be
+  numbered according to the their alphabetical order. HDBEditor and ProGe
+  issue a warning message if this convention is violated.
+- tcecc: added a switch for setting the llvm-gcc optimization level
+- Program Image Generator supports writing binary image to vhdl package
+- Program Image Generator has (experimental) support for COE image files
+- a helper script 'minimize-ic' for invoking the SimpleICOptimizer
+  explorer plugin
+- support for using the Clang as the C frontend via 'tcecc --clang'.
+  NOTE: Clang 1.0 (released with LLVM 2.6) needs to be patched with
+  tools/patches/clang-1.0-tce-support.patch for the TCE support.
+- Utility programs to test that OSAL behaviour definitions and HDL
+  implementations of function units are equal.
+  - testhdb command line tool to test FU and RF implementations in HDB
+  - ttaunittester to test the FUs and RFs implementations defined in IDF
+- ProDe: when copying a bus, also copy its guards
+- PIG now automatically copies memory images to ${proge-output}/tb directory
+  if image type is ascii and -x flag is given.
+
+Code optimizations
+------------------
+- Decreased scheduling time for big programs. 
+  Unfortunately compiling time increased for small programs.
+- Smarter heuristics for selecting which bus and FU to use, leads to
+  programs which use fever connections, allowing more of them to be
+  removed.
+- Eliminates some stupid register to itself moves.
+
+Bugfixes
+--------
+- rand() might now return something else than 0
+- Scheduler could fail on machines with different short immediate widths
+  and only some busses guarded.
+- Random scheduler failures when software bypassing.
+- Operations with state on machines with trigger bound to operand which is
+  not last operand could be scheduled incorrectly.
+- SimpleICOptimizer explorer plugin could remove connections that were used,
+  resulting a machine where the code does not work.
+- Instruction fetcher failed to fetch correct instruction when global lock
+  signal was asserted.
+- Better support for selecting custom ops with DAG definition.
+- Having not operation on the machine caused incorrectly compiled programs.
+- Better error handling for stale .opb files.
+- Boost should not warn anymore about deprecated hash_set with gcc 4.3.
+- Having lots of parallelism and easily analyzable memory addresses could
+  cause incorrectly compiled programs.
+- ttasim -q: could fail if some result is never read.
+- ttasim -q: fixed wrong simulation of instructions with predicate moves
+  and the same predicate written at the same cycle
+- Simulator could fail to load some programs.
+- Memory leak fixes.
+- Toplevel busy signal now locks the core properly.
+- Compiled simulator failed to simulate custom memory writing operations
+  correctly.
+- FU outputs are now updated when the compiled simulation is stopped to
+  make the machine state correct for inspection.
+- Avoids placing data at address 0 because it is indistinguishable from NULL.
+- Operand type initialized correctly in osed operand editing dialog.
+- Direct memory accesses to global tables could get wrong address.
+- ProDe: segments cannot be selected anymore (selects the bus always instead),
+  an irritating long standing bug.
+- Proxim: crashed when unable the load the program due to missing
+  operation simulation models.
+- Missing .opb file no longer causes ttasim to go to forever loop,
+  now exits with a meaningful error message.
+- LIMM write to IU works if glock is issued on the same cycle
+  
+1.0 first public release, 2009-03-26
+====================================
+
+New features
+------------
+- Support for LLVM 2.5 (dropped support for LLVM 2.4).
+
+Code optimizations
+--------------------------
+- Decreased scheduling time
+
+Code generator improvements
+----------------------------
+- Creates slightly faster emulation code for comparison operations 
+  which are missing from the machine.
+- Improved schedule for reduced connectivity machines.
+
+Bug fixes
+---------
+- Compiling simulator simulated some dag-specified operations incorrectly
+  and sometimes failed to generate code to some.
+- Fixed a bug which caused random scheduler failures.
+
+1.0-beta2     2008-11-13
+========================
+
+New features
+------------
+- Support for LLVM 2.4 (dropped support for LLVM 2.3).
+- Explorer can now print available plugins with "-g" option switch.
+- Explorer can now print plugin parameters with "-p <plugin name>" switch.
+- Simulator's x (dump memory) command can now dump memory to a binary file
+  with switch /f
+- Added --unroll-threshold switch to tcecc to control the aggressiveness
+  of the loop unrolling.
+
+Code optimizations
+------------------
+- Optimized the time spent in loading of program to the simulator.
+- Optimized the time to write program to tpef file.
+- Scheduling big programs should be much faster.
+- Scheduler memory usage should be less
+
+Bug fixes
+---------
+- Fixed a bug which caused random scheduler failures.
+- Dropped support for Boost 1.32 as it has some bad bugs, at least 1.33 required
+- ProDe: crash when "fully connecting" unconnected RF ports fixed. 
+- The compiler backend plugins now contain the TCE version string in
+  the file name to avoid problems with incompatible backend versions
+  in TCE version upgrades.
+- custom operation sometimes got reordered illegally.
+
+Documentation
+-------------
+- Added proper documentation on marking the state properties of
+  operations sharing the same state (side-effects, affected-by, affects)
+  to the user manual.
+
+1.0-beta1     2008-10-02
+========================
+
+New features
+------------
+
+- Upgraded the compiler to use LLVM 2.3 (support for LLVM 2.2 dropped).
+- Added support for FU resource conflict detection to the compiled
+  simulator engine.
+- Implemented processor utilization stats to the compiled simulator
+  engine.
+- Added 'clocked' attribute to the operation definitions that depend
+  on the processor clock signal (mainly real time clocks etc.).
+- Added example stream operations to the base opset and documented them in
+  the TCE User Manual's tutorial section.
+- Constant support for the OSAL DAG language.
+- Added support for dynamic compiled simulation. Static compiled simulation
+  is still used by default.
+- Fixed TCE to compile and pass tests with Ubuntu 6.06 LTS (Dapper).
+- Lots of work on automatic and manual design space exploration tools.
+- New sequential scheduler which minimizes scheduling time and helps
+  to isolate compilation bugs between LLVM and TCE. 
+  Invoke with 'tcecc -O0'.
+- SimpleICOptimizer Explorer plugin now has a switch to preserve the minimal
+  opset.
+- Evaluate Explorer plugin added to easily evaluate configurations.
+- MinimalOpSet Explorer plugin added to check machines against the minimal
+  opset.
+
+Bug fixes
+---------
+- Workaround for an ICE that happened with LLVM-GCC inlining.
+- Bug #14: Tcl 8.5 has a problem with stack size detection which caused Proxim's
+  script interpreter to fail (see Bug #14). Removed support for Tcl 8.5 for
+  now. Use Tcl 8.0-8.4 until Tcl 8.5 has fixed this issue properly.
+- Bug #35: add explicit casts to the OSAL operand types in the _TCE_*()
+  macros generated by tceopgen
+- Fixed a bug when generating code for guarded jumps in compiled
+  simulator.
+- Determinism fixes to the instruction scheduler.  
+- Optimized scheduling of long immediates. Speeds up scheduling up to
+  50% for some cases.
+- Got rid of compile warnings on Ubuntu 8.10 (Intrepid Ibex).
+
+1.0-alpha1    2008-05-06
+========================
+
+The first preview release for co-op universities and companies.

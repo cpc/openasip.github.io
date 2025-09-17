@@ -1,0 +1,264 @@
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+  <link rel="icon" href="img/favicon.ico" type="image/x-icon">
+
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="CPC group homepage">
+  <meta name="keywords" content="OpenASIP, TCE, TTA, ASP, ASIP, application-specific processors, toolset, EDA, LLVM, VLIW, customizable processors, processor design, tuni, codesign, architectures, research, tampere, university, hardware, software">
+  <meta name="author" content="CPC group">
+
+  <title>OpenASIP | Screenshots</title>
+
+  <!-- Bootstrap Core CSS -->
+  <link href="cpc/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Custom CSS -->
+  <link href="cpc/css/cpc.css" rel="stylesheet">
+
+  <!-- Image carousel CSS -->
+  <link href="cpc/css/image_carousel.css" rel="stylesheet">
+
+
+  <!-- Custom Fonts -->
+  <link href="cpc/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
+  <link href='https://fonts.googleapis.com/css?family=Kaushan+Script' rel='stylesheet' type='text/css'>
+  <link href='https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
+  <link href='https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700' rel='stylesheet' type='text/css'>
+
+  <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+  <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+  <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+      <![endif]-->
+
+       <!-- Scripts needed for the top of the page -->
+       <script src="cpc/js/jquery.js"></script>
+       <script src="cpc/js/bootstrap.min.js"></script>
+       <script src="cpc/js/jqueryEasing.min.js"></script>
+
+</head>
+
+<body id="page-top" class="index">
+
+  <!--Navigation bar-->
+  <div id="nav-placeholder">
+  </div>
+  <script>
+    $(function(){
+      $("#nav-placeholder").load("openASIPNavigationBar.html");
+    });
+  </script>
+  <!--end of Navigation bar-->
+
+
+
+
+    <div id="content">
+    
+
+
+  <!-- Screenshots Section -->
+  <section id="screenshots">
+    <div class="container medium">
+      <div class="row">
+        <div class="col-sm">
+          <h1 class="section-heading">Screenshots & Screencasts</h1>
+          <hr>
+
+      <h1 class="section-heading">Screenshots</h1>
+
+      <p>Some screenshots of using OpenASIP (thanks to <em>Perttu Salmela</em>, 
+        a TTA researcher in our department).</p>
+
+      <p>
+
+        <img src="screenshots/designing_the_architecture.png" border="0" 
+             alt="Designing an architecture." title="Designing an architecture." 
+             width="894" height="473" />
+      </p><p>
+        Creating a new TTA processor design using the graphical Processor Designer (AKA ProDe) 
+        tool. This architecture has several function units with custom operations for complex 
+        number arithmetics and inverted square root, two load-store units, a register 
+        file with five 32 bit registers, a control unit with <em>jump</em> and <em>call</em> 
+        control flow operations, and an optimized (partially connected) interconnection network.
+
+      </p>
+      <hr>
+      <p> 
+
+        <img src="screenshots/debugging_the_software.png" border="0" 
+             alt="Debugging the software with the processor simulator GUI." 
+             title="Debugging the software with the processor simulator GUI." 
+             width="642" height="747" />
+      </p><p>
+        Tracking a nasty bug in an hand coded parallel TTA program using the Processor 
+        Simulator GUI (AKA Proxim).</p>
+      <hr>
+
+      <p> 
+        <img src="screenshots/inspecting_data_memory_contents.png" border="0" 
+             alt="Inspecting data memory contents." title="Inspecting data memory contents." 
+             width="478" height="284" />
+      </p>
+      <p>
+        Inspecting the processor's data memory contents during simulation.</p>
+      <hr>
+
+      <p>
+        <img src="screenshots/proxim_single_stepping.png" border="0" 
+             alt="Single stepping a program." title="Single stepping a program." 
+             width="707" height="517" />
+      </p>
+      <p>  
+        Single-stepping a program using the command '<em>stepi</em>' of the simulator script 
+        interpreter console. 
+      </p>
+      <hr>
+
+      <p> 
+        <img src="screenshots/visualized_utilization_data.png" border="0" 
+             alt="Utilization data visualization." title="Utilization data visualization." 
+             width="576" height="332" />
+      </p>
+      <p>
+        Figuring out the most heavily utilized architecture components using colorized 
+        component utilization visualization.
+      </p>
+      <hr>
+      
+      <p>
+        <img src="screenshots/editing_special_operations.png" border="0" 
+             alt="Adding custom operation definitions." title="Adding custom operation definitions." 
+             width="651" height="388" />
+      </p>
+      <p>
+        Custom operations are added to OpenASIP using a tool called Operation Set Editor (OSEd). 
+        The operation definitions of custom functionality are defined to the exact same database 
+        as "basic operations" such as addition or subtraction, or the "base operation set", 
+        a set of useful operations that is shipped with the OpenASIP installation.
+      </p>
+      <hr>
+
+      <p>
+        <img src="screenshots/editing_implementation_properties.png" border="0" 
+             alt="Editing hardware database." title="Editing hardware database." 
+             width="678" height="746" />
+      </p>
+      <p>
+        Implementation data of the architecture components is stored in so called Hardware 
+        Database (HDB) files and edited with the HDBEditor tool. These databases contain the 
+        necessary information about the implementations for components (register files, function 
+        units) that is needed in order to generate the final HDL implementation of the processor. 
+        In addition, the database contains cost estimation data required by the processor 
+        cost estimation algorithms.
+      </p>
+      <hr>
+
+      <p>
+        <img src="screenshots/simulating_generated_vhdl_in_modelsim.png" border="0" 
+             alt="Simulating VHDL with Modelsim." title="Simulating VHDL with Modelsim." 
+             width="699" height="515" />
+      </p>
+      <p>
+        Finally, after a VHDL has been generated by the Processor Generator (ProGe) and 
+        the bit image of the program is dumped with Program Image Generator (PIG), 
+        the implementation of the processor can be simulated with any VHDL simulator 
+        such as ModelSim<sup>TM</sup> or the free VHDL simulator 
+        <a href="http://ghdl.free.fr/">GHDL</a>.
+      </p>
+
+    <h1>Screencasts</h1>
+
+    <p>This <a href="slides/2018-06-OpenASIP-Tour-with-Clickable-Videos.pptx">slide set</a> (39M)
+    contains clickable videos and goes through most of the tool set.</p>
+
+    <p>The longer OpenASIP tour screencast is split to multiple shorter video clips found below.
+      The videos are coded
+      with <em><a href="http://theora.org/">Ogg Theora</a> (ogv)</em>. In Windows and Mac, 
+      for example, the <a href="http://www.videolan.org/vlc/">VLC media player</a> supports them 
+      out of the box. In Linux, any media player should probably play them without problems.</p>
+
+    <p>Slides for guiding through the videos (size about 33MB): <a href="videos/OpenASIP-tour-screencast.odp">
+        <br />OpenOffice.org Presentation (original)</a> /
+      <a href="videos/OpenASIP-tour-screencast.ppt">PowerPoint </a>/ <a href="videos/OpenASIP-tour-screencast.pdf">PDF</a>
+    </p>
+
+    <h2><a href="videos/01_intro_and_exploration.ogm" title="Intro and exploration">Intro and exploration (6:53, 19.3MB) </a></h2>
+
+    <p> Introduces the basic tools in OpenASIP such as the Processor Designer, the compiler and the simulator.</p>
+
+    <h2><a href="videos/02_profiling_and_making_custom_op.ogm" title="Profiling and making a custom operation">Profiling and using a custom operation (3:52, 8.3MB)<br /></a></h2>
+
+    <p>Shows how the program can be profiled using the simulator to find "hot spots" which can be accelerated with custom operations. Then shows how to add custom operation definitions to OpenASIP.</p>
+
+    <h2><a href="videos/03_adding_sfu_and_using_it.ogm" title="Adding SFU">Adding SFU to the machine and using it in C code (1:31, 3.5MB)<br /></a></h2>
+    <p>Adding a "special function unit" to our TTA which supports the custom operation we defined. Also shows how to execute the custom operation from C code.</p>
+    <h2>
+      <a href="videos/04_adding_implementation_to_hdb.ogm" title="Add implementation to Hardware Database">Adding implementation of the SFU to the Hardware Database (0:50, 2.3MB)</a></h2>
+
+    <p>The special function unit needs to be implemented in VHDL in order 
+      to generate processors which use it. In this video, a previously 
+      implemented VHDL implementation of the function unit is added to 
+      a Hardware Database (HDB). </p>
+
+    <h2><a href="videos/05_generating_processor_and_checking_toplevel.ogm" title="Generate processor">Generating the processor (0:32, 1.5MB)</a></h2>
+
+    <p>The Processor Generator (ProGe) is used to produce a VHDL implementation of 
+      the TTA processor. </p>
+
+    <h2>
+      <a href="videos/06_changing_lsu_to_avalon_unit.ogm" title="Change LSU to Avalon function unit">Change load-store unit to Avalon bus load-store unit (0:36, 1.9MB)</a></h2>
+
+    <p>Because we want to synthesize the generated processor to a Stratix FPGA, the load-store unit is changed to one that is able to access memories and peripherals connected through the Avalon bus.</p>
+
+    <h2><a href="videos/07_using_avalon_lcd_in_code.ogm" title="Use Avalon LCD in code">Using Avalon LCD for output (0:21, 0.9MB)</a></h2>
+
+    <p>In order to produce verification output in the FPGA implementation, we add code that uses an LCD for printing the checksum and the source text. </p>
+
+    <h2><a href="videos/08_generatebits_and_show_quartus_and_sopc_and_program_fpga.ogm" title="Generate bit image and synthesize the design">Generate bit image of the program memory and synthesize the design (2:03, 5.9MB)</a></h2>
+
+    <p>In this video, the bit image of the program memory is produced, the VHDL of the TTA is added to a system design in SOPC builder, and the design is synthesized to the FPGA. </p>
+
+    <h2><a href="videos/09_fpga.ogv" title="FPGA">FPGA (0:05 1.3MB)</a></h2>
+
+    <p>The end result is displayed in this short clip. The FPGA board has executed 
+      the CRC algorithm running in the TTA processor and printed the verification 
+      output to the LCD screen. Unfortunately the video is quite blurry because it 
+      has been recorded with an old digital camera, so you have to trust me on
+      this one :)
+
+      </div>
+    </div>
+  </div>
+</section>
+    </div>
+
+
+
+
+</body>
+
+
+<script src="http://www.google-analytics.com/urchin.js" type="text/javascript">
+
+</script>
+<script type="text/javascript">
+_uacct ="UA-2036488-1";
+urchinTracker();
+</script>
+
+</body>
+
+</html>

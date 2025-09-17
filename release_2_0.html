@@ -1,0 +1,185 @@
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+  <link rel="icon" href="img/favicon.ico" type="image/x-icon">
+
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="CPC group homepage">
+  <meta name="keywords" content="OpenASIP, TCE, TTA, ASP, ASIP, application-specific processors, toolset, EDA, LLVM, VLIW, customizable processors, processor design, tuni, codesign, architectures, research, tampere, university, hardware, software">
+  <meta name="author" content="CPC group">
+
+  <title>OpenASIP | OpenASIP 2.0</title>
+
+  <!-- Bootstrap Core CSS -->
+  <link href="cpc/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Custom CSS -->
+  <link href="cpc/css/cpc.css" rel="stylesheet">
+
+  <!-- Image carousel CSS -->
+  <link href="cpc/css/image_carousel.css" rel="stylesheet">
+
+
+  <!-- Custom Fonts -->
+  <link href="cpc/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
+  <link href='https://fonts.googleapis.com/css?family=Kaushan+Script' rel='stylesheet' type='text/css'>
+  <link href='https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
+  <link href='https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700' rel='stylesheet' type='text/css'>
+
+  <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+  <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+  <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+      <![endif]-->
+
+       <!-- Scripts needed for the top of the page -->
+       <script src="cpc/js/jquery.js"></script>
+       <script src="cpc/js/bootstrap.min.js"></script>
+       <script src="cpc/js/jqueryEasing.min.js"></script>
+
+</head>
+
+<body id="page-top" class="index">
+
+  <!--Navigation bar-->
+  <div id="nav-placeholder">
+  </div>
+  <script>
+    $(function(){
+      $("#nav-placeholder").load("openASIPNavigationBar.html");
+    });
+  </script>
+  <!--end of Navigation bar-->
+
+
+
+
+    <div id="content">
+    
+
+
+
+  <section id="relase_2_0">
+  <div class="container medium">
+    <div class="row">
+      <div class="col-sm">
+        <h1 class="section-heading">OpenASIP 2.0</h1>
+        <hr>
+
+      <p>OpenASIP 2.0 is now out! See the release <a href="downloads/ANNOUNCEMENT">announcement</a>,
+       <a href="https://github.com/cpc/openasip/blob/openasip-2.0/openasip/CHANGES">change summary</a> and
+       <a href="https://github.com/cpc/openasip/blob/openasip-2.0/README.md">README</a>.
+
+      In addition to support for LLVM 15, we added new
+      experimental support for the RISC-V ISA, as well as a new hardware generation
+      tool that enables swift generation of customized function units. Learn more
+      by completing the RISC-V tutorial that is described in the
+      <a href="https://github.com/cpc/openasip/blob/openasip-2.0/openasip/manual/OpenASIP_manual.pdf">OpenASIP manual</a>!</p>
+      <p>
+
+      <h2>LLVM 15</h2>
+      <p>With the new release, we added support for LLVM 15. Due to the switch to opaque pointers in LLVM 15,
+      we consider the support for the previous LLVM version 14 "best-effort" and recommend that you use OpenASIP together with LLVM 15.
+      When ugrading to the 2.0 release of OpenASIP, you will have to either get a fresh clone of the repository or
+      run "make distclean" and the normal installation steps described in
+      <a href="https://github.com/cpc/openasip/blob/openasip-2.0/README.md">README</a>.
+      This approach guarantees that your compiled newlib is compatible with the new LLVM IR changes.
+      </p>
+
+      <p>There is also a known issue that occurs when having multiple OpenASIP installations on the system.
+      Please see following issue: <a href="https://github.com/cpc/openasip/issues/91">https://github.com/cpc/openasip/issues/91</a>.
+      </p>
+
+
+      <h2>RISC-V Support</h2>
+      <p>Even with the rising popularity of the RISC-V ISA, all available co-design toolsets for RISC-V ASIPs are proprietary
+      which prevents the open source community from freely using and modifying them for their own purposes. In addition, the TTA
+      template used in OpenASIP toolset is very flexible for describing other more high-level architectures which enabled to reuse
+      many parts of the toolset for RISC-V customization. These were the driving
+      factors for adding support for the RISC-V ISA into the OpenASIP toolset.</p>
+
+      <h3>Microarchitecture</h3>
+      <p>To implement the RISC-V ISA, we wanted to choose a microarchitecture that enables the reuse of the TTA-based toolflow.
+      This approach lead us to use a TTA as the internal microarchitecture together with a microcode unit that translates and sequences
+      TTA micro-operations from RISC-V input stream during run time. With this approach, we were able to reuse the toolflow without inducing
+      any significant hardware overhead from the control logic.</p>
+      <p align="center">
+      <img src="img/microarchitecture.png" border="0" 
+             alt="Diagram of the microarchitecture" title="Diagram of the microarchitecture" 
+             width="540" height="263" align="center" />
+      </p>
+
+      <h3>Custom instructions</h3>
+      <p>The option to add custom instruction set extensions makes RISC-V an interesting ISA for customized processors.
+      In OpenASIP, the user can add custom instructions to the processor description. This enables to invoke them with
+      generated intrinsic templates from C-code as well as to generate the processor hardware that implements the
+      custom instructions.</p>
+      
+      <p>Compilation of programs with RISC-V custom instructions is implemented by utilizing the LLVM project. In addition to Clang and LLVM
+      IR optimizer, we use upstream LLVM RISC-V backend and process custom instruction intrinsics as a pre-emit pass. In the pre-emit pass,
+      custom instruction intrinsics are replaced with an instruction binary based on the processor description. This enables to support custom
+      instructions without regenerating and compiling the compiler backend and bintools.</p>
+      <p align="center">
+      <img src="img/openasip_pre_emit_pass.png" border="0" 
+             alt="Compilation flow of RISC-V programs" title="Compilation flow of RISC-V programs" 
+             width="549" height="222" />
+      </p>
+
+      <h2>Function Unit Generator (FUGen)</h2>
+      <p>To make design space explaration faster, we added a new tool to the OpenASIP toolset called "Function Unit Generator" (FUGen).
+      This tool utilizes the Directed Acyclic Graph (DAG) based operation descriptions used in the toolset and automatically generates
+      the matching VHDL/Verilog description of the function unit. Before, custom function units had to be written by hand which is unoptimal
+      if the design must be optimized after acquiring post-synthesis results such as timing information. Read more about the operation description
+      formats in the <a href="https://trepo.tuni.fi/handle/10024/128696">operation set customization paper</a>.</p>
+
+      <p>FUGen works by chaining operation descriptions that are found in OSAL to match the DAG based operation description. In addition, the operations
+      can be described by HDL-snippets that only describe the operation behaviour and leaves the generation of the operation pipeline to FUGen.
+      With FUGen, the user can rapidly optimize the function unit implementation by, for example, changing the pipeline information
+      in the processor description.</p>
+      <p>
+      <h2>Publications</h2>
+      <p>Read more about the microcode structure and the RISC-V customization support in the following publications:
+      </p>
+      <p>K. Hepola, J. Multanen and P. Jääskeläinen,
+      "OpenASIP 2.0: Co-Design Toolset for RISC-V Application-Specific Instruction-Set Processors",
+      2022 IEEE 33rd International Conference on Application-specific Systems, Architectures and Processors (ASAP), 2022,
+      <a href="https://zenodo.org/record/6670559">(PDF available)</a></p>
+      <p>K. Hepola, J. Multanen and P. Jääskeläinen,
+      "Dual-IS: Instruction Set Modality for Efficient Instruction Level Parallelism",
+      35th GI/ITG International Conference on Architecture of Computing Systems (ARCS), 2022,
+      <a href="https://zenodo.org/record/7188144">(PDF available)</a></p>
+
+      </div>
+    </div>
+  </div>
+</section>
+    </div>
+
+
+
+
+</body>
+
+
+<script src="http://www.google-analytics.com/urchin.js" type="text/javascript">
+
+</script>
+<script type="text/javascript">
+_uacct ="UA-2036488-1";
+urchinTracker();
+</script>
+
+</body>
+
+</html>

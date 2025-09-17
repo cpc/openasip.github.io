@@ -1,0 +1,88 @@
+OpenASIP v2.0 Released
+-----------------------
+
+OpenASIP, also known as TTA-based Co-Design Environment (TCE), is an open
+source application-specific instruction-set processor (ASIP) toolset for
+design and programming of customized co-processors (compiler-programmable
+accelerators). It is based on the static energy efficient Transport Triggered
+Architecture (TTA) processor template.
+
+The toolset provides a complete retargetable LLVM-based compiler supported
+co-design flow from high-level language programs down to FPGA/ASIC
+synthesizable processor RTL (VHDL and Verilog generation supported) and
+instruction-parallel program binaries.
+
+The size and quantity of register files, function units, supported operations,
+and the interconnection network can be freely customized to create new
+co-processors ranging from small single-application specific cores with
+special operations to more general multi-issue domain-specific processors.
+
+Notable Changes
+===============
+- Added support for LLVM 15.
+- Experimental RISC-V support:
+  - Generate RISC-V ASIPs with custom instruction set extensions
+    (see the RISC-V Tutorial in manual for usage).
+  - New Operation Triggered Architecture (OTA) formats that map to the formats
+    of the RISC-V ISA.
+  - New operations added to OSAL for RISC-V
+  - oacc-riscv compiler driver that is able to adapt to RISC-V
+    custom instructions.
+- Toolset name change:
+  - To reflect the wider ISA support than TTAs, the "TCE" name is now changed
+    to "OA" (OpenASIP) in most of the places and the old name phased out.
+  - Tools such as the compiler "tcecc" have been deprecated and replaced with
+    "oacc". To keep backwards compability, the old tools still work.
+- FUGen:
+  - Automated function unit RTL implementation generation feature: Hardware
+    is generated automatically if an operation has a DAG description that
+    can be resolved to an "HDL snippet".
+- Zero-register support:
+  - Since RISC-V needed it, a new register file attribute "zero-register" was
+    added to ADF. This indicates that the first index of the register file is
+    hardcoded to a zero value and thus can be utilized as the zero immediate
+    value.
+- DAG syntax changes:
+  - New "Var" and "OP" keywords that can be used alongside "SimValue"
+    and "EXEC_OPERATION".
+- AlmaIFV2:
+  - Hardware generation support for AlmaIFV2 was added.
+  - Read more on the following publication:
+    Topi Leppänen, Panagiotis Mousouliotis, Georgios Keramidas, Joonas Multanen, 
+    Pekka Jääskeläinen:"Unified OpenCL Integration Methodology for FPGA Designs",
+    in NorCAS 2021: IEEE Nordic Circuits and Systems Conference
+- RTL generation code has been unified.
+- oacc --data-start can be used to redefine the global data
+  starting address in the default address space.
+- Program Image Generation supports Bin2n-format, which is a binary format
+  where each word has been zero-padded to the next power-of-two. Used for
+  AlmaIF instruction memory region.
+- The license has been changed to LGPL v2.1.
+
+Notable bugfixes
+----------------------------
+- GUIs: Patches to GTK assertion errors on (mostly) non-Ubuntu systems.
+  Fixes Github issue #140. Thanks to Sarah Clark of Google.
+
+Download
+========
+
+Get the release via git by cloning the release branch:
+
+  git clone -b openasip-2.0 https://github.com/cpc/openasip.git openasip-2.0
+
+Acknowledgements
+================
+
+This project was supported by European Union's Horizon 2020 research and
+innovation programme under Grant Agreement No 871738 (CPSoSaware) and
+by Eindhoven University of Technology (TU/e) under the Dutch NWO project
+ZERO (P15-06 project 5).
+
+Links
+=====
+
+OpenASIP download page:  http://openasip.org/download.html
+This announcement:       http://openasip.org/downloads/ANNOUNCEMENT
+Change log:              https://github.com/cpc/openasip/blob/openasip-2.0/openasip/CHANGES
+README info:             https://github.com/cpc/openasip/blob/openasip-2.0/README.md

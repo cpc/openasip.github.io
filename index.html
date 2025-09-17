@@ -1,1 +1,278 @@
-Hello!
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+  <link rel="icon" href="img/favicon.ico" type="image/x-icon">
+
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="CPC group homepage">
+  <meta name="keywords" content="OpenASIP, TCE, TTA, ASP, ASIP, application-specific processors, toolset, EDA, LLVM, VLIW, customizable processors, processor design, tuni, codesign, architectures, research, tampere, university, hardware, software">
+  <meta name="author" content="CPC group">
+
+  <title>OpenASIP</title>
+
+  <!-- Bootstrap Core CSS -->
+  <link href="cpc/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Custom CSS -->
+  <link href="cpc/css/cpc.css" rel="stylesheet">
+
+  <!-- Image carousel CSS -->
+  <link href="cpc/css/image_carousel.css" rel="stylesheet">
+
+
+  <!-- Custom Fonts -->
+  <link href="cpc/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
+  <link href='https://fonts.googleapis.com/css?family=Kaushan+Script' rel='stylesheet' type='text/css'>
+  <link href='https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
+  <link href='https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700' rel='stylesheet' type='text/css'>
+
+  <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+  <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+  <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+      <![endif]-->
+
+       <!-- Scripts needed for the top of the page -->
+       <script src="cpc/js/jquery.js"></script>
+       <script src="cpc/js/bootstrap.min.js"></script>
+       <script src="cpc/js/jqueryEasing.min.js"></script>
+
+</head>
+
+<body id="page-top" class="index">
+
+  <!--Navigation bar-->
+  <div id="nav-placeholder">
+  </div>
+  <script>
+    $(function(){
+      $("#nav-placeholder").load("openASIPNavigationBar.html");
+    });
+  </script>
+  <!--end of Navigation bar-->
+
+
+
+
+    <div id="content">
+    
+
+
+
+
+<section id="openasip">
+  <div class="container medium">
+    <div class="row">
+      <div class="col-sm">
+        <h1 class="section-heading">OpenASIP</h1>
+
+
+
+<p>OpenASIP (formerly TTA-based Co-design Environment or TCE) is an <i>open application-specific instruction-set
+toolset</i>. It can be used to design and program customized processors based on
+the energy efficient <b>Transport Triggered Architecture</b> (TTA). The toolset provides
+a complete retargetable co-design
+flow from high-level language programs down to synthesizable processor
+RTL (VHDL and Verilog backends supported) and parallel program binaries.
+Processor customization points include the register files, function units,
+supported operations, and the interconnection network.</p>
+
+<p align="center"><a href="img/openasip_design_flow.png"><img src=img/openasip_design_flow.png id="flow" /></a></p>
+
+<p>OpenASIP development is led by the <b>Customized Parallel Computing</b> (<a href="http://www.tuni.fi/cpc">CPC</a>)
+group at the
+<a href="http://www.tuni.fi/">Tampere University</a>, <a href="http://finland.fi">Finland</a>. Further reading:
+  <a href="http://blog.llvm.org/2010/06/tce-project-co-design-of-application.html">
+    LLVM project blog post about OpenASIP</a>.</p>
+
+      </div>
+    </div>
+  </div>
+</section>
+
+
+ <section id="news">
+    <div class="container narrow">
+      <div class="row">
+        <div class="col-sm">
+          <h1>News and updates</h1>
+
+          <div class="news-headline">
+            <a id="ntnu-asip"></a>
+            November 18th, 2024: OpenASIP used for a customized processor for medical ultrasound beamforming by an NTNU researcher
+          </div>
+          <p>
+            A <a href="https://ntnuopen.ntnu.no/ntnu-xmlui/handle/11250/3156426">master's thesis</a> utilizing OpenASIP for the design and programming of an ASIP for medical ultrasound beamforming was published by NTNU. The author demonstrates the benefits of ASIPs by combining instruction set customization and interconnection pruning, yielding promising results in terms of performance, area, and power consumption compared to both OpenASIP-designed baseline processors and related work. 
+
+            We were happy to see that this design didn’t fall into the common pitfall of TTA designs with a lot of redundant datapath connections. Fully connected buses have been sadly very popular in designs done outside the group - we blame the too easy-to-use “fully connect IC” functionality in the Processor Designer for that! Unfortunately the IC in this design was so heavily optimized that the C compiler couldn’t produce efficient code and the best results were only received via hand coding the processor – something for the future code generation research to improve upon. 
+
+            <a href="https://ntnuopen.ntnu.no/ntnu-xmlui/handle/11250/3156426"><img class="img-responsive img-centered" width="600px" src=img/ntnu_2024_msc_thesis_beamforming.png id="flow" /></a>
+              Picture from: Gustav Kollstrøm, "Application-Specific Instruction Set Processor for Medical Ultrasound Beamforming", master's thesis, NTNU, 2024
+          </p>
+
+          <div class="news-headline">
+            April 10th, 2024: OpenASIP enables R-Blocks, a compiler-programmable CGRA
+          </div>
+          <p>
+            As a result of collaboration between Eindhoven University of Technology, Netherlands and Tampere University, Finland, the work on R-Blocks, an ultra low power coarse-grained reconfigurable array CGRA was published in ACM Transactions on Reconfigurable Technology and Systems (TRETS). CGRAs have been proposed as a flexible yet energy-efficient platform. Thanks to OpenASIP's flexible architecture description template and retargetable compiler, R-Blocks is the first compiler-programmable CGRA. Read the publication <a href="https://research.tue.nl/en/publications/r-blocks-an-energy-efficient-flexible-and-programmable-cgra">here</a>.
+            <a href="https://pure.tue.nl/ws/portalfiles/portal/323956010/RBlocks_journal_preprint.pdf"><img class="img-responsive img-centered" width="600px" src=img/r-blocks-cgra.png id="flow" /></a>
+          </p>
+
+          <div class="news-headline">
+            February 16th, 2024: OpenASIP-based RISC-V function unit generation from Gebze Technical University</div>
+          <p>
+            In a recent work Yanık et al. used OpenASIP toolset as a basis for rapidly extending the instruction set of RISC-V cores. They use Vitis HLS tool to generate custom function units (FU) directly from C program descriptions. What a great idea! The user needs to only give the description of the custom operation in C and the tools generate a full function unit out of it. After that, their scripts integrate the function unit into a RISC-V ASIP using OpenASIP. It’s great to see how our easy-to-use custom FU integration enables people to create experiments like this. 
+Their paper DELTA-V: An Open-Source High-Level Synthesis Driven ASIP Design Automation Tool for RISC-V Microprocessors was published in 2023 14th International Conference on Electrical and Electronics Engineering (ELECO). The paper is available <a href="https://doi.org/10.1109/ELECO60389.2023.10416066"> here</a> and the source code <a href="https://github.com/DELTAICLAB/DELTA-V"> here</a>. 
+          </p>
+          <div class="news-headline">
+            December 20th, 2023: <a href="https://github.com/cpc/openasip/tree/openasip-2.1/openasip">OpenASIP 2.1</a> released!</div>
+
+          <p>A new version of OpenASIP released! See the
+            <a href="https://github.com/cpc/openasip/blob/openasip-2.1/openasip/CHANGES">change summary</a>
+            for more details. Install instructions can be found in the <a href="https://github.com/cpc/openasip/blob/openasip-2.1/README.md">README</a>.
+          </p>
+
+          <div class="news-headline">
+            December 11th, 2023: OpenASIP-designed audio coprocessor
+            from University of Turin</div>
+
+          <p>Interesting audio processor case study designed with OpenaASIP was
+            published by University of Turin researchers who received good
+            results even while using a fully connected interconnection matrix:
+            The power consumption of the developed TTA architecture was found
+            to be significantly lower compared to traditional software-based
+            approaches, with a total estimated power of approximately 350 mW.
+            Details can be found in the
+            <a href="https://ieeexplore.ieee.org/document/10335333">publication</a>
+            and the
+            <a href="https://webthesis.biblio.polito.it/26860/">master's thesis</a>.
+          </p>
+
+          <div class="news-headline">
+            <a href="release_2_0.html">November 23rd, 2022: OpenASIP 2.0 released!</a></div>
+
+          <p>The first OpenASIP version with preliminary RISC-V customization support is now out!</p>
+
+          <div class="news-headline">
+            July 23rd, 2018: A tutorial slide deck with clickable videos uploaded</div>
+
+          <p>The <a href="slides/2018-06-OpenASIP-Tour-with-Clickable-Videos.pptx">slide set</a> (39M)
+            contains clickable videos and goes through most of the tool set. It was first presented
+            in OpenSuco 3 workshop organized within the ISC High Performance 2018 conference (June 28th in Frankfurt, Germany). </p>
+
+        </div>
+
+        <div class="news-headline">
+          <a name="pervasive"></a>
+            October 4th, 2017: OpenASIP-based demo featured on the lab's blog</div>
+
+        <p>A demonstration featuring a neural network coprocessor designed with OpenASIP
+          was shown at CIVIT.</p>
+
+        <p>For more info, read the post on the
+          <a href="https://pervasive.cs.tut.fi/?p=2060">Pervasive Computing blog</a>.</p>
+
+          <div class="news-headline">
+          <a href="https://tuni.fi/cpc/old_news.html">older news on CPC group's website</a>
+            </div>
+
+      </div>
+    </div>
+
+  </section>
+
+  <section id="highlights">
+    <div class="container narrow">
+      <div class="row">
+        <div class="col-sm">
+          <h1>Feature highlights</h1>
+
+          <ul>
+            <li>Compiler:
+              <ul>
+                <li><a href="http://llvm.org">LLVM</a> based, Clang as the default frontend</li>
+                <li>OpenCL support via the <a href="http://portablecl.org">pocl</a> project</li>
+                <li>Basic block instruction scheduler (top-down and bottom-up)</li>
+                <li>Delay slot filling</li>
+                <li>Software bypassing</li>
+                <li>(experimental) Operand sharing</li>
+                <li>Custom operation support </li>
+                <li>Parallel TTA assembler</li>
+                <li>Software and hardware floating point support</li>
+                <li>Basic debugging info support</li>
+                <li>Multiple address space support</li>
+                <li>Support for native computation on half precision floats (fp16)</li>
+              </ul>
+            </li>
+            <li>Simulator:
+              <ul>
+                <li>Graphical and command line user interfaces</li>
+                <li>Interpretive debugging engine for cycle stepping</li>
+                <li>Static compiled engine for fast simulation with basic block 
+                  granularity (but cycle count accuracy)</li>
+                <li>Dynamic compiled engine for improved startup time with fast simulation</li>
+                <li>SystemC integration API</li>
+              </ul>
+            </li>
+            <li>Processor and Program Image Generation:
+              <ul>
+                <li>Support for generating implementation for the designed processor as VHDL. Experimental support for Verilog.</li>
+                <li>Generates bit image of the program (supported formats include 
+                  the Altera MIF) </li>
+                <li>Dictionary-based instruction compression</li>
+                <li>Automated generation of the files needed to integrate the core to
+                  different FPGA platforms.</li>
+                <li>IP-XACT 1.5 support</li>
+              </ul>
+            </li>
+            <li>Design space exploration:
+              <ul>
+                <li>Automated, manual and semi-automatic algorithm implementations</li>
+                <li>Tools that allow easy modification of the target architecture</li>
+                <li>Automated search of the connectivity design space</li>
+              </ul>
+            </li>
+            <li>Integrated Development Environment tools:
+              <ul>
+                <li>Graphical user interface (GUI) for editing architecture resources</li>
+                <li>GUI for editing operation set definitions </li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+      </div>
+      </section>
+
+
+  </div>
+
+    </div>
+
+
+
+
+</body>
+
+
+<script src="http://www.google-analytics.com/urchin.js" type="text/javascript">
+
+</script>
+<script type="text/javascript">
+_uacct ="UA-2036488-1";
+urchinTracker();
+</script>
+
+</body>
+
+</html>
