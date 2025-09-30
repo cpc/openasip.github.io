@@ -43,10 +43,6 @@
       <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
       <![endif]-->
 
-       <!-- Scripts needed for the top of the page -->
-       <script src="cpc/js/jquery.js"></script>
-       <script src="cpc/js/bootstrap.min.js"></script>
-       <script src="cpc/js/jqueryEasing.min.js"></script>
 
 </head>
 
@@ -54,14 +50,50 @@
 
   <!--Navigation bar-->
   <div id="nav-placeholder">
-  </div>
-  <script>
-    $(function(){
-      $("#nav-placeholder").load("openASIPNavigationBar.html");
-    });
-  </script>
-  <!--end of Navigation bar-->
+<!-- Navigation -->
+<nav class="navbar navbar-default navbar-fixed-top">
+  <div class="container">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header page-scroll">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+	<span class="sr-only">Toggle navigation</span>
+	<span class="icon-bar"></span>
+	<span class="icon-bar"></span>
+	<span class="icon-bar"></span>
+      </button>
+    </div>
 
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav navbar-right">
+	<li>
+	  <a href="http://tuni.fi/cpc/index.html">CPC Group</a>
+	</li>
+        <li>
+	  <a href="index.html">OpenASIP</a>
+	</li>
+        <li>
+	  <a href="download.html">Download</a>
+	</li>
+        <li>
+	  <a href="screenshots.html">Howto </a>
+	</li>
+        <li>
+	  <a href="documentation.html">Docs</a>
+	</li>
+        <li>
+	  <a href="tta.html">TTA</a>
+	</li>
+      </ul>
+    </div>
+    <!-- /.navbar-collapse -->
+  </div>
+  <!-- /.container-fluid -->
+</nav>
+
+
+  </div>
+  <!--end of Navigation bar-->
 
 
 
@@ -75,12 +107,10 @@
       <div class="col-sm">
         <h1 class="section-heading">Download</h1>
         <hr>
-        
 
+      <h1>OpenASIP 2.1</h1>
 
-      <h1>OpenASIP 2.0</h1>
-
-      See <a href="https://github.com/cpc/openasip/blob/main/openasip/CHANGES">CHANGES</a> for the release change notes.</a>
+      See <a href="https://github.com/cpc/openasip/releases/tag/v2.1">github</a> for the release notes and assets.</a>
 
       </p>
 
@@ -127,15 +157,6 @@
       <p>Even better, in case you manage to fix bugs by yourself or add new features
         you might want to be merged to our branch, please submit a pull request in Github.</p>
 
-      <h2>Acknowledgements</h2>
-
-      <p>
-This project was supported by European Union's Horizon 2020 research and
-innovation programme under Grant Agreement No 871738 (CPSoSaware) and
-by Eindhoven University of Technology (TU/e) under the Dutch NWO project
-ZERO (P15-06 project 5).
-      </p>
-
 
 
 
@@ -151,14 +172,6 @@ ZERO (P15-06 project 5).
 
 </body>
 
-
-<script src="http://www.google-analytics.com/urchin.js" type="text/javascript">
-
-</script>
-<script type="text/javascript">
-_uacct ="UA-2036488-1";
-urchinTracker();
-</script>
 
 </body>
 

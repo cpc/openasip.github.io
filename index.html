@@ -43,10 +43,6 @@
       <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
       <![endif]-->
 
-       <!-- Scripts needed for the top of the page -->
-       <script src="cpc/js/jquery.js"></script>
-       <script src="cpc/js/bootstrap.min.js"></script>
-       <script src="cpc/js/jqueryEasing.min.js"></script>
 
 </head>
 
@@ -54,14 +50,50 @@
 
   <!--Navigation bar-->
   <div id="nav-placeholder">
-  </div>
-  <script>
-    $(function(){
-      $("#nav-placeholder").load("openASIPNavigationBar.html");
-    });
-  </script>
-  <!--end of Navigation bar-->
+<!-- Navigation -->
+<nav class="navbar navbar-default navbar-fixed-top">
+  <div class="container">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header page-scroll">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+	<span class="sr-only">Toggle navigation</span>
+	<span class="icon-bar"></span>
+	<span class="icon-bar"></span>
+	<span class="icon-bar"></span>
+      </button>
+    </div>
 
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav navbar-right">
+	<li>
+	  <a href="http://tuni.fi/cpc/index.html">CPC Group</a>
+	</li>
+        <li>
+	  <a href="index.html">OpenASIP</a>
+	</li>
+        <li>
+	  <a href="download.html">Download</a>
+	</li>
+        <li>
+	  <a href="screenshots.html">Howto </a>
+	</li>
+        <li>
+	  <a href="documentation.html">Docs</a>
+	</li>
+        <li>
+	  <a href="tta.html">TTA</a>
+	</li>
+      </ul>
+    </div>
+    <!-- /.navbar-collapse -->
+  </div>
+  <!-- /.container-fluid -->
+</nav>
+
+
+  </div>
+  <!--end of Navigation bar-->
 
 
 
@@ -80,9 +112,11 @@
 
 
 <p>OpenASIP (formerly TTA-based Co-design Environment or TCE) is an <i>open application-specific instruction-set
-toolset</i>. It can be used to design and program customized processors based on
-the energy efficient <b>Transport Triggered Architecture</b> (TTA). The toolset provides
-a complete retargetable co-design
+toolset</i>. It can be used to design and program customized compiler-programmable accelerators based on
+the energy efficient <b>Transport Triggered Architecture</b> (TTA) processor template. Starting from OpenASIP 2.0,
+it can be also used for RISC-V instruction-set co-design.</p>
+
+<p>The toolset provides a complete retargetable co-design
 flow from high-level language programs down to synthesizable processor
 RTL (VHDL and Verilog backends supported) and parallel program binaries.
 Processor customization points include the register files, function units,
@@ -264,14 +298,6 @@ Their paper DELTA-V: An Open-Source High-Level Synthesis Driven ASIP Design Auto
 
 </body>
 
-
-<script src="http://www.google-analytics.com/urchin.js" type="text/javascript">
-
-</script>
-<script type="text/javascript">
-_uacct ="UA-2036488-1";
-urchinTracker();
-</script>
 
 </body>
 

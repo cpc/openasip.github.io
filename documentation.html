@@ -43,10 +43,6 @@
       <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
       <![endif]-->
 
-       <!-- Scripts needed for the top of the page -->
-       <script src="cpc/js/jquery.js"></script>
-       <script src="cpc/js/bootstrap.min.js"></script>
-       <script src="cpc/js/jqueryEasing.min.js"></script>
 
 </head>
 
@@ -54,14 +50,50 @@
 
   <!--Navigation bar-->
   <div id="nav-placeholder">
-  </div>
-  <script>
-    $(function(){
-      $("#nav-placeholder").load("openASIPNavigationBar.html");
-    });
-  </script>
-  <!--end of Navigation bar-->
+<!-- Navigation -->
+<nav class="navbar navbar-default navbar-fixed-top">
+  <div class="container">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header page-scroll">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+	<span class="sr-only">Toggle navigation</span>
+	<span class="icon-bar"></span>
+	<span class="icon-bar"></span>
+	<span class="icon-bar"></span>
+      </button>
+    </div>
 
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav navbar-right">
+	<li>
+	  <a href="http://tuni.fi/cpc/index.html">CPC Group</a>
+	</li>
+        <li>
+	  <a href="index.html">OpenASIP</a>
+	</li>
+        <li>
+	  <a href="download.html">Download</a>
+	</li>
+        <li>
+	  <a href="screenshots.html">Howto </a>
+	</li>
+        <li>
+	  <a href="documentation.html">Docs</a>
+	</li>
+        <li>
+	  <a href="tta.html">TTA</a>
+	</li>
+      </ul>
+    </div>
+    <!-- /.navbar-collapse -->
+  </div>
+  <!-- /.container-fluid -->
+</nav>
+
+
+  </div>
+  <!--end of Navigation bar-->
 
 
 
@@ -76,27 +108,22 @@
           <hr>
 
       <h2>OpenASIP User manual</h2>
-      
-      <p>The user manual for the latest OpenASIP release: 
-        [<a href="user_manual/OpenASIP.pdf">PDF</a>] 
-      </p>
 
-      <p>In case you find errors in the documentation or need something explained
-        better, please let us know via 
-        the <a href="discussion.html">tce-users</a> mailing list.
+      <p>The user manual for the latest OpenASIP release:
+        [<a href="user_manual/OpenASIP.pdf">PDF</a>]
       </p>
 
       <h2>Developer Documentation</h2>
-      
-      <p>The best source for higher level design documentation are 
-        the <a href="publications.html#openasip-masters">master's theses</a> 
-        written about different parts of the toolset. 
+
+      <p>The best source for higher level design documentation are
+        the <a href="publications.html#openasip-masters">master's theses</a>
+        written about different parts of the toolset.
       </p>
-      
+
       <p>The Doxygen API documentation can be browsed <a href="apidocs">here</a>. </p>
-      
-      <p>The description of the file format used to store architectures of designed 
-        TTA processors called Architecture Definition File (ADF) can be downloaded 
+
+      <p>The description of the file format used to store architectures of designed
+        TTA processors called Architecture Definition File (ADF) can be downloaded
         <a href="specs/ADF.pdf">here</a></p>
 
       <p>The description of the file format used to TTA programs in a binary format
@@ -143,7 +170,7 @@ licensed under a <a rel="license"
 href="http://creativecommons.org/licenses/by/3.0/">Creative Commons
 Attribution 3.0 Unported License</a>.
 	</p>
-      
+
     <h3>OpenASIP Tremor exercise</h3>
     <p>
       An OpenASIP exercise using <a href="http://www.xiph.org/vorbis/">Tremor
@@ -171,14 +198,6 @@ Tremor source code is licensed under the terms of
 
 </body>
 
-
-<script src="http://www.google-analytics.com/urchin.js" type="text/javascript">
-
-</script>
-<script type="text/javascript">
-_uacct ="UA-2036488-1";
-urchinTracker();
-</script>
 
 </body>
 
