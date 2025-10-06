@@ -1,0 +1,43 @@
+<map id="RemoveUnconnectedComponents::checkRFPorts" name="RemoveUnconnectedComponents::checkRFPorts">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,399,248,439"/>
+<area shape="rect" id="Node000002" href="$classTTAMachine_1_1Port.html#a0b3b7e9ff6b4a85d446cf79ec63fb631" title=" " alt="" coords="297,221,481,261"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="146,397,210,339,251,307,295,277,319,264,321,269,297,282,254,311,213,344,150,401"/>
+<area shape="rect" id="Node000006" href="$classMachineTester.html#a8a2e4eb9c84bbc31bb84a1ee20776e24" title=" " alt="" coords="531,5,731,31"/>
+<area shape="poly" id="edge15_Node000001_Node000006" title=" " alt="" coords="139,397,201,310,245,257,294,207,354,156,404,120,528,54,577,33,579,38,530,59,407,125,357,160,298,211,249,260,205,313,143,401"/>
+<area shape="rect" id="Node000023" href="$classTTAMachine_1_1Machine.html#a2f5cb829300c33559452980530bb985a" title=" " alt="" coords="549,463,713,503"/>
+<area shape="poly" id="edge18_Node000001_Node000023" title=" " alt="" coords="152,397,214,355,255,333,300,314,347,300,394,295,440,301,462,309,483,321,498,335,506,351,510,384,513,418,519,434,531,449,539,456,536,460,527,453,514,437,508,419,505,385,501,353,494,339,480,325,460,314,439,306,394,300,348,306,302,319,258,338,217,360,155,401"/>
+<area shape="rect" id="Node000034" href="$classTTAMachine_1_1Machine_1_1Navigator.html#ad05463fc62c6a978311d22cbc60d190a" title=" " alt="" coords="307,335,471,375"/>
+<area shape="poly" id="edge16_Node000001_Node000034" title=" " alt="" coords="209,397,292,376,294,381,210,402"/>
+<area shape="rect" id="Node000035" href="$classTTAMachine_1_1Machine_1_1Navigator.html#aac24ceb1e1b49a5f9f5e10950b184adb" title=" " alt="" coords="307,399,471,439"/>
+<area shape="poly" id="edge17_Node000001_Node000035" title=" " alt="" coords="248,417,293,417,293,422,248,422"/>
+<area shape="rect" id="Node000036" href="$classTTAMachine_1_1Machine.html#a0da6090ca792075c4b215f007ba4ddab" title=" " alt="" coords="305,463,472,503"/>
+<area shape="poly" id="edge19_Node000001_Node000036" title=" " alt="" coords="210,437,294,457,292,463,209,442"/>
+<area shape="rect" id="Node000037" href="$classTTAMachine_1_1Machine.html#af8fc043061c80e7fd7ee0c567993e7e3" title=" " alt="" coords="307,527,471,567"/>
+<area shape="poly" id="edge20_Node000001_Node000037" title=" " alt="" coords="161,437,223,474,297,513,314,520,312,525,295,518,220,479,158,442"/>
+<area shape="rect" id="Node000039" href="$classTTAMachine_1_1Port.html#a27c03b00ac6bf9375d40ff3a7c26911b" title=" " alt="" coords="296,591,481,631"/>
+<area shape="poly" id="edge22_Node000001_Node000039" title=" " alt="" coords="146,438,208,505,251,544,297,577,308,583,306,588,295,582,247,548,204,509,142,441"/>
+<area shape="rect" id="Node000040" href="$classTTAMachine_1_1Machine.html#a2232901ac59f730845d24036d5c068ff" title=" " alt="" coords="307,655,471,695"/>
+<area shape="poly" id="edge23_Node000001_Node000040" title=" " alt="" coords="140,439,163,481,198,535,244,592,298,641,306,647,303,651,294,645,240,596,194,538,159,483,136,441"/>
+<area shape="rect" id="Node000003" href="$classTTAMachine_1_1Socket.html#af0d1a518f0c31ca3a22b589b8f1ceb58" title=" " alt="" coords="555,221,707,261"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="481,238,541,238,541,243,481,243"/>
+<area shape="poly" id="edge3_Node000002_Node000006" title=" " alt="" coords="404,219,479,118,500,80,510,64,528,48,554,33,556,38,531,52,514,68,505,83,484,121,408,222"/>
+<area shape="rect" id="Node000018" href="$classTTAMachine_1_1Component.html#a1a2e03ef7cce5e19e24782b841bb2364" title=" " alt="" coords="794,49,978,89"/>
+<area shape="poly" id="edge9_Node000002_Node000018" title=" " alt="" coords="400,219,420,189,449,154,486,119,528,92,591,69,656,57,721,53,780,54,780,59,721,58,657,63,592,75,531,96,489,123,453,157,425,192,404,222"/>
+<area shape="rect" id="Node000021" href="$classMachineTester.html#aaf53ffd16b66462de8c1f3c8a4abfce3" title=" " alt="" coords="789,313,983,353"/>
+<area shape="poly" id="edge5_Node000002_Node000021" title=" " alt="" coords="431,259,483,291,497,303,506,315,515,326,530,334,591,351,655,358,717,357,775,352,775,357,717,363,654,363,590,356,528,339,512,330,502,319,493,307,480,295,428,263"/>
+<area shape="rect" id="Node000015" href="$classTTAMachine_1_1Socket.html#a38432e8a0bde32e754c148001795a85b" title=" " alt="" coords="555,399,707,439"/>
+<area shape="poly" id="edge6_Node000002_Node000015" title=" " alt="" coords="456,259,483,277,501,304,508,330,514,354,531,379,547,390,544,395,527,383,509,356,503,331,496,306,479,281,453,263"/>
+<area shape="rect" id="Node000022" href="$classTTAMachine_1_1Component.html#ac263f716f1d595f34806f5f26753d59b" title=" " alt="" coords="539,106,723,146"/>
+<area shape="poly" id="edge7_Node000002_Node000022" title=" " alt="" coords="422,218,528,162,560,148,562,153,530,167,425,223"/>
+<area shape="poly" id="edge10_Node000002_Node000023" title=" " alt="" coords="459,259,483,278,499,300,506,323,507,366,509,408,516,429,531,450,539,456,535,460,527,453,511,431,503,409,502,366,501,324,494,303,479,281,456,263"/>
+<area shape="rect" id="Node000017" href="$classTTAMachine_1_1Port.html#ace0d9d9bb673d9fc1f8c5088606db9bc" title=" " alt="" coords="780,216,992,241"/>
+<area shape="poly" id="edge11_Node000002_Node000017" title=" " alt="" coords="463,218,529,206,631,200,732,206,790,212,789,217,732,211,631,205,530,211,464,223"/>
+<area shape="rect" id="Node000024" href="$classMachineTestReporter.html#a2e7ebf7e32d2e7370801fbdb45aee306" title=" " alt="" coords="529,285,732,325"/>
+<area shape="poly" id="edge12_Node000002_Node000024" title=" " alt="" coords="466,258,542,279,541,284,464,263"/>
+<area shape="poly" id="edge4_Node000006_Node000018" title=" " alt="" coords="696,28,781,45,780,50,695,33"/>
+<area shape="poly" id="edge8_Node000022_Node000018" title=" " alt="" coords="720,103,782,89,783,94,721,109"/>
+<area shape="poly" id="edge13_Node000024_Node000021" title=" " alt="" coords="733,313,775,318,775,323,732,318"/>
+<area shape="poly" id="edge14_Node000024_Node000017" title=" " alt="" coords="698,282,829,243,830,248,700,287"/>
+<area shape="rect" id="Node000038" href="$classTTAMachine_1_1Machine.html#aa5790f5dbd8ba41b3f1006cb6900d6f7" title=" " alt="" coords="549,527,713,567"/>
+<area shape="poly" id="edge21_Node000037_Node000038" title=" " alt="" coords="471,545,535,545,535,550,471,550"/>
+</map>

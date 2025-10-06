@@ -1,0 +1,50 @@
+<map id="TPEF::AOutRelocationSectionReader::finalize" name="TPEF::AOutRelocationSectionReader::finalize">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,404,216,444"/>
+<area shape="rect" id="Node000002" href="$classTPEF_1_1AOutReader.html#a346da275ed227c30d45b2858255c09e0" title=" " alt="" coords="269,5,468,45"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="112,403,123,337,149,244,169,193,194,143,225,96,262,55,268,51,271,55,266,59,229,100,199,146,174,195,154,245,129,338,117,404"/>
+<area shape="rect" id="Node000003" href="$classTPEF_1_1AOutReader.html#ae32cf58a9c1423d9899e5c45071dd398" title=" " alt="" coords="271,69,466,109"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="114,403,129,347,158,271,177,230,201,190,230,152,262,119,269,114,272,119,266,123,234,156,206,192,182,232,163,273,134,349,119,404"/>
+<area shape="rect" id="Node000004" href="$classTPEF_1_1RawSection.html#a56b5ae59032a3df54556482f2c944d84" title=" " alt="" coords="269,133,468,173"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="118,403,137,359,169,302,210,243,235,215,262,190,281,177,284,182,266,194,239,218,215,246,173,305,142,362,122,405"/>
+<area shape="rect" id="Node000012" href="$classTPEF_1_1Chunk.html#a46424261145e17aaa072ed66909019ce" title=" " alt="" coords="565,198,711,223"/>
+<area shape="poly" id="edge14_Node000001_Node000012" title=" " alt="" coords="119,402,140,364,171,317,212,271,236,250,263,234,298,218,335,207,411,194,486,191,551,195,551,201,486,197,412,199,336,212,300,223,265,238,239,255,216,274,175,320,144,367,124,405"/>
+<area shape="rect" id="Node000013" href="$classTPEF_1_1RelocElement.html#a04bb79669203e7d27b65ff17e6a6255f" title=" " alt="" coords="293,248,444,288"/>
+<area shape="poly" id="edge8_Node000001_Node000013" title=" " alt="" coords="130,402,187,350,223,322,263,298,279,290,282,295,265,302,226,326,190,354,134,406"/>
+<area shape="rect" id="Node000014" href="$classTPEF_1_1Section.html#a6fbe3099ea623c72835495b39ad7b663" title=" " alt="" coords="283,313,454,338"/>
+<area shape="poly" id="edge9_Node000001_Node000014" title=" " alt="" coords="146,401,200,373,263,347,288,339,290,344,265,352,202,378,148,406"/>
+<area shape="rect" id="Node000015" href="$classTPEF_1_1Section.html#a843ed50c08a9a4fa323a7ec006b4fb44" title=" " alt="" coords="264,362,473,387"/>
+<area shape="poly" id="edge10_Node000001_Node000015" title=" " alt="" coords="215,401,288,387,289,393,216,407"/>
+<area shape="rect" id="Node000016" href="$classTPEF_1_1Section.html#a71dd682593d97d8ca345de06e35ffa94" title=" " alt="" coords="264,411,473,437"/>
+<area shape="poly" id="edge11_Node000001_Node000016" title=" " alt="" coords="216,421,251,421,251,427,216,427"/>
+<area shape="rect" id="Node000017" href="$classTPEF_1_1DataSection.html#a54fa8c2010b5e7bd89b6eb6b576e2678" title=" " alt="" coords="295,461,443,501"/>
+<area shape="poly" id="edge12_Node000001_Node000017" title=" " alt="" coords="202,441,282,459,281,465,201,447"/>
+<area shape="rect" id="Node000018" href="$classTPEF_1_1RelocElement.html#ad6b31895b08b56551d0749dc8cf1b6c4" title=" " alt="" coords="293,525,444,565"/>
+<area shape="poly" id="edge13_Node000001_Node000018" title=" " alt="" coords="143,442,199,477,265,511,283,518,281,523,263,516,196,481,140,447"/>
+<area shape="rect" id="Node000019" href="$classTPEF_1_1AOutSectionReader.html#a47233b55b7ef974f46e45ea2b8e1b1c3" title=" " alt="" coords="275,589,462,629"/>
+<area shape="poly" id="edge15_Node000001_Node000019" title=" " alt="" coords="129,442,184,508,223,544,265,575,277,581,275,586,263,580,219,548,180,511,124,446"/>
+<area shape="rect" id="Node000021" href="$classTPEF_1_1RelocElement.html#a0de72e0c4a2db878a86a9df304f199b2" title=" " alt="" coords="293,653,444,693"/>
+<area shape="poly" id="edge17_Node000001_Node000021" title=" " alt="" coords="123,443,143,484,174,537,215,592,239,617,266,639,282,649,279,654,262,644,236,621,211,596,170,540,138,487,118,445"/>
+<area shape="rect" id="Node000022" href="$classTPEF_1_1ImmediateElement.html#ac6a35d3003547ff279e0436800391c43" title=" " alt="" coords="275,717,462,757"/>
+<area shape="poly" id="edge18_Node000001_Node000022" title=" " alt="" coords="120,443,136,495,165,566,208,640,235,674,266,703,272,708,269,712,262,707,231,677,204,643,160,568,131,497,115,445"/>
+<area shape="rect" id="Node000023" href="$classTPEF_1_1Section.html#ab6c9144daa69b8eb3ea687ec879407a3" title="Returns SectioType of actual section instance." alt="" coords="295,782,442,807"/>
+<area shape="poly" id="edge19_Node000001_Node000023" title=" " alt="" coords="117,444,129,507,155,595,175,642,200,688,230,731,266,767,283,779,281,783,262,771,226,734,195,691,170,644,150,597,124,508,112,445"/>
+<area shape="rect" id="Node000024" href="$classTPEF_1_1DataSection.html#a559e0d8a5acce71ccc72421ee6ea5de7" title=" " alt="" coords="295,832,443,872"/>
+<area shape="poly" id="edge20_Node000001_Node000024" title=" " alt="" coords="116,444,126,515,151,615,170,670,195,724,227,774,266,818,284,831,281,835,262,822,223,777,191,726,165,672,146,617,121,516,111,445"/>
+<area shape="rect" id="Node000005" href="$classTPEF_1_1RawSection.html#a03ba0df7cdffa1b7256cf0510e9ede96" title=" " alt="" coords="521,99,755,125"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="468,135,541,124,542,129,469,141"/>
+<area shape="rect" id="Node000007" href="$classTPEF_1_1RawSection.html#a4958ec3d4b6edaf7b76be9595c7e3393" title=" " alt="" coords="546,149,730,174"/>
+<area shape="poly" id="edge6_Node000004_Node000007" title=" " alt="" coords="468,154,532,156,532,161,468,159"/>
+<area shape="poly" id="edge7_Node000004_Node000012" title=" " alt="" coords="464,171,565,192,564,198,463,176"/>
+<area shape="rect" id="Node000006" href="$classTPEF_1_1Section.html#ad8143838d7a1f7ea4b826446f31dd409" title=" " alt="" coords="803,731,967,757"/>
+<area shape="poly" id="edge5_Node000005_Node000006" title=" " alt="" coords="742,123,757,134,772,154,786,180,812,247,832,329,849,419,873,594,884,718,879,718,868,595,844,419,827,330,806,248,782,182,768,157,753,138,739,127"/>
+<area shape="rect" id="Node000020" href="$classTPEF_1_1AOutReader.html#a16171797d662cc1d893e85ef6c9ce95d" title=" " alt="" coords="537,597,739,622"/>
+<area shape="poly" id="edge16_Node000019_Node000020" title=" " alt="" coords="462,607,522,607,522,612,462,612"/>
+<area shape="poly" id="edge21_Node000024_Node000006" title=" " alt="" coords="442,832,472,818,486,806,495,793,504,780,520,768,588,745,658,733,727,729,789,731,789,736,727,734,659,738,589,750,523,773,508,783,499,796,490,809,475,822,444,837"/>
+<area shape="rect" id="Node000025" href="$classTPEF_1_1ASpaceElement.html#aed1262b88a78cc4a2a66126ba02fa4a4" title=" " alt="" coords="537,782,739,807"/>
+<area shape="poly" id="edge22_Node000024_Node000025" title=" " alt="" coords="442,834,563,808,564,813,443,839"/>
+<area shape="rect" id="Node000026" href="$classTPEF_1_1RawSection.html#ae1925fcedcf1fad2dc37137fb89c9517" title=" " alt="" coords="539,832,737,872"/>
+<area shape="poly" id="edge23_Node000024_Node000026" title=" " alt="" coords="443,849,525,849,525,855,443,855"/>
+<area shape="rect" id="Node000027" href="$classTPEF_1_1DataSection.html#a588726ba9fb18a3c80f10536d8e3ea8f" title=" " alt="" coords="564,896,712,936"/>
+<area shape="poly" id="edge25_Node000024_Node000027" title=" " alt="" coords="443,867,551,893,550,898,442,872"/>
+<area shape="poly" id="edge24_Node000026_Node000006" title=" " alt="" coords="721,829,754,818,807,790,853,762,855,767,810,795,756,822,723,834"/>
+</map>

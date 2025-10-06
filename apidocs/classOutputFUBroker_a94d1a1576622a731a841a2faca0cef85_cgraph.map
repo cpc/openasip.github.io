@@ -1,0 +1,45 @@
+<map id="OutputFUBroker::setupResourceLinks" name="OutputFUBroker::setupResourceLinks">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,375,236,415"/>
+<area shape="rect" id="Node000002" href="$classSchedulingResource.html#a04caa390f47003da0ba2d50b1bbc5047" title=" " alt="" coords="304,56,483,96"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="130,373,189,275,233,214,282,155,314,126,347,102,350,106,317,131,286,159,237,217,194,278,135,376"/>
+<area shape="rect" id="Node000004" href="$classException.html#aa08aba8a4c7a6ec2a354bb74246dcfcf" title=" " alt="" coords="284,170,503,195"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="132,373,155,337,190,293,233,247,283,208,305,198,307,202,285,213,236,251,194,296,160,340,136,376"/>
+<area shape="rect" id="Node000010" href="$classSchedulingResource.html#ad3f1a0864e3f5f67c6b0f40aaa709f44" title=" " alt="" coords="285,223,501,263"/>
+<area shape="poly" id="edge9_Node000001_Node000010" title=" " alt="" coords="142,372,203,323,242,296,283,272,299,265,301,270,285,277,245,300,206,327,146,377"/>
+<area shape="rect" id="Node000011" href="$classTTAMachine_1_1Port.html#a01f6c609241315164ada5d805f7f3499" title=" " alt="" coords="301,287,486,327"/>
+<area shape="poly" id="edge10_Node000001_Node000011" title=" " alt="" coords="177,372,283,336,309,328,311,333,285,341,179,377"/>
+<area shape="rect" id="Node000013" href="$classTTAMachine_1_1FunctionUnit.html#af9cb2bbab9dbed9301b81b98582130a6" title=" " alt="" coords="298,375,489,415"/>
+<area shape="poly" id="edge12_Node000001_Node000013" title=" " alt="" coords="236,392,284,392,284,397,236,397"/>
+<area shape="rect" id="Node000017" href="$classTTAMachine_1_1Unit.html#a39a674e7d287d17a6153c73d830230b9" title=" " alt="" coords="289,439,497,465"/>
+<area shape="poly" id="edge19_Node000001_Node000017" title=" " alt="" coords="217,412,320,434,319,439,216,417"/>
+<area shape="rect" id="Node000018" href="$classResourceMapper.html#aabc2fd4b66ed03b11cdf8168ca043594" title=" " alt="" coords="296,489,491,529"/>
+<area shape="poly" id="edge20_Node000001_Node000018" title=" " alt="" coords="159,412,217,443,285,474,309,482,307,487,283,478,215,448,157,417"/>
+<area shape="rect" id="Node000019" href="$classResourceMapper.html#a1da315c0833bf86a394a6962eaacd299" title=" " alt="" coords="288,554,499,579"/>
+<area shape="poly" id="edge21_Node000001_Node000019" title=" " alt="" coords="140,413,200,476,240,510,285,539,304,547,302,552,283,544,237,514,196,480,136,417"/>
+<area shape="rect" id="Node000020" href="$classResourceBroker.html#aa642ed1b30b9a68c7b6d5e4bb12ea45c" title=" " alt="" coords="287,604,499,644"/>
+<area shape="poly" id="edge23_Node000001_Node000020" title=" " alt="" coords="135,413,158,451,192,499,235,548,286,590,295,596,293,600,282,594,231,552,188,502,154,454,131,416"/>
+<area shape="rect" id="Node000003" href="$classSchedulingResource.html#ad592c1f2dcd405fc2563ecb1f76b63d8" title=" " alt="" coords="551,5,787,45"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="482,57,546,45,547,50,483,62"/>
+<area shape="rect" id="Node000005" href="$classException.html#a0f576c82b4bc09b7ccf31de6028425f0" title=" " alt="" coords="603,70,735,95"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="415,167,475,136,550,104,588,93,590,99,552,109,477,141,418,172"/>
+<area shape="rect" id="Node000006" href="$classException.html#acacd9a35b999ba1d9c3e1342a580d6a6" title=" " alt="" coords="577,119,760,145"/>
+<area shape="poly" id="edge5_Node000004_Node000006" title=" " alt="" coords="463,167,585,145,586,150,464,173"/>
+<area shape="rect" id="Node000007" href="$classException.html#aa583bdfc22b863208247cc8fece97534" title=" " alt="" coords="592,169,745,194"/>
+<area shape="poly" id="edge6_Node000004_Node000007" title=" " alt="" coords="503,179,578,179,578,184,503,185"/>
+<area shape="rect" id="Node000008" href="$classException.html#ae13a579b7f3fc6e54c5f3c324779ae0d" title=" " alt="" coords="590,218,747,243"/>
+<area shape="poly" id="edge7_Node000004_Node000008" title=" " alt="" coords="467,193,582,213,581,218,466,198"/>
+<area shape="rect" id="Node000009" href="$classException.html#afcb86935e383b5323f0622059c668aae" title=" " alt="" coords="594,267,743,293"/>
+<area shape="poly" id="edge8_Node000004_Node000009" title=" " alt="" coords="466,193,504,208,519,220,529,231,538,242,552,252,582,264,580,269,549,257,534,246,525,235,515,223,501,213,464,198"/>
+<area shape="rect" id="Node000012" href="$classTTAMachine_1_1Socket.html#a38432e8a0bde32e754c148001795a85b" title=" " alt="" coords="593,317,745,357"/>
+<area shape="poly" id="edge11_Node000011_Node000012" title=" " alt="" coords="487,314,579,325,579,330,486,320"/>
+<area shape="poly" id="edge16_Node000013_Node000013" title=" " alt="" coords="343,375,340,365,348,356,366,350,393,348,425,351,442,358,440,363,424,356,393,353,367,355,351,360,345,366,348,373"/>
+<area shape="rect" id="Node000014" href="$classTTAMachine_1_1Unit.html#a106eaf68c376e479c3ebda9b53595dfb" title=" " alt="" coords="572,382,765,407"/>
+<area shape="poly" id="edge13_Node000013_Node000014" title=" " alt="" coords="489,392,558,392,558,397,489,397"/>
+<area shape="rect" id="Node000015" href="$classTTAMachine_1_1Component.html#aca1a5cd64b40a19ccad0c589ff9de98f" title=" " alt="" coords="835,451,1019,491"/>
+<area shape="poly" id="edge15_Node000013_Node000015" title=" " alt="" coords="489,407,551,416,822,454,821,459,550,421,488,412"/>
+<area shape="rect" id="Node000016" href="$classTTAMachine_1_1Unit.html#a496631edc76857ac83fee35db36c105e" title=" " alt="" coords="583,483,754,509"/>
+<area shape="poly" id="edge17_Node000013_Node000016" title=" " alt="" coords="476,412,504,424,528,443,552,462,591,477,589,482,549,466,525,448,501,429,474,417"/>
+<area shape="poly" id="edge14_Node000014_Node000015" title=" " alt="" coords="719,405,787,424,852,444,851,449,786,429,718,410"/>
+<area shape="poly" id="edge18_Node000016_Node000015" title=" " alt="" coords="754,485,821,478,821,484,755,490"/>
+<area shape="poly" id="edge22_Node000019_Node000015" title=" " alt="" coords="499,559,636,545,712,534,786,519,865,493,867,498,787,524,713,539,637,550,499,564"/>
+</map>

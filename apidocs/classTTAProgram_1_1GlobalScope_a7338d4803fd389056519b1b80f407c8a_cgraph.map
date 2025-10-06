@@ -1,0 +1,50 @@
+<map id="TTAProgram::GlobalScope::copyAndRelocate" name="TTAProgram::GlobalScope::copyAndRelocate">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,598,196,638"/>
+<area shape="rect" id="Node000002" href="$classTTAProgram_1_1Scope.html#af65d272d0eca37fe186a1a80e32015a9" title=" " alt="" coords="261,183,417,223"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="106,597,154,468,194,383,242,300,271,263,303,231,306,235,275,266,246,303,198,385,159,470,111,599"/>
+<area shape="rect" id="Node000007" href="$classTTAProgram_1_1Label.html#a4badecc91758119826c5e24eabbd7a70" title=" " alt="" coords="510,248,699,273"/>
+<area shape="poly" id="edge28_Node000001_Node000007" title=" " alt="" coords="109,596,159,507,197,453,242,405,302,358,354,329,410,308,482,283,513,274,515,279,483,288,411,313,356,334,305,363,246,409,201,457,163,510,114,599"/>
+<area shape="rect" id="Node000009" href="$classTTAProgram_1_1Scope.html#a47b17cd8764d39a49e4de92c0bd98bf7" title=" " alt="" coords="261,419,417,459"/>
+<area shape="poly" id="edge9_Node000001_Node000009" title=" " alt="" coords="127,596,299,465,302,470,130,600"/>
+<area shape="rect" id="Node000013" href="$classTTAProgram_1_1CodeLabel.html#a493879cd90b8f4509a8bd464e7995dfc" title=" " alt="" coords="251,679,428,719"/>
+<area shape="poly" id="edge16_Node000001_Node000013" title=" " alt="" coords="161,635,268,672,266,677,159,640"/>
+<area shape="rect" id="Node000017" href="$classTTAProgram_1_1Address.html#a4e0cd8eb884aeb8c59a7964525881507" title=" " alt="" coords="796,635,957,675"/>
+<area shape="poly" id="edge27_Node000001_Node000017" title=" " alt="" coords="196,618,437,626,727,641,783,644,782,650,727,646,437,632,196,623"/>
+<area shape="rect" id="Node000115" href="$classTTAProgram_1_1Label.html#a79ffbe71b704a56d68ddbf357da04073" title=" " alt="" coords="263,743,415,783"/>
+<area shape="poly" id="edge25_Node000001_Node000115" title=" " alt="" coords="124,636,177,682,210,707,245,729,258,735,256,740,243,733,207,711,174,686,121,640"/>
+<area shape="rect" id="Node000116" href="$classTTAProgram_1_1GlobalScope.html#ac676f44583ea02193ad90ac0c9346dce" title=" " alt="" coords="244,807,435,847"/>
+<area shape="poly" id="edge26_Node000001_Node000116" title=" " alt="" coords="115,636,165,712,202,756,246,793,254,799,251,803,242,797,199,759,161,716,111,639"/>
+<area shape="rect" id="Node000003" href="$classTTAProgram_1_1Scope.html#a8b2f65a044ea5b324ea06058c6601455" title="Adds a code label and its owner to the global label bookkeeping." alt="" coords="527,55,683,95"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="363,181,416,142,482,105,512,93,514,98,484,110,419,147,366,185"/>
+<area shape="rect" id="Node000004" href="$classTTAProgram_1_1Scope.html#a6cb648da5eb311d56c561bc057799923" title=" " alt="" coords="527,119,683,159"/>
+<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="417,182,513,158,514,164,418,187"/>
+<area shape="rect" id="Node000005" href="$classTTAProgram_1_1Scope.html#a65b6df80884dafaf19ca29b96d56f052" title=" " alt="" coords="527,183,683,223"/>
+<area shape="poly" id="edge4_Node000002_Node000005" title=" " alt="" coords="417,201,513,201,513,206,417,206"/>
+<area shape="rect" id="Node000006" href="$classTTAProgram_1_1Scope.html#a961f00f18a1a2c7d3ad6798edaba95cd" title=" " alt="" coords="799,298,955,338"/>
+<area shape="poly" id="edge5_Node000002_Node000006" title=" " alt="" coords="349,182,369,149,398,109,436,70,481,41,549,14,578,6,607,3,635,4,664,11,695,23,728,41,760,64,787,93,809,125,828,160,856,228,871,284,866,285,851,230,824,162,805,128,783,96,756,68,725,45,692,28,662,16,634,10,607,8,579,12,550,19,484,46,439,74,402,112,373,152,353,184"/>
+<area shape="poly" id="edge6_Node000002_Node000007" title=" " alt="" coords="418,218,483,233,529,242,528,248,482,238,417,223"/>
+<area shape="rect" id="Node000008" href="$classTTAProgram_1_1Scope.html#a386727983cf8330b93280edf3561b205" title=" " alt="" coords="527,298,683,338"/>
+<area shape="poly" id="edge7_Node000002_Node000008" title=" " alt="" coords="372,221,423,252,484,282,514,293,513,298,482,287,421,257,369,226"/>
+<area shape="poly" id="edge8_Node000008_Node000006" title=" " alt="" coords="683,315,785,315,785,321,683,321"/>
+<area shape="poly" id="edge13_Node000009_Node000006" title=" " alt="" coords="418,443,485,444,563,441,646,431,726,411,758,398,789,381,840,344,844,349,791,386,760,403,727,416,647,436,564,446,485,449,417,448"/>
+<area shape="poly" id="edge14_Node000009_Node000007" title=" " alt="" coords="358,417,433,337,454,308,465,296,481,284,498,276,500,280,484,288,468,300,458,311,437,341,362,421"/>
+<area shape="poly" id="edge15_Node000009_Node000008" title=" " alt="" coords="366,417,418,382,482,347,512,336,514,341,484,352,420,386,369,421"/>
+<area shape="rect" id="Node000010" href="$classTTAProgram_1_1Scope.html#a20bd9a10024cbbf4f3e08f76e1201ebb" title="Adds a data label and its owner to the global label bookkeeping." alt="" coords="527,477,683,517"/>
+<area shape="poly" id="edge10_Node000009_Node000010" title=" " alt="" coords="418,453,514,474,513,479,417,459"/>
+<area shape="rect" id="Node000011" href="$classTTAProgram_1_1Scope.html#a31c8bc61df7e53e4abe703083bc27f9c" title=" " alt="" coords="527,541,683,581"/>
+<area shape="poly" id="edge11_Node000009_Node000011" title=" " alt="" coords="369,457,420,492,484,526,514,537,512,542,482,531,418,497,366,461"/>
+<area shape="rect" id="Node000012" href="$classTTAProgram_1_1Scope.html#a873e62422f745303ea85a207d064df43" title=" " alt="" coords="527,362,683,402"/>
+<area shape="poly" id="edge12_Node000009_Node000012" title=" " alt="" coords="417,420,513,399,514,404,418,425"/>
+<area shape="rect" id="Node000014" href="$classTTAProgram_1_1Instruction.html#a6d0c6f5a0bb73ff95fd54ecdf47af7d4" title=" " alt="" coords="515,679,694,719"/>
+<area shape="poly" id="edge17_Node000013_Node000014" title=" " alt="" coords="428,697,501,697,501,702,428,702"/>
+<area shape="rect" id="Node000114" href="$classTTAProgram_1_1CodeSnippet.html#a997233a7f797fcf27e59061ab8c9bedc" title=" " alt="" coords="781,721,972,761"/>
+<area shape="poly" id="edge24_Node000013_Node000114" title=" " alt="" coords="417,717,483,729,632,740,768,741,768,746,631,745,482,734,416,722"/>
+<area shape="rect" id="Node000080" href="$classTTAProgram_1_1NullInstruction.html#a61e83a374dc73c9bc5973f3260b8c7fd" title=" " alt="" coords="775,810,979,850"/>
+<area shape="poly" id="edge21_Node000013_Node000080" title=" " alt="" coords="420,717,436,729,449,744,455,760,459,791,464,819,471,832,484,844,523,864,564,876,608,882,652,882,737,871,810,852,811,857,738,876,652,887,608,887,563,881,521,869,481,848,467,835,459,821,454,792,450,761,444,747,433,733,417,721"/>
+<area shape="rect" id="Node000095" href="$classTTAProgram_1_1InstructionReference.html#a64c76a30109f52214279eeece3ea084a" title=" " alt="" coords="483,794,727,834"/>
+<area shape="poly" id="edge22_Node000013_Node000095" title=" " alt="" coords="412,717,436,729,451,740,461,752,470,762,484,773,512,787,510,791,481,777,466,766,457,755,447,744,433,733,409,722"/>
+<area shape="poly" id="edge18_Node000014_Node000014" title=" " alt="" coords="556,680,553,669,561,660,578,655,605,653,635,655,652,663,650,667,634,660,605,658,579,660,564,665,558,671,561,678"/>
+<area shape="poly" id="edge19_Node000014_Node000017" title=" " alt="" coords="694,682,782,668,783,673,695,687"/>
+<area shape="poly" id="edge20_Node000014_Node000114" title=" " alt="" coords="695,710,768,721,767,727,694,715"/>
+<area shape="poly" id="edge23_Node000095_Node000080" title=" " alt="" coords="727,818,761,820,761,826,727,824"/>
+</map>

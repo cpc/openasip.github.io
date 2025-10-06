@@ -1,0 +1,18 @@
+<map id="BFConnectNodes" name="BFConnectNodes">
+<area shape="rect" id="Node000001" title=" " alt="" coords="253,2051,414,2176"/>
+<area shape="rect" id="Node000002" href="$classBFOptimization.html" title=" " alt="" coords="211,1403,455,1988"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="336,2002,336,2050,331,2050,331,2002"/>
+<area shape="rect" id="Node000003" href="$classReversible.html" title=" " alt="" coords="527,815,759,1160"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="583,1174,549,1258,510,1341,490,1373,469,1404,458,1425,453,1422,464,1401,485,1370,506,1339,544,1256,578,1172"/>
+<area shape="rect" id="Node000007" href="$classBF2Scheduler.html" title=" " alt="" coords="111,635,348,1340"/>
+<area shape="poly" id="edge3_Node000002_Node000007" title=" " alt="" coords="284,1340,291,1386,285,1387,279,1341"/>
+<area shape="rect" id="Node000199" title=" " alt="" coords="260,448,452,543"/>
+<area shape="poly" id="edge7_Node000002_Node000199" title=" " alt="" coords="375,542,380,566,381,589,380,611,376,976,363,1340,360,1386,355,1386,357,1340,371,975,375,611,376,589,375,567,370,543"/>
+<area shape="poly" id="edge4_Node000007_Node000199" title=" " alt="" coords="261,538,242,545,221,550,203,552,188,556,174,568,159,593,149,620,144,618,155,591,170,565,185,551,202,546,220,545,241,540,259,533"/>
+<area shape="rect" id="Node000018" href="$classMoveNode.html" title=" " alt="" coords="5,5,219,371"/>
+<area shape="poly" id="edge8_Node000001_Node000018" title=" " alt="" coords="55,371,44,433,40,494,40,1697,45,1749,59,1799,81,1847,108,1892,140,1934,174,1973,242,2039,238,2042,170,1977,136,1938,104,1895,76,1849,54,1801,40,1750,35,1697,35,494,39,432,50,370"/>
+<area shape="poly" id="edge6_Node000007_Node000018" title=" " alt="" coords="114,371,118,457,127,542,139,618,133,619,121,543,113,457,109,371"/>
+<area shape="poly" id="edge5_Node000199_Node000018" title=" " alt="" coords="221,321,311,434,307,437,217,324"/>
+<area shape="rect" id="Node000206" href="$classDataDependenceEdge.html" title=" " alt="" coords="479,1453,673,1938"/>
+<area shape="poly" id="edge9_Node000001_Node000206" title=" " alt="" coords="498,1939,469,1990,425,2041,421,2038,464,1986,493,1937"/>
+</map>

@@ -1,0 +1,31 @@
+<map id="BasicBlockPass.hh" name="BasicBlockPass.hh">
+<area shape="rect" id="Node000001" title=" " alt="" coords="292,5,435,31"/>
+<area shape="rect" id="Node000002" href="$Exception_8hh.html" title=" " alt="" coords="699,225,806,251"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="435,26,544,43,667,70,726,86,778,105,819,126,847,150,852,161,853,172,842,191,821,208,796,222,794,217,818,204,838,188,847,171,847,163,843,154,816,131,776,110,724,91,666,75,543,48,434,31"/>
+<area shape="rect" id="Node000005" href="$SchedulerPass_8hh.html" title=" " alt="" coords="8,79,143,104"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="318,33,136,78,135,73,316,28"/>
+<area shape="rect" id="Node000006" href="$DataDependenceGraphBuilder_8hh.html" title=" " alt="" coords="244,79,483,104"/>
+<area shape="poly" id="edge6_Node000001_Node000006" title=" " alt="" coords="366,31,366,65,361,65,361,31"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="334,299,393,324"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="699,252,407,305,406,300,699,246"/>
+<area shape="rect" id="Node000004" href="$Exception_8icc.html" title=" " alt="" coords="699,299,807,324"/>
+<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="755,251,755,285,750,285,750,251"/>
+<area shape="poly" id="edge5_Node000005_Node000003" title=" " alt="" coords="56,106,31,126,11,153,8,166,10,182,21,213,44,249,64,260,93,270,169,286,320,304,320,310,168,292,92,275,62,265,40,253,17,215,4,183,3,166,6,151,27,122,53,102"/>
+<area shape="rect" id="Node000007" href="$DataDependenceGraph_8hh.html" title=" " alt="" coords="456,152,649,177"/>
+<area shape="poly" id="edge7_Node000006_Node000007" title=" " alt="" coords="395,102,510,144,508,149,393,107"/>
+<area shape="rect" id="Node000037" href="$ControlFlowGraph_8hh.html" title=" " alt="" coords="673,152,832,177"/>
+<area shape="poly" id="edge8_Node000006_Node000037" title=" " alt="" coords="426,101,677,147,676,152,425,107"/>
+<area shape="rect" id="Node000047" href="$MemoryAliasAnalyzer_8hh.html" title=" " alt="" coords="31,152,215,177"/>
+<area shape="poly" id="edge10_Node000006_Node000047" title=" " alt="" coords="326,107,176,151,175,145,324,101"/>
+<area shape="rect" id="Node000048" href="$MoveNodeUse_8hh.html" title=" " alt="" coords="55,225,192,251"/>
+<area shape="poly" id="edge14_Node000006_Node000048" title=" " alt="" coords="244,100,176,106,110,117,55,133,35,142,21,154,16,163,16,171,27,189,50,205,78,218,76,223,47,209,23,193,11,173,11,161,17,150,32,138,53,128,109,112,175,101,243,95"/>
+<area shape="rect" id="Node000024" href="$TCEString_8hh.html" title=" " alt="" coords="311,225,415,251"/>
+<area shape="poly" id="edge12_Node000006_Node000024" title=" " alt="" coords="374,103,391,136,396,157,395,178,380,214,375,212,390,177,391,157,386,138,370,106"/>
+<area shape="rect" id="Node000050" href="$LiveRangeData_8hh.html" title=" " alt="" coords="239,152,381,177"/>
+<area shape="poly" id="edge15_Node000006_Node000050" title=" " alt="" coords="357,106,329,143,325,140,352,103"/>
+<area shape="poly" id="edge9_Node000037_Node000002" title=" " alt="" coords="755,178,755,212,750,212,750,178"/>
+<area shape="poly" id="edge11_Node000047_Node000048" title=" " alt="" coords="126,178,126,212,121,212,121,178"/>
+<area shape="poly" id="edge13_Node000024_Node000003" title=" " alt="" coords="366,251,366,285,361,285,361,251"/>
+<area shape="poly" id="edge16_Node000050_Node000048" title=" " alt="" coords="281,180,167,223,166,218,279,175"/>
+<area shape="poly" id="edge17_Node000050_Node000024" title=" " alt="" coords="321,176,349,213,345,216,317,179"/>
+</map>

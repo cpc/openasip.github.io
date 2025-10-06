@@ -1,0 +1,37 @@
+<map id="TPEF::BinaryWriter::writeBinary" name="TPEF::BinaryWriter::writeBinary">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,220,148,260"/>
+<area shape="rect" id="Node000002" href="$classTPEF_1_1BinaryWriter.html#ae4f220809b3adc0672067c4f19cdf6ec" title="Does real writing of binary." alt="" coords="237,5,384,45"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="83,218,98,183,122,139,154,94,194,55,223,40,225,44,198,59,158,97,127,142,103,185,88,221"/>
+<area shape="rect" id="Node000003" href="$classTPEF_1_1ReferenceManager_1_1SafePointer.html#a6c51b5645a2d789ad06cbd3a4e42c1da" title=" " alt="" coords="196,69,425,109"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="91,218,134,168,163,142,195,119,207,112,210,117,197,124,166,146,138,172,95,221"/>
+<area shape="rect" id="Node000006" href="$classTPEF_1_1SectionSizeReplacer.html#ab97295c2698e3b37b094ed62be0e1f02" title=" " alt="" coords="214,133,407,173"/>
+<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="116,217,195,183,218,175,220,180,197,188,118,222"/>
+<area shape="rect" id="Node000007" href="$classException.html#acacd9a35b999ba1d9c3e1342a580d6a6" title=" " alt="" coords="219,198,402,223"/>
+<area shape="poly" id="edge6_Node000001_Node000007" title=" " alt="" coords="148,228,205,221,206,226,148,234"/>
+<area shape="rect" id="Node000008" href="$classTPEF_1_1ValueReplacer.html#a41e4a3ff48a02cae91164cad30605b83" title=" " alt="" coords="233,248,388,288"/>
+<area shape="poly" id="edge7_Node000001_Node000008" title=" " alt="" coords="148,246,220,254,219,260,148,251"/>
+<area shape="rect" id="Node000010" href="$classTPEF_1_1SectionWriter.html#a06cc29293fe646a15a23b8d949f6dec4" title=" " alt="" coords="236,312,385,352"/>
+<area shape="poly" id="edge9_Node000001_Node000010" title=" " alt="" coords="114,258,197,298,223,307,221,312,195,302,112,263"/>
+<area shape="rect" id="Node000018" href="$classTPEF_1_1ValueReplacer.html#a55bef405729587baf34ddb2c3a5665d2" title=" " alt="" coords="233,376,388,416"/>
+<area shape="poly" id="edge15_Node000001_Node000018" title=" " alt="" coords="94,259,136,311,165,338,197,362,222,374,219,378,195,366,162,342,133,314,90,262"/>
+<area shape="rect" id="Node000020" href="$classException.html#acbcd54afef6d013ae15540033a862e0d" title=" " alt="" coords="211,441,410,466"/>
+<area shape="poly" id="edge17_Node000001_Node000020" title=" " alt="" coords="87,259,102,296,125,341,157,387,198,426,209,433,206,437,194,430,153,391,120,344,97,298,82,261"/>
+<area shape="rect" id="Node000004" href="$classAssocTools.html#a009dbbb5096a7918f58b3a86fb569a93" title=" " alt="" coords="479,13,675,38"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="391,67,473,47,507,39,508,44,474,52,393,72"/>
+<area shape="rect" id="Node000005" href="$classTPEF_1_1ReferenceManager_1_1SafePointer.html#a131e0309a23e997cd2640d9aa7a6acd8" title=" " alt="" coords="473,62,680,117"/>
+<area shape="poly" id="edge4_Node000003_Node000005" title=" " alt="" coords="426,87,460,87,460,92,426,92"/>
+<area shape="rect" id="Node000009" href="$classTPEF_1_1ValueReplacer.html#aaad33fb659c2eaf59e2452035246fd3f" title="Does replacement if can. If can&#39;t returns false." alt="" coords="499,141,654,181"/>
+<area shape="poly" id="edge8_Node000008_Node000009" title=" " alt="" coords="387,248,424,232,438,222,447,212,457,202,472,191,486,184,488,189,475,196,461,206,451,216,442,226,427,237,389,253"/>
+<area shape="rect" id="Node000011" href="$classTPEF_1_1SectionWriter.html#a8103b2ee48b66d6da837ae10592025e6" title=" " alt="" coords="502,205,651,245"/>
+<area shape="poly" id="edge10_Node000010_Node000011" title=" " alt="" coords="385,314,424,298,438,288,447,277,457,266,472,255,488,247,491,252,475,260,461,270,451,281,442,292,427,302,387,319"/>
+<area shape="rect" id="Node000012" href="$classTPEF_1_1SectionWriter.html#af961270a19a6553067caa7a6fee17c34" title=" " alt="" coords="502,269,651,309"/>
+<area shape="poly" id="edge11_Node000010_Node000012" title=" " alt="" coords="385,317,488,301,489,306,386,323"/>
+<area shape="rect" id="Node000015" href="$classTPEF_1_1Binary.html#a5953216a21cca21c983b70182a3f52a8" title=" " alt="" coords="498,334,655,359"/>
+<area shape="poly" id="edge12_Node000010_Node000015" title=" " alt="" coords="386,333,484,339,484,344,385,339"/>
+<area shape="rect" id="Node000016" href="$classTPEF_1_1Binary.html#a5345b4a9fd12a5619d18d2697765ddc2" title=" " alt="" coords="479,383,674,409"/>
+<area shape="poly" id="edge13_Node000010_Node000016" title=" " alt="" coords="386,347,510,377,509,383,385,352"/>
+<area shape="rect" id="Node000017" href="$classTPEF_1_1Section.html#ab6c9144daa69b8eb3ea687ec879407a3" title="Returns SectioType of actual section instance." alt="" coords="503,433,650,458"/>
+<area shape="poly" id="edge14_Node000010_Node000017" title=" " alt="" coords="387,343,427,362,443,376,452,391,460,405,475,418,491,426,489,431,472,422,456,408,447,394,439,379,424,366,384,348"/>
+<area shape="rect" id="Node000019" href="$classTPEF_1_1ValueReplacer.html#a263248738914de5cad8e09dfa3468e0c" title=" " alt="" coords="499,483,654,523"/>
+<area shape="poly" id="edge16_Node000018_Node000019" title=" " alt="" coords="389,410,427,426,442,436,451,447,461,458,475,468,488,475,486,480,472,473,457,462,447,451,438,440,424,430,387,415"/>
+</map>

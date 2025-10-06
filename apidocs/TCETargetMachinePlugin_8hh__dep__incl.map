@@ -1,0 +1,51 @@
+<map id="TCETargetMachinePlugin.hh" name="TCETargetMachinePlugin.hh">
+<area shape="rect" id="Node000001" title=" " alt="" coords="1363,5,1564,31"/>
+<area shape="rect" id="Node000002" href="$LLVMBackend_8cc.html" title=" " alt="" coords="5,299,135,324"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="1349,25,1029,37,627,61,434,79,267,100,142,125,100,139,74,154,62,169,55,188,52,229,59,268,68,298,63,299,54,269,47,229,50,186,58,167,71,150,98,134,141,120,267,94,434,73,627,56,1029,32,1349,20"/>
+<area shape="rect" id="Node000003" href="$TCEInstrInfo_8cc.html" title=" " alt="" coords="1603,152,1721,177"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="1507,34,1546,52,1585,77,1626,115,1655,150,1651,153,1622,119,1582,81,1544,57,1505,38"/>
+<area shape="rect" id="Node000005" href="$TCESubtarget_8cc.html" title=" " alt="" coords="1400,152,1527,177"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="1466,45,1466,152,1461,152,1461,45"/>
+<area shape="rect" id="Node000006" href="$TCETargetMachine_8hh.html" title=" " alt="" coords="735,79,896,104"/>
+<area shape="poly" id="edge6_Node000001_Node000006" title=" " alt="" coords="1349,34,896,84,896,79,1349,29"/>
+<area shape="rect" id="Node000024" href="$TCETargetMachinePlugin_8cc.html" title=" " alt="" coords="1263,225,1461,251"/>
+<area shape="poly" id="edge31_Node000001_Node000024" title=" " alt="" coords="1489,38,1515,67,1540,102,1548,122,1552,141,1550,160,1542,179,1525,196,1506,210,1462,228,1460,223,1503,206,1522,192,1537,176,1545,159,1547,141,1543,123,1535,105,1511,70,1485,42"/>
+<area shape="rect" id="Node000004" href="$PluginCompileWrapper_8cc.html" title=" " alt="" coords="1171,299,1359,324"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="1632,187,1570,220,1496,253,1406,282,1324,301,1322,296,1405,276,1494,248,1568,215,1629,182"/>
+<area shape="poly" id="edge5_Node000005_Node000004" title=" " alt="" coords="1478,190,1485,221,1483,237,1476,252,1455,268,1421,282,1339,301,1338,296,1419,277,1452,264,1472,249,1478,236,1479,221,1472,191"/>
+<area shape="poly" id="edge9_Node000006_Node000002" title=" " alt="" coords="721,97,552,101,356,111,187,129,128,140,97,154,84,170,75,188,67,229,67,268,70,298,65,299,61,269,61,228,70,186,80,167,94,150,127,135,186,123,356,106,552,96,721,91"/>
+<area shape="poly" id="edge22_Node000006_Node000003" title=" " alt="" coords="910,97,1540,149,1602,155,1602,160,1539,155,909,103"/>
+<area shape="poly" id="edge25_Node000006_Node000005" title=" " alt="" coords="910,99,1381,149,1400,152,1399,157,1380,155,909,104"/>
+<area shape="rect" id="Node000007" href="$ConstantTransformer_8cc.html" title=" " alt="" coords="1149,152,1324,177"/>
+<area shape="poly" id="edge7_Node000006_Node000007" title=" " alt="" coords="897,104,1169,149,1168,155,896,109"/>
+<area shape="rect" id="Node000008" href="$InlineAsmParser_8cc.html" title=" " alt="" coords="107,152,251,177"/>
+<area shape="poly" id="edge8_Node000006_Node000008" title=" " alt="" coords="721,105,270,155,252,157,251,152,270,149,721,100"/>
+<area shape="rect" id="Node000009" href="$LLVMPOMBuilder_8hh.html" title=" " alt="" coords="272,225,423,251"/>
+<area shape="poly" id="edge10_Node000006_Node000009" title=" " alt="" coords="721,100,603,107,476,119,370,135,334,144,316,154,310,170,314,189,325,208,338,223,334,227,321,211,309,191,304,170,312,150,332,139,369,129,475,114,603,102,721,95"/>
+<area shape="rect" id="Node000013" href="$TCETargetMachine_8cc.html" title=" " alt="" coords="417,299,576,324"/>
+<area shape="poly" id="edge26_Node000006_Node000013" title=" " alt="" coords="802,117,749,184,712,221,670,253,611,282,552,301,550,296,609,277,667,248,708,217,745,180,798,114"/>
+<area shape="rect" id="Node000014" href="$LLVMTCEBuilder_8cc.html" title=" " alt="" coords="515,225,657,251"/>
+<area shape="poly" id="edge13_Node000006_Node000014" title=" " alt="" coords="787,113,722,154,606,227,603,223,719,150,784,109"/>
+<area shape="rect" id="Node000015" href="$LLVMTCEBuilder_8hh.html" title=" " alt="" coords="505,152,651,177"/>
+<area shape="poly" id="edge14_Node000006_Node000015" title=" " alt="" coords="765,110,617,154,616,149,763,105"/>
+<area shape="rect" id="Node000020" href="$MachineInstrDDG_8cc.html" title=" " alt="" coords="326,152,481,177"/>
+<area shape="poly" id="edge17_Node000006_Node000020" title=" " alt="" coords="736,109,470,155,469,149,735,104"/>
+<area shape="rect" id="Node000021" href="$TCEDAGToDAGISel_8cc.html" title=" " alt="" coords="911,225,1071,251"/>
+<area shape="poly" id="edge18_Node000006_Node000021" title=" " alt="" coords="829,115,848,146,874,175,916,204,959,223,957,228,914,208,871,179,844,149,825,118"/>
+<area shape="rect" id="Node000022" href="$TCEISelLowering_8cc.html" title=" " alt="" coords="741,225,887,251"/>
+<area shape="poly" id="edge20_Node000006_Node000022" title=" " alt="" coords="818,118,817,225,811,225,812,118"/>
+<area shape="rect" id="Node000023" href="$TCERegisterInfo_8cc.html" title=" " alt="" coords="1096,225,1239,251"/>
+<area shape="poly" id="edge23_Node000006_Node000023" title=" " alt="" coords="837,112,874,145,919,175,953,187,1001,200,1106,223,1105,228,1000,205,951,192,917,180,870,149,834,116"/>
+<area shape="poly" id="edge27_Node000006_Node000024" title=" " alt="" coords="910,89,1024,91,1150,99,1209,107,1263,118,1307,132,1338,150,1352,167,1360,188,1365,225,1360,226,1355,189,1348,170,1335,154,1305,137,1261,123,1209,112,1149,105,1024,96,910,94"/>
+<area shape="rect" id="Node000025" href="$TCETargetTransformInfo_8hh.html" title=" " alt="" coords="929,152,1125,177"/>
+<area shape="poly" id="edge29_Node000006_Node000025" title=" " alt="" coords="863,106,994,149,992,154,861,111"/>
+<area shape="poly" id="edge11_Node000009_Node000002" title=" " alt="" coords="290,257,116,301,114,296,289,251"/>
+<area shape="poly" id="edge12_Node000009_Node000013" title=" " alt="" coords="385,254,473,296,471,301,382,259"/>
+<area shape="poly" id="edge15_Node000015_Node000009" title=" " alt="" coords="528,184,385,228,384,223,527,179"/>
+<area shape="poly" id="edge16_Node000015_Node000014" title=" " alt="" coords="583,191,587,225,582,226,578,191"/>
+<area shape="poly" id="edge19_Node000021_Node000004" title=" " alt="" coords="1049,252,1221,296,1220,301,1048,257"/>
+<area shape="poly" id="edge21_Node000022_Node000004" title=" " alt="" coords="900,250,1192,296,1192,301,899,255"/>
+<area shape="poly" id="edge24_Node000023_Node000004" title=" " alt="" coords="1196,257,1250,296,1247,301,1193,261"/>
+<area shape="poly" id="edge28_Node000024_Node000004" title=" " alt="" coords="1337,261,1282,301,1279,296,1334,257"/>
+<area shape="poly" id="edge30_Node000025_Node000024" title=" " alt="" coords="1095,178,1308,223,1307,228,1094,183"/>
+</map>

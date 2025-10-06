@@ -1,0 +1,19 @@
+<map id="ProGe::IGenerationPhases" name="ProGe::IGenerationPhases">
+<area shape="rect" id="Node000001" title=" " alt="" coords="628,5,811,151"/>
+<area shape="rect" id="Node000002" href="$classProGe_1_1BaseNetlistBlock.html" title=" " alt="" coords="633,199,805,904"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="722,164,722,198,717,198,717,164"/>
+<area shape="rect" id="Node000003" href="$classProGe_1_1InverterBlock.html" title=" " alt="" coords="5,1132,153,1297"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="623,601,517,660,394,739,333,786,273,838,217,894,168,954,142,996,122,1042,95,1133,90,1131,117,1040,137,994,164,950,213,890,269,834,329,782,391,735,514,655,620,597"/>
+<area shape="rect" id="Node000004" href="$classProGe_1_1LoopBufferBlock.html" title=" " alt="" coords="178,952,423,1477"/>
+<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="627,677,533,808,438,953,426,973,421,971,433,951,528,805,623,674"/>
+<area shape="rect" id="Node000005" href="$classProGe_1_1NetlistBlock.html" title=" " alt="" coords="448,1082,588,1347"/>
+<area shape="poly" id="edge4_Node000002_Node000005" title=" " alt="" coords="632,849,561,1083,556,1081,627,848"/>
+<area shape="rect" id="Node000008" href="$classProGe_1_1ProcessorWrapperBlock.html" title=" " alt="" coords="612,1072,827,1357"/>
+<area shape="poly" id="edge5_Node000002_Node000008" title=" " alt="" coords="722,918,722,1072,717,1072,717,918"/>
+<area shape="rect" id="Node000009" href="$classProGe_1_1SinglePortByteMaskSSRAMBlock.html" title=" " alt="" coords="851,1115,1113,1315"/>
+<area shape="poly" id="edge6_Node000002_Node000009" title=" " alt="" coords="813,781,945,1113,940,1115,808,783"/>
+<area shape="rect" id="Node000010" href="$classProGe_1_1SinglePortSSRAMBlock.html" title=" " alt="" coords="1137,1122,1347,1307"/>
+<area shape="poly" id="edge7_Node000002_Node000010" title=" " alt="" coords="818,627,892,691,973,769,1055,857,1128,950,1154,992,1177,1036,1214,1121,1209,1123,1172,1038,1149,995,1124,954,1051,860,970,773,888,695,814,631"/>
+<area shape="rect" id="Node000011" href="$classProGe_1_1TestBenchBlock.html" title=" " alt="" coords="1371,1142,1534,1287"/>
+<area shape="poly" id="edge8_Node000002_Node000011" title=" " alt="" coords="820,587,942,642,1014,679,1088,722,1162,770,1234,824,1302,884,1361,950,1391,996,1414,1045,1431,1095,1443,1141,1438,1142,1426,1097,1409,1047,1387,998,1357,954,1298,888,1231,829,1159,774,1085,726,1011,684,940,647,817,592"/>
+</map>

@@ -1,0 +1,47 @@
+<map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
+<area shape="rect" id="Node000000" href="$classFigure.html" title=" " alt="" coords="5,351,68,376"/>
+<area shape="rect" id="Node000001" href="$classBusChainFigure.html" title=" " alt="" coords="139,5,261,31"/>
+<area shape="poly" id="edge310_Node000000_Node000001" title=" " alt="" coords="38,337,48,268,64,179,86,96,99,63,114,40,137,25,140,29,118,44,104,65,91,97,69,180,53,268,44,337"/>
+<area shape="rect" id="Node000002" href="$classBusContainerFigure.html" title=" " alt="" coords="125,55,275,80"/>
+<area shape="poly" id="edge311_Node000000_Node000002" title=" " alt="" coords="35,337,38,285,49,219,59,184,73,150,91,118,114,89,130,78,133,82,118,93,95,121,78,152,64,186,54,220,43,286,40,337"/>
+<area shape="rect" id="Node000003" href="$classBusFigure.html" title=" " alt="" coords="157,104,243,129"/>
+<area shape="poly" id="edge312_Node000000_Node000003" title=" " alt="" coords="37,337,43,294,56,241,79,186,95,161,114,139,134,126,156,118,157,124,136,131,118,143,99,164,83,189,61,242,48,295,42,337"/>
+<area shape="rect" id="Node000004" href="$classConnectionFigure.html" title=" " alt="" coords="133,153,267,179"/>
+<area shape="poly" id="edge313_Node000000_Node000004" title=" " alt="" coords="40,336,49,303,63,263,85,223,114,188,132,177,135,181,118,192,89,226,68,265,54,304,45,338"/>
+<area shape="rect" id="Node000011" href="$classContentsFigure.html" title=" " alt="" coords="140,203,260,228"/>
+<area shape="poly" id="edge320_Node000000_Node000011" title=" " alt="" coords="45,337,71,286,91,260,114,237,138,224,141,229,118,241,95,263,76,289,50,339"/>
+<area shape="rect" id="Node000012" href="$classInputSocketFigure.html" title=" " alt="" coords="131,252,269,277"/>
+<area shape="poly" id="edge321_Node000000_Node000012" title=" " alt="" coords="55,338,82,311,115,286,140,275,142,280,117,291,85,315,59,342"/>
+<area shape="rect" id="Node000013" href="$classMoveFigure.html" title=" " alt="" coords="151,301,249,327"/>
+<area shape="poly" id="edge322_Node000000_Node000013" title=" " alt="" coords="80,347,115,335,153,324,155,329,117,341,82,352"/>
+<area shape="rect" id="Node000014" href="$classOutputSocketFigure.html" title=" " alt="" coords="125,351,275,376"/>
+<area shape="poly" id="edge323_Node000000_Node000014" title=" " alt="" coords="82,361,125,361,125,366,82,366"/>
+<area shape="rect" id="Node000015" href="$classSegmentFigure.html" title=" " alt="" coords="140,400,260,425"/>
+<area shape="poly" id="edge324_Node000000_Node000015" title=" " alt="" coords="82,374,117,385,158,397,156,402,115,390,80,379"/>
+<area shape="rect" id="Node000016" href="$classSelectionFigure.html" title=" " alt="" coords="139,449,261,475"/>
+<area shape="poly" id="edge325_Node000000_Node000016" title=" " alt="" coords="59,384,85,411,117,434,145,447,143,452,115,439,82,415,55,388"/>
+<area shape="rect" id="Node000017" href="$classSocketContainerFigure.html" title=" " alt="" coords="116,499,284,524"/>
+<area shape="poly" id="edge326_Node000000_Node000017" title=" " alt="" coords="50,388,76,437,95,462,118,484,140,496,138,501,114,488,91,466,72,440,45,390"/>
+<area shape="rect" id="Node000018" href="$classUnitContainerFigure.html" title=" " alt="" coords="124,548,276,573"/>
+<area shape="poly" id="edge327_Node000000_Node000018" title=" " alt="" coords="45,389,54,422,68,461,89,500,118,533,137,546,135,550,114,537,85,503,63,463,49,423,40,390"/>
+<area shape="rect" id="Node000019" href="$classUnitFigure.html" title=" " alt="" coords="155,597,245,623"/>
+<area shape="poly" id="edge328_Node000000_Node000019" title=" " alt="" coords="42,390,49,432,61,484,84,537,99,561,118,583,136,595,156,602,154,607,133,599,114,587,95,565,79,540,56,486,43,433,37,391"/>
+<area shape="rect" id="Node000020" href="$classUnitPortFigure.html" title=" " alt="" coords="143,647,257,672"/>
+<area shape="poly" id="edge329_Node000000_Node000020" title=" " alt="" coords="40,390,43,441,54,507,64,541,78,575,95,606,118,633,144,649,141,654,114,637,91,609,73,577,59,543,49,508,38,442,35,390"/>
+<area shape="rect" id="Node000022" href="$classUnknownSocketFigure.html" title=" " alt="" coords="117,696,283,721"/>
+<area shape="poly" id="edge331_Node000000_Node000022" title=" " alt="" coords="44,389,53,458,69,546,91,629,104,661,118,683,133,694,129,698,114,686,99,664,86,631,64,547,48,459,38,390"/>
+<area shape="rect" id="Node000005" href="$classBridgeFigure.html" title=" " alt="" coords="362,104,466,129"/>
+<area shape="poly" id="edge314_Node000004_Node000005" title=" " alt="" coords="268,148,361,126,362,131,269,153"/>
+<area shape="rect" id="Node000007" href="$classSocketBusConnFigure.html" title=" " alt="" coords="333,153,495,179"/>
+<area shape="poly" id="edge316_Node000004_Node000007" title=" " alt="" coords="281,163,333,163,333,169,281,169"/>
+<area shape="rect" id="Node000009" href="$classSocketPortConnFigure.html" title=" " alt="" coords="332,203,496,228"/>
+<area shape="poly" id="edge318_Node000004_Node000009" title=" " alt="" coords="270,179,359,200,357,205,268,184"/>
+<area shape="rect" id="Node000006" href="$classBidirBridgeFigure.html" title=" " alt="" coords="572,104,707,129"/>
+<area shape="poly" id="edge315_Node000005_Node000006" title=" " alt="" coords="480,114,572,114,572,119,480,119"/>
+<area shape="rect" id="Node000008" href="$classSocketBusConnToolFigure.html" title=" " alt="" coords="545,153,733,179"/>
+<area shape="poly" id="edge317_Node000007_Node000008" title=" " alt="" coords="509,163,545,163,545,169,509,169"/>
+<area shape="rect" id="Node000010" href="$classSocketPortConnToolFigure.html" title=" " alt="" coords="544,203,735,228"/>
+<area shape="poly" id="edge319_Node000009_Node000010" title=" " alt="" coords="510,213,544,213,544,218,510,218"/>
+<area shape="rect" id="Node000021" href="$classTriggeringPortFigure.html" title=" " alt="" coords="338,647,490,672"/>
+<area shape="poly" id="edge330_Node000020_Node000021" title=" " alt="" coords="271,657,338,657,338,662,271,662"/>
+</map>

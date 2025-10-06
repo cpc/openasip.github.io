@@ -1,0 +1,29 @@
+<map id="CopyingDelaySlotFiller::finishBB" name="CopyingDelaySlotFiller::finishBB">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,208,176,248"/>
+<area shape="rect" id="Node000002" href="$classBasicBlockNode.html#a139fec79be289e1de9728c03508d42de" title=" " alt="" coords="240,51,445,77"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="103,206,151,146,184,114,223,87,240,79,243,84,225,92,188,118,155,150,107,210"/>
+<area shape="rect" id="Node000003" href="$classSimpleResourceManager.html#a11c14e829453b809725d0c84f4c18e9f" title=" " alt="" coords="251,101,435,141"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="121,206,168,178,223,151,244,143,246,148,225,156,171,182,124,210"/>
+<area shape="rect" id="Node000038" href="$classBoostGraph.html#aeebb989727b973ae45f75ae5be2ce529" title=" " alt="" coords="264,166,421,191"/>
+<area shape="poly" id="edge7_Node000001_Node000038" title=" " alt="" coords="176,209,263,191,264,197,177,214"/>
+<area shape="rect" id="Node000039" href="$classControlFlowEdge.html#abfdc1e60515a108555cc3aa92f623184" title=" " alt="" coords="224,215,461,241"/>
+<area shape="poly" id="edge8_Node000001_Node000039" title=" " alt="" coords="176,225,210,225,210,231,176,231"/>
+<area shape="rect" id="Node000040" href="$classBasicBlockNode.html#a17cdc958d5d97d4155935bd5b6d20a05" title=" " alt="" coords="237,265,449,290"/>
+<area shape="poly" id="edge9_Node000001_Node000040" title=" " alt="" coords="177,242,264,259,263,265,176,247"/>
+<area shape="rect" id="Node000041" href="$classBoostGraph.html#ac72c43613494986ce187527c3ad1a4fd" title=" " alt="" coords="262,314,423,339"/>
+<area shape="poly" id="edge10_Node000001_Node000041" title=" " alt="" coords="122,246,169,274,225,300,250,308,248,313,223,305,167,279,120,250"/>
+<area shape="rect" id="Node000042" href="$classCopyingDelaySlotFiller.html#ab018f6b62128c69cb995cc4ba327c493" title=" " alt="" coords="256,364,429,404"/>
+<area shape="poly" id="edge11_Node000001_Node000042" title=" " alt="" coords="110,247,158,298,190,326,225,350,244,359,242,363,223,354,187,330,155,302,106,250"/>
+<area shape="rect" id="Node000004" href="$classSimpleResourceManager.html#a84216e46b9d0c345b1f84159f5c2b9f9" title="Clears all bookkeeping done by this RM. The RM can then be reused for different BB." alt="" coords="519,5,703,45"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="426,99,460,86,484,71,508,55,525,48,527,53,511,60,487,75,463,90,427,104"/>
+<area shape="rect" id="Node000034" href="$classExecutionPipelineResourceTable.html#ae284e50ec5ca0a32dd0e2ff6b1092ec0" title=" " alt="" coords="512,69,709,109"/>
+<area shape="poly" id="edge4_Node000003_Node000034" title=" " alt="" coords="435,108,498,100,498,105,435,113"/>
+<area shape="rect" id="Node000036" href="$classSimpleResourceManager.html#a2edf03acca008e4a99ec62a3ee6ca594" title=" " alt="" coords="519,133,703,173"/>
+<area shape="poly" id="edge5_Node000003_Node000036" title=" " alt="" coords="435,130,505,138,505,143,435,135"/>
+<area shape="rect" id="Node000037" href="$classResourceManager.html#a484523eb343217b4c095d7fd05c43e41" title=" " alt="" coords="509,198,712,223"/>
+<area shape="poly" id="edge6_Node000003_Node000037" title=" " alt="" coords="431,139,463,151,487,167,511,183,533,191,531,196,508,188,484,172,460,156,429,144"/>
+<area shape="rect" id="Node000043" href="$classDataDependenceGraph.html#aba858329d3bf28720872a41791345a4b" title=" " alt="" coords="524,332,697,372"/>
+<area shape="poly" id="edge12_Node000042_Node000043" title=" " alt="" coords="429,371,510,361,511,367,430,376"/>
+<area shape="rect" id="Node000054" href="$classSimpleResourceManager.html#a52d2182a29b1d155e5cc4cd3710addfd" title=" " alt="" coords="519,396,703,436"/>
+<area shape="poly" id="edge13_Node000042_Node000054" title=" " alt="" coords="430,392,506,401,505,406,429,397"/>
+</map>

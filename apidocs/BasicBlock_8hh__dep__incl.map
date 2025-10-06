@@ -1,0 +1,82 @@
+<map id="BasicBlock.hh" name="BasicBlock.hh">
+<area shape="rect" id="Node000001" title=" " alt="" coords="3385,5,3499,31"/>
+<area shape="rect" id="Node000002" href="$BBSchedulerController_8cc.html" title=" " alt="" coords="5,79,191,104"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="3372,22,1876,38,914,55,509,67,203,81,191,82,191,77,203,76,508,62,914,50,1876,32,3372,17"/>
+<area shape="rect" id="Node000003" href="$BF2Scheduler_8cc.html" title=" " alt="" coords="215,79,343,104"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="3371,22,2817,25,1943,33,1029,50,645,64,356,81,344,82,343,77,355,76,645,59,1029,45,1943,27,2817,19,3371,17"/>
+<area shape="rect" id="Node000004" href="$BFRegCopy_8cc.html" title=" " alt="" coords="368,79,481,104"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="3372,22,2839,24,2005,32,1135,50,770,63,494,81,482,83,481,77,494,76,769,58,1135,44,2005,27,2839,19,3372,17"/>
+<area shape="rect" id="Node000005" href="$BFRenameLiveRange_8cc.html" title=" " alt="" coords="506,79,685,104"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="3371,23,2097,40,1291,57,952,69,697,81,685,82,685,77,697,76,952,63,1291,52,2097,34,3371,17"/>
+<area shape="rect" id="Node000006" href="$BUBasicBlockScheduler_8cc.html" title=" " alt="" coords="709,79,903,104"/>
+<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="3371,22,2999,22,2396,28,1667,46,1288,61,915,81,903,82,903,77,915,76,1288,56,1667,40,2396,23,2999,16,3371,16"/>
+<area shape="rect" id="Node000007" href="$BUMoveNodeSelector_8cc.html" title=" " alt="" coords="927,79,1109,104"/>
+<area shape="poly" id="edge6_Node000001_Node000007" title=" " alt="" coords="3371,22,3025,22,2472,29,1807,46,1460,61,1121,81,1109,82,1109,77,1120,76,1460,56,1806,41,2472,23,3025,17,3371,16"/>
+<area shape="rect" id="Node000008" href="$BasicBlock_8cc.html" title=" " alt="" coords="1133,79,1244,104"/>
+<area shape="poly" id="edge7_Node000001_Node000008" title=" " alt="" coords="3372,23,2964,27,2351,37,1720,55,1455,67,1256,81,1245,83,1244,77,1255,76,1455,62,1719,50,2351,32,2963,22,3372,17"/>
+<area shape="rect" id="Node000009" href="$BasicBlockNode_8cc.html" title=" " alt="" coords="1268,79,1413,104"/>
+<area shape="poly" id="edge8_Node000001_Node000009" title=" " alt="" coords="3372,21,3065,21,2586,27,2014,45,1716,61,1425,81,1414,82,1413,77,1424,76,1716,55,2013,40,2586,22,3065,16,3372,16"/>
+<area shape="rect" id="Node000010" href="$BasicBlockPass_8cc.html" title=" " alt="" coords="1437,79,1577,104"/>
+<area shape="poly" id="edge9_Node000001_Node000010" title=" " alt="" coords="3371,22,3086,22,2648,29,2125,47,1854,62,1589,81,1578,82,1577,77,1588,76,1854,56,2125,42,2647,24,3086,17,3371,16"/>
+<area shape="rect" id="Node000011" href="$BasicBlockScheduler_8cc.html" title=" " alt="" coords="1601,79,1776,104"/>
+<area shape="poly" id="edge10_Node000001_Node000011" title=" " alt="" coords="3372,23,3114,26,2724,35,2261,53,1788,81,1777,82,1776,77,1787,76,2261,48,2724,30,3114,21,3372,17"/>
+<area shape="rect" id="Node000012" href="$BusBroker_8cc.html" title=" " alt="" coords="1800,79,1905,104"/>
+<area shape="poly" id="edge11_Node000001_Node000012" title=" " alt="" coords="3371,21,3131,22,2772,29,2350,47,2132,62,1918,81,1906,83,1905,78,1918,76,2131,56,2350,42,2772,24,3131,17,3371,16"/>
+<area shape="rect" id="Node000013" href="$CFGStatistics_8hh.html" title=" " alt="" coords="1929,79,2059,104"/>
+<area shape="poly" id="edge12_Node000001_Node000013" title=" " alt="" coords="3371,23,3153,27,2834,37,2460,54,2078,81,2059,83,2059,78,2078,76,2460,49,2833,31,3153,22,3371,17"/>
+<area shape="rect" id="Node000015" href="$ControlFlowGraph_8cc.html" title=" " alt="" coords="2018,152,2175,177"/>
+<area shape="poly" id="edge17_Node000001_Node000015" title=" " alt="" coords="3372,23,3071,28,2666,39,2302,57,2181,68,2143,74,2125,81,2112,96,2104,115,2099,152,2094,151,2099,114,2107,93,2122,76,2142,69,2180,63,2302,51,2666,34,3071,23,3372,18"/>
+<area shape="rect" id="Node000016" href="$CallsToJumps_8cc.html" title=" " alt="" coords="2135,79,2261,104"/>
+<area shape="poly" id="edge15_Node000001_Node000016" title=" " alt="" coords="3371,23,2910,38,2595,55,2274,81,2262,83,2261,77,2274,76,2594,50,2909,33,3371,18"/>
+<area shape="rect" id="Node000017" href="$ControlDependenceNode_8cc.html" title=" " alt="" coords="2286,79,2489,104"/>
+<area shape="poly" id="edge16_Node000001_Node000017" title=" " alt="" coords="3372,26,3000,47,2501,81,2489,82,2489,77,2500,76,2999,41,3371,20"/>
+<area shape="rect" id="Node000018" href="$CopyingDelaySlotFiller_8cc.html" title=" " alt="" coords="2513,79,2699,104"/>
+<area shape="poly" id="edge18_Node000001_Node000018" title=" " alt="" coords="3372,27,3084,49,2713,81,2700,83,2699,77,2712,76,3084,44,3371,22"/>
+<area shape="rect" id="Node000019" href="$CriticalPathBBMoveNodeSelector_8cc.html" title=" " alt="" coords="2724,79,2979,104"/>
+<area shape="poly" id="edge19_Node000001_Node000019" title=" " alt="" coords="3371,30,2947,81,2946,76,3371,25"/>
+<area shape="rect" id="Node000020" href="$DataDependenceGraph_8cc.html" title=" " alt="" coords="3003,79,3193,104"/>
+<area shape="poly" id="edge20_Node000001_Node000020" title=" " alt="" coords="3374,36,3154,81,3153,76,3373,31"/>
+<area shape="rect" id="Node000021" href="$DataDependenceGraphBuilder_8cc.html" title=" " alt="" coords="3217,79,3453,104"/>
+<area shape="poly" id="edge21_Node000001_Node000021" title=" " alt="" coords="3415,40,3354,81,3351,76,3412,36"/>
+<area shape="rect" id="Node000022" href="$InlineAsmParser_8cc.html" title=" " alt="" coords="3478,79,3622,104"/>
+<area shape="poly" id="edge22_Node000001_Node000022" title=" " alt="" coords="3472,36,3534,76,3531,81,3469,40"/>
+<area shape="rect" id="Node000023" href="$LLVMTCEBuilder_8cc.html" title=" " alt="" coords="3647,79,3789,104"/>
+<area shape="poly" id="edge23_Node000001_Node000023" title=" " alt="" coords="3500,31,3674,76,3673,81,3499,37"/>
+<area shape="rect" id="Node000024" href="$LLVMTCEIRBuilder_8cc.html" title=" " alt="" coords="3813,79,3969,104"/>
+<area shape="poly" id="edge24_Node000001_Node000024" title=" " alt="" coords="3513,28,3819,76,3819,81,3512,33"/>
+<area shape="rect" id="Node000025" href="$LoopAnalyzer_8cc.html" title=" " alt="" coords="3993,79,4120,104"/>
+<area shape="poly" id="edge25_Node000001_Node000025" title=" " alt="" coords="3512,23,3723,45,3982,76,3994,78,3993,83,3982,81,3722,51,3512,29"/>
+<area shape="rect" id="Node000026" href="$LoopPrologAndEpilogBuilder_8cc.html" title=" " alt="" coords="4144,79,4367,104"/>
+<area shape="poly" id="edge26_Node000001_Node000026" title=" " alt="" coords="3513,23,4133,76,4144,77,4143,82,4132,81,3512,28"/>
+<area shape="rect" id="Node000027" href="$MoveNodeGroupBuilder_8cc.html" title=" " alt="" coords="4391,79,4586,104"/>
+<area shape="poly" id="edge27_Node000001_Node000027" title=" " alt="" coords="3513,20,3884,41,4380,76,4391,77,4391,82,4379,81,3883,46,3512,25"/>
+<area shape="rect" id="Node000028" href="$Peel2BBLoops_8cc.html" title=" " alt="" coords="4611,79,4743,104"/>
+<area shape="poly" id="edge28_Node000001_Node000028" title=" " alt="" coords="3512,18,3969,34,4281,51,4598,76,4611,77,4610,83,4598,81,4280,56,3969,39,3512,23"/>
+<area shape="rect" id="Node000029" href="$PostpassOperandSharer_8cc.html" title=" " alt="" coords="4767,79,4962,104"/>
+<area shape="poly" id="edge29_Node000001_Node000029" title=" " alt="" coords="3513,18,4030,36,4389,53,4756,76,4767,77,4767,82,4755,81,4389,58,4030,41,3512,24"/>
+<area shape="rect" id="Node000030" href="$PreOptimizer_8cc.html" title=" " alt="" coords="4987,79,5111,104"/>
+<area shape="poly" id="edge30_Node000001_Node000030" title=" " alt="" coords="3513,17,3754,19,4114,26,4539,44,4759,58,4974,76,4987,77,4986,83,4974,81,4759,63,4539,50,4114,32,3754,24,3512,22"/>
+<area shape="rect" id="Node000031" href="$ProcedurePass_8cc.html" title=" " alt="" coords="5135,79,5269,104"/>
+<area shape="poly" id="edge31_Node000001_Node000031" title=" " alt="" coords="3512,16,3774,18,4171,25,4641,43,4885,57,5124,76,5135,77,5134,82,5123,81,4885,63,4641,49,4171,31,3774,23,3512,22"/>
+<area shape="rect" id="Node000032" href="$ProgramDependenceGraph_8cc.html" title=" " alt="" coords="5293,79,5508,104"/>
+<area shape="poly" id="edge32_Node000001_Node000032" title=" " alt="" coords="3513,17,4231,31,4749,49,5282,76,5293,77,5293,82,5282,81,4749,54,4231,37,3512,23"/>
+<area shape="rect" id="Node000033" href="$RegisterCopyAdder_8cc.html" title=" " alt="" coords="5532,79,5696,104"/>
+<area shape="poly" id="edge33_Node000001_Node000033" title=" " alt="" coords="3512,16,3827,17,4321,24,4912,42,5220,57,5521,76,5532,77,5531,82,5520,81,5219,62,4912,47,4320,29,3827,22,3512,22"/>
+<area shape="rect" id="Node000034" href="$RegisterRenamer_8cc.html" title=" " alt="" coords="5721,79,5873,104"/>
+<area shape="poly" id="edge34_Node000001_Node000034" title=" " alt="" coords="3513,18,4570,36,5226,53,5501,64,5709,76,5721,77,5720,82,5708,81,5501,69,5226,58,4570,41,3512,23"/>
+<area shape="rect" id="Node000035" href="$ScheduleEstimator_8cc.html" title=" " alt="" coords="5897,79,6059,104"/>
+<area shape="poly" id="edge35_Node000001_Node000035" title=" " alt="" coords="3513,17,4650,35,5361,53,5660,64,5885,76,5897,77,5897,82,5884,81,5659,69,5361,58,4650,41,3513,23"/>
+<area shape="rect" id="Node000036" href="$SequentialScheduler_8cc.html" title=" " alt="" coords="6083,79,6255,104"/>
+<area shape="poly" id="edge36_Node000001_Node000036" title=" " alt="" coords="3512,17,4734,35,5504,52,5828,63,6072,76,6082,77,6082,82,6071,81,5827,69,5504,58,4734,40,3512,23"/>
+<area shape="rect" id="Node000037" href="$SimpleIfConverter_8cc.html" title=" " alt="" coords="6279,79,6437,104"/>
+<area shape="poly" id="edge37_Node000001_Node000037" title=" " alt="" coords="3513,17,4823,32,5655,50,6004,62,6268,76,6279,77,6279,82,6267,81,6004,67,5654,55,4823,38,3513,22"/>
+<area shape="rect" id="Node000038" href="$TerminalBasicBlockReference_8cc.html" title=" " alt="" coords="6461,79,6695,104"/>
+<area shape="poly" id="edge38_Node000001_Node000038" title=" " alt="" coords="3512,16,3946,16,4665,22,5542,40,6000,55,6449,76,6461,77,6461,82,6449,81,5999,61,5542,45,4665,27,3946,22,3512,22"/>
+<area shape="rect" id="Node000039" href="$TerminalInstructionReference_8cc.html" title=" " alt="" coords="6719,79,6949,104"/>
+<area shape="poly" id="edge39_Node000001_Node000039" title=" " alt="" coords="3513,17,5021,35,5991,53,6400,64,6707,76,6719,77,6718,82,6707,81,6400,69,5991,58,5021,40,3513,23"/>
+<area shape="rect" id="Node000040" href="$TerminalSymbolReference_8cc.html" title=" " alt="" coords="6974,79,7185,104"/>
+<area shape="poly" id="edge40_Node000001_Node000040" title=" " alt="" coords="3513,17,5135,33,6186,50,6629,62,6962,76,6974,77,6974,82,6962,81,6629,67,6186,56,5135,38,3512,22"/>
+<area shape="rect" id="Node000014" href="$CFGStatistics_8cc.html" title=" " alt="" coords="1867,152,1993,177"/>
+<area shape="poly" id="edge13_Node000013_Node000014" title=" " alt="" coords="1976,116,1942,154,1938,150,1972,113"/>
+<area shape="poly" id="edge14_Node000013_Node000015" title=" " alt="" coords="2023,110,2081,150,2078,154,2020,114"/>
+</map>

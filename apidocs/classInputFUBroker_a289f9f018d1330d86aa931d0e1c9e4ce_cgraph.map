@@ -1,0 +1,33 @@
+<map id="InputFUBroker::setupResourceLinks" name="InputFUBroker::setupResourceLinks">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,241,224,281"/>
+<area shape="rect" id="Node000002" href="$classSchedulingResource.html#a04caa390f47003da0ba2d50b1bbc5047" title=" " alt="" coords="292,7,471,47"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="124,240,146,201,179,153,221,103,270,59,285,50,288,55,274,63,224,106,183,156,151,204,129,242"/>
+<area shape="rect" id="Node000004" href="$classTTAMachine_1_1Port.html#ad12e41e813636ebc9edb4e7cbd5cefb1" title=" " alt="" coords="272,74,491,99"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="129,239,186,175,226,139,271,110,289,101,291,106,273,114,229,144,190,179,133,243"/>
+<area shape="rect" id="Node000006" href="$classSchedulingResource.html#ad3f1a0864e3f5f67c6b0f40aaa709f44" title=" " alt="" coords="273,124,489,164"/>
+<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="147,239,203,206,271,174,291,166,292,171,273,178,206,211,149,244"/>
+<area shape="rect" id="Node000007" href="$classTTAMachine_1_1FunctionUnit.html#af9cb2bbab9dbed9301b81b98582130a6" title=" " alt="" coords="286,212,477,252"/>
+<area shape="poly" id="edge6_Node000001_Node000007" title=" " alt="" coords="224,247,272,241,273,247,224,252"/>
+<area shape="rect" id="Node000011" href="$classTTAMachine_1_1Unit.html#a39a674e7d287d17a6153c73d830230b9" title=" " alt="" coords="277,277,485,302"/>
+<area shape="poly" id="edge13_Node000001_Node000011" title=" " alt="" coords="224,270,264,274,263,280,224,275"/>
+<area shape="rect" id="Node000012" href="$classResourceMapper.html#aabc2fd4b66ed03b11cdf8168ca043594" title=" " alt="" coords="284,327,479,367"/>
+<area shape="poly" id="edge14_Node000001_Node000012" title=" " alt="" coords="176,279,273,311,302,320,300,325,271,316,174,284"/>
+<area shape="rect" id="Node000013" href="$classResourceMapper.html#a1da315c0833bf86a394a6962eaacd299" title=" " alt="" coords="551,355,762,381"/>
+<area shape="poly" id="edge15_Node000001_Node000013" title=" " alt="" coords="136,280,193,331,231,357,273,376,313,387,356,394,441,397,521,391,588,381,589,386,522,397,441,403,355,399,312,392,271,381,229,362,190,336,132,284"/>
+<area shape="rect" id="Node000014" href="$classResourceBroker.html#aa642ed1b30b9a68c7b6d5e4bb12ea45c" title=" " alt="" coords="275,441,487,481"/>
+<area shape="poly" id="edge17_Node000001_Node000014" title=" " alt="" coords="133,280,190,348,229,387,273,420,298,434,295,438,271,425,226,391,186,352,129,283"/>
+<area shape="rect" id="Node000003" href="$classSchedulingResource.html#ad592c1f2dcd405fc2563ecb1f76b63d8" title=" " alt="" coords="539,5,775,45"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="471,24,524,23,524,29,471,29"/>
+<area shape="rect" id="Node000005" href="$classTTAMachine_1_1Socket.html#a38432e8a0bde32e754c148001795a85b" title=" " alt="" coords="581,69,733,109"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="491,85,567,86,567,91,491,90"/>
+<area shape="poly" id="edge10_Node000007_Node000007" title=" " alt="" coords="332,212,329,202,337,193,354,187,381,185,412,188,429,195,427,200,411,193,381,191,355,193,340,197,334,203,337,211"/>
+<area shape="rect" id="Node000008" href="$classTTAMachine_1_1Unit.html#a106eaf68c376e479c3ebda9b53595dfb" title=" " alt="" coords="560,194,753,219"/>
+<area shape="poly" id="edge7_Node000007_Node000008" title=" " alt="" coords="477,221,546,214,547,219,477,226"/>
+<area shape="rect" id="Node000009" href="$classTTAMachine_1_1Component.html#aca1a5cd64b40a19ccad0c589ff9de98f" title=" " alt="" coords="823,263,1007,303"/>
+<area shape="poly" id="edge9_Node000007_Node000009" title=" " alt="" coords="477,238,810,270,809,275,477,244"/>
+<area shape="rect" id="Node000010" href="$classTTAMachine_1_1Unit.html#a496631edc76857ac83fee35db36c105e" title=" " alt="" coords="571,295,742,321"/>
+<area shape="poly" id="edge11_Node000007_Node000010" title=" " alt="" coords="454,249,539,273,597,289,595,294,538,279,453,255"/>
+<area shape="poly" id="edge8_Node000008_Node000009" title=" " alt="" coords="707,217,775,236,840,256,839,261,774,241,706,222"/>
+<area shape="poly" id="edge12_Node000010_Node000009" title=" " alt="" coords="742,297,809,290,809,296,743,302"/>
+<area shape="poly" id="edge16_Node000013_Node000009" title=" " alt="" coords="700,353,774,329,844,305,846,310,776,335,702,358"/>
+</map>

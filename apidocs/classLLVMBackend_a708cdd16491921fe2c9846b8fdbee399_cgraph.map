@@ -1,0 +1,52 @@
+<map id="LLVMBackend::compile" name="LLVMBackend::compile">
+<area shape="rect" id="node1" title=" " alt="" coords="5,973,176,999"/>
+<area shape="rect" id="node2" href="$classLLVMTCECmdLineOptions.html#a816c78e7a6eb1e139d3d5e99b1c5c91d" title=" " alt="" coords="246,136,457,177"/>
+<area shape="rect" id="node5" href="$LLVMBackend_8cc.html#a0f59e0f9c5f228de61a628cf83d9f3f1" title=" " alt="" coords="270,434,433,461"/>
+<area shape="rect" id="node7" href="$LLVMBackend_8cc.html#a510f1a3e96bd8ef5366dc927e8821fcd" title=" " alt="" coords="257,485,445,511"/>
+<area shape="rect" id="node8" href="$LLVMBackend_8cc.html#a181aa68c3e469e21376983c74cee1a9c" title=" " alt="" coords="253,535,450,562"/>
+<area shape="rect" id="node9" href="$classllvm_1_1LLVMTCEBuilder.html#a9a82eceee914bf578411545367b1bc8a" title=" " alt="" coords="263,587,440,628"/>
+<area shape="rect" id="node14" href="$classApplication.html#aeb2ac2bb91d6d150565357d09d1859b9" title=" " alt="" coords="571,749,742,775"/>
+<area shape="rect" id="node18" href="$classApplication.html#ac938674edada696f957e23154cdbd471" title=" " alt="" coords="561,799,752,826"/>
+<area shape="rect" id="node19" href="$classException.html#aa08aba8a4c7a6ec2a354bb74246dcfcf" title=" " alt="" coords="242,754,461,781"/>
+<area shape="rect" id="node25" href="$classllvm_1_1TCETargetMachinePlugin.html#aead474c4406ba5a909c4c081764acd07" title="Returns ID number of the frame pointer register." alt="" coords="242,805,461,847"/>
+<area shape="rect" id="node26" href="$classllvm_1_1TCETargetMachinePlugin.html#af5fc1ed3a8a922cafa0006b1a846f35c" title=" " alt="" coords="242,871,461,912"/>
+<area shape="rect" id="node27" href="$classllvm_1_1TCETargetMachinePlugin.html#adadb0d1ab64215fb9c7e280f516d01b0" title=" " alt="" coords="242,936,461,977"/>
+<area shape="rect" id="node28" href="$classPluginTools.html#a2955d12bcd3fc8225d27a25a04780ea5" title=" " alt="" coords="254,1002,449,1029"/>
+<area shape="rect" id="node29" href="$classLLVMTCECmdLineOptions.html#a3a667401c1c117e5e13dac714a45229f" title=" " alt="" coords="257,5,445,47"/>
+<area shape="rect" id="node30" href="$classTTAMachine_1_1Machine.html#a8925dc6864ac7beba8edeb7a36f6c8ea" title=" " alt="" coords="574,1104,739,1145"/>
+<area shape="rect" id="node31" href="$classLLVMTCECmdLineOptions.html#a64db1259c1fb5a0fa2e8ccfea3614c72" title=" " alt="" coords="242,201,461,243"/>
+<area shape="rect" id="node32" href="$classTTAMachine_1_1Machine.html#a2074287ef62f29ddcd5a27e251a7fac3" title=" " alt="" coords="269,1221,434,1263"/>
+<area shape="rect" id="node33" href="$classllvm_1_1LLVMTCEBuilder.html#a0e87b7653265d03a75427c6a49de8502" title=" " alt="" coords="225,1287,477,1328"/>
+<area shape="rect" id="node34" href="$classLLVMTCECmdLineOptions.html#a99faa82f2b04de621e72f7002a40f87c" title=" " alt="" coords="253,267,449,308"/>
+<area shape="rect" id="node35" href="$TCETargetMachine_8cc.html#ad7392a49de7af9d11dbc68e4fe3b0a85" title=" " alt="" coords="263,333,440,359"/>
+<area shape="rect" id="node36" href="$TCEStubTargetMachine_8cc.html#a3e5f32675d7789c9e836ee7d61b2619d" title=" " alt="" coords="250,383,453,410"/>
+<area shape="rect" id="node37" href="$classLLVMBackend.html#a9c83f80dca9f49ee9796a073905910e4" title=" " alt="" coords="224,1353,479,1379"/>
+<area shape="rect" id="node38" href="$classMachineInfo.html#aa21d19ad17df7d43ed59085ce0a6dd6a" title=" " alt="" coords="527,1170,787,1197"/>
+<area shape="rect" id="node39" href="$classllvm_1_1TCETargetMachinePlugin.html#a88bc15646569033f1f8d5b8eacd48dcd" title="Returns name of the physical register index corresponding to a generated register ID." alt="" coords="242,1404,461,1445"/>
+<area shape="rect" id="node40" href="$classllvm_1_1LLVMTCEBuilder.html#a14ca6bc2c8160f06e1fbba9ccdcedb08" title=" " alt="" coords="269,1469,433,1511"/>
+<area shape="rect" id="node41" href="$classllvm_1_1TCETargetMachinePlugin.html#a6765956e5b688c3a85a13a04032a0495" title="Returns name of the physical register file corresponding to a generated register ID." alt="" coords="242,1535,461,1576"/>
+<area shape="rect" id="node42" href="$classllvm_1_1TCETargetMachinePlugin.html#a9da740888cb43d0a28cf5061055bca35" title=" " alt="" coords="242,1600,461,1641"/>
+<area shape="rect" id="node43" href="$classInterPassData.html#a80f794e77ebf5de3d4ddaf58d507e544" title=" " alt="" coords="259,1666,444,1693"/>
+<area shape="rect" id="node44" href="$classllvm_1_1TCETargetMachine.html#a4e4895809f733357ffd156537c701248" title=" " alt="" coords="262,1717,441,1759"/>
+<area shape="rect" id="node45" href="$classllvm_1_1LLVMTCEBuilder.html#acbf1e895893f089d2883722cba80d9a3" title=" " alt="" coords="248,1783,455,1824"/>
+<area shape="rect" id="node46" href="$classllvm_1_1LLVMTCEIRBuilder.html#a4ec2be7a599e24005bce6b0e7e40a173" title=" " alt="" coords="263,1848,440,1889"/>
+<area shape="rect" id="node47" href="$classllvm_1_1TCETargetMachine.html#a587dff270d13f9849c88a75a8b4641fc" title=" " alt="" coords="262,1913,441,1955"/>
+<area shape="rect" id="node48" href="$classllvm_1_1TCETargetMachine.html#ac3d9f4894a3b7a3b51a968a4b1ad233d" title=" " alt="" coords="259,1104,444,1145"/>
+<area shape="rect" id="node49" href="$classllvm_1_1TCETargetMachinePlugin.html#adbb0a8981143595a2c2e429fbded20dd" title="Returns ID number of the stack pointer register." alt="" coords="242,1979,461,2020"/>
+<area shape="rect" id="node50" href="$classLLVMTCECmdLineOptions.html#a8f011a5ee8b5efa1d6878200e4658921" title=" " alt="" coords="257,71,445,112"/>
+<area shape="rect" id="node3" href="$classCmdLineParser.html#a72958bb042e6503ee6010f009450edb2" title=" " alt="" coords="559,137,755,163"/>
+<area shape="rect" id="node4" href="$classCmdLineOptionParser.html#a2144755de3ddfe166be8bc58fba0efb3" title=" " alt="" coords="575,188,738,229"/>
+<area shape="rect" id="node6" href="$InnerLoopFinder_8cc.html#a3e89ede6fd3695cafe83391e13210c91" title=" " alt="" coords="637,254,676,281"/>
+<area shape="rect" id="node10" href="$classTTAProgram_1_1DataMemory.html#a836be22bcc807aaf0b3c926bc290a25f" title=" " alt="" coords="559,356,754,397"/>
+<area shape="rect" id="node11" href="$classTTAProgram_1_1Program.html#a7c9ddcaece7f619ebac8d41ed89ae37f" title=" " alt="" coords="574,421,739,463"/>
+<area shape="rect" id="node12" href="$classTTAProgram_1_1Program.html#ae6745a9e81cc607addbe42829f8447f1" title=" " alt="" coords="574,487,739,528"/>
+<area shape="rect" id="node13" href="$classTTAProgram_1_1DataDefinition.html#a8e5ba08c264c37dadd94ea4d76976234" title=" " alt="" coords="554,552,759,593"/>
+<area shape="rect" id="node15" href="$classTTAProgram_1_1Program.html#a06ab097274f9ac65ba6196ac7637f6f0" title=" " alt="" coords="574,617,739,659"/>
+<area shape="rect" id="node16" href="$classTTAProgram_1_1Program.html#a7cf50766d56c3c4a370e624319e730da" title=" " alt="" coords="574,683,739,724"/>
+<area shape="rect" id="node17" href="$classTTAProgram_1_1CodeSnippet.html#a997233a7f797fcf27e59061ab8c9bedc" title=" " alt="" coords="835,491,1027,532"/>
+<area shape="rect" id="node20" href="$classException.html#a0f576c82b4bc09b7ccf31de6028425f0" title=" " alt="" coords="591,951,723,978"/>
+<area shape="rect" id="node21" href="$classException.html#acacd9a35b999ba1d9c3e1342a580d6a6" title=" " alt="" coords="565,1002,748,1029"/>
+<area shape="rect" id="node22" href="$classException.html#aa583bdfc22b863208247cc8fece97534" title=" " alt="" coords="579,1053,734,1079"/>
+<area shape="rect" id="node23" href="$classException.html#ae13a579b7f3fc6e54c5f3c324779ae0d" title=" " alt="" coords="578,850,735,877"/>
+<area shape="rect" id="node24" href="$classException.html#afcb86935e383b5323f0622059c668aae" title=" " alt="" coords="582,901,731,927"/>
+</map>

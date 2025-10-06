@@ -1,0 +1,45 @@
+<map id="ResourceVectorFUResourceConflictDetector.hh" name="ResourceVectorFUResourceConflictDetector.hh">
+<area shape="rect" id="Node000001" title=" " alt="" coords="316,5,517,45"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="51,240,102,265"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="316,33,235,40,151,52,79,70,53,82,35,95,19,118,15,139,19,163,29,191,40,211,55,229,51,232,35,214,24,193,14,164,10,139,15,116,31,91,50,77,78,65,150,47,234,35,316,28"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="522,313,581,339"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="316,32,229,37,138,49,61,67,32,80,14,95,10,103,8,120,9,149,15,192,21,233,27,248,41,263,77,282,128,296,191,307,260,314,399,322,509,323,509,328,399,327,260,320,190,312,127,302,75,287,38,267,22,251,16,234,10,192,4,150,3,120,5,101,9,92,30,76,59,62,137,43,228,32,316,26"/>
+<area shape="rect" id="Node000004" href="$Exception_8hh.html" title=" " alt="" coords="795,240,902,265"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="518,30,580,37,649,49,720,67,788,91,849,117,871,136,891,166,895,183,892,201,873,231,868,228,887,199,890,183,886,168,867,139,846,122,786,96,719,72,648,55,580,43,517,35"/>
+<area shape="rect" id="Node000006" href="$FUResourceConflictDetector_8hh.html" title=" " alt="" coords="45,93,269,119"/>
+<area shape="poly" id="edge6_Node000001_Node000006" title=" " alt="" coords="355,48,209,92,207,87,354,43"/>
+<area shape="rect" id="Node000008" href="$FUFiniteStateAutomaton_8hh.html" title=" " alt="" coords="315,93,518,119"/>
+<area shape="poly" id="edge8_Node000001_Node000008" title=" " alt="" coords="419,46,419,79,414,79,414,46"/>
+<area shape="rect" id="Node000013" href="$ResourceVector_8hh.html" title=" " alt="" coords="668,167,811,192"/>
+<area shape="poly" id="edge19_Node000001_Node000013" title=" " alt="" coords="453,43,601,116,699,159,697,164,598,121,451,48"/>
+<area shape="rect" id="Node000015" href="$ResourceVectorSet_8hh.html" title=" " alt="" coords="611,93,775,119"/>
+<area shape="poly" id="edge25_Node000001_Node000015" title=" " alt="" coords="484,43,640,87,638,92,482,48"/>
+<area shape="poly" id="edge4_Node000004_Node000003" title=" " alt="" coords="802,268,595,317,593,312,800,263"/>
+<area shape="rect" id="Node000005" href="$Exception_8icc.html" title=" " alt="" coords="795,313,903,339"/>
+<area shape="poly" id="edge5_Node000004_Node000005" title=" " alt="" coords="851,266,851,300,846,300,846,266"/>
+<area shape="rect" id="Node000007" href="$ClockedState_8hh.html" title=" " alt="" coords="39,167,165,192"/>
+<area shape="poly" id="edge7_Node000006_Node000007" title=" " alt="" coords="150,121,121,157,117,154,146,117"/>
+<area shape="poly" id="edge9_Node000008_Node000003" title=" " alt="" coords="316,121,275,132,242,146,231,155,225,166,225,177,231,191,258,222,291,249,327,270,366,287,444,309,509,319,508,324,443,314,364,292,325,275,288,253,254,226,227,193,220,178,220,164,227,152,239,142,273,127,315,116"/>
+<area shape="poly" id="edge16_Node000008_Node000004" title=" " alt="" coords="519,114,705,136,783,149,809,157,825,165,836,178,844,194,851,226,846,227,839,196,832,181,822,169,807,162,781,155,704,141,518,119"/>
+<area shape="rect" id="Node000009" href="$FiniteStateAutomaton_8hh.html" title=" " alt="" coords="459,167,643,192"/>
+<area shape="poly" id="edge10_Node000008_Node000009" title=" " alt="" coords="440,116,518,158,516,162,437,121"/>
+<area shape="rect" id="Node000012" href="$FUCollisionMatrixIndex_8hh.html" title=" " alt="" coords="241,167,435,192"/>
+<area shape="poly" id="edge17_Node000008_Node000012" title=" " alt="" coords="406,121,363,159,359,156,402,117"/>
+<area shape="poly" id="edge13_Node000009_Node000002" title=" " alt="" coords="476,195,116,248,116,243,475,189"/>
+<area shape="poly" id="edge11_Node000009_Node000003" title=" " alt="" coords="554,192,554,300,549,300,549,192"/>
+<area shape="poly" id="edge15_Node000009_Node000004" title=" " alt="" coords="600,189,788,234,787,239,599,195"/>
+<area shape="rect" id="Node000010" title=" " alt="" coords="590,240,633,265"/>
+<area shape="poly" id="edge12_Node000009_Node000010" title=" " alt="" coords="563,191,595,228,591,231,559,194"/>
+<area shape="rect" id="Node000011" title=" " alt="" coords="451,240,513,265"/>
+<area shape="poly" id="edge14_Node000009_Node000011" title=" " alt="" coords="542,194,505,232,501,228,538,190"/>
+<area shape="poly" id="edge18_Node000012_Node000011" title=" " alt="" coords="362,190,447,231,445,236,360,194"/>
+<area shape="poly" id="edge23_Node000013_Node000003" title=" " alt="" coords="730,194,693,228,646,267,585,308,582,304,643,263,690,224,726,190"/>
+<area shape="poly" id="edge24_Node000013_Node000004" title=" " alt="" coords="758,190,821,230,818,235,756,194"/>
+<area shape="poly" id="edge21_Node000013_Node000010" title=" " alt="" coords="720,194,646,235,643,231,718,190"/>
+<area shape="poly" id="edge20_Node000013_Node000011" title=" " alt="" coords="699,195,528,242,526,236,697,189"/>
+<area shape="rect" id="Node000014" title=" " alt="" coords="708,240,771,265"/>
+<area shape="poly" id="edge22_Node000013_Node000014" title=" " alt="" coords="742,192,742,226,737,226,737,192"/>
+<area shape="poly" id="edge28_Node000015_Node000004" title=" " alt="" coords="776,112,827,130,851,145,870,165,876,181,876,198,866,229,861,227,871,197,871,182,865,168,847,149,825,135,774,117"/>
+<area shape="poly" id="edge26_Node000015_Node000009" title=" " alt="" coords="671,121,588,163,585,158,669,116"/>
+<area shape="poly" id="edge27_Node000015_Node000013" title=" " alt="" coords="703,118,727,154,722,157,698,120"/>
+</map>

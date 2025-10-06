@@ -1,0 +1,37 @@
+<map id="BasicBlockScheduler::getTriggerOperand" name="BasicBlockScheduler::getTriggerOperand">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,261,163,301"/>
+<area shape="rect" id="Node000002" href="$classTTAMachine_1_1Machine_1_1Navigator.html#ad05463fc62c6a978311d22cbc60d190a" title=" " alt="" coords="228,5,392,45"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="89,260,104,217,128,162,163,105,185,79,209,55,216,50,219,55,212,59,188,82,167,108,133,165,109,219,94,262"/>
+<area shape="rect" id="Node000003" href="$classTTAMachine_1_1Machine.html#a0f7c068d4ddbd0c91436cee4f517b5c6" title=" " alt="" coords="223,69,397,109"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="94,260,138,191,171,152,209,119,218,113,221,118,212,123,174,156,142,194,98,262"/>
+<area shape="rect" id="Node000004" href="$classTTAMachine_1_1FunctionUnit.html#aa08f6bf0e37b5ed105fb89bc38614261" title=" " alt="" coords="215,325,405,365"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="156,299,226,319,225,324,155,304"/>
+<area shape="rect" id="Node000008" href="$classTTAMachine_1_1FUPort.html#a0d004773c7969c730c87f55c807e8796" title=" " alt="" coords="233,197,387,237"/>
+<area shape="poly" id="edge8_Node000001_Node000008" title=" " alt="" coords="155,259,225,239,226,244,156,264"/>
+<area shape="rect" id="Node000009" href="$classTTAMachine_1_1Machine_1_1Navigator.html#aac24ceb1e1b49a5f9f5e10950b184adb" title=" " alt="" coords="228,261,392,301"/>
+<area shape="poly" id="edge9_Node000001_Node000009" title=" " alt="" coords="163,279,214,279,214,284,163,284"/>
+<area shape="rect" id="Node000010" href="$classOperation.html#a0c781f158f88a14dcd1965b70bb6b4e2" title=" " alt="" coords="245,390,375,415"/>
+<area shape="poly" id="edge10_Node000001_Node000010" title=" " alt="" coords="108,300,154,338,212,375,233,383,231,388,209,380,150,342,104,304"/>
+<area shape="rect" id="Node000012" href="$classOperation.html#a8e0ccec099db040be790f213f56438f1" title=" " alt="" coords="211,439,409,465"/>
+<area shape="poly" id="edge12_Node000001_Node000012" title=" " alt="" coords="99,300,143,363,175,397,212,426,224,432,221,437,209,430,172,401,139,366,95,303"/>
+<area shape="rect" id="Node000014" href="$classTTAMachine_1_1FunctionUnit.html#a2a25e8899e642aba839c7825295a1f5d" title=" " alt="" coords="215,133,405,173"/>
+<area shape="poly" id="edge14_Node000001_Node000014" title=" " alt="" coords="105,259,151,221,209,183,224,176,226,181,212,188,154,225,109,263"/>
+<area shape="rect" id="Node000016" href="$classTTAMachine_1_1HWOperation.html#a7c71a20e5038c63e23f896122572a146" title=" " alt="" coords="212,489,408,529"/>
+<area shape="poly" id="edge19_Node000001_Node000016" title=" " alt="" coords="95,301,112,338,137,385,170,434,212,475,220,480,217,485,209,479,166,437,132,388,107,340,90,303"/>
+<area shape="rect" id="Node000005" href="$classTTAMachine_1_1FunctionUnit.html#a4827ed34002a4f8ea3656a4392bd9aeb" title=" " alt="" coords="460,269,651,309"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="398,323,453,310,455,315,399,328"/>
+<area shape="rect" id="Node000006" href="$classTTAMachine_1_1Component.html#aca1a5cd64b40a19ccad0c589ff9de98f" title=" " alt="" coords="701,216,885,256"/>
+<area shape="poly" id="edge6_Node000004_Node000006" title=" " alt="" coords="405,348,525,344,590,334,652,319,708,293,756,262,759,266,711,298,654,324,591,340,526,349,406,353"/>
+<area shape="rect" id="Node000007" href="$classStringTools.html#a6d75f1d06967a1e242e173d3a14e6ac0" title=" " alt="" coords="460,219,651,245"/>
+<area shape="poly" id="edge7_Node000004_Node000007" title=" " alt="" coords="386,323,408,311,422,298,431,284,440,269,456,255,470,247,473,252,459,260,444,273,435,286,426,301,411,316,388,328"/>
+<area shape="poly" id="edge5_Node000005_Node000006" title=" " alt="" coords="644,267,690,256,691,262,646,272"/>
+<area shape="rect" id="Node000011" href="$classOperationPimpl.html#a9468fd2c2d661545452777eb08398ad7" title=" " alt="" coords="471,387,639,413"/>
+<area shape="poly" id="edge11_Node000010_Node000011" title=" " alt="" coords="376,399,458,398,458,404,376,405"/>
+<area shape="rect" id="Node000013" href="$classOperationPimpl.html#aa0eb1476faa315d8f372d27525a389a4" title=" " alt="" coords="457,437,653,477"/>
+<area shape="poly" id="edge13_Node000012_Node000013" title=" " alt="" coords="409,451,444,452,444,458,409,457"/>
+<area shape="poly" id="edge15_Node000014_Node000006" title=" " alt="" coords="406,164,654,204,689,211,688,216,653,209,405,169"/>
+<area shape="poly" id="edge18_Node000014_Node000007" title=" " alt="" coords="374,171,503,213,501,218,372,176"/>
+<area shape="rect" id="Node000015" href="$classTTAMachine_1_1FunctionUnit.html#a8cf4dc92e393b10572a21c6b660475bd" title=" " alt="" coords="460,104,651,144"/>
+<area shape="poly" id="edge16_Node000014_Node000015" title=" " alt="" coords="405,139,446,134,447,140,406,145"/>
+<area shape="poly" id="edge17_Node000015_Node000006" title=" " alt="" coords="611,142,654,160,746,207,743,212,652,165,609,147"/>
+</map>

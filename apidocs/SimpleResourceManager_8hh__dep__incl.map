@@ -1,0 +1,76 @@
+<map id="SimpleResourceManager.hh" name="SimpleResourceManager.hh">
+<area shape="rect" id="Node000001" title=" " alt="" coords="3141,5,3343,31"/>
+<area shape="rect" id="Node000002" href="$BBSchedulerController_8cc.html" title=" " alt="" coords="5,79,191,104"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="3127,23,1704,40,839,57,477,68,203,81,191,82,191,77,203,76,477,63,839,52,1704,34,3127,18"/>
+<area shape="rect" id="Node000003" href="$BF2ScheduleFront_8cc.html" title=" " alt="" coords="215,79,373,104"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="3127,23,2580,28,1787,38,979,56,641,68,385,81,373,82,373,77,384,76,640,62,979,51,1787,33,2580,22,3127,17"/>
+<area shape="rect" id="Node000004" href="$BF2Scheduler_8cc.html" title=" " alt="" coords="397,79,525,104"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="3127,23,2606,27,1857,36,1096,54,778,66,537,81,525,82,525,77,536,76,777,61,1096,49,1857,31,2606,21,3127,17"/>
+<area shape="rect" id="Node000005" href="$BFAssignToBody_8cc.html" title=" " alt="" coords="549,79,692,104"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="3127,23,1935,39,1225,57,929,68,705,81,692,82,692,77,704,76,929,63,1225,51,1935,34,3127,18"/>
+<area shape="rect" id="Node000006" href="$BFDRELoop_8cc.html" title=" " alt="" coords="717,79,831,104"/>
+<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="3127,23,2658,27,1999,37,1332,55,1054,67,844,81,832,83,831,77,843,76,1054,61,1332,49,1999,32,2658,22,3127,17"/>
+<area shape="rect" id="Node000007" href="$BFLateBypass_8cc.html" title=" " alt="" coords="856,79,988,104"/>
+<area shape="poly" id="edge6_Node000001_Node000007" title=" " alt="" coords="3127,23,2072,41,1454,58,1196,69,1001,81,988,83,988,77,1000,76,1196,63,1454,53,2072,35,3127,18"/>
+<area shape="rect" id="Node000008" href="$BFLateBypassGuard_8cc.html" title=" " alt="" coords="1013,79,1183,104"/>
+<area shape="poly" id="edge7_Node000001_Node000008" title=" " alt="" coords="3127,22,2797,24,2319,32,1763,50,1476,63,1196,81,1184,82,1183,77,1195,76,1476,58,1763,44,2319,26,2797,18,3127,17"/>
+<area shape="rect" id="Node000009" href="$BFLateBypasses_8cc.html" title=" " alt="" coords="1207,79,1354,104"/>
+<area shape="poly" id="edge8_Node000001_Node000009" title=" " alt="" coords="3127,22,2822,23,2386,31,1881,49,1621,63,1366,81,1354,82,1354,77,1366,76,1620,58,1880,44,2386,26,2821,18,3127,16"/>
+<area shape="rect" id="Node000010" href="$BFOptimization_8cc.html" title=" " alt="" coords="1378,79,1519,104"/>
+<area shape="poly" id="edge9_Node000001_Node000010" title=" " alt="" coords="3127,22,2846,24,2450,33,1995,51,1761,64,1532,81,1520,82,1519,77,1531,76,1760,59,1994,45,2450,27,2845,19,3127,17"/>
+<area shape="rect" id="Node000011" href="$BFPostpassLoopDRE_8cc.html" title=" " alt="" coords="1543,79,1717,104"/>
+<area shape="poly" id="edge10_Node000001_Node000011" title=" " alt="" coords="3127,24,2528,39,2131,56,1729,81,1717,82,1717,77,1728,76,2131,51,2528,34,3127,18"/>
+<area shape="rect" id="Node000012" href="$BFPushAntidepDown_8cc.html" title=" " alt="" coords="1741,79,1916,104"/>
+<area shape="poly" id="edge11_Node000001_Node000012" title=" " alt="" coords="3127,25,2608,42,2270,59,1929,81,1917,82,1916,77,1928,76,2270,53,2608,37,3127,19"/>
+<area shape="rect" id="Node000013" href="$BFRemoveGuardsFromSuccs_8cc.html" title=" " alt="" coords="1941,79,2167,104"/>
+<area shape="poly" id="edge12_Node000001_Node000013" title=" " alt="" coords="3127,27,2709,48,2180,81,2168,82,2167,77,2179,76,2709,43,3127,22"/>
+<area shape="rect" id="Node000014" href="$BFScheduleBU_8cc.html" title=" " alt="" coords="2192,79,2327,104"/>
+<area shape="poly" id="edge13_Node000001_Node000014" title=" " alt="" coords="3127,27,2774,46,2557,61,2338,81,2327,83,2327,77,2338,76,2556,56,2774,40,3127,21"/>
+<area shape="rect" id="Node000015" href="$BFScheduleExact_8cc.html" title=" " alt="" coords="2351,79,2501,104"/>
+<area shape="poly" id="edge14_Node000001_Node000015" title=" " alt="" coords="3127,30,2847,51,2513,81,2502,83,2501,77,2512,76,2847,45,3127,24"/>
+<area shape="rect" id="Node000016" href="$BFSchedulePreLoopShared_8cc.html" title=" " alt="" coords="2525,79,2737,104"/>
+<area shape="poly" id="edge15_Node000001_Node000016" title=" " alt="" coords="3131,35,2730,81,2729,76,3130,30"/>
+<area shape="rect" id="Node000017" href="$BFScheduleTD_8cc.html" title=" " alt="" coords="2762,79,2895,104"/>
+<area shape="poly" id="edge16_Node000001_Node000017" title=" " alt="" coords="3162,36,2896,81,2895,76,3162,30"/>
+<area shape="rect" id="Node000018" href="$BFShareOperandLate_8cc.html" title=" " alt="" coords="2919,79,3095,104"/>
+<area shape="poly" id="edge17_Node000001_Node000018" title=" " alt="" coords="3192,37,3046,81,3045,76,3191,32"/>
+<area shape="rect" id="Node000019" href="$BFShareOperandWithScheduled_8cc.html" title=" " alt="" coords="3119,79,3365,104"/>
+<area shape="poly" id="edge18_Node000001_Node000019" title=" " alt="" coords="3245,44,3245,79,3239,79,3239,44"/>
+<area shape="rect" id="Node000020" href="$BFShareOperandsLate_8cc.html" title=" " alt="" coords="3389,79,3572,104"/>
+<area shape="poly" id="edge19_Node000001_Node000020" title=" " alt="" coords="3294,32,3443,76,3441,81,3293,37"/>
+<area shape="rect" id="Node000021" href="$BFUnscheduleFromBody_8cc.html" title=" " alt="" coords="3597,79,3794,104"/>
+<area shape="poly" id="edge20_Node000001_Node000021" title=" " alt="" coords="3329,30,3623,76,3622,81,3328,35"/>
+<area shape="rect" id="Node000022" href="$BFUnscheduleMove_8cc.html" title=" " alt="" coords="3819,79,3988,104"/>
+<area shape="poly" id="edge21_Node000001_Node000022" title=" " alt="" coords="3357,28,3806,76,3819,77,3818,83,3806,81,3357,34"/>
+<area shape="rect" id="Node000023" href="$BUBasicBlockScheduler_8cc.html" title=" " alt="" coords="4012,79,4205,104"/>
+<area shape="poly" id="edge22_Node000001_Node000023" title=" " alt="" coords="3358,25,4000,76,4012,77,4011,82,3999,81,3357,30"/>
+<area shape="rect" id="Node000024" href="$BasicBlockPass_8cc.html" title=" " alt="" coords="4229,79,4369,104"/>
+<area shape="poly" id="edge23_Node000001_Node000024" title=" " alt="" coords="3357,21,3739,40,3977,55,4217,76,4229,77,4229,83,4216,81,3977,61,3739,45,3357,26"/>
+<area shape="rect" id="Node000025" href="$BasicBlockScheduler_8cc.html" title=" " alt="" coords="4393,79,4568,104"/>
+<area shape="poly" id="edge24_Node000001_Node000025" title=" " alt="" coords="3357,20,3806,39,4092,55,4381,76,4393,77,4393,82,4380,81,4092,61,3806,45,3357,26"/>
+<area shape="rect" id="Node000026" href="$CopyingDelaySlotFiller_8cc.html" title=" " alt="" coords="4593,79,4779,104"/>
+<area shape="poly" id="edge25_Node000001_Node000026" title=" " alt="" coords="3357,19,3886,37,4231,54,4580,76,4593,77,4592,82,4579,81,4230,59,3886,43,3357,25"/>
+<area shape="rect" id="Node000027" href="$CycleLookBackSoftwareBypasser_8cc.html" title=" " alt="" coords="4804,79,5059,104"/>
+<area shape="poly" id="edge26_Node000001_Node000027" title=" " alt="" coords="3357,19,3970,38,4377,55,4791,76,4804,77,4804,82,4791,81,4377,60,3970,43,3357,25"/>
+<area shape="rect" id="Node000028" href="$DDGPass_8cc.html" title=" " alt="" coords="5083,79,5182,104"/>
+<area shape="poly" id="edge27_Node000001_Node000028" title=" " alt="" coords="3357,18,4219,36,4710,53,4915,64,5070,76,5084,78,5083,83,5070,81,4915,69,4710,58,4218,41,3357,24"/>
+<area shape="rect" id="Node000029" href="$ITemplateBroker_8cc.html" title=" " alt="" coords="5207,79,5352,104"/>
+<area shape="poly" id="edge28_Node000001_Node000029" title=" " alt="" coords="3357,16,3674,17,4128,25,4656,43,4928,57,5194,76,5207,77,5206,82,5194,81,4928,62,4656,48,4128,30,3674,23,3357,21"/>
+<area shape="rect" id="Node000030" href="$IUBroker_8cc.html" title=" " alt="" coords="5376,79,5471,104"/>
+<area shape="poly" id="edge29_Node000001_Node000030" title=" " alt="" coords="3358,17,3778,22,4357,32,4938,49,5180,61,5364,76,5376,78,5375,83,5363,81,5180,67,4938,55,4357,37,3777,27,3358,23"/>
+<area shape="rect" id="Node000031" href="$LoopPrologAndEpilogBuilder_8cc.html" title=" " alt="" coords="5495,79,5717,104"/>
+<area shape="poly" id="edge30_Node000001_Node000031" title=" " alt="" coords="3357,17,3714,20,4239,29,4854,47,5482,76,5495,77,5494,82,5482,81,4853,52,4239,35,3714,26,3357,22"/>
+<area shape="rect" id="Node000032" href="$OutputPSocketBroker_8hh.html" title=" " alt="" coords="5742,79,5921,104"/>
+<area shape="poly" id="edge31_Node000001_Node000032" title=" " alt="" coords="3357,16,3749,16,4334,22,5023,41,5379,56,5729,76,5742,77,5742,82,5728,81,5379,61,5023,46,4334,28,3749,21,3357,21"/>
+<area shape="rect" id="Node000034" href="$SimpleResourceManager_8cc.html" title=" " alt="" coords="5857,152,6059,177"/>
+<area shape="poly" id="edge37_Node000001_Node000034" title=" " alt="" coords="3357,17,3966,22,4816,33,5580,51,5828,62,5901,69,5934,76,5949,93,5957,114,5961,151,5956,152,5951,115,5944,96,5931,81,5900,74,5828,68,5580,56,4816,38,3966,28,3357,23"/>
+<area shape="rect" id="Node000035" href="$RegisterCopyAdder_8cc.html" title=" " alt="" coords="5996,79,6160,104"/>
+<area shape="poly" id="edge34_Node000001_Node000035" title=" " alt="" coords="3357,18,4640,36,5411,53,5733,64,5977,76,5996,78,5995,83,5976,81,5733,69,5411,58,4640,41,3357,23"/>
+<area shape="rect" id="Node000036" href="$ResourceConstraintAnalyzer_8cc.html" title=" " alt="" coords="6184,79,6407,104"/>
+<area shape="poly" id="edge35_Node000001_Node000036" title=" " alt="" coords="3358,16,3810,16,4503,22,5327,40,5754,56,6173,76,6184,77,6184,82,6173,81,5754,61,5327,46,4503,28,3810,21,3358,21"/>
+<area shape="rect" id="Node000037" href="$SequentialScheduler_8cc.html" title=" " alt="" coords="6431,79,6603,104"/>
+<area shape="poly" id="edge36_Node000001_Node000037" title=" " alt="" coords="3357,17,3958,22,4844,32,5752,50,6132,62,6420,76,6430,77,6430,82,6419,81,6132,67,5752,55,4844,38,3958,27,3357,23"/>
+<area shape="rect" id="Node000033" href="$OutputPSocketBroker_8cc.html" title=" " alt="" coords="5657,152,5833,177"/>
+<area shape="poly" id="edge32_Node000032_Node000033" title=" " alt="" coords="5809,115,5761,154,5757,150,5805,110"/>
+<area shape="poly" id="edge33_Node000032_Node000034" title=" " alt="" coords="5865,108,5939,149,5936,154,5862,113"/>
+</map>

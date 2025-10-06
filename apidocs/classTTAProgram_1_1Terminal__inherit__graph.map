@@ -1,0 +1,19 @@
+<map id="TTAProgram::Terminal" name="TTAProgram::Terminal">
+<area shape="rect" id="Node000001" title=" " alt="" coords="526,5,713,271"/>
+<area shape="rect" id="Node000002" href="$classTTAProgram_1_1TerminalFUPort.html" title=" " alt="" coords="280,319,481,724"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="521,281,495,320,484,338,479,335,490,317,516,278"/>
+<area shape="rect" id="Node000003" href="$classTTAProgram_1_1TerminalImmediate.html" title=" " alt="" coords="505,419,733,624"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="622,285,622,418,617,418,617,285"/>
+<area shape="rect" id="Node000011" href="$classTTAProgram_1_1TerminalRegister.html" title=" " alt="" coords="758,329,979,714"/>
+<area shape="poly" id="edge8_Node000001_Node000011" title=" " alt="" coords="723,279,748,317,760,335,756,338,744,320,718,282"/>
+<area shape="rect" id="Node000004" href="$classTTAProgram_1_1TerminalAddress.html" title=" " alt="" coords="5,789,215,975"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="572,638,538,686,517,708,494,726,458,746,425,755,393,757,363,756,300,754,266,760,229,774,200,791,198,787,226,770,265,755,300,749,363,750,393,752,424,750,456,741,491,722,514,704,534,683,568,634"/>
+<area shape="rect" id="Node000005" href="$classTTAProgram_1_1TerminalBasicBlockReference.html" title=" " alt="" coords="239,782,482,982"/>
+<area shape="poly" id="edge4_Node000003_Node000005" title=" " alt="" coords="554,637,495,726,450,783,446,780,491,722,550,634"/>
+<area shape="rect" id="Node000006" href="$classTTAProgram_1_1TerminalInstructionAddress.html" title=" " alt="" coords="506,772,733,992"/>
+<area shape="poly" id="edge5_Node000003_Node000006" title=" " alt="" coords="622,638,622,772,617,772,617,638"/>
+<area shape="rect" id="Node000009" href="$classTTAProgram_1_1TerminalLaneIDImmediate.html" title=" " alt="" coords="757,782,978,982"/>
+<area shape="poly" id="edge6_Node000003_Node000009" title=" " alt="" coords="690,634,748,722,791,780,786,783,744,726,686,637"/>
+<area shape="rect" id="Node000010" href="$classTTAProgram_1_1TerminalSymbolReference.html" title=" " alt="" coords="1002,782,1223,982"/>
+<area shape="poly" id="edge7_Node000003_Node000010" title=" " alt="" coords="671,634,705,682,725,704,747,722,780,740,809,748,837,751,865,750,923,750,956,756,991,770,1009,780,1006,784,989,774,954,761,923,755,865,756,837,756,808,754,778,744,745,726,721,708,701,686,666,637"/>
+</map>

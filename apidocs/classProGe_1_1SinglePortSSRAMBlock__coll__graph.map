@@ -1,0 +1,31 @@
+<map id="ProGe::SinglePortSSRAMBlock" name="ProGe::SinglePortSSRAMBlock">
+<area shape="rect" id="Node000001" title=" " alt="" coords="443,1547,652,1712"/>
+<area shape="rect" id="Node000002" href="$classProGe_1_1BaseNetlistBlock.html" title=" " alt="" coords="371,531,543,1076"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="551,969,586,1052,611,1138,629,1234,635,1311,629,1388,611,1485,591,1547,586,1546,606,1483,624,1387,630,1311,624,1235,606,1139,581,1053,546,971"/>
+<area shape="poly" id="edge3_Node000002_Node000002" title=" " alt="" coords="545,748,555,756,563,768,569,803,566,829,558,847,553,844,561,827,564,803,558,770,551,760,541,753"/>
+<area shape="rect" id="Node000004" title=" " alt="" coords="293,1271,466,1351"/>
+<area shape="poly" id="edge5_Node000004_Node000002" title=" " alt="" coords="373,972,349,1036,331,1100,328,1141,333,1182,343,1221,356,1255,351,1257,338,1222,327,1183,323,1141,326,1100,344,1034,368,970"/>
+<area shape="rect" id="Node000016" href="$classProGe_1_1NetlistPortGroup.html" title=" " alt="" coords="99,1139,268,1484"/>
+<area shape="poly" id="edge10_Node000016_Node000002" title=" " alt="" coords="373,925,317,1010,266,1101,254,1125,249,1123,261,1099,313,1007,368,922"/>
+<area shape="rect" id="Node000003" href="$classProGe_1_1IGenerationPhases.html" title=" " alt="" coords="936,243,1119,388"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="980,401,954,437,925,470,830,557,728,635,629,702,544,755,542,751,626,698,725,631,827,552,921,466,950,433,976,398"/>
+<area shape="poly" id="edge4_Node000002_Node000004" title=" " alt="" coords="383,1271,410,1092,415,1093,388,1272"/>
+<area shape="rect" id="Node000007" title=" " alt="" coords="188,5,368,71"/>
+<area shape="poly" id="edge6_Node000002_Node000007" title=" " alt="" coords="273,71,259,143,246,243,244,298,245,355,250,412,262,467,281,523,305,577,364,676,359,679,301,579,276,525,257,469,245,413,239,355,238,298,241,242,253,142,268,70"/>
+<area shape="rect" id="Node000021" href="$classProGe_1_1Netlist.html" title=" " alt="" coords="364,163,549,468"/>
+<area shape="poly" id="edge13_Node000021_Node000007" title=" " alt="" coords="296,69,334,137,357,173,352,176,329,140,291,72"/>
+<area shape="rect" id="Node000011" title=" " alt="" coords="5,283,199,348"/>
+<area shape="poly" id="edge7_Node000002_Node000011" title=" " alt="" coords="113,347,140,422,159,465,182,505,222,563,268,617,360,713,357,717,264,621,218,566,177,508,154,467,135,424,108,349"/>
+<area shape="poly" id="edge11_Node000016_Node000011" title=" " alt="" coords="107,348,171,1122,165,1122,102,348"/>
+<area shape="rect" id="Node000015" title=" " alt="" coords="207,1589,373,1669"/>
+<area shape="poly" id="edge8_Node000002_Node000015" title=" " alt="" coords="352,1587,429,1544,446,1538,461,1536,473,1532,484,1521,499,1485,508,1437,511,1379,510,1317,501,1195,493,1100,492,1092,497,1092,498,1100,507,1194,515,1317,516,1379,513,1437,504,1487,488,1524,476,1536,462,1541,447,1544,431,1549,354,1592"/>
+<area shape="poly" id="edge18_Node000001_Node000016" title=" " alt="" coords="270,1469,282,1482,336,1515,430,1565,427,1570,333,1520,279,1486,266,1473"/>
+<area shape="poly" id="edge9_Node000015_Node000016" title=" " alt="" coords="224,1484,236,1522,261,1574,256,1576,232,1524,218,1485"/>
+<area shape="poly" id="edge12_Node000002_Node000021" title=" " alt="" coords="459,468,459,514,454,514,454,468"/>
+<area shape="rect" id="Node000009" title=" " alt="" coords="559,5,637,71"/>
+<area shape="poly" id="edge15_Node000002_Node000009" title=" " alt="" coords="600,71,592,241,581,354,563,468,549,530,544,529,558,468,576,354,587,241,595,71"/>
+<area shape="poly" id="edge14_Node000021_Node000009" title=" " alt="" coords="559,44,530,49,499,59,471,74,448,96,436,120,428,147,423,146,431,118,444,93,468,70,497,54,529,44,558,39"/>
+<area shape="rect" id="Node000026" title=" " alt="" coords="733,283,911,348"/>
+<area shape="poly" id="edge17_Node000026_Node000009" title=" " alt="" coords="632,69,716,161,794,267,790,271,712,164,628,73"/>
+<area shape="poly" id="edge16_Node000002_Node000026" title=" " alt="" coords="802,350,716,470,555,681,551,678,712,466,798,347"/>
+</map>

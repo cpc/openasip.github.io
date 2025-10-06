@@ -1,0 +1,75 @@
+<map id="ConstantTransformer::runOnMachineFunction" name="ConstantTransformer::runOnMachineFunction">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,665,184,705"/>
+<area shape="rect" id="Node000002" href="$classMachineInfo.html#ab0e1dbd6485ef969af417d084a942546" title=" " alt="" coords="511,115,761,155"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="92,665,94,582,99,524,109,460,126,394,151,329,185,268,230,215,259,193,290,174,358,147,429,132,497,126,497,131,429,138,359,153,292,179,262,197,234,219,189,271,156,331,131,396,115,461,105,525,99,582,98,665"/>
+<area shape="rect" id="Node000007" href="$classApplication.html#ac3927cdd3db75386babdf8c9b5ad5ed4" title=" " alt="" coords="257,499,438,525"/>
+<area shape="poly" id="edge7_Node000001_Node000007" title=" " alt="" coords="106,664,155,599,190,563,231,534,244,527,246,532,233,538,193,567,159,602,110,667"/>
+<area shape="rect" id="Node000030" href="$classOperation.html#a7b406301c24f6027e3c33d68fe548d73" title=" " alt="" coords="272,549,423,574"/>
+<area shape="poly" id="edge9_Node000001_Node000030" title=" " alt="" coords="116,663,166,622,197,601,231,583,257,573,259,578,233,588,200,605,169,626,119,667"/>
+<area shape="rect" id="Node000032" href="$classOperation.html#a2832c201b8381985f657f23d399d825e" title=" " alt="" coords="282,598,413,623"/>
+<area shape="poly" id="edge11_Node000001_Node000032" title=" " alt="" coords="144,663,231,632,268,623,269,628,233,637,145,668"/>
+<area shape="rect" id="Node000034" href="$classOperand.html#a38a1df632306a5819e9de24087276e61" title=" " alt="" coords="283,647,412,673"/>
+<area shape="poly" id="edge13_Node000001_Node000034" title=" " alt="" coords="184,674,269,665,270,670,184,679"/>
+<area shape="rect" id="Node000035" href="$classOperand.html#abfc38e3e7a560e2eb61535ecaa5ba3ba" title=" " alt="" coords="286,697,409,722"/>
+<area shape="poly" id="edge14_Node000001_Node000035" title=" " alt="" coords="184,691,272,700,272,705,184,696"/>
+<area shape="rect" id="Node000036" href="$classOperation.html#a61985ae733340044ff66fe2e4dac93b7" title=" " alt="" coords="282,746,413,771"/>
+<area shape="poly" id="edge15_Node000001_Node000036" title=" " alt="" coords="149,703,233,731,270,740,268,745,231,736,148,708"/>
+<area shape="rect" id="Node000037" href="$classllvm_1_1TCETargetMachinePlugin.html#a4b44f0e748efc8879126c6f9b97240b4" title="Returns the opcode for the given osal operation, undefined if not found." alt="" coords="238,796,457,836"/>
+<area shape="poly" id="edge16_Node000001_Node000037" title=" " alt="" coords="121,703,171,742,233,780,252,789,250,794,231,785,168,747,117,708"/>
+<area shape="rect" id="Node000038" href="$classOperation.html#aee4cd3502701e6b83d396da0319c3b51" title=" " alt="" coords="563,281,709,306"/>
+<area shape="poly" id="edge17_Node000001_Node000038" title=" " alt="" coords="96,664,108,608,132,531,149,490,171,450,198,413,230,381,266,355,306,335,348,319,390,307,474,293,549,288,549,294,475,298,391,312,349,324,308,340,269,360,234,385,202,416,176,452,154,492,137,533,113,609,101,666"/>
+<area shape="rect" id="Node000042" href="$classOperationPool.html#aee038aef3c016fc16f9a5f1c96a25151" title=" " alt="" coords="255,861,439,886"/>
+<area shape="poly" id="edge19_Node000001_Node000042" title=" " alt="" coords="109,704,129,736,157,775,192,813,233,846,248,853,246,858,231,850,188,817,153,778,124,739,105,707"/>
+<area shape="rect" id="Node000153" href="$classllvm_1_1TCETargetMachine.html#a1b726fa4dd2f97da341374493d618e14" title=" " alt="" coords="547,445,725,485"/>
+<area shape="poly" id="edge21_Node000001_Node000153" title=" " alt="" coords="100,664,117,624,144,574,182,524,205,502,231,484,267,467,305,455,385,441,463,439,533,444,533,450,463,444,385,446,306,460,269,472,233,489,208,506,186,527,149,577,122,626,105,666"/>
+<area shape="rect" id="Node000155" href="$ConstantTransformer_8cc.html#a7c5547ae3cb326b0c98aacdca7f278aa" title=" " alt="" coords="288,395,407,421"/>
+<area shape="poly" id="edge23_Node000001_Node000155" title=" " alt="" coords="99,664,115,619,141,558,179,495,203,466,230,441,251,427,274,418,276,423,254,432,234,445,207,470,184,498,146,561,120,621,104,666"/>
+<area shape="rect" id="Node000159" href="$classOperation.html#a05a61c32024794de5aaf8a73592d90bb" title=" " alt="" coords="255,910,439,935"/>
+<area shape="poly" id="edge29_Node000001_Node000159" title=" " alt="" coords="105,705,122,746,149,798,186,852,208,876,234,896,244,903,241,907,230,901,205,880,182,855,144,801,117,748,100,707"/>
+<area shape="rect" id="Node000161" href="$classllvm_1_1TCETargetMachinePlugin.html#a27799978998264de3426d849b5d59c3d" title=" " alt="" coords="238,960,457,1000"/>
+<area shape="poly" id="edge31_Node000001_Node000161" title=" " alt="" coords="103,705,117,754,143,819,181,888,206,919,234,946,240,951,237,955,230,950,202,922,177,891,138,822,112,756,98,706"/>
+<area shape="rect" id="Node000162" href="$classMachineInfo.html#ad89419e0f12af7b3a9b8ac6c98a0d40b" title=" " alt="" coords="232,230,463,255"/>
+<area shape="poly" id="edge32_Node000001_Node000162" title=" " alt="" coords="96,665,106,599,130,505,147,453,170,401,197,351,230,305,261,278,295,259,298,263,264,282,234,308,201,353,174,403,152,455,135,506,112,600,101,666"/>
+<area shape="rect" id="Node000170" href="$classllvm_1_1TCETargetMachine.html#a43c66eb999042c304a8e0f50fe67c9cc" title=" " alt="" coords="258,1024,437,1064"/>
+<area shape="poly" id="edge37_Node000001_Node000170" title=" " alt="" coords="101,705,112,765,135,848,152,892,174,935,201,975,234,1010,247,1020,244,1024,230,1014,197,978,169,938,147,894,130,849,106,766,96,706"/>
+<area shape="rect" id="Node000171" href="$classApplication.html#ac938674edada696f957e23154cdbd471" title=" " alt="" coords="252,1089,443,1114"/>
+<area shape="poly" id="edge38_Node000001_Node000171" title=" " alt="" coords="99,705,105,776,125,876,142,930,165,983,196,1032,234,1074,242,1080,239,1084,230,1078,191,1035,161,985,137,932,120,878,100,777,94,706"/>
+<area shape="rect" id="Node000172" href="$classOperand.html#a820b422e8bf10959b8f585da8956e08d" title=" " alt="" coords="287,1138,408,1163"/>
+<area shape="poly" id="edge39_Node000001_Node000172" title=" " alt="" coords="98,706,101,785,107,839,118,898,135,960,159,1020,192,1076,234,1125,252,1137,274,1145,272,1150,250,1142,230,1129,187,1080,154,1023,130,962,113,899,102,839,96,785,93,706"/>
+<area shape="poly" id="edge3_Node000002_Node000002" title=" " alt="" coords="584,115,581,105,589,96,608,90,636,88,669,91,686,98,684,103,667,96,636,93,609,95,592,100,586,106,589,113"/>
+<area shape="rect" id="Node000003" href="$classTTAMachine_1_1Machine.html#a5257fded29064186f59a320172c7ff81" title=" " alt="" coords="839,69,1003,109"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="761,112,825,102,826,107,762,117"/>
+<area shape="rect" id="Node000004" href="$classTTAMachine_1_1Machine_1_1Navigator.html#ad05463fc62c6a978311d22cbc60d190a" title=" " alt="" coords="839,133,1003,173"/>
+<area shape="poly" id="edge4_Node000002_Node000004" title=" " alt="" coords="762,140,825,144,825,150,761,146"/>
+<area shape="rect" id="Node000005" href="$classTTAMachine_1_1Machine.html#a1dded42c3212babeedeabcd483bdcda5" title=" " alt="" coords="809,5,1032,45"/>
+<area shape="poly" id="edge5_Node000002_Node000005" title=" " alt="" coords="677,112,738,84,808,55,831,47,833,52,810,60,740,89,679,117"/>
+<area shape="rect" id="Node000006" href="$classTTAMachine_1_1Machine_1_1Navigator.html#aac24ceb1e1b49a5f9f5e10950b184adb" title=" " alt="" coords="839,197,1003,237"/>
+<area shape="poly" id="edge6_Node000002_Node000006" title=" " alt="" coords="722,152,762,164,810,183,835,191,833,196,808,188,760,169,720,157"/>
+<area shape="rect" id="Node000008" href="$classApplication.html#af431bce25717b04a78d4d0940ed6a92c" title=" " alt="" coords="557,510,715,535"/>
+<area shape="poly" id="edge8_Node000007_Node000008" title=" " alt="" coords="438,513,543,517,543,522,438,518"/>
+<area shape="rect" id="Node000031" href="$classOperationPimpl.html#a53c34eb4b3175762cea4095bd710ecce" title=" " alt="" coords="543,559,729,585"/>
+<area shape="poly" id="edge10_Node000030_Node000031" title=" " alt="" coords="423,561,529,565,529,571,423,567"/>
+<area shape="rect" id="Node000033" href="$classOperationPimpl.html#a3582e273f1d1f7e48d3586e43bcb756b" title=" " alt="" coords="553,609,719,634"/>
+<area shape="poly" id="edge12_Node000032_Node000033" title=" " alt="" coords="413,610,539,615,538,620,413,616"/>
+<area shape="rect" id="Node000039" href="$classOperationPimpl.html#a483fac45ca03da5191edc36601a595b6" title=" " alt="" coords="829,281,1013,306"/>
+<area shape="poly" id="edge18_Node000038_Node000039" title=" " alt="" coords="710,291,815,291,815,296,710,296"/>
+<area shape="rect" id="Node000043" href="$classOperationPoolPimpl.html#a20a56ed0381d3b88433bc2fa073f732d" title=" " alt="" coords="561,849,711,889"/>
+<area shape="poly" id="edge20_Node000042_Node000043" title=" " alt="" coords="440,869,547,868,547,873,440,875"/>
+<area shape="rect" id="Node000154" href="$classllvm_1_1TCETargetMachinePlugin.html#a607e70a9080066bb430b4b46242d61bf" title="Returns operation name corresponding to llvm target opcode." alt="" coords="811,445,1030,485"/>
+<area shape="poly" id="edge22_Node000153_Node000154" title=" " alt="" coords="725,463,798,463,798,468,725,468"/>
+<area shape="poly" id="edge27_Node000155_Node000038" title=" " alt="" coords="370,393,510,316,548,305,550,310,512,321,373,398"/>
+<area shape="poly" id="edge28_Node000155_Node000153" title=" " alt="" coords="407,417,534,442,533,448,406,422"/>
+<area shape="rect" id="Node000156" href="$classOperand.html#a1ca2c1b62f3c5b781c7c8d30a75fce43" title=" " alt="" coords="562,395,710,421"/>
+<area shape="poly" id="edge24_Node000155_Node000156" title=" " alt="" coords="407,405,548,405,548,411,407,411"/>
+<area shape="rect" id="Node000157" href="$classOperation.html#a2b4da6aa7a20af1108a7b95f748a73db" title=" " alt="" coords="531,331,741,371"/>
+<area shape="poly" id="edge25_Node000155_Node000157" title=" " alt="" coords="406,394,521,371,522,376,407,399"/>
+<area shape="rect" id="Node000158" href="$classTCEString.html#a3266424fe568c6a7432cd753018e27a2" title=" " alt="" coords="856,334,985,359"/>
+<area shape="poly" id="edge26_Node000157_Node000158" title=" " alt="" coords="741,347,842,345,842,350,741,352"/>
+<area shape="rect" id="Node000160" href="$classOperationPimpl.html#a7ff23d79948bf0bc97969b098d90c6fa" title=" " alt="" coords="525,914,747,939"/>
+<area shape="poly" id="edge30_Node000159_Node000160" title=" " alt="" coords="440,921,512,922,512,928,440,927"/>
+<area shape="poly" id="edge36_Node000162_Node000158" title=" " alt="" coords="440,227,513,223,595,226,681,239,723,250,763,266,779,277,788,290,797,303,811,315,844,330,842,334,808,320,793,307,784,293,775,281,760,270,721,255,680,244,595,231,513,229,441,233"/>
+<area shape="rect" id="Node000163" href="$classMachineInfo.html#aa8b4524922202099bf49aecfd71de55e" title=" " alt="" coords="551,179,721,205"/>
+<area shape="poly" id="edge33_Node000162_Node000163" title=" " alt="" coords="420,227,549,205,550,210,421,233"/>
+<area shape="poly" id="edge34_Node000163_Node000004" title=" " alt="" coords="720,178,825,164,826,169,721,183"/>
+<area shape="poly" id="edge35_Node000163_Node000006" title=" " alt="" coords="721,197,825,206,825,212,721,202"/>
+</map>

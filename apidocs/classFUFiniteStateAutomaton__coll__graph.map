@@ -1,0 +1,27 @@
+<map id="FUFiniteStateAutomaton" name="FUFiniteStateAutomaton">
+<area shape="rect" id="Node000001" title=" " alt="" coords="800,799,1015,1104"/>
+<area shape="rect" id="Node000002" href="$classFiniteStateAutomaton.html" title=" " alt="" coords="333,351,525,736"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="537,633,802,857,798,861,534,637"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="5,215,223,281"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="150,279,322,440,319,443,146,283"/>
+<area shape="rect" id="Node000006" title=" " alt="" coords="247,215,426,281"/>
+<area shape="poly" id="edge3_Node000002_Node000006" title=" " alt="" coords="349,280,366,333,361,335,344,282"/>
+<area shape="rect" id="Node000009" title=" " alt="" coords="451,208,641,288"/>
+<area shape="poly" id="edge4_Node000002_Node000009" title=" " alt="" coords="533,289,514,336,509,334,528,287"/>
+<area shape="rect" id="Node000010" title=" " alt="" coords="724,35,851,101"/>
+<area shape="poly" id="edge5_Node000009_Node000010" title=" " alt="" coords="711,83,673,93,635,108,599,129,568,156,555,181,549,208,544,207,550,179,564,153,595,125,632,103,672,88,710,78"/>
+<area shape="rect" id="Node000016" title=" " alt="" coords="711,208,896,288"/>
+<area shape="poly" id="edge11_Node000016_Node000010" title=" " alt="" coords="788,115,791,184,795,207,790,208,786,184,783,115"/>
+<area shape="rect" id="Node000017" title=" " alt="" coords="920,208,1108,288"/>
+<area shape="poly" id="edge14_Node000017_Node000010" title=" " alt="" coords="865,90,919,116,945,133,969,153,989,179,1003,206,999,209,985,181,965,157,942,137,916,121,862,95"/>
+<area shape="rect" id="Node000012" href="$classFUCollisionMatrixIndex.html" title=" " alt="" coords="1201,481,1403,606"/>
+<area shape="poly" id="edge6_Node000001_Node000012" title=" " alt="" coords="1269,608,1226,672,1173,738,1103,806,1030,866,1026,862,1100,802,1169,734,1221,669,1264,605"/>
+<area shape="rect" id="Node000013" title=" " alt="" coords="1216,215,1439,281"/>
+<area shape="poly" id="edge7_Node000012_Node000013" title=" " alt="" coords="1327,281,1311,465,1306,464,1322,281"/>
+<area shape="rect" id="Node000014" href="$classCollisionMatrix.html" title=" " alt="" coords="1183,5,1331,131"/>
+<area shape="poly" id="edge8_Node000013_Node000014" title=" " alt="" coords="1295,130,1306,154,1320,198,1315,200,1301,156,1290,132"/>
+<area shape="poly" id="edge10_Node000016_Node000014" title=" " alt="" coords="1184,126,1147,157,1133,173,1117,186,1088,198,1063,204,1018,206,971,205,912,211,911,205,971,199,1018,201,1063,199,1087,193,1114,182,1129,169,1143,153,1181,121"/>
+<area shape="poly" id="edge13_Node000017_Node000014" title=" " alt="" coords="1255,132,1246,161,1229,186,1207,205,1181,220,1125,239,1123,234,1178,215,1203,201,1225,182,1241,158,1250,130"/>
+<area shape="poly" id="edge9_Node000001_Node000016" title=" " alt="" coords="803,288,799,371,799,482,806,609,825,735,837,782,832,783,819,737,801,609,794,482,794,370,798,288"/>
+<area shape="poly" id="edge12_Node000001_Node000017" title=" " alt="" coords="1018,288,1018,370,1015,482,1005,609,986,737,974,783,969,782,981,735,1000,608,1010,482,1013,370,1013,288"/>
+</map>

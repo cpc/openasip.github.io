@@ -1,0 +1,52 @@
+<map id="ProGe::VHDLNetlistWriter::writeComponentDeclarations" name="ProGe::VHDLNetlistWriter::writeComponentDeclarations">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,565,225,605"/>
+<area shape="rect" id="Node000002" href="$classAssocTools.html#a80d4271773d7ce27cad54ecc1eceff1d" title=" " alt="" coords="277,5,457,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="113,564,116,471,122,404,134,330,153,253,181,176,220,104,244,72,271,41,278,36,281,40,275,45,248,75,225,107,186,178,158,255,139,332,127,405,121,471,119,565"/>
+<area shape="rect" id="Node000003" href="$classProGe_1_1NetlistPort.html#a4b890f46510966ba58b20f16f8c83a07" title=" " alt="" coords="298,55,437,95"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="115,564,122,481,130,423,144,358,164,291,191,224,226,161,271,105,284,95,288,99,275,109,231,164,196,227,169,293,149,360,136,424,127,481,120,564"/>
+<area shape="rect" id="Node000004" href="$classProGe_1_1NetlistPort.html#a96a7058e09048988e0357f062275cc14" title=" " alt="" coords="298,119,437,159"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="116,564,126,491,152,385,172,328,198,271,231,217,271,169,284,159,288,164,275,173,235,220,203,273,177,330,157,387,131,492,121,565"/>
+<area shape="rect" id="Node000005" href="$classProGe_1_1VHDLNetlistWriter.html#a30bcbe971da3796a408a2d653f8ed8a8" title=" " alt="" coords="273,183,461,223"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="117,564,131,501,159,412,180,364,205,317,235,272,271,233,277,229,280,233,275,237,240,276,210,320,185,366,164,414,137,502,123,565"/>
+<area shape="rect" id="Node000006" href="$classProGe_1_1VHDLNetlistWriter.html#a281e610eb6e0a69817a41421f9c701a7" title=" " alt="" coords="273,247,461,287"/>
+<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="120,564,137,511,168,439,212,364,240,328,272,297,278,292,281,297,275,301,244,332,217,367,173,442,142,513,125,565"/>
+<area shape="rect" id="Node000008" href="$classProGe_1_1VHDLNetlistWriter.html#aeb2cb7dcc62c2a7a803f97a34cb8f4b9" title=" " alt="" coords="273,311,461,351"/>
+<area shape="poly" id="edge8_Node000001_Node000008" title=" " alt="" coords="123,563,144,521,177,467,220,410,272,361,280,356,283,360,275,365,224,414,181,470,149,524,128,566"/>
+<area shape="rect" id="Node000009" href="$classProGe_1_1BaseNetlistBlock.html#a3b9435aa78c4b17a01c608a8a1e75086" title=" " alt="" coords="277,375,457,415"/>
+<area shape="poly" id="edge9_Node000001_Node000009" title=" " alt="" coords="131,563,190,500,229,464,272,432,295,419,297,424,275,436,232,468,193,504,135,566"/>
+<area shape="rect" id="Node000010" href="$classProGe_1_1BaseNetlistBlock.html#a9d0bed1868419a14e4a53f1a9af54e92" title=" " alt="" coords="510,429,690,469"/>
+<area shape="poly" id="edge10_Node000001_Node000010" title=" " alt="" coords="146,562,203,529,272,498,329,482,387,469,496,454,497,459,388,475,330,487,274,503,205,533,148,567"/>
+<area shape="rect" id="Node000011" href="$classProGe_1_1NetlistPort.html#aa3e84f088411ac57fc633efc82b36195" title=" " alt="" coords="298,679,437,719"/>
+<area shape="poly" id="edge11_Node000001_Node000011" title=" " alt="" coords="158,603,274,658,305,672,303,676,272,663,156,607"/>
+<area shape="rect" id="Node000012" href="$classProGe_1_1Parameter.html#ae144dcdce1810ec52e81c2cc2feefd6d" title=" " alt="" coords="509,493,691,519"/>
+<area shape="poly" id="edge12_Node000001_Node000012" title=" " alt="" coords="161,562,214,542,273,526,388,510,495,503,496,509,388,515,274,531,216,547,163,567"/>
+<area shape="rect" id="Node000013" href="$classProGe_1_1BaseNetlistBlock.html#a2e66e169fbf8ff09d3969b1b6aea5529" title=" " alt="" coords="277,565,457,605"/>
+<area shape="poly" id="edge13_Node000001_Node000013" title=" " alt="" coords="226,582,264,582,264,587,226,587"/>
+<area shape="rect" id="Node000016" href="$classProGe_1_1BaseNetlistBlock.html#a15e6a17c2bcb45f82d1927e9ce4bf948" title=" " alt="" coords="510,671,690,711"/>
+<area shape="poly" id="edge20_Node000001_Node000016" title=" " alt="" coords="208,602,497,666,496,671,207,607"/>
+<area shape="rect" id="Node000017" href="$classProGe_1_1BaseNetlistBlock.html#a81c26b173c5f09d0894bd5db879158ac" title=" " alt="" coords="277,743,457,783"/>
+<area shape="poly" id="edge21_Node000001_Node000017" title=" " alt="" coords="135,603,193,665,232,699,275,729,286,735,284,740,272,734,229,703,190,669,131,607"/>
+<area shape="rect" id="Node000018" href="$classProGe_1_1BaseNetlistBlock.html#a8bd36ebe0495cf3f7824df1b793b0da8" title=" " alt="" coords="277,807,457,847"/>
+<area shape="poly" id="edge22_Node000001_Node000018" title=" " alt="" coords="129,604,151,644,183,695,225,747,275,793,283,798,280,803,272,797,221,751,179,698,146,647,124,607"/>
+<area shape="rect" id="Node000019" href="$classProGe_1_1BaseNetlistBlock.html#a072c040a06718d0b7e5ed94f40987850" title=" " alt="" coords="277,871,457,911"/>
+<area shape="poly" id="edge23_Node000001_Node000019" title=" " alt="" coords="125,604,143,655,174,723,218,795,245,828,275,857,281,862,278,866,272,861,241,832,213,798,169,725,138,657,120,606"/>
+<area shape="rect" id="Node000020" href="$classProGe_1_1BaseNetlistBlock.html#a2420932d88a7ee19a332902729371e8c" title=" " alt="" coords="277,935,457,975"/>
+<area shape="poly" id="edge24_Node000001_Node000020" title=" " alt="" coords="123,604,137,665,166,751,186,797,211,842,240,884,275,921,280,926,277,930,272,925,236,888,206,845,181,799,161,752,132,667,118,605"/>
+<area shape="rect" id="Node000021" href="$classConversion.html#abf1297268762096c8e6ac6b0f666c748" title=" " alt="" coords="301,1000,434,1025"/>
+<area shape="poly" id="edge25_Node000001_Node000021" title=" " alt="" coords="121,605,131,677,156,780,176,835,202,890,235,941,275,985,289,995,286,1000,272,989,231,944,197,893,171,837,151,781,126,678,116,605"/>
+<area shape="rect" id="Node000022" href="$classProGe_1_1Parameter.html#abd4e3df4f23fedeaca5be359675d3866" title=" " alt="" coords="281,1049,454,1075"/>
+<area shape="poly" id="edge26_Node000001_Node000022" title=" " alt="" coords="120,605,127,685,136,740,149,802,169,865,196,928,231,986,275,1036,280,1040,276,1044,271,1040,227,989,191,930,164,867,144,803,130,741,122,686,115,605"/>
+<area shape="rect" id="Node000023" href="$classProGe_1_1NetlistPort.html#a33e19136c2387555b25a865c0ac47358" title=" " alt="" coords="298,1099,437,1139"/>
+<area shape="poly" id="edge27_Node000001_Node000023" title=" " alt="" coords="119,605,125,692,133,753,146,820,166,891,193,961,229,1027,275,1085,288,1096,284,1100,271,1089,225,1030,188,963,161,893,141,821,128,753,120,692,114,605"/>
+<area shape="rect" id="Node000007" href="$classStringTools.html#a9f28a066b5e6fedaa2c1eed6efc51198" title=" " alt="" coords="529,255,671,280"/>
+<area shape="poly" id="edge6_Node000006_Node000007" title=" " alt="" coords="462,265,515,265,515,270,462,270"/>
+<area shape="poly" id="edge7_Node000007_Node000007" title=" " alt="" coords="562,256,554,246,558,236,574,230,600,228,633,232,645,241,642,246,631,237,600,233,575,235,562,240,559,246,566,253"/>
+<area shape="poly" id="edge15_Node000013_Node000010" title=" " alt="" coords="390,562,442,521,508,478,522,472,524,476,511,483,445,525,393,566"/>
+<area shape="poly" id="edge17_Node000013_Node000012" title=" " alt="" coords="418,562,508,529,537,520,539,525,510,534,419,567"/>
+<area shape="poly" id="edge18_Node000013_Node000013" title=" " alt="" coords="324,565,321,555,328,546,344,540,367,538,394,541,409,548,407,553,393,546,367,543,345,545,332,550,327,556,329,564"/>
+<area shape="rect" id="Node000014" href="$classProGe_1_1BaseNetlistBlock.html#a846c4d66dbddd831907774ef6de048aa" title=" " alt="" coords="510,543,690,583"/>
+<area shape="poly" id="edge14_Node000013_Node000014" title=" " alt="" coords="457,574,496,570,497,575,458,579"/>
+<area shape="rect" id="Node000015" href="$classProGe_1_1BaseNetlistBlock.html#aa89e84d065712d388751749e4156ae02" title=" " alt="" coords="510,607,690,647"/>
+<area shape="poly" id="edge16_Node000013_Node000015" title=" " alt="" coords="458,599,497,606,496,611,457,604"/>
+<area shape="poly" id="edge19_Node000013_Node000016" title=" " alt="" coords="424,602,463,621,487,639,511,657,524,664,522,668,508,662,484,644,460,626,422,607"/>
+</map>

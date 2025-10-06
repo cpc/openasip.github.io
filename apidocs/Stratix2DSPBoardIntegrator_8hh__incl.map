@@ -1,0 +1,44 @@
+<map id="Stratix2DSPBoardIntegrator.hh" name="Stratix2DSPBoardIntegrator.hh">
+<area shape="rect" id="Node000001" title=" " alt="" coords="343,5,563,31"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="440,225,520,251"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="457,31,480,211,474,211,452,31"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="541,152,616,177"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="471,29,497,50,525,77,549,108,568,138,563,141,544,111,521,80,494,54,468,33"/>
+<area shape="rect" id="Node000004" title=" " alt="" coords="213,299,264,324"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="362,33,291,51,256,64,223,81,173,111,137,140,110,175,85,226,82,243,87,257,99,269,115,279,157,294,200,303,199,308,156,300,113,284,95,273,83,260,77,243,80,225,105,172,134,136,170,107,220,76,254,59,290,46,361,28"/>
+<area shape="rect" id="Node000005" title=" " alt="" coords="613,372,675,397"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="357,33,246,51,132,79,83,96,43,117,17,139,10,151,8,164,8,239,13,260,27,278,49,295,79,310,155,335,248,353,347,366,445,374,599,380,599,385,444,379,347,371,247,358,154,340,77,315,46,300,23,282,8,262,3,240,3,163,5,149,13,136,40,112,81,92,131,74,245,46,356,28"/>
+<area shape="rect" id="Node000006" title=" " alt="" coords="813,372,872,397"/>
+<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="564,23,701,37,775,48,846,63,909,81,960,103,980,116,995,130,1005,146,1008,163,1008,240,1005,263,996,285,982,304,965,322,926,350,886,370,884,365,923,345,962,317,978,301,991,282,1000,262,1003,239,1003,164,1000,148,991,134,977,120,958,108,907,86,844,68,774,54,700,42,563,28"/>
+<area shape="rect" id="Node000007" href="$AlteraIntegrator_8hh.html" title=" " alt="" coords="272,79,416,104"/>
+<area shape="poly" id="edge6_Node000001_Node000007" title=" " alt="" coords="437,33,375,73,372,69,434,28"/>
+<area shape="rect" id="Node000023" href="$ProGeTypes_8hh.html" title=" " alt="" coords="94,225,213,251"/>
+<area shape="poly" id="edge28_Node000001_Node000023" title=" " alt="" coords="388,33,324,51,292,65,261,81,239,97,223,112,194,153,177,184,165,213,160,211,173,181,190,151,219,109,235,93,259,76,290,60,322,46,386,28"/>
+<area shape="rect" id="Node000024" href="$QuartusProjectGenerator_8hh.html" title=" " alt="" coords="641,79,844,104"/>
+<area shape="poly" id="edge16_Node000001_Node000024" title=" " alt="" coords="500,28,683,73,682,78,499,33"/>
+<area shape="rect" id="Node000026" href="$PlatformIntegratorTypes_8hh.html" title=" " alt="" coords="543,225,742,251"/>
+<area shape="poly" id="edge29_Node000001_Node000026" title=" " alt="" coords="461,30,531,176,562,200,596,218,594,222,559,204,527,179,456,32"/>
+<area shape="rect" id="Node000008" href="$PlatformIntegrator_8hh.html" title=" " alt="" coords="203,152,365,177"/>
+<area shape="poly" id="edge7_Node000007_Node000008" title=" " alt="" coords="336,106,305,143,300,140,332,103"/>
+<area shape="rect" id="Node000019" href="$TCEString_8hh.html" title=" " alt="" coords="680,299,784,324"/>
+<area shape="poly" id="edge13_Node000007_Node000019" title=" " alt="" coords="353,103,380,151,392,181,399,206,409,227,430,248,471,267,532,282,667,301,666,307,531,287,469,272,426,253,405,230,394,207,387,182,375,153,348,106"/>
+<area shape="poly" id="edge8_Node000008_Node000002" title=" " alt="" coords="316,175,436,218,434,223,315,180"/>
+<area shape="poly" id="edge11_Node000008_Node000004" title=" " alt="" coords="283,179,249,286,244,285,278,177"/>
+<area shape="poly" id="edge10_Node000008_Node000005" title=" " alt="" coords="297,175,335,210,386,248,443,284,503,316,605,364,603,369,501,321,441,289,382,253,332,214,294,179"/>
+<area shape="poly" id="edge9_Node000008_Node000006" title=" " alt="" coords="298,175,341,211,400,248,509,295,621,331,723,357,800,373,799,378,722,362,620,336,507,300,397,253,338,215,295,180"/>
+<area shape="poly" id="edge12_Node000008_Node000023" title=" " alt="" coords="264,180,188,221,185,216,262,175"/>
+<area shape="poly" id="edge15_Node000019_Node000005" title=" " alt="" coords="720,326,671,365,667,361,716,322"/>
+<area shape="poly" id="edge14_Node000019_Node000006" title=" " alt="" coords="751,322,814,362,811,367,748,326"/>
+<area shape="poly" id="edge19_Node000024_Node000002" title=" " alt="" coords="731,106,688,141,629,180,579,204,530,223,528,218,577,199,627,175,684,137,728,102"/>
+<area shape="poly" id="edge20_Node000024_Node000003" title=" " alt="" coords="717,106,619,149,617,144,715,102"/>
+<area shape="poly" id="edge18_Node000024_Node000005" title=" " alt="" coords="807,102,848,120,866,133,881,151,884,164,881,178,866,259,851,292,822,326,791,348,757,364,690,381,688,376,755,359,789,344,818,322,847,289,861,258,876,177,879,164,876,153,862,137,845,124,804,107"/>
+<area shape="poly" id="edge17_Node000024_Node000006" title=" " alt="" coords="824,102,867,119,885,133,901,151,914,177,918,206,917,235,910,265,887,319,862,361,857,359,882,317,905,263,911,235,913,206,909,179,896,153,882,137,864,124,822,107"/>
+<area shape="rect" id="Node000025" href="$ProjectFileGenerator_8hh.html" title=" " alt="" coords="691,152,866,177"/>
+<area shape="poly" id="edge21_Node000024_Node000025" title=" " alt="" coords="751,103,769,138,764,141,746,106"/>
+<area shape="poly" id="edge22_Node000025_Node000005" title=" " alt="" coords="787,177,799,205,810,243,812,286,808,306,798,326,776,349,748,365,718,376,689,382,688,377,717,370,746,360,773,344,794,322,803,305,807,285,805,244,794,207,782,179"/>
+<area shape="poly" id="edge23_Node000025_Node000019" title=" " alt="" coords="778,178,757,251,744,287,739,285,752,250,773,177"/>
+<area shape="poly" id="edge24_Node000025_Node000026" title=" " alt="" coords="758,180,678,221,676,217,756,175"/>
+<area shape="poly" id="edge25_Node000026_Node000004" title=" " alt="" coords="578,253,278,306,277,301,577,248"/>
+<area shape="poly" id="edge26_Node000026_Node000005" title=" " alt="" coords="645,251,646,358,641,358,640,251"/>
+<area shape="poly" id="edge27_Node000026_Node000019" title=" " alt="" coords="659,249,708,288,705,292,655,253"/>
+</map>

@@ -1,0 +1,25 @@
+<map id="ProGe::RV32MicroCodeGenerator::connectRF" name="ProGe::RV32MicroCodeGenerator::connectRF">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,184,243,224"/>
+<area shape="rect" id="Node000002" href="$classProGe_1_1RV32MicroCodeGenerator.html#a34ecc8f118d334b645274921ce45415b" title=" " alt="" coords="291,69,528,109"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="159,181,219,150,290,119,312,111,314,116,292,124,222,155,162,186"/>
+<area shape="rect" id="Node000012" href="$classTTAMachine_1_1Port.html#ad12e41e813636ebc9edb4e7cbd5cefb1" title=" " alt="" coords="300,134,519,159"/>
+<area shape="poly" id="edge5_Node000001_Node000012" title=" " alt="" coords="224,181,332,159,333,165,225,187"/>
+<area shape="rect" id="Node000006" href="$classTTAMachine_1_1Port.html#a01f6c609241315164ada5d805f7f3499" title=" " alt="" coords="317,184,502,224"/>
+<area shape="poly" id="edge6_Node000001_Node000006" title=" " alt="" coords="243,201,303,201,303,207,243,207"/>
+<area shape="rect" id="Node000015" href="$classTTAMachine_1_1BaseRegisterFile.html#acf644f9350ce84fa5a2b4e96836d6fdb" title=" " alt="" coords="312,272,507,312"/>
+<area shape="poly" id="edge7_Node000001_Node000015" title=" " alt="" coords="191,222,331,265,330,270,189,227"/>
+<area shape="rect" id="Node000018" href="$classTTAMachine_1_1Unit.html#a39a674e7d287d17a6153c73d830230b9" title=" " alt="" coords="305,337,513,362"/>
+<area shape="poly" id="edge12_Node000001_Node000018" title=" " alt="" coords="149,222,210,273,250,299,292,322,316,330,314,335,290,326,247,304,207,277,145,226"/>
+<area shape="rect" id="Node000003" href="$classTTAMachine_1_1Bus.html#a4f15277a9615dd4ed266404e039ab21c" title=" " alt="" coords="589,5,801,45"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="499,67,591,46,592,51,500,72"/>
+<area shape="rect" id="Node000004" href="$classMachineConnectivityCheck.html#a768f29bd1f9e3f44166b57abaa867c95" title=" " alt="" coords="595,69,794,109"/>
+<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="528,87,582,87,582,92,528,92"/>
+<area shape="rect" id="Node000014" href="$classProGe_1_1RV32MicroCodeGenerator.html#aebc53ad97c16e393329006f63d93d926" title=" " alt="" coords="576,133,813,173"/>
+<area shape="poly" id="edge4_Node000002_Node000014" title=" " alt="" coords="500,107,592,128,591,133,499,112"/>
+<area shape="poly" id="edge9_Node000015_Node000015" title=" " alt="" coords="357,273,353,262,362,253,381,247,409,245,442,248,460,255,458,260,441,253,409,251,382,253,365,258,359,263,362,271"/>
+<area shape="rect" id="Node000016" href="$classTTAMachine_1_1Component.html#aca1a5cd64b40a19ccad0c589ff9de98f" title=" " alt="" coords="861,272,1045,312"/>
+<area shape="poly" id="edge8_Node000015_Node000016" title=" " alt="" coords="507,289,848,289,848,295,507,295"/>
+<area shape="rect" id="Node000017" href="$classTTAMachine_1_1Unit.html#a496631edc76857ac83fee35db36c105e" title=" " alt="" coords="609,305,780,330"/>
+<area shape="poly" id="edge10_Node000015_Node000017" title=" " alt="" coords="507,298,596,306,596,311,507,303"/>
+<area shape="poly" id="edge11_Node000017_Node000016" title=" " alt="" coords="780,306,847,300,848,305,780,312"/>
+</map>

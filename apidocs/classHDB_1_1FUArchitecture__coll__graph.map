@@ -1,0 +1,24 @@
+<map id="HDB::FUArchitecture" name="HDB::FUArchitecture">
+<area shape="rect" id="Node000001" title=" " alt="" coords="659,1183,853,1428"/>
+<area shape="rect" id="Node000002" href="$classHWBlockArchitecture.html" title=" " alt="" coords="431,855,619,1020"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="580,1030,633,1119,674,1181,669,1184,628,1121,575,1033"/>
+<area shape="rect" id="Node000003" href="$classTTAMachine_1_1FunctionUnit.html" title=" " alt="" coords="643,755,869,1120"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="759,1120,759,1166,753,1166,753,1120"/>
+<area shape="rect" id="Node000004" href="$classTTAMachine_1_1Unit.html" title=" " alt="" coords="474,207,699,692"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="678,704,695,754,690,755,673,706"/>
+<area shape="rect" id="Node000008" title=" " alt="" coords="315,5,394,71"/>
+<area shape="poly" id="edge5_Node000003_Node000008" title=" " alt="" coords="340,72,288,186,260,264,237,350,223,440,222,486,225,530,233,573,246,615,265,654,290,690,308,709,326,722,363,737,402,740,443,736,486,730,532,727,580,733,630,752,628,757,578,738,532,732,487,735,444,741,402,745,362,742,323,727,304,713,286,694,260,657,241,617,227,575,220,531,217,486,218,440,231,349,254,262,283,184,335,70"/>
+<area shape="poly" id="edge4_Node000004_Node000008" title=" " alt="" coords="376,70,457,205,468,225,463,227,452,208,372,73"/>
+<area shape="rect" id="Node000049" href="$classTTAMachine_1_1AddressSpace.html" title=" " alt="" coords="5,287,197,612"/>
+<area shape="poly" id="edge9_Node000049_Node000008" title=" " alt="" coords="315,44,252,49,179,58,114,74,90,84,74,96,51,135,39,178,37,224,42,270,36,271,31,224,34,177,46,133,70,93,87,80,112,69,178,53,251,43,315,38"/>
+<area shape="rect" id="Node000078" title=" " alt="" coords="1213,417,1371,482"/>
+<area shape="poly" id="edge11_Node000078_Node000008" title=" " alt="" coords="394,39,566,55,807,86,931,108,1044,135,1138,167,1175,185,1203,205,1223,225,1240,249,1266,300,1282,353,1290,400,1285,401,1277,355,1261,302,1236,251,1219,229,1200,209,1172,190,1136,172,1043,140,930,114,807,91,566,60,394,45"/>
+<area shape="rect" id="Node000068" title=" " alt="" coords="723,417,933,482"/>
+<area shape="poly" id="edge6_Node000003_Node000068" title=" " alt="" coords="826,483,788,739,783,738,821,482"/>
+<area shape="rect" id="Node000076" title=" " alt="" coords="958,417,1189,482"/>
+<area shape="poly" id="edge7_Node000003_Node000076" title=" " alt="" coords="1061,483,1014,579,948,693,881,788,877,785,943,691,1009,576,1056,481"/>
+<area shape="poly" id="edge8_Node000003_Node000049" title=" " alt="" coords="97,612,104,645,115,676,131,704,152,728,179,738,228,743,368,745,519,745,582,747,628,754,627,759,582,753,519,750,368,750,228,748,178,743,149,733,126,707,110,678,99,646,92,613"/>
+<area shape="poly" id="edge10_Node000001_Node000078" title=" " alt="" coords="1286,483,1254,579,1231,637,1204,693,1124,829,1035,959,946,1079,865,1180,861,1177,942,1076,1030,956,1119,826,1199,691,1226,635,1249,577,1281,481"/>
+<area shape="rect" id="Node000051" title=" " alt="" coords="1241,5,1343,71"/>
+<area shape="poly" id="edge12_Node000078_Node000051" title=" " alt="" coords="1295,84,1295,417,1289,417,1289,84"/>
+</map>

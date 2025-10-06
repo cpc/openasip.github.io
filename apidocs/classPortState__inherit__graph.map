@@ -1,0 +1,17 @@
+<map id="PortState" name="PortState">
+<area shape="rect" id="Node000001" title=" " alt="" coords="336,452,445,617"/>
+<area shape="rect" id="Node000006" href="$classInputPortState.html" title=" " alt="" coords="155,695,298,841"/>
+<area shape="poly" id="edge3_Node000001_Node000006" title=" " alt="" coords="330,626,280,697,275,694,325,623"/>
+<area shape="rect" id="Node000009" href="$classNullPortState.html" title=" " alt="" coords="323,665,459,871"/>
+<area shape="poly" id="edge6_Node000001_Node000009" title=" " alt="" coords="393,631,393,665,388,665,388,631"/>
+<area shape="rect" id="Node000010" href="$classOutputPortState.html" title=" " alt="" coords="483,695,637,841"/>
+<area shape="poly" id="edge7_Node000001_Node000010" title=" " alt="" coords="456,620,510,694,505,697,452,623"/>
+<area shape="rect" id="Node000002" href="$classRegisterState.html" title=" " alt="" coords="322,179,459,404"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="393,418,393,452,388,452,388,418"/>
+<area shape="rect" id="Node000003" href="$classStateData.html" title=" " alt="" coords="333,5,448,131"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="393,144,393,179,388,179,388,144"/>
+<area shape="rect" id="Node000007" href="$classOpcodeSettingVirtualInputPortState.html" title=" " alt="" coords="5,919,216,1237"/>
+<area shape="poly" id="edge4_Node000006_Node000007" title=" " alt="" coords="197,855,173,920,168,918,192,853"/>
+<area shape="rect" id="Node000008" href="$classTriggeringInputPortState.html" title=" " alt="" coords="241,995,447,1161"/>
+<area shape="poly" id="edge5_Node000006_Node000008" title=" " alt="" coords="261,853,315,994,310,996,256,855"/>
+</map>

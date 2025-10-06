@@ -1,0 +1,13 @@
+<map id="OperationNode" name="OperationNode">
+<area shape="rect" id="Node000001" title=" " alt="" coords="109,1201,282,1367"/>
+<area shape="rect" id="Node000002" href="$classOperationDAGNode.html" title=" " alt="" coords="5,873,183,939"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="109,951,176,1200,171,1202,103,952"/>
+<area shape="rect" id="Node000003" href="$classGraphNode.html" title=" " alt="" coords="33,205,155,411"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="97,425,97,873,91,873,91,425"/>
+<area shape="rect" id="Node000004" href="$classOperation.html" title=" " alt="" coords="207,673,389,1139"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="237,1140,224,1186,219,1185,232,1138"/>
+<area shape="rect" id="Node000005" href="$classSerializable.html" title=" " alt="" coords="207,255,333,361"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="276,375,290,673,284,673,270,375"/>
+<area shape="rect" id="Node000006" href="$classOperationPimpl.html" title=" " alt="" coords="357,5,559,611"/>
+<area shape="poly" id="edge5_Node000004_Node000006" title=" " alt="" coords="380,612,367,658,362,657,374,610"/>
+</map>

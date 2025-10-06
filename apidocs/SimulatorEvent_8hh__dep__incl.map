@@ -1,0 +1,126 @@
+<map id="SimulatorEvent.hh" name="SimulatorEvent.hh">
+<area shape="rect" id="Node000001" title=" " alt="" coords="4618,5,4761,31"/>
+<area shape="rect" id="Node000002" href="$ConsoleWindow_8hh.html" title=" " alt="" coords="3457,152,3602,177"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="4604,31,4154,81,3603,155,3602,150,4153,76,4604,25"/>
+<area shape="rect" id="Node000006" href="$ProximBreakpointWindow_8cc.html" title=" " alt="" coords="5,233,213,258"/>
+<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="4604,24,3871,44,3351,60,2819,81,2170,115,1521,155,1157,171,873,180,589,195,226,228,173,235,172,230,225,223,589,190,872,175,1156,166,1521,149,2170,110,2819,76,3351,55,3870,38,4604,19"/>
+<area shape="rect" id="Node000007" href="$ProximCmdHistoryWindow_8cc.html" title=" " alt="" coords="3346,79,3561,104"/>
+<area shape="poly" id="edge6_Node000001_Node000007" title=" " alt="" coords="4605,25,4166,46,3580,81,3561,83,3561,77,3580,76,4166,41,4604,20"/>
+<area shape="rect" id="Node000008" href="$ProximControlWindow_8hh.html" title=" " alt="" coords="3636,79,3823,104"/>
+<area shape="poly" id="edge7_Node000001_Node000008" title=" " alt="" coords="4605,28,3823,86,3823,80,4604,23"/>
+<area shape="rect" id="Node000010" href="$ProximDebuggerWindow_8hh.html" title=" " alt="" coords="4588,152,4791,177"/>
+<area shape="poly" id="edge10_Node000001_Node000010" title=" " alt="" coords="4692,45,4692,152,4687,152,4687,45"/>
+<area shape="rect" id="Node000012" href="$ProximDisassemblyWindow_8hh.html" title=" " alt="" coords="1534,152,1757,177"/>
+<area shape="poly" id="edge13_Node000001_Node000012" title=" " alt="" coords="4604,26,3333,81,1757,160,1757,155,3333,76,4604,20"/>
+<area shape="rect" id="Node000020" href="$ProximLineReader_8cc.html" title=" " alt="" coords="4918,233,5077,258"/>
+<area shape="poly" id="edge23_Node000001_Node000020" title=" " alt="" coords="4775,25,4839,38,4907,62,4940,78,4971,98,4999,122,5022,151,5029,172,5026,195,5008,233,5003,231,5021,194,5024,173,5018,153,4995,126,4968,102,4938,83,4905,66,4837,43,4774,30"/>
+<area shape="rect" id="Node000021" href="$ProximMachineStateWindow_8hh.html" title=" " alt="" coords="2779,152,3007,177"/>
+<area shape="poly" id="edge24_Node000001_Node000021" title=" " alt="" coords="4604,22,4385,26,4101,35,3824,52,3711,65,3625,81,3599,94,3573,107,3464,126,3313,142,3008,161,3007,156,3313,136,3463,121,3571,101,3597,89,3623,76,3710,60,3824,47,4101,29,4384,20,4604,17"/>
+<area shape="rect" id="Node000031" href="$ProximMainFrame_8hh.html" title=" " alt="" coords="4166,79,4327,104"/>
+<area shape="poly" id="edge36_Node000001_Node000031" title=" " alt="" coords="4605,35,4318,81,4318,76,4604,30"/>
+<area shape="rect" id="Node000048" href="$ProximSimulationThread_8cc.html" title=" " alt="" coords="5101,233,5302,258"/>
+<area shape="poly" id="edge69_Node000001_Node000048" title=" " alt="" coords="4775,24,4904,38,5050,63,5120,80,5182,100,5231,123,5263,150,5269,162,5270,174,5259,197,5240,218,5220,235,5217,230,5237,214,5255,194,5264,173,5264,163,5259,154,5228,128,5180,105,5119,85,5049,68,4903,44,4774,29"/>
+<area shape="rect" id="Node000052" href="$ProximMemoryWindow_8hh.html" title=" " alt="" coords="4815,152,5009,177"/>
+<area shape="poly" id="edge59_Node000001_Node000052" title=" " alt="" coords="4720,36,4896,149,4893,154,4717,41"/>
+<area shape="rect" id="Node000053" href="$ProximRegisterWindow_8hh.html" title=" " alt="" coords="5601,152,5794,177"/>
+<area shape="poly" id="edge62_Node000001_Node000053" title=" " alt="" coords="4774,16,5000,18,5282,25,5417,33,5534,43,5623,58,5654,66,5674,77,5688,94,5696,114,5700,151,5695,152,5691,115,5683,96,5670,81,5652,71,5622,63,5534,49,5417,38,5282,31,5000,23,4774,22"/>
+<area shape="rect" id="Node000056" href="$ProximRuntimeErrorHandler_8cc.html" title=" " alt="" coords="5438,79,5661,104"/>
+<area shape="poly" id="edge68_Node000001_Node000056" title=" " alt="" coords="4775,23,5426,76,5438,77,5438,82,5425,81,4774,29"/>
+<area shape="rect" id="Node000057" href="$ProximUnitWindow_8hh.html" title=" " alt="" coords="5247,79,5414,104"/>
+<area shape="poly" id="edge70_Node000001_Node000057" title=" " alt="" coords="4775,26,5228,76,5247,78,5247,83,5228,81,4774,31"/>
+<area shape="rect" id="Node000061" href="$SimulatorEvent_8cc.html" title=" " alt="" coords="5735,79,5875,104"/>
+<area shape="poly" id="edge75_Node000001_Node000061" title=" " alt="" coords="4775,20,5181,38,5447,55,5716,76,5735,78,5735,83,5716,81,5447,60,5181,44,4775,25"/>
+<area shape="rect" id="Node000003" href="$ConsoleWindow_8cc.html" title=" " alt="" coords="4019,233,4162,258"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="3616,174,4007,223,4044,230,4043,235,4006,228,3616,179"/>
+<area shape="rect" id="Node000004" href="$ProximClearConsoleCmd_8cc.html" title=" " alt="" coords="3792,233,3995,258"/>
+<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="3596,178,3841,230,3840,235,3595,183"/>
+<area shape="rect" id="Node000005" href="$ProximMainFrame_8cc.html" title=" " alt="" coords="4186,233,4345,258"/>
+<area shape="poly" id="edge4_Node000002_Node000005" title=" " alt="" coords="3616,174,3622,175,3777,188,3898,195,4019,204,4174,223,4215,230,4214,235,4173,228,4018,209,3898,200,3776,193,3621,180,3615,179"/>
+<area shape="poly" id="edge9_Node000008_Node000005" title=" " alt="" coords="3700,114,3682,128,3668,145,3662,161,3667,176,3678,182,3696,189,3753,199,3913,211,4076,218,4174,223,4215,230,4214,235,4173,228,4076,223,3912,217,3753,204,3695,194,3676,187,3663,179,3656,161,3663,142,3678,125,3697,110"/>
+<area shape="rect" id="Node000009" href="$ProximControlWindow_8cc.html" title=" " alt="" coords="3147,152,3331,177"/>
+<area shape="poly" id="edge8_Node000008_Node000009" title=" " alt="" coords="3638,109,3318,155,3317,149,3637,103"/>
+<area shape="poly" id="edge12_Node000010_Node000005" title=" " alt="" coords="4609,182,4356,228,4320,235,4319,230,4356,223,4608,177"/>
+<area shape="rect" id="Node000011" href="$ProximDebuggerWindow_8cc.html" title=" " alt="" coords="4479,233,4679,258"/>
+<area shape="poly" id="edge11_Node000010_Node000011" title=" " alt="" coords="4663,188,4597,235,4594,230,4660,183"/>
+<area shape="poly" id="edge21_Node000012_Node000005" title=" " alt="" coords="1770,165,3061,186,3764,203,4021,213,4174,223,4218,230,4217,235,4173,228,4021,218,3764,209,3060,191,1770,170"/>
+<area shape="poly" id="edge19_Node000012_Node000006" title=" " alt="" coords="1520,169,1281,172,959,181,594,199,226,228,172,235,171,230,225,223,594,193,959,176,1280,167,1520,164"/>
+<area shape="rect" id="Node000013" href="$ClearDisassemblyHighlightCmd_8cc.html" title=" " alt="" coords="745,225,943,265"/>
+<area shape="poly" id="edge14_Node000012_Node000013" title=" " alt="" coords="1520,176,1260,196,955,228,944,229,943,224,954,223,1259,191,1520,171"/>
+<area shape="rect" id="Node000014" href="$DisasmTopCountAttrProvider_8cc.html" title=" " alt="" coords="1995,233,2221,258"/>
+<area shape="poly" id="edge15_Node000012_Node000014" title=" " alt="" coords="1726,177,2041,230,2040,235,1725,182"/>
+<area shape="rect" id="Node000015" href="$FindWindow_8cc.html" title=" " alt="" coords="967,233,1086,258"/>
+<area shape="poly" id="edge16_Node000012_Node000015" title=" " alt="" coords="1521,177,1321,196,1209,210,1098,228,1066,235,1065,230,1097,223,1208,205,1321,190,1520,171"/>
+<area shape="rect" id="Node000016" href="$HighlightExecPercentageCmd_8cc.html" title=" " alt="" coords="237,233,469,258"/>
+<area shape="poly" id="edge17_Node000012_Node000016" title=" " alt="" coords="1520,171,1062,188,773,204,482,228,423,235,423,230,481,223,773,199,1062,182,1520,166"/>
+<area shape="rect" id="Node000017" href="$HighlightTopExecCountsCmd_8cc.html" title=" " alt="" coords="493,233,720,258"/>
+<area shape="poly" id="edge18_Node000012_Node000017" title=" " alt="" coords="1520,174,1166,192,949,208,732,228,676,235,676,230,732,223,949,203,1165,187,1520,168"/>
+<area shape="rect" id="Node000018" href="$ProximDisassemblyWindow_8cc.html" title=" " alt="" coords="2245,233,2467,258"/>
+<area shape="poly" id="edge20_Node000012_Node000018" title=" " alt="" coords="1771,174,1987,195,2234,223,2286,230,2285,235,2233,228,1987,200,1770,179"/>
+<area shape="rect" id="Node000019" href="$ProximToolbox_8cc.html" title=" " alt="" coords="3381,233,3517,258"/>
+<area shape="poly" id="edge22_Node000012_Node000019" title=" " alt="" coords="1770,164,2121,169,2582,180,3037,197,3226,209,3370,223,3408,230,3407,235,3369,228,3226,214,3037,202,2582,185,2121,175,1770,170"/>
+<area shape="poly" id="edge32_Node000021_Node000005" title=" " alt="" coords="3021,169,3135,175,3427,183,3655,185,3883,194,4016,205,4174,223,4217,230,4216,235,4173,228,4016,211,3882,200,3655,191,3427,189,3135,180,3021,175"/>
+<area shape="poly" id="edge35_Node000021_Node000019" title=" " alt="" coords="3021,176,3188,195,3370,223,3405,230,3404,235,3369,228,3187,200,3021,181"/>
+<area shape="rect" id="Node000022" href="$ProximBusDetailsCmd_8cc.html" title=" " alt="" coords="1315,233,1501,258"/>
+<area shape="poly" id="edge25_Node000021_Node000022" title=" " alt="" coords="2765,169,2531,171,2220,180,1868,198,1689,211,1514,228,1464,235,1464,230,1513,223,1689,206,1868,192,2220,174,2531,166,2765,163"/>
+<area shape="rect" id="Node000023" href="$ProximComponentStatusCmd_8cc.html" title=" " alt="" coords="2923,233,3155,258"/>
+<area shape="poly" id="edge26_Node000021_Node000023" title=" " alt="" coords="2928,182,3018,230,3016,235,2925,186"/>
+<area shape="rect" id="Node000024" href="$ProximFUDetailsCmd_8cc.html" title=" " alt="" coords="1110,233,1290,258"/>
+<area shape="poly" id="edge27_Node000021_Node000024" title=" " alt="" coords="2765,171,2018,190,1605,207,1433,217,1303,228,1255,235,1254,230,1302,223,1433,212,1604,202,2018,185,2765,166"/>
+<area shape="rect" id="Node000025" href="$ProximFUPortDetailsCmd_8cc.html" title=" " alt="" coords="2491,233,2698,258"/>
+<area shape="poly" id="edge28_Node000021_Node000025" title=" " alt="" coords="2837,183,2639,235,2637,230,2836,178"/>
+<area shape="rect" id="Node000026" href="$ProximIUDetailsCmd_8cc.html" title=" " alt="" coords="2723,233,2899,258"/>
+<area shape="poly" id="edge29_Node000021_Node000026" title=" " alt="" coords="2873,189,2825,234,2821,231,2869,185"/>
+<area shape="rect" id="Node000027" href="$ProximMachineCanvasTool_8cc.html" title=" " alt="" coords="1526,233,1741,258"/>
+<area shape="poly" id="edge30_Node000021_Node000027" title=" " alt="" coords="2765,171,2318,187,2036,204,1754,228,1699,235,1698,230,1753,223,2036,198,2317,182,2765,166"/>
+<area shape="rect" id="Node000028" href="$ProximMachineStateWindow_8cc.html" title=" " alt="" coords="3541,233,3768,258"/>
+<area shape="poly" id="edge31_Node000021_Node000028" title=" " alt="" coords="3021,173,3258,194,3530,223,3584,230,3583,235,3529,228,3257,199,3021,179"/>
+<area shape="rect" id="Node000029" href="$ProximRFDetailsCmd_8cc.html" title=" " alt="" coords="3179,233,3357,258"/>
+<area shape="poly" id="edge33_Node000021_Node000029" title=" " alt="" coords="2962,178,3214,230,3213,235,2961,183"/>
+<area shape="rect" id="Node000030" href="$ProximSocketDetailsCmd_8cc.html" title=" " alt="" coords="1765,233,1971,258"/>
+<area shape="poly" id="edge34_Node000021_Node000030" title=" " alt="" coords="2766,173,2412,191,2198,207,1983,228,1931,235,1931,230,1982,223,2197,202,2412,186,2765,168"/>
+<area shape="poly" id="edge40_Node000031_Node000005" title=" " alt="" coords="4153,99,4081,105,4009,115,3948,131,3925,142,3910,154,3905,165,3910,176,3929,190,3958,200,4033,212,4113,217,4174,223,4211,230,4210,235,4173,228,4112,222,4033,217,3957,205,3927,194,3906,179,3900,165,3906,150,3922,137,3946,126,4008,110,4081,99,4152,93"/>
+<area shape="poly" id="edge37_Node000031_Node000014" title=" " alt="" coords="4153,96,4012,99,3831,108,3630,126,3430,155,3387,167,3343,180,3176,203,3033,215,2907,218,2790,217,2545,212,2402,216,2234,228,2176,235,2175,230,2233,223,2402,210,2545,207,2790,211,2907,213,3033,210,3175,198,3342,175,3385,162,3429,149,3630,121,3830,103,4011,94,4152,90"/>
+<area shape="poly" id="edge58_Node000031_Node000019" title=" " alt="" coords="4152,99,3730,120,3536,136,3473,145,3446,154,3437,172,3436,193,3447,232,3441,233,3431,194,3432,171,3442,150,3472,140,3535,131,3729,115,4152,94"/>
+<area shape="rect" id="Node000032" href="$Proxim_8cc.html" title=" " alt="" coords="4369,233,4455,258"/>
+<area shape="poly" id="edge38_Node000031_Node000032" title=" " alt="" coords="4341,98,4397,105,4451,116,4497,131,4514,140,4526,150,4533,164,4532,178,4525,190,4513,201,4482,221,4448,235,4445,230,4479,216,4510,197,4521,187,4527,176,4528,165,4522,154,4511,144,4495,136,4450,121,4396,110,4341,103"/>
+<area shape="rect" id="Node000033" href="$ProximFindCmd_8cc.html" title=" " alt="" coords="4370,152,4513,177"/>
+<area shape="poly" id="edge39_Node000031_Node000033" title=" " alt="" coords="4291,106,4410,149,4409,154,4290,111"/>
+<area shape="rect" id="Node000034" href="$ProximOptionsCmd_8cc.html" title=" " alt="" coords="3678,152,3845,177"/>
+<area shape="poly" id="edge41_Node000031_Node000034" title=" " alt="" coords="4155,109,3840,155,3839,149,4155,103"/>
+<area shape="rect" id="Node000035" href="$ProximRegisterWindow_8cc.html" title=" " alt="" coords="5750,233,5941,258"/>
+<area shape="poly" id="edge42_Node000031_Node000035" title=" " alt="" coords="4341,92,4762,107,5034,124,5310,149,5446,168,5581,190,5792,230,5791,235,5580,195,5446,173,5309,155,5034,129,4761,112,4341,97"/>
+<area shape="rect" id="Node000036" href="$ProximSetMachineWinStatusCmd_8cc.html" title=" " alt="" coords="5515,225,5725,265"/>
+<area shape="poly" id="edge43_Node000031_Node000036" title=" " alt="" coords="4341,91,4553,96,4818,106,5075,123,5181,135,5262,149,5291,161,5320,175,5419,203,5515,223,5514,229,5418,208,5318,180,5289,166,5261,155,5181,140,5075,128,4818,111,4552,101,4341,97"/>
+<area shape="rect" id="Node000037" href="$ProximSimulationThread_8hh.html" title=" " alt="" coords="3920,152,4123,177"/>
+<area shape="poly" id="edge44_Node000031_Node000037" title=" " alt="" coords="4198,111,4059,154,4057,149,4197,106"/>
+<area shape="rect" id="Node000051" href="$ProximSimulatorWindow_8cc.html" title=" " alt="" coords="4147,152,4347,177"/>
+<area shape="poly" id="edge57_Node000031_Node000051" title=" " alt="" coords="4249,118,4249,152,4244,152,4244,118"/>
+<area shape="poly" id="edge45_Node000037_Node000003" title=" " alt="" coords="4043,186,4082,231,4078,234,4039,189"/>
+<area shape="poly" id="edge52_Node000037_Node000005" title=" " alt="" coords="4071,179,4231,230,4229,235,4069,184"/>
+<area shape="poly" id="edge47_Node000037_Node000006" title=" " alt="" coords="3907,177,3856,180,3502,189,3062,192,2040,190,1515,191,1018,196,579,207,390,216,226,228,170,235,169,230,225,223,390,211,579,202,1018,190,1515,186,2040,185,3062,186,3501,183,3856,175,3906,172"/>
+<area shape="poly" id="edge48_Node000037_Node000011" title=" " alt="" coords="4127,176,4467,223,4513,230,4512,235,4466,228,4126,182"/>
+<area shape="poly" id="edge49_Node000037_Node000018" title=" " alt="" coords="3907,177,3856,180,3646,189,3469,193,3167,195,2865,201,2688,211,2479,228,2422,235,2421,230,2478,223,2688,206,2865,196,3167,189,3468,188,3646,183,3856,175,3906,172"/>
+<area shape="poly" id="edge55_Node000037_Node000019" title=" " alt="" coords="3906,179,3728,199,3530,228,3495,235,3494,230,3529,223,3728,193,3905,174"/>
+<area shape="poly" id="edge50_Node000037_Node000020" title=" " alt="" coords="4137,175,4354,187,4524,192,4692,200,4906,223,4948,230,4947,235,4905,228,4691,206,4523,198,4354,193,4136,180"/>
+<area shape="poly" id="edge51_Node000037_Node000028" title=" " alt="" coords="3955,183,3709,235,3707,230,3954,178"/>
+<area shape="poly" id="edge46_Node000037_Node000032" title=" " alt="" coords="4119,177,4233,196,4357,223,4381,230,4379,235,4355,228,4232,201,4118,182"/>
+<area shape="rect" id="Node000040" href="$ProximMemoryWindow_8cc.html" title=" " alt="" coords="4703,233,4894,258"/>
+<area shape="poly" id="edge53_Node000037_Node000040" title=" " alt="" coords="4137,175,4416,196,4537,205,4691,223,4739,230,4738,235,4690,228,4537,211,4416,201,4137,180"/>
+<area shape="poly" id="edge54_Node000037_Node000048" title=" " alt="" coords="4137,175,4406,189,4615,194,4823,201,5088,223,5141,230,5140,235,5088,228,4823,206,4615,199,4405,194,4137,180"/>
+<area shape="rect" id="Node000050" href="$ProximUnitWindow_8cc.html" title=" " alt="" coords="5326,233,5490,258"/>
+<area shape="poly" id="edge56_Node000037_Node000050" title=" " alt="" coords="4137,175,4317,185,4469,189,4728,189,4985,194,5136,205,5314,223,5358,230,5357,235,5313,228,5136,210,4985,200,4728,195,4469,194,4316,190,4137,180"/>
+<area shape="poly" id="edge60_Node000052_Node000005" title=" " alt="" coords="4802,180,4356,228,4316,235,4316,230,4356,223,4801,175"/>
+<area shape="poly" id="edge61_Node000052_Node000040" title=" " alt="" coords="4886,187,4817,235,4814,230,4883,183"/>
+<area shape="poly" id="edge63_Node000053_Node000005" title=" " alt="" coords="5587,171,4957,191,4610,208,4356,228,4314,235,4313,230,4356,223,4609,202,4956,186,5587,166"/>
+<area shape="poly" id="edge65_Node000053_Node000035" title=" " alt="" coords="5733,182,5825,230,5822,235,5730,186"/>
+<area shape="poly" id="edge66_Node000053_Node000036" title=" " alt="" coords="5678,189,5641,227,5637,223,5675,185"/>
+<area shape="rect" id="Node000054" href="$ProximNewRegisterWindowCmd_8cc.html" title=" " alt="" coords="5965,233,6216,258"/>
+<area shape="poly" id="edge64_Node000053_Node000054" title=" " alt="" coords="5768,177,6034,230,6033,235,5767,183"/>
+<area shape="rect" id="Node000055" href="$ProximShowRegistersCmd_8cc.html" title=" " alt="" coords="6241,233,6453,258"/>
+<area shape="poly" id="edge67_Node000053_Node000055" title=" " alt="" coords="5808,174,6004,195,6228,223,6278,230,6277,235,6228,228,6004,201,5807,180"/>
+<area shape="poly" id="edge74_Node000057_Node000050" title=" " alt="" coords="5369,109,5391,127,5409,151,5416,173,5418,195,5413,233,5408,232,5412,195,5411,174,5404,153,5387,131,5365,113"/>
+<area shape="poly" id="edge73_Node000057_Node000053" title=" " alt="" coords="5403,104,5638,149,5637,155,5402,109"/>
+<area shape="rect" id="Node000058" href="$ProximPortWindow_8hh.html" title=" " alt="" coords="5084,152,5249,177"/>
+<area shape="poly" id="edge71_Node000057_Node000058" title=" " alt="" coords="5293,112,5195,154,5192,149,5291,107"/>
+<area shape="poly" id="edge72_Node000058_Node000005" title=" " alt="" coords="5071,176,5020,180,4833,191,4687,197,4542,206,4356,228,4315,235,4314,230,4356,223,4542,201,4687,192,4833,186,5020,175,5070,171"/>
+</map>

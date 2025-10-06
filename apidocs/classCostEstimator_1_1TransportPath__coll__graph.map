@@ -1,0 +1,19 @@
+<map id="CostEstimator::TransportPath" name="CostEstimator::TransportPath">
+<area shape="rect" id="Node000001" title=" " alt="" coords="663,1668,865,1853"/>
+<area shape="rect" id="Node000002" href="$classTTAMachine_1_1Port.html" title=" " alt="" coords="449,1225,674,1591"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="605,1590,632,1643,653,1671,649,1674,627,1645,600,1592"/>
+<area shape="rect" id="Node000003" href="$classTTAMachine_1_1SubComponent.html" title=" " alt="" coords="5,387,205,512"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="102,526,100,662,104,746,113,837,130,932,155,1026,190,1116,237,1200,281,1252,335,1297,393,1333,450,1362,447,1367,390,1338,332,1301,278,1256,232,1203,185,1118,150,1027,125,933,108,838,98,747,94,662,97,526"/>
+<area shape="rect" id="Node000006" title=" " alt="" coords="614,5,693,71"/>
+<area shape="poly" id="edge3_Node000002_Node000006" title=" " alt="" coords="614,45,536,58,489,69,439,85,390,107,343,134,302,167,268,208,250,250,240,306,236,372,238,443,251,584,268,691,303,830,351,967,404,1095,458,1209,453,1212,399,1097,346,969,298,831,263,693,245,585,233,444,231,372,235,305,245,248,263,205,298,163,340,129,388,102,438,80,488,64,535,53,613,40"/>
+<area shape="rect" id="Node000008" href="$classTTAMachine_1_1Unit.html" title=" " alt="" coords="454,207,679,692"/>
+<area shape="poly" id="edge5_Node000008_Node000006" title=" " alt="" coords="616,64,599,78,586,96,568,142,556,191,551,190,563,140,582,93,595,75,612,60"/>
+<area shape="rect" id="Node000022" href="$classTTAMachine_1_1Socket.html" title=" " alt="" coords="703,257,865,642"/>
+<area shape="poly" id="edge7_Node000022_Node000006" title=" " alt="" coords="684,70,698,93,728,165,750,240,745,241,723,167,694,96,679,73"/>
+<area shape="rect" id="Node000013" href="$classTTAMachine_1_1Bus.html" title=" " alt="" coords="819,716,1045,1201"/>
+<area shape="poly" id="edge10_Node000013_Node000006" title=" " alt="" coords="693,40,803,58,854,73,874,82,887,93,933,159,967,231,990,308,1004,388,1010,469,1010,549,1005,626,995,700,990,699,999,626,1005,549,1005,469,999,389,985,309,962,233,928,162,883,96,871,87,852,78,802,63,692,46"/>
+<area shape="poly" id="edge4_Node000002_Node000008" title=" " alt="" coords="566,692,565,716,564,1209,558,1209,560,716,560,692"/>
+<area shape="poly" id="edge8_Node000001_Node000022" title=" " alt="" coords="780,642,767,1225,766,1652,761,1652,761,1225,775,642"/>
+<area shape="poly" id="edge6_Node000002_Node000022" title=" " alt="" coords="714,643,693,693,681,717,666,789,660,850,660,906,663,958,668,1066,664,1129,651,1202,649,1210,643,1209,645,1201,659,1128,663,1066,658,958,655,906,654,850,661,788,676,715,688,691,709,641"/>
+<area shape="poly" id="edge9_Node000001_Node000013" title=" " alt="" coords="953,1202,952,1296,943,1396,926,1496,897,1592,882,1625,863,1656,858,1653,877,1622,892,1590,920,1494,938,1395,946,1296,948,1202"/>
+</map>

@@ -1,0 +1,51 @@
+<map id="ControlFlowGraph::printStatistics" name="ControlFlowGraph::printStatistics">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,390,243,415"/>
+<area shape="rect" id="Node000002" href="$classTTAProgram_1_1BasicBlockStatistics.html#ab2a182e8bd8db0294eee4622055d1ced" title=" " alt="" coords="589,5,829,45"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="127,388,146,341,179,274,227,201,256,168,289,139,357,99,430,69,505,48,575,35,576,40,506,53,432,74,359,103,292,143,260,172,231,205,184,276,151,343,132,390"/>
+<area shape="rect" id="Node000003" href="$classTTAProgram_1_1BasicBlockStatistics.html#af24c10956481ff527fd17dfb2bfe2cd6" title=" " alt="" coords="589,69,829,109"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="130,388,152,352,188,302,234,249,289,203,358,166,432,138,506,117,575,103,576,108,507,122,434,143,360,171,292,208,238,252,192,305,157,355,135,391"/>
+<area shape="rect" id="Node000004" href="$classTTAProgram_1_1BasicBlockStatistics.html#a04ada2730dc56bad31b813ea0fdd4af7" title=" " alt="" coords="589,133,829,173"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="135,388,197,329,241,294,289,264,360,233,434,207,508,187,575,172,577,177,509,192,436,212,362,238,292,269,244,298,201,333,139,392"/>
+<area shape="rect" id="Node000005" href="$classCFGStatistics.html#a9cb92c1919ef652c20ac293afe1aca6b" title=" " alt="" coords="311,383,521,423"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="243,400,297,400,297,405,243,405"/>
+<area shape="rect" id="Node000006" href="$classCFGStatistics.html#a6a9e904b40837e740229788b43aaefb1" title=" " alt="" coords="307,447,525,487"/>
+<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="183,413,312,441,310,446,182,418"/>
+<area shape="rect" id="Node000007" href="$classCFGStatistics.html#ab615d2f0f5ce269cc8c5bed8b25fc9ea" title=" " alt="" coords="309,511,523,551"/>
+<area shape="poly" id="edge6_Node000001_Node000007" title=" " alt="" coords="145,413,208,454,292,496,313,504,311,509,290,501,205,458,142,418"/>
+<area shape="rect" id="Node000008" href="$classCFGStatistics.html#a799328e4ccbaa73709cde79d73aa23fb" title=" " alt="" coords="306,575,526,601"/>
+<area shape="poly" id="edge7_Node000001_Node000008" title=" " alt="" coords="137,414,160,445,196,485,241,526,292,560,310,568,308,573,289,565,238,530,192,488,156,448,132,417"/>
+<area shape="rect" id="Node000009" href="$classTTAProgram_1_1BasicBlockStatistics.html#aebfca8c7a110e6fea0c4e4d26d0dd50e" title=" " alt="" coords="589,197,829,237"/>
+<area shape="poly" id="edge8_Node000001_Node000009" title=" " alt="" coords="146,387,210,354,290,319,366,294,444,271,587,238,588,243,445,277,367,299,292,324,212,359,149,392"/>
+<area shape="rect" id="Node000010" href="$classCFGStatistics.html#a2de7faf528768ec3094cda0d60b9b91e" title=" " alt="" coords="307,625,525,650"/>
+<area shape="poly" id="edge9_Node000001_Node000010" title=" " alt="" coords="134,414,154,454,189,508,235,564,262,590,292,611,303,617,300,622,289,616,259,594,231,568,184,511,150,457,129,417"/>
+<area shape="rect" id="Node000011" href="$classControlFlowGraph.html#adb05cef6e6410c39ce18df7bdce44d07" title=" " alt="" coords="291,674,541,699"/>
+<area shape="poly" id="edge10_Node000001_Node000011" title=" " alt="" coords="132,415,150,462,182,530,204,566,229,601,259,633,292,660,301,666,298,670,289,665,255,637,225,604,199,569,177,532,145,464,127,416"/>
+<area shape="rect" id="Node000012" href="$classControlFlowGraph.html#a2d58ec388d03b1ce712018d239d90830" title=" " alt="" coords="313,333,519,358"/>
+<area shape="poly" id="edge11_Node000001_Node000012" title=" " alt="" coords="189,387,337,358,338,363,190,393"/>
+<area shape="poly" id="edge12_Node000012_Node000002" title=" " alt="" coords="419,332,437,280,470,205,493,165,520,125,552,87,588,55,596,50,599,54,591,59,556,91,525,128,498,167,475,208,442,282,424,334"/>
+<area shape="poly" id="edge13_Node000012_Node000003" title=" " alt="" coords="421,331,443,290,479,232,528,171,557,143,588,119,598,113,601,118,591,124,560,147,532,175,483,235,448,293,426,334"/>
+<area shape="poly" id="edge14_Node000012_Node000004" title=" " alt="" coords="425,331,489,260,535,219,588,183,602,176,604,181,591,188,539,223,492,264,429,334"/>
+<area shape="poly" id="edge15_Node000012_Node000009" title=" " alt="" coords="438,330,588,247,610,239,611,244,590,252,441,335"/>
+<area shape="rect" id="Node000013" href="$classBoostGraph.html#a7c677e09f6702fb37f4481c6ffc295de" title=" " alt="" coords="598,325,821,365"/>
+<area shape="poly" id="edge16_Node000012_Node000013" title=" " alt="" coords="519,343,584,343,584,348,519,348"/>
+<area shape="rect" id="Node000014" href="$classBoostGraph.html#a1eaf1f27ff0ea3435351e174a6643dc6" title=" " alt="" coords="595,389,824,429"/>
+<area shape="poly" id="edge17_Node000012_Node000014" title=" " alt="" coords="482,355,542,368,611,384,610,389,541,373,481,361"/>
+<area shape="rect" id="Node000015" href="$classTTAProgram_1_1BasicBlockStatistics.html#a588f5551d3da2ca5b772b7bc1287f114" title=" " alt="" coords="589,453,829,493"/>
+<area shape="poly" id="edge18_Node000012_Node000015" title=" " alt="" coords="518,356,543,369,560,386,568,405,575,423,591,439,600,445,597,449,588,443,571,425,563,407,556,389,540,373,515,360"/>
+<area shape="rect" id="Node000016" href="$classTTAProgram_1_1BasicBlockStatistics.html#adf26bcbee6e5cffdd28ea1438230a54a" title=" " alt="" coords="589,517,829,557"/>
+<area shape="poly" id="edge19_Node000012_Node000016" title=" " alt="" coords="521,355,543,369,558,385,565,403,568,437,571,471,578,488,591,503,596,507,592,511,587,507,574,490,566,473,563,438,560,404,553,388,540,373,518,359"/>
+<area shape="rect" id="Node000017" href="$classTTAProgram_1_1BasicBlockStatistics.html#a245b88b664316a2823968a03df8da24d" title=" " alt="" coords="589,581,829,621"/>
+<area shape="poly" id="edge20_Node000012_Node000017" title=" " alt="" coords="521,354,543,369,562,393,570,419,571,444,569,470,566,495,567,519,574,544,591,568,595,571,591,575,587,571,569,546,562,520,561,494,563,469,566,444,565,420,557,396,539,373,518,358"/>
+<area shape="rect" id="Node000018" href="$classCFGStatistics.html#aed9e642083004a30a60da771167b6590" title=" " alt="" coords="595,645,823,685"/>
+<area shape="poly" id="edge21_Node000012_Node000018" title=" " alt="" coords="521,353,543,369,566,402,575,435,574,468,569,501,563,534,562,567,570,599,591,632,594,635,591,639,587,635,565,602,557,568,558,534,564,501,569,468,570,436,562,404,539,373,518,357"/>
+<area shape="rect" id="Node000019" href="$classCFGStatistics.html#a52ba60864b41bbc3c00a4e954178adce" title=" " alt="" coords="591,709,827,749"/>
+<area shape="poly" id="edge22_Node000012_Node000019" title=" " alt="" coords="521,353,543,369,560,389,571,410,580,451,578,492,569,533,561,574,558,615,566,655,576,675,591,696,594,699,590,702,587,699,572,678,561,657,552,615,555,574,564,532,572,492,575,451,566,412,555,392,539,373,518,357"/>
+<area shape="rect" id="Node000020" href="$classCFGStatistics.html#a7b1e21a61813b97c25f5eecc9d1b30df" title=" " alt="" coords="592,773,827,813"/>
+<area shape="poly" id="edge23_Node000012_Node000020" title=" " alt="" coords="521,353,543,369,562,393,575,418,583,443,585,467,581,516,569,565,558,614,553,663,555,687,562,711,573,735,591,760,594,762,590,766,587,763,569,738,557,713,550,688,547,663,552,613,564,564,576,515,580,467,577,444,570,420,558,396,539,373,518,357"/>
+<area shape="rect" id="Node000021" href="$classCFGStatistics.html#a3e63884974b0f8348348dbfcf86c67cf" title=" " alt="" coords="609,837,810,877"/>
+<area shape="poly" id="edge24_Node000012_Node000021" title=" " alt="" coords="521,352,543,369,565,397,580,426,588,455,591,483,584,540,570,597,555,654,548,710,550,738,558,767,571,795,591,824,599,831,595,835,587,827,566,798,553,768,545,739,543,710,550,653,565,596,579,539,585,483,583,456,575,428,561,400,539,373,518,357"/>
+<area shape="rect" id="Node000022" href="$classTTAProgram_1_1BasicBlockStatistics.html#a971430e1445ebab2b727b2d57ca731d9" title=" " alt="" coords="589,901,829,941"/>
+<area shape="poly" id="edge25_Node000012_Node000022" title=" " alt="" coords="521,352,543,369,556,389,565,413,574,475,573,549,569,629,564,709,564,783,572,845,580,869,591,888,594,890,590,894,587,891,575,871,566,846,559,783,559,709,564,629,568,549,568,476,560,415,551,391,539,372,518,357"/>
+<area shape="rect" id="Node000023" href="$classCFGStatistics.html#ad28c8a804f8042453e0b1b02824534ce" title=" " alt="" coords="617,261,802,301"/>
+<area shape="poly" id="edge26_Node000012_Node000023" title=" " alt="" coords="475,330,603,302,604,307,476,335"/>
+</map>

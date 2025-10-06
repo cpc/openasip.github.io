@@ -1,0 +1,31 @@
+<map id="IUBroker" name="IUBroker">
+<area shape="rect" id="Node000001" title=" " alt="" coords="851,1800,1046,2065"/>
+<area shape="rect" id="Node000002" href="$classResourceBroker.html" title=" " alt="" coords="219,854,414,1199"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="406,1210,428,1248,534,1408,648,1563,758,1702,853,1817,849,1820,754,1706,644,1566,530,1411,423,1251,401,1213"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="169,441,469,536"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="321,536,320,838,315,837,316,536"/>
+<area shape="rect" id="Node000016" href="$classResourceMapper.html" title=" " alt="" coords="790,416,949,561"/>
+<area shape="poly" id="edge3_Node000002_Node000016" title=" " alt="" coords="841,563,817,607,787,655,752,702,710,743,686,760,665,770,614,783,585,788,559,789,515,784,473,785,451,792,427,806,407,823,390,843,386,839,404,819,424,802,449,787,472,780,515,779,560,783,585,783,613,777,664,765,684,756,707,739,748,699,783,652,813,605,836,560"/>
+<area shape="rect" id="Node000208" href="$classResourceBuildDirector.html" title=" " alt="" coords="851,944,1046,1109"/>
+<area shape="poly" id="edge14_Node000208_Node000016" title=" " alt="" coords="883,561,937,927,931,928,878,562"/>
+<area shape="rect" id="Node000018" title=" " alt="" coords="494,441,696,536"/>
+<area shape="poly" id="edge4_Node000002_Node000018" title=" " alt="" coords="582,537,542,634,515,690,484,743,469,762,456,775,428,806,406,841,401,838,424,802,452,771,465,758,479,740,510,687,537,632,577,535"/>
+<area shape="rect" id="Node000010" title=" " alt="" coords="24,5,102,71"/>
+<area shape="poly" id="edge5_Node000002_Node000010" title=" " alt="" coords="57,71,33,185,20,264,11,354,8,450,13,548,28,647,56,740,85,797,122,850,165,898,208,940,205,944,161,902,118,854,80,800,51,742,23,648,7,549,3,450,6,353,15,264,27,184,52,70"/>
+<area shape="rect" id="Node000050" href="$classTTAMachine_1_1Machine.html" title=" " alt="" coords="1206,236,1414,741"/>
+<area shape="poly" id="edge7_Node000050_Node000010" title=" " alt="" coords="103,40,248,55,464,88,587,114,715,146,841,186,963,234,1025,265,1086,303,1195,382,1191,387,1083,307,1023,270,961,238,840,191,713,151,586,119,463,93,247,60,102,45"/>
+<area shape="poly" id="edge6_Node000001_Node000050" title=" " alt="" coords="1415,553,1477,600,1541,658,1598,726,1622,764,1641,803,1667,867,1685,924,1696,976,1700,1026,1696,1077,1685,1129,1667,1186,1641,1250,1617,1303,1589,1354,1524,1451,1449,1541,1368,1624,1285,1699,1204,1764,1061,1866,1058,1861,1201,1760,1282,1695,1364,1620,1445,1538,1519,1448,1585,1351,1612,1300,1637,1248,1662,1184,1680,1128,1690,1076,1694,1026,1691,977,1680,925,1662,869,1637,805,1617,766,1593,730,1537,662,1474,604,1412,557"/>
+<area shape="rect" id="Node000195" href="$classResourceManager.html" title=" " alt="" coords="1070,864,1304,1189"/>
+<area shape="poly" id="edge10_Node000195_Node000050" title=" " alt="" coords="1255,742,1230,848,1225,847,1249,741"/>
+<area shape="rect" id="Node000209" title=" " alt="" coords="1328,979,1627,1074"/>
+<area shape="poly" id="edge16_Node000209_Node000050" title=" " alt="" coords="1391,741,1461,963,1456,965,1386,742"/>
+<area shape="rect" id="Node000194" href="$classSimpleResourceManager.html" title=" " alt="" coords="842,1312,1054,1737"/>
+<area shape="poly" id="edge8_Node000001_Node000194" title=" " alt="" coords="951,1738,951,1784,946,1784,946,1738"/>
+<area shape="poly" id="edge9_Node000194_Node000195" title=" " alt="" coords="1106,1203,1053,1313,1048,1311,1101,1201"/>
+<area shape="rect" id="Node000196" href="$classSimpleBrokerDirector.html" title=" " alt="" coords="438,804,648,1249"/>
+<area shape="poly" id="edge11_Node000194_Node000196" title=" " alt="" coords="650,1231,662,1248,702,1296,745,1342,832,1425,828,1429,741,1346,698,1299,658,1251,646,1234"/>
+<area shape="rect" id="Node000198" href="$classAssignmentPlan.html" title=" " alt="" coords="672,844,827,1209"/>
+<area shape="poly" id="edge12_Node000194_Node000198" title=" " alt="" coords="825,1209,860,1296,855,1298,820,1211"/>
+<area shape="poly" id="edge13_Node000194_Node000208" title=" " alt="" coords="951,1110,951,1295,946,1295,946,1110"/>
+<area shape="poly" id="edge15_Node000194_Node000209" title=" " alt="" coords="1452,1076,1394,1161,1358,1207,1318,1251,1258,1307,1194,1360,1069,1450,1066,1446,1191,1356,1255,1303,1314,1247,1354,1204,1390,1158,1448,1073"/>
+</map>

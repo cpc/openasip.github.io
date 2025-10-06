@@ -1,0 +1,64 @@
+<map id="BBSchedulerController::createDDGFromBB" name="BBSchedulerController::createDDGFromBB">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,765,173,805"/>
+<area shape="rect" id="Node000002" href="$classDataDependenceGraphBuilder.html#ae565df4f2725e346a0fb8b528435f713" title=" " alt="" coords="221,708,440,748"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="173,763,232,749,233,754,174,768"/>
+<area shape="rect" id="Node000395" href="$classDataDependenceGraph.html#a37d38d90c044322792ec7b74b6354dc5" title=" " alt="" coords="244,225,417,265"/>
+<area shape="poly" id="edge25_Node000001_Node000395" title=" " alt="" coords="97,764,312,277,317,279,102,766"/>
+<area shape="rect" id="Node000399" href="$classBasicBlockPass.html#aaaccd96dad321485be8e764b64c825ab" title=" " alt="" coords="231,773,431,798"/>
+<area shape="poly" id="edge35_Node000001_Node000399" title=" " alt="" coords="173,783,217,783,217,788,173,788"/>
+<area shape="rect" id="Node000113" href="$classTTAProgram_1_1Procedure.html#a68bb6456b6c7ec12b15e6be5ac7749c1" title=" " alt="" coords="243,823,418,863"/>
+<area shape="poly" id="edge36_Node000001_Node000113" title=" " alt="" coords="174,803,233,817,232,822,173,808"/>
+<area shape="rect" id="Node000026" href="$classConversion.html#a92a58c79ba77b64a02df8d0755e86e1b" title=" " alt="" coords="253,887,408,913"/>
+<area shape="poly" id="edge37_Node000001_Node000026" title=" " alt="" coords="116,803,163,839,222,872,246,881,244,886,220,877,160,843,113,808"/>
+<area shape="rect" id="Node000003" href="$classDataDependenceGraphBuilder.html#a3d12cdb9b2e7ddb3360da435298335b4" title=" " alt="" coords="506,408,725,448"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="335,707,353,656,383,589,427,518,455,486,486,458,494,453,497,457,490,462,459,490,432,521,388,591,358,658,340,709"/>
+<area shape="rect" id="Node000008" href="$classDataDependenceGraphBuilder.html#a5221174d9dcb7ed6b38663f4c75e1192" title=" " alt="" coords="506,1069,725,1109"/>
+<area shape="poly" id="edge6_Node000002_Node000008" title=" " alt="" coords="428,746,442,758,466,797,475,835,473,873,466,910,459,947,457,983,466,1019,490,1056,497,1062,493,1066,486,1059,461,1021,452,984,454,946,461,909,468,872,469,835,461,799,438,762,425,750"/>
+<area shape="rect" id="Node000371" href="$classDataDependenceGraphBuilder.html#a43c115211b38fd446195c220bb1602d9" title=" " alt="" coords="506,651,725,691"/>
+<area shape="poly" id="edge7_Node000002_Node000371" title=" " alt="" coords="430,705,501,691,502,696,431,711"/>
+<area shape="rect" id="Node000311" href="$classApplication.html#aeb2ac2bb91d6d150565357d09d1859b9" title=" " alt="" coords="815,658,985,683"/>
+<area shape="poly" id="edge17_Node000002_Node000311" title=" " alt="" coords="440,723,584,715,742,700,833,684,834,689,743,705,584,721,440,728"/>
+<area shape="rect" id="Node000027" href="$classBoostGraph.html#a81b620226fbed324583e0c80c60ef2d3" title=" " alt="" coords="829,566,971,591"/>
+<area shape="poly" id="edge18_Node000002_Node000027" title=" " alt="" coords="343,706,366,674,398,636,439,600,487,572,532,558,578,548,626,543,673,542,761,549,835,561,834,566,761,554,673,548,626,549,579,553,533,563,489,577,442,604,402,640,370,678,347,709"/>
+<area shape="rect" id="Node000374" href="$classException.html#aa08aba8a4c7a6ec2a354bb74246dcfcf" title=" " alt="" coords="506,905,725,930"/>
+<area shape="poly" id="edge10_Node000002_Node000374" title=" " alt="" coords="425,746,442,758,455,775,463,792,466,827,469,860,476,875,490,890,497,896,494,900,486,894,472,878,464,861,461,827,457,794,451,778,438,762,422,750"/>
+<area shape="rect" id="Node000376" href="$classException.html#aa583bdfc22b863208247cc8fece97534" title=" " alt="" coords="823,930,977,955"/>
+<area shape="poly" id="edge13_Node000002_Node000376" title=" " alt="" coords="426,746,442,758,458,782,465,806,464,854,462,877,463,899,472,920,490,939,532,964,578,980,628,987,678,988,727,984,773,977,850,957,851,962,774,982,727,990,678,994,627,993,577,985,530,969,486,943,467,923,458,901,456,877,458,854,460,807,454,784,438,762,423,750"/>
+<area shape="rect" id="Node000378" href="$classException.html#afcb86935e383b5323f0622059c668aae" title=" " alt="" coords="825,881,975,906"/>
+<area shape="poly" id="edge16_Node000002_Node000378" title=" " alt="" coords="441,735,586,759,666,777,744,802,814,835,871,870,868,875,811,840,742,807,665,782,585,764,440,741"/>
+<area shape="rect" id="Node000379" href="$classDataDependenceGraphBuilder.html#a0ee852371d82a4209f89bdb0e79fa5f8" title="find special register data from old frontend code" alt="" coords="506,840,725,880"/>
+<area shape="poly" id="edge14_Node000002_Node000379" title=" " alt="" coords="413,746,441,758,466,776,489,795,557,832,554,836,487,800,463,780,439,762,411,751"/>
+<area shape="rect" id="Node000380" href="$classDataDependenceGraphBuilder.html#a3e349d46da25712f47823a5cbd11ac8a" title=" " alt="" coords="506,587,725,627"/>
+<area shape="poly" id="edge19_Node000002_Node000380" title=" " alt="" coords="360,705,418,670,487,636,508,628,510,633,489,641,420,675,363,710"/>
+<area shape="rect" id="Node000386" href="$classLLVMAliasAnalyzer.html#ab31cd717b27d0d76d5e3080c70439fc5" title=" " alt="" coords="539,1005,692,1045"/>
+<area shape="poly" id="edge22_Node000002_Node000386" title=" " alt="" coords="427,746,442,758,462,787,470,816,470,845,467,874,463,902,464,930,471,957,490,985,507,999,526,1009,524,1014,504,1003,486,989,466,959,458,930,458,901,461,873,465,845,465,817,457,790,438,762,424,750"/>
+<area shape="rect" id="Node000387" href="$classDataDependenceGraph.html#ae68641343419d3743eac7992dc10040b" title=" " alt="" coords="529,472,702,512"/>
+<area shape="poly" id="edge23_Node000002_Node000387" title=" " alt="" coords="340,707,362,669,395,621,437,571,486,529,514,513,517,518,490,533,441,575,399,624,367,672,345,709"/>
+<area shape="poly" id="edge3_Node000003_Node000003" title=" " alt="" coords="563,409,560,398,568,389,587,383,615,381,648,384,666,391,664,396,647,389,615,387,588,389,571,394,565,399,568,407"/>
+<area shape="rect" id="Node000006" href="$classBoostGraph.html#a7c677e09f6702fb37f4481c6ffc295de" title=" " alt="" coords="831,299,969,325"/>
+<area shape="poly" id="edge4_Node000003_Node000006" title=" " alt="" coords="665,405,854,328,856,333,667,410"/>
+<area shape="rect" id="Node000007" href="$classBoostGraph.html#a1eaf1f27ff0ea3435351e174a6643dc6" title=" " alt="" coords="812,382,988,407"/>
+<area shape="poly" id="edge5_Node000003_Node000007" title=" " alt="" coords="725,413,798,404,798,409,725,418"/>
+<area shape="poly" id="edge8_Node000371_Node000311" title=" " alt="" coords="725,668,801,668,801,673,725,673"/>
+<area shape="poly" id="edge9_Node000371_Node000027" title=" " alt="" coords="701,648,742,636,855,594,857,599,744,641,702,653"/>
+<area shape="poly" id="edge11_Node000374_Node000376" title=" " alt="" coords="725,924,810,932,809,937,725,930"/>
+<area shape="poly" id="edge12_Node000374_Node000378" title=" " alt="" coords="725,906,811,898,812,903,725,911"/>
+<area shape="poly" id="edge15_Node000379_Node000379" title=" " alt="" coords="563,841,560,830,568,821,587,815,615,813,648,816,666,823,664,828,647,821,615,819,588,821,571,826,565,831,568,839"/>
+<area shape="poly" id="edge20_Node000380_Node000311" title=" " alt="" coords="706,624,830,652,829,658,705,629"/>
+<area shape="poly" id="edge21_Node000380_Node000027" title=" " alt="" coords="725,593,815,584,815,590,725,599"/>
+<area shape="poly" id="edge24_Node000387_Node000027" title=" " alt="" coords="683,510,743,528,845,559,843,565,742,533,681,515"/>
+<area shape="poly" id="edge30_Node000395_Node000006" title=" " alt="" coords="418,243,570,249,657,257,743,268,847,293,846,298,742,273,656,262,569,255,417,248"/>
+<area shape="poly" id="edge31_Node000395_Node000007" title=" " alt="" coords="369,263,424,292,489,318,547,332,627,348,801,377,800,383,626,354,546,338,487,323,422,296,366,268"/>
+<area shape="poly" id="edge32_Node000395_Node000387" title=" " alt="" coords="343,264,364,306,396,358,438,412,463,437,489,458,517,472,515,477,487,462,459,441,434,416,391,361,359,308,338,267"/>
+<area shape="rect" id="Node000396" href="$classBoostGraph.html#ae41f76ee69f651814053a7ba696d0de3" title=" " alt="" coords="522,103,709,158"/>
+<area shape="poly" id="edge26_Node000395_Node000396" title=" " alt="" coords="368,223,423,195,487,167,508,159,510,164,489,172,426,200,370,228"/>
+<area shape="rect" id="Node000397" href="$classMoveNode.html#ae8eb5461705e84eb9c9e700c643637be" title=" " alt="" coords="488,182,743,207"/>
+<area shape="poly" id="edge27_Node000395_Node000397" title=" " alt="" coords="417,227,529,207,530,212,418,233"/>
+<area shape="rect" id="Node000285" href="$classMoveNode.html#a9dd891c0388707144377a2adcd10bb4a" title=" " alt="" coords="490,283,741,309"/>
+<area shape="poly" id="edge28_Node000395_Node000285" title=" " alt="" coords="418,258,530,278,529,284,417,263"/>
+<area shape="rect" id="Node000288" href="$classMoveNode.html#ab269dda3804f3569946eea8d3b8c26ab" title=" " alt="" coords="791,29,1009,54"/>
+<area shape="poly" id="edge29_Node000395_Node000288" title=" " alt="" coords="338,224,358,182,389,130,432,79,458,57,487,39,531,21,578,10,627,4,675,3,765,10,839,23,838,28,764,15,675,8,627,10,579,15,533,26,489,44,461,61,436,82,394,133,362,184,343,226"/>
+<area shape="rect" id="Node000398" href="$classMoveNode.html#a24dc4c3ba35e7c5fb12150c2c8aac64f" title=" " alt="" coords="503,54,728,79"/>
+<area shape="poly" id="edge33_Node000395_Node000398" title=" " alt="" coords="344,223,401,156,441,119,487,88,502,82,504,86,489,93,444,123,405,159,348,227"/>
+<area shape="poly" id="edge34_Node000398_Node000288" title=" " alt="" coords="728,54,777,50,777,55,728,59"/>
+</map>

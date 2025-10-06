@@ -1,0 +1,50 @@
+<map id="Script.hh" name="Script.hh">
+<area shape="rect" id="Node000001" title=" " alt="" coords="551,5,629,31"/>
+<area shape="rect" id="Node000002" href="$ConditionScript_8hh.html" title=" " alt="" coords="251,79,393,104"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="538,36,366,81,365,76,536,31"/>
+<area shape="rect" id="Node000032" href="$ExpressionScript_8hh.html" title=" " alt="" coords="676,152,827,177"/>
+<area shape="poly" id="edge21_Node000001_Node000032" title=" " alt="" coords="595,44,602,74,617,102,635,118,656,132,700,150,698,154,653,136,632,123,613,106,597,76,589,46"/>
+<area shape="rect" id="Node000034" href="$Script_8cc.html" title=" " alt="" coords="627,79,705,104"/>
+<area shape="poly" id="edge30_Node000001_Node000034" title=" " alt="" coords="614,38,655,76,652,80,610,42"/>
+<area shape="rect" id="Node000003" href="$Breakpoint_8cc.html" title=" " alt="" coords="5,299,116,324"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="239,105,181,119,122,142,94,158,69,178,48,200,31,226,27,245,32,264,52,297,48,300,27,266,22,245,26,224,44,197,66,174,91,154,120,138,179,114,237,100"/>
+<area shape="rect" id="Node000004" href="$Breakpoint_8hh.html" title=" " alt="" coords="168,225,281,251"/>
+<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="239,108,201,126,184,138,171,153,167,162,167,172,175,191,191,208,209,223,206,227,187,212,171,194,161,173,162,161,166,151,181,134,198,121,237,103"/>
+<area shape="rect" id="Node000013" href="$ConditionScript_8cc.html" title=" " alt="" coords="181,152,319,177"/>
+<area shape="poly" id="edge7_Node000002_Node000013" title=" " alt="" coords="302,116,264,154,260,150,298,112"/>
+<area shape="rect" id="Node000014" href="$StopPoint_8cc.html" title=" " alt="" coords="41,225,144,251"/>
+<area shape="poly" id="edge8_Node000002_Node000014" title=" " alt="" coords="256,110,206,128,160,154,140,171,124,191,101,227,96,224,120,188,137,168,156,150,204,123,254,105"/>
+<area shape="rect" id="Node000015" href="$StopPoint_8hh.html" title=" " alt="" coords="343,152,447,177"/>
+<area shape="poly" id="edge9_Node000002_Node000015" title=" " alt="" coords="346,112,385,150,382,154,342,116"/>
+<area shape="rect" id="Node000027" href="$Watch_8cc.html" title=" " alt="" coords="1093,299,1173,324"/>
+<area shape="poly" id="edge20_Node000002_Node000027" title=" " alt="" coords="407,92,580,102,790,124,892,141,984,162,1059,190,1088,206,1111,223,1123,241,1131,262,1135,298,1130,299,1125,263,1118,244,1107,227,1085,210,1057,195,983,168,891,146,789,129,580,107,407,98"/>
+<area shape="rect" id="Node000028" href="$TclConditionScript_8hh.html" title=" " alt="" coords="472,152,631,177"/>
+<area shape="poly" id="edge16_Node000002_Node000028" title=" " alt="" coords="373,106,515,149,513,154,371,111"/>
+<area shape="poly" id="edge4_Node000004_Node000003" title=" " alt="" coords="187,259,89,301,86,296,185,254"/>
+<area shape="rect" id="Node000010" href="$SimControlLanguageCommand_8cc.html" title=" " alt="" coords="198,299,441,324"/>
+<area shape="poly" id="edge5_Node000004_Node000010" title=" " alt="" coords="252,257,305,296,302,301,249,261"/>
+<area shape="rect" id="Node000012" href="$WatchCommand_8cc.html" title=" " alt="" coords="678,299,825,324"/>
+<area shape="poly" id="edge6_Node000004_Node000012" title=" " alt="" coords="295,246,678,298,678,303,295,251"/>
+<area shape="poly" id="edge10_Node000015_Node000004" title=" " alt="" coords="356,185,254,228,252,223,354,180"/>
+<area shape="poly" id="edge11_Node000015_Node000014" title=" " alt="" coords="334,183,142,228,141,223,333,178"/>
+<area shape="rect" id="Node000026" href="$Watch_8hh.html" title=" " alt="" coords="789,225,871,251"/>
+<area shape="poly" id="edge12_Node000015_Node000026" title=" " alt="" coords="461,175,461,175,789,228,788,233,460,180,460,180"/>
+<area shape="poly" id="edge14_Node000026_Node000012" title=" " alt="" coords="809,262,766,300,762,296,805,258"/>
+<area shape="poly" id="edge13_Node000026_Node000027" title=" " alt="" coords="885,250,1093,298,1092,303,884,255"/>
+<area shape="rect" id="Node000025" href="$WatchPropertiesDialog_8cc.html" title=" " alt="" coords="865,299,1053,324"/>
+<area shape="poly" id="edge15_Node000026_Node000025" title=" " alt="" coords="864,255,939,296,937,301,862,260"/>
+<area shape="poly" id="edge19_Node000028_Node000010" title=" " alt="" coords="475,183,398,202,367,214,347,227,335,244,327,263,322,299,317,298,322,262,330,241,343,223,364,210,397,197,474,178"/>
+<area shape="rect" id="Node000029" href="$AddWatchDialog_8cc.html" title=" " alt="" coords="357,225,503,251"/>
+<area shape="poly" id="edge17_Node000028_Node000029" title=" " alt="" coords="521,187,451,227,449,223,518,182"/>
+<area shape="rect" id="Node000030" href="$ProximToolbox_8cc.html" title=" " alt="" coords="527,225,663,251"/>
+<area shape="poly" id="edge18_Node000028_Node000030" title=" " alt="" coords="568,188,590,224,586,227,564,191"/>
+<area shape="poly" id="edge25_Node000032_Node000010" title=" " alt="" coords="739,191,713,224,677,253,635,269,575,282,439,301,438,296,574,277,633,263,674,248,709,220,735,188"/>
+<area shape="poly" id="edge28_Node000032_Node000012" title=" " alt="" coords="754,191,754,298,749,298,749,191"/>
+<area shape="poly" id="edge27_Node000032_Node000026" title=" " alt="" coords="776,185,819,223,815,227,772,189"/>
+<area shape="poly" id="edge26_Node000032_Node000027" title=" " alt="" coords="841,172,976,191,1037,205,1079,223,1098,240,1113,260,1131,297,1126,300,1109,263,1094,244,1077,228,1036,210,975,196,840,177"/>
+<area shape="poly" id="edge29_Node000032_Node000025" title=" " alt="" coords="841,168,904,175,969,186,1024,201,1044,212,1059,224,1065,236,1065,248,1049,269,1022,287,992,301,990,296,1019,283,1045,266,1060,246,1060,237,1055,227,1041,216,1022,206,968,191,904,180,840,174"/>
+<area shape="poly" id="edge22_Node000032_Node000029" title=" " alt="" coords="687,183,483,228,481,223,686,178"/>
+<area shape="poly" id="edge24_Node000032_Node000030" title=" " alt="" coords="715,185,622,228,620,223,713,181"/>
+<area shape="rect" id="Node000033" href="$ExpressionScript_8cc.html" title=" " alt="" coords="896,225,1044,251"/>
+<area shape="poly" id="edge23_Node000032_Node000033" title=" " alt="" coords="800,179,935,223,934,228,799,184"/>
+</map>

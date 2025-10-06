@@ -1,0 +1,29 @@
+<map id="OperationDAGSelector.hh" name="OperationDAGSelector.hh">
+<area shape="rect" id="Node000001" title=" " alt="" coords="459,5,645,31"/>
+<area shape="rect" id="Node000002" href="$LLVMBackend_8hh.html" title=" " alt="" coords="436,79,567,104"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="538,44,512,80,507,77,533,41"/>
+<area shape="rect" id="Node000006" href="$LowerMissingInstructions_8cc.html" title=" " alt="" coords="919,152,1124,177"/>
+<area shape="poly" id="edge8_Node000001_Node000006" title=" " alt="" coords="569,41,595,74,612,89,630,102,671,113,746,126,924,149,923,155,745,131,670,118,628,106,608,93,591,77,564,44"/>
+<area shape="rect" id="Node000008" href="$TDGen_8cc.html" title=" " alt="" coords="155,152,239,177"/>
+<area shape="poly" id="edge11_Node000001_Node000008" title=" " alt="" coords="445,34,331,53,282,66,249,81,233,97,219,116,203,153,198,151,215,114,228,94,247,76,281,61,330,48,444,28"/>
+<area shape="rect" id="Node000009" href="$MachineInfo_8cc.html" title=" " alt="" coords="641,79,761,104"/>
+<area shape="poly" id="edge9_Node000001_Node000009" title=" " alt="" coords="589,34,678,76,676,81,587,39"/>
+<area shape="rect" id="Node000010" href="$OperationDAGSelector_8cc.html" title=" " alt="" coords="786,79,971,104"/>
+<area shape="poly" id="edge10_Node000001_Node000010" title=" " alt="" coords="618,31,826,76,825,81,617,36"/>
+<area shape="rect" id="Node000011" href="$TDGen_8hh.html" title=" " alt="" coords="261,79,347,104"/>
+<area shape="poly" id="edge12_Node000001_Node000011" title=" " alt="" coords="500,37,345,81,343,76,498,32"/>
+<area shape="rect" id="Node000003" href="$ConnectionSweeper_8cc.html" title=" " alt="" coords="417,152,585,177"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="504,118,504,152,499,152,499,118"/>
+<area shape="rect" id="Node000004" href="$LLVMBackend_8cc.html" title=" " alt="" coords="263,152,393,177"/>
+<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="462,112,357,154,355,149,460,107"/>
+<area shape="rect" id="Node000005" href="$LLVMTCE_8cc.html" title=" " alt="" coords="609,152,708,177"/>
+<area shape="poly" id="edge4_Node000002_Node000005" title=" " alt="" coords="540,107,634,149,632,154,538,112"/>
+<area shape="poly" id="edge5_Node000002_Node000006" title=" " alt="" coords="581,101,938,149,937,155,581,106"/>
+<area shape="rect" id="Node000007" href="$SimpleICOptimizer_8cc.html" title=" " alt="" coords="733,152,894,177"/>
+<area shape="poly" id="edge6_Node000002_Node000007" title=" " alt="" coords="565,104,763,149,762,154,564,110"/>
+<area shape="poly" id="edge7_Node000002_Node000008" title=" " alt="" coords="440,110,240,156,239,151,439,105"/>
+<area shape="poly" id="edge13_Node000011_Node000004" title=" " alt="" coords="315,116,327,151,322,153,310,118"/>
+<area shape="poly" id="edge15_Node000011_Node000008" title=" " alt="" coords="277,114,216,154,213,150,274,109"/>
+<area shape="rect" id="Node000012" href="$RISCVTDGen_8hh.html" title=" " alt="" coords="5,152,131,177"/>
+<area shape="poly" id="edge14_Node000011_Node000012" title=" " alt="" coords="254,110,107,154,105,149,252,105"/>
+</map>

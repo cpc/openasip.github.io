@@ -1,0 +1,21 @@
+<map id="TTAProgram::AnnotatedInstructionElement" name="TTAProgram::AnnotatedInstructionElement">
+<area shape="rect" id="Node000001" title=" " alt="" coords="369,5,609,265"/>
+<area shape="rect" id="Node000002" href="$classTTAProgram_1_1Instruction.html" title=" " alt="" coords="123,313,369,779"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="407,279,372,338,367,336,403,276"/>
+<area shape="rect" id="Node000004" href="$classTTAProgram_1_1Move.html" title=" " alt="" coords="419,353,559,739"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="491,280,491,353,486,353,486,280"/>
+<area shape="rect" id="Node000005" href="$classTTAProgram_1_1TerminalImmediate.html" title=" " alt="" coords="596,443,824,649"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="567,276,657,442,652,444,563,279"/>
+<area shape="rect" id="Node000003" href="$classTTAProgram_1_1NullInstruction.html" title=" " alt="" coords="5,827,201,1192"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="173,793,162,827,157,825,168,791"/>
+<area shape="rect" id="Node000006" href="$classTTAProgram_1_1TerminalAddress.html" title=" " alt="" coords="225,917,435,1102"/>
+<area shape="poly" id="edge5_Node000005_Node000006" title=" " alt="" coords="663,663,623,725,599,755,572,781,539,799,509,806,480,811,449,829,409,870,376,918,372,915,405,867,446,825,478,806,508,800,537,794,568,777,595,751,619,722,658,660"/>
+<area shape="rect" id="Node000007" href="$classTTAProgram_1_1TerminalBasicBlockReference.html" title=" " alt="" coords="459,909,702,1109"/>
+<area shape="poly" id="edge6_Node000005_Node000007" title=" " alt="" coords="680,663,611,910,606,908,675,661"/>
+<area shape="rect" id="Node000008" href="$classTTAProgram_1_1TerminalInstructionAddress.html" title=" " alt="" coords="726,899,953,1119"/>
+<area shape="poly" id="edge7_Node000005_Node000008" title=" " alt="" coords="745,662,811,898,806,900,740,663"/>
+<area shape="rect" id="Node000011" href="$classTTAProgram_1_1TerminalLaneIDImmediate.html" title=" " alt="" coords="977,909,1198,1109"/>
+<area shape="poly" id="edge8_Node000005_Node000011" title=" " alt="" coords="820,657,894,738,967,825,1026,908,1022,911,963,828,890,742,816,661"/>
+<area shape="rect" id="Node000012" href="$classTTAProgram_1_1TerminalSymbolReference.html" title=" " alt="" coords="1222,909,1443,1109"/>
+<area shape="poly" id="edge9_Node000005_Node000012" title=" " alt="" coords="838,596,926,637,1024,690,1122,753,1212,825,1249,864,1280,908,1276,911,1244,868,1208,829,1118,757,1021,694,924,642,836,601"/>
+</map>

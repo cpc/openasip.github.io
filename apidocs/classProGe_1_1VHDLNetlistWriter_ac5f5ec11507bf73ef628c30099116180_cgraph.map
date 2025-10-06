@@ -1,0 +1,56 @@
+<map id="ProGe::VHDLNetlistWriter::writeSignalAssignments" name="ProGe::VHDLNetlistWriter::writeSignalAssignments">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,679,193,719"/>
+<area shape="rect" id="Node000002" href="$classAssocTools.html#a80d4271773d7ce27cad54ecc1eceff1d" title=" " alt="" coords="245,5,425,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="100,679,112,551,138,359,157,260,180,168,207,93,223,64,239,42,245,36,248,40,243,45,227,67,212,95,185,170,162,261,143,360,117,551,105,679"/>
+<area shape="rect" id="Node000003" href="$classContainerTools.html#ad15d5d2985898719095ac28109586da2" title=" " alt="" coords="245,55,426,95"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="100,679,116,564,145,395,165,307,187,226,212,159,239,112,251,101,255,105,243,116,216,161,192,228,170,308,151,396,121,564,106,679"/>
+<area shape="rect" id="Node000004" href="$classProGe_1_1NetlistPort.html#a4b890f46510966ba58b20f16f8c83a07" title=" " alt="" coords="949,318,1088,358"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="100,679,109,607,132,503,150,445,174,387,203,332,239,282,293,228,344,195,402,174,477,155,597,124,648,112,696,104,743,104,792,111,844,128,903,156,942,186,972,226,994,267,1009,304,1005,306,990,269,968,228,938,190,900,160,842,133,790,116,743,109,696,110,649,117,598,129,478,161,403,180,346,200,296,232,243,285,208,335,178,389,155,447,137,504,114,608,105,679"/>
+<area shape="rect" id="Node000005" href="$classProGe_1_1Netlist.html#a49739e02e077a8867e110b9a735efd5f" title=" " alt="" coords="243,791,428,816"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="138,717,242,769,281,784,279,789,240,774,135,722"/>
+<area shape="rect" id="Node000008" href="$classProGe_1_1NetlistPort.html#a96a7058e09048988e0357f062275cc14" title=" " alt="" coords="502,234,641,274"/>
+<area shape="poly" id="edge7_Node000001_Node000008" title=" " alt="" coords="105,678,124,632,153,571,192,505,239,443,302,387,371,341,440,304,502,277,504,282,443,309,374,346,305,392,243,446,196,508,157,574,129,634,110,680"/>
+<area shape="rect" id="Node000009" href="$classProGe_1_1VHDLNetlistWriter.html#a281e610eb6e0a69817a41421f9c701a7" title=" " alt="" coords="477,170,665,210"/>
+<area shape="poly" id="edge8_Node000001_Node000009" title=" " alt="" coords="102,679,116,619,142,536,183,445,209,401,239,360,266,333,295,309,359,267,425,235,485,212,487,217,427,240,362,272,298,313,269,337,243,364,213,403,187,447,147,538,121,621,107,680"/>
+<area shape="rect" id="Node000011" href="$classProGe_1_1BaseNetlistBlock.html#ac7a5df4ee24f3295de7f43a8bd9f38ea" title=" " alt="" coords="481,679,661,719"/>
+<area shape="poly" id="edge11_Node000001_Node000011" title=" " alt="" coords="193,697,468,697,468,702,193,702"/>
+<area shape="rect" id="Node000012" href="$classProGe_1_1NetlistPort.html#a68c5096d30a6af871dc526609c25dd77" title=" " alt="" coords="949,622,1088,662"/>
+<area shape="poly" id="edge12_Node000001_Node000012" title=" " alt="" coords="194,712,291,724,410,734,537,737,665,729,740,717,815,700,944,664,945,669,816,705,741,722,666,734,538,742,409,739,291,729,193,717"/>
+<area shape="rect" id="Node000013" href="$classProGe_1_1BaseNetlistBlock.html#a81c26b173c5f09d0894bd5db879158ac" title=" " alt="" coords="245,841,425,881"/>
+<area shape="poly" id="edge13_Node000001_Node000013" title=" " alt="" coords="120,718,172,771,206,801,243,826,254,833,252,837,240,831,202,805,168,775,116,721"/>
+<area shape="rect" id="Node000014" href="$classProGe_1_1BaseNetlistBlock.html#a8bd36ebe0495cf3f7824df1b793b0da8" title=" " alt="" coords="245,905,425,945"/>
+<area shape="poly" id="edge14_Node000001_Node000014" title=" " alt="" coords="112,718,132,755,161,801,198,849,243,891,251,896,248,900,240,895,194,853,156,804,127,758,108,721"/>
+<area shape="rect" id="Node000015" href="$classProGe_1_1BaseNetlistBlock.html#a072c040a06718d0b7e5ed94f40987850" title=" " alt="" coords="245,969,425,1009"/>
+<area shape="poly" id="edge15_Node000001_Node000015" title=" " alt="" coords="109,719,125,767,152,830,191,897,215,928,243,955,249,959,246,964,240,959,212,931,187,900,147,832,120,769,104,720"/>
+<area shape="rect" id="Node000016" href="$classProGe_1_1BaseNetlistBlock.html#a2420932d88a7ee19a332902729371e8c" title=" " alt="" coords="245,1033,425,1073"/>
+<area shape="poly" id="edge16_Node000001_Node000016" title=" " alt="" coords="106,719,119,777,144,858,162,901,184,944,211,984,243,1019,248,1023,245,1027,239,1023,207,987,180,947,157,903,139,860,114,779,101,720"/>
+<area shape="rect" id="Node000017" href="$classProGe_1_1VHDLNetlistWriter.html#ad2c3dcb7c5481e2903b95e8d085d5bf5" title=" " alt="" coords="241,457,429,497"/>
+<area shape="poly" id="edge17_Node000001_Node000017" title=" " alt="" coords="120,677,301,505,304,509,124,681"/>
+<area shape="rect" id="Node000006" href="$classMapTools.html#aa23ba88b524d1d01cd1a5c8472e2a0d2" title=" " alt="" coords="486,795,657,820"/>
+<area shape="poly" id="edge5_Node000005_Node000006" title=" " alt="" coords="428,802,473,803,473,808,428,808"/>
+<area shape="rect" id="Node000007" href="$classMapTools.html#a5a1ca012e57d4b7d8d454d60f083e747" title=" " alt="" coords="486,844,657,869"/>
+<area shape="poly" id="edge6_Node000005_Node000007" title=" " alt="" coords="393,814,502,838,501,844,392,819"/>
+<area shape="rect" id="Node000010" href="$classStringTools.html#a9f28a066b5e6fedaa2c1eed6efc51198" title=" " alt="" coords="736,195,879,220"/>
+<area shape="poly" id="edge9_Node000009_Node000010" title=" " alt="" coords="666,194,722,198,722,204,665,200"/>
+<area shape="poly" id="edge10_Node000010_Node000010" title=" " alt="" coords="773,196,765,186,769,176,784,170,807,168,837,172,848,181,845,185,835,177,807,173,785,175,773,180,771,186,777,193"/>
+<area shape="poly" id="edge18_Node000017_Node000004" title=" " alt="" coords="419,454,428,448,439,435,445,421,449,391,454,361,462,347,476,334,512,319,561,310,619,305,684,305,818,312,936,324,935,330,818,318,684,310,619,311,561,315,513,324,479,339,466,350,459,363,454,392,450,422,444,437,431,452,423,459"/>
+<area shape="poly" id="edge19_Node000017_Node000008" title=" " alt="" coords="350,455,476,291,495,278,498,283,479,295,354,458"/>
+<area shape="poly" id="edge20_Node000017_Node000009" title=" " alt="" coords="340,456,356,408,383,345,423,278,448,247,476,220,482,215,485,219,479,224,452,251,427,281,388,347,361,410,345,457"/>
+<area shape="poly" id="edge22_Node000017_Node000011" title=" " alt="" coords="350,496,400,574,436,619,479,659,498,671,495,675,476,663,432,622,395,577,345,499"/>
+<area shape="poly" id="edge23_Node000017_Node000012" title=" " alt="" coords="352,495,373,524,402,557,437,590,478,614,537,635,598,650,660,659,722,664,839,662,936,653,936,658,839,668,722,669,660,665,597,655,535,641,476,619,434,594,398,561,369,527,348,499"/>
+<area shape="rect" id="Node000018" href="$classProGe_1_1NetlistPort.html#aa3e84f088411ac57fc633efc82b36195" title=" " alt="" coords="949,479,1088,519"/>
+<area shape="poly" id="edge21_Node000017_Node000018" title=" " alt="" coords="430,482,713,499,807,501,901,499,936,499,936,504,901,505,807,506,713,505,429,487"/>
+<area shape="rect" id="Node000019" href="$classProGe_1_1VHDLNetlistWriter.html#ab6c7d4790d09631114a024f82ca88285" title=" " alt="" coords="713,450,901,490"/>
+<area shape="poly" id="edge24_Node000017_Node000019" title=" " alt="" coords="429,473,699,469,699,474,429,478"/>
+<area shape="rect" id="Node000024" href="$classProGe_1_1VHDLNetlistWriter.html#a5da7d408af7b923efafb8cc6b0a419cb" title=" " alt="" coords="477,349,665,389"/>
+<area shape="poly" id="edge28_Node000017_Node000024" title=" " alt="" coords="369,454,419,426,476,398,493,391,495,396,478,403,421,431,371,459"/>
+<area shape="rect" id="Node000025" href="$classProGe_1_1VHDLNetlistWriter.html#a08e6e5128f44c8ee3a322561c7e505d4" title=" " alt="" coords="477,565,665,605"/>
+<area shape="poly" id="edge31_Node000017_Node000025" title=" " alt="" coords="377,494,478,544,509,557,507,562,476,548,375,499"/>
+<area shape="rect" id="Node000026" href="$classConversion.html#a92a58c79ba77b64a02df8d0755e86e1b" title=" " alt="" coords="494,413,649,439"/>
+<area shape="poly" id="edge32_Node000017_Node000026" title=" " alt="" coords="428,454,498,439,499,444,429,459"/>
+<area shape="poly" id="edge25_Node000019_Node000004" title=" " alt="" coords="839,448,973,363,975,368,842,452"/>
+<area shape="poly" id="edge27_Node000019_Node000012" title=" " alt="" coords="835,488,984,611,980,615,831,492"/>
+<area shape="poly" id="edge26_Node000019_Node000018" title=" " alt="" coords="902,480,936,485,935,491,901,486"/>
+<area shape="poly" id="edge29_Node000024_Node000004" title=" " alt="" coords="665,360,936,341,936,346,666,365"/>
+<area shape="poly" id="edge30_Node000024_Node000019" title=" " alt="" coords="635,386,666,398,757,441,755,446,664,403,633,391"/>
+</map>

@@ -1,0 +1,42 @@
+<map id="ProgramGraph::ProgramGraph" name="ProgramGraph::ProgramGraph">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,597,224,622"/>
+<area shape="rect" id="Node000002" href="$classDataDependenceGraphBuilder.html#ae565df4f2725e346a0fb8b528435f713" title=" " alt="" coords="272,424,491,464"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="135,594,335,469,338,473,138,599"/>
+<area shape="rect" id="Node000395" href="$classProgramGraph.html#afebe6a84b41b47a875a6f9f6ff1d744e" title=" " alt="" coords="303,625,459,650"/>
+<area shape="poly" id="edge23_Node000001_Node000395" title=" " alt="" coords="224,618,290,625,289,630,224,623"/>
+<area shape="rect" id="Node000003" href="$classDataDependenceGraphBuilder.html#a3d12cdb9b2e7ddb3360da435298335b4" title=" " alt="" coords="539,181,757,221"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="390,423,411,382,443,331,486,277,537,231,546,225,549,230,540,235,490,281,448,334,416,385,394,425"/>
+<area shape="rect" id="Node000008" href="$classDataDependenceGraphBuilder.html#a5221174d9dcb7ed6b38663f4c75e1192" title=" " alt="" coords="539,245,757,285"/>
+<area shape="poly" id="edge4_Node000002_Node000008" title=" " alt="" coords="399,422,457,363,495,331,537,302,564,288,567,293,540,306,499,335,460,367,402,426"/>
+<area shape="rect" id="Node000371" href="$classDataDependenceGraphBuilder.html#a43c115211b38fd446195c220bb1602d9" title=" " alt="" coords="539,360,757,400"/>
+<area shape="poly" id="edge5_Node000002_Node000371" title=" " alt="" coords="465,421,550,401,552,406,466,427"/>
+<area shape="rect" id="Node000311" href="$classApplication.html#aeb2ac2bb91d6d150565357d09d1859b9" title=" " alt="" coords="805,367,976,393"/>
+<area shape="poly" id="edge15_Node000002_Node000311" title=" " alt="" coords="404,422,462,380,499,360,538,345,578,337,619,333,700,335,775,346,837,361,836,366,774,352,700,340,619,338,578,342,539,351,501,365,465,385,408,426"/>
+<area shape="rect" id="Node000027" href="$classBoostGraph.html#a81b620226fbed324583e0c80c60ef2d3" title=" " alt="" coords="819,461,962,486"/>
+<area shape="poly" id="edge16_Node000002_Node000027" title=" " alt="" coords="465,461,539,473,600,478,648,477,757,473,805,473,805,478,757,479,648,483,600,483,538,479,464,467"/>
+<area shape="rect" id="Node000374" href="$classException.html#aa08aba8a4c7a6ec2a354bb74246dcfcf" title=" " alt="" coords="539,654,757,679"/>
+<area shape="poly" id="edge8_Node000002_Node000374" title=" " alt="" coords="396,463,418,499,451,545,492,592,540,632,569,647,567,652,537,637,488,596,446,548,414,502,391,465"/>
+<area shape="rect" id="Node000376" href="$classException.html#aa583bdfc22b863208247cc8fece97534" title=" " alt="" coords="814,630,967,655"/>
+<area shape="poly" id="edge11_Node000002_Node000376" title=" " alt="" coords="399,462,456,526,495,561,540,588,587,603,653,616,800,633,800,638,653,621,585,608,538,593,492,565,452,530,395,466"/>
+<area shape="rect" id="Node000378" href="$classException.html#afcb86935e383b5323f0622059c668aae" title=" " alt="" coords="816,679,965,705"/>
+<area shape="poly" id="edge14_Node000002_Node000378" title=" " alt="" coords="398,463,493,611,505,635,512,656,521,673,540,688,576,704,613,715,653,721,692,722,768,717,831,705,832,711,768,722,692,728,652,726,612,720,574,709,537,693,517,676,507,658,500,637,488,613,394,466"/>
+<area shape="rect" id="Node000379" href="$classDataDependenceGraphBuilder.html#a0ee852371d82a4209f89bdb0e79fa5f8" title="find special register data from old frontend code" alt="" coords="539,29,757,69"/>
+<area shape="poly" id="edge12_Node000002_Node000379" title=" " alt="" coords="383,423,395,357,422,265,443,215,468,165,499,120,537,79,542,75,546,79,540,83,503,123,473,168,447,217,427,266,401,358,388,424"/>
+<area shape="rect" id="Node000380" href="$classDataDependenceGraphBuilder.html#a3e349d46da25712f47823a5cbd11ac8a" title=" " alt="" coords="539,424,757,464"/>
+<area shape="poly" id="edge17_Node000002_Node000380" title=" " alt="" coords="491,441,525,441,525,447,491,447"/>
+<area shape="rect" id="Node000386" href="$classLLVMAliasAnalyzer.html#ab31cd717b27d0d76d5e3080c70439fc5" title=" " alt="" coords="571,93,725,133"/>
+<area shape="poly" id="edge20_Node000002_Node000386" title=" " alt="" coords="385,423,401,368,431,292,451,252,475,212,504,175,537,143,557,130,560,135,540,147,508,179,480,215,456,254,435,294,406,369,390,425"/>
+<area shape="rect" id="Node000387" href="$classDataDependenceGraph.html#ae68641343419d3743eac7992dc10040b" title=" " alt="" coords="561,539,735,579"/>
+<area shape="poly" id="edge21_Node000002_Node000387" title=" " alt="" coords="422,462,540,518,575,531,573,536,538,522,420,467"/>
+<area shape="poly" id="edge3_Node000003_Node000003" title=" " alt="" coords="603,182,600,172,607,162,623,157,648,155,676,158,692,165,689,170,675,163,648,160,625,162,610,167,605,173,608,180"/>
+<area shape="poly" id="edge6_Node000371_Node000311" title=" " alt="" coords="757,377,792,377,792,383,757,383"/>
+<area shape="poly" id="edge7_Node000371_Node000027" title=" " alt="" coords="723,398,758,410,854,452,851,457,756,414,722,403"/>
+<area shape="poly" id="edge9_Node000374_Node000376" title=" " alt="" coords="757,653,800,649,800,654,758,659"/>
+<area shape="poly" id="edge10_Node000374_Node000378" title=" " alt="" coords="758,675,802,680,802,685,757,681"/>
+<area shape="poly" id="edge13_Node000379_Node000379" title=" " alt="" coords="603,30,600,20,607,10,623,5,648,3,676,6,692,13,689,18,675,11,648,8,625,10,610,15,605,21,608,28"/>
+<area shape="poly" id="edge18_Node000380_Node000311" title=" " alt="" coords="724,421,828,394,829,399,725,427"/>
+<area shape="poly" id="edge19_Node000380_Node000027" title=" " alt="" coords="758,455,806,460,805,466,757,460"/>
+<area shape="poly" id="edge22_Node000387_Node000027" title=" " alt="" coords="705,536,840,488,842,493,706,541"/>
+<area shape="rect" id="Node000396" href="$classSequenceTools.html#ad93f9ced8a5019b316e29f403bf6839e" title=" " alt="" coords="556,755,740,795"/>
+<area shape="poly" id="edge24_Node000395_Node000396" title=" " alt="" coords="402,648,461,689,540,734,571,747,569,752,537,738,459,693,399,652"/>
+</map>

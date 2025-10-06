@@ -1,0 +1,82 @@
+<map id="BusBroker::isAvailable" name="BusBroker::isAvailable">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,625,172,651"/>
+<area shape="rect" id="Node000002" href="$classBusResource.html#a152854fe7326b58bc4a0f046ccb0e944" title=" " alt="" coords="255,5,435,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="88,625,99,514,124,341,141,249,163,165,188,95,203,69,218,48,241,32,244,36,222,52,207,71,193,98,168,166,147,250,129,342,105,515,94,626"/>
+<area shape="rect" id="Node000006" href="$classBusBroker.html#a991015a976c5a5b3bb7878e1e35e1a2f" title=" " alt="" coords="220,331,471,356"/>
+<area shape="poly" id="edge3_Node000001_Node000006" title=" " alt="" coords="90,624,103,578,127,512,165,441,189,407,218,379,253,358,256,363,222,383,193,411,169,443,132,514,108,580,95,626"/>
+<area shape="rect" id="Node000027" href="$classTTAProgram_1_1Move.html#ae43e156b81419220606a69815c517568" title=" " alt="" coords="821,140,1048,165"/>
+<area shape="poly" id="edge18_Node000001_Node000027" title=" " alt="" coords="89,625,101,526,126,373,143,293,165,220,189,161,203,138,218,121,239,107,265,96,328,79,404,70,486,68,649,76,774,91,839,109,896,132,894,137,838,114,773,97,649,81,486,73,404,76,329,84,266,101,242,112,222,125,208,141,194,163,170,222,149,294,131,374,106,526,94,626"/>
+<area shape="rect" id="Node000047" href="$classTTAMachine_1_1Port.html#ace0d9d9bb673d9fc1f8c5088606db9bc" title=" " alt="" coords="829,403,1041,428"/>
+<area shape="poly" id="edge43_Node000001_Node000047" title=" " alt="" coords="172,632,517,615,681,601,739,593,772,584,804,560,843,520,913,437,917,441,847,524,807,564,774,588,740,598,681,606,517,620,173,638"/>
+<area shape="rect" id="Node000061" href="$classTTAProgram_1_1Terminal.html#ae0cbf22602c23cc9be517a906a9bdfc8" title=" " alt="" coords="852,561,1017,601"/>
+<area shape="poly" id="edge44_Node000001_Node000061" title=" " alt="" coords="172,642,290,649,441,652,607,647,691,639,773,629,823,618,870,603,871,608,824,623,774,634,691,645,607,652,441,657,290,654,172,648"/>
+<area shape="rect" id="Node000063" href="$classBusBroker.html#a28ea2301566324801a9b22c0a7aee263" title=" " alt="" coords="541,107,751,132"/>
+<area shape="poly" id="edge25_Node000001_Node000063" title=" " alt="" coords="89,625,103,535,130,399,148,329,169,265,192,212,218,177,255,151,295,131,338,117,382,107,470,100,549,103,549,108,470,105,383,112,339,122,297,136,257,156,222,181,197,215,174,266,153,330,135,400,108,536,94,625"/>
+<area shape="rect" id="Node000070" href="$classTTAProgram_1_1Move.html#a38f1448fcca5c4e3b77f46431d8d1bda" title=" " alt="" coords="551,156,741,181"/>
+<area shape="poly" id="edge26_Node000001_Node000070" title=" " alt="" coords="87,625,90,555,95,505,106,449,122,390,145,333,177,280,218,235,253,209,292,190,333,175,375,165,459,154,537,154,537,159,460,160,376,170,334,180,294,195,256,214,222,239,181,283,150,335,127,392,111,450,101,506,95,556,92,625"/>
+<area shape="rect" id="Node000071" href="$classTTAProgram_1_1MoveGuard.html#ad28bc3c1523e6b71f8745493f718c9fa" title=" " alt="" coords="554,206,738,246"/>
+<area shape="poly" id="edge27_Node000001_Node000071" title=" " alt="" coords="88,625,94,564,113,473,129,423,152,375,181,330,218,292,254,267,294,248,335,233,378,223,463,213,540,213,540,218,463,218,379,228,337,239,296,253,257,272,222,296,185,333,156,377,134,425,118,474,99,565,93,625"/>
+<area shape="rect" id="Node000072" href="$classTTAMachine_1_1Bus.html#a9a02cf9fa536b1739d85f9ce9306b898" title=" " alt="" coords="557,385,735,411"/>
+<area shape="poly" id="edge28_Node000001_Node000072" title=" " alt="" coords="93,624,110,591,137,548,173,503,195,483,219,466,257,446,298,430,384,407,468,396,543,392,543,397,468,401,385,413,300,435,260,451,221,471,198,487,177,507,141,551,115,594,98,626"/>
+<area shape="rect" id="Node000073" href="$classTTAMachine_1_1Bus.html#adf3e3aafb7edae21f94594176abdbb6b" title=" " alt="" coords="538,435,754,460"/>
+<area shape="poly" id="edge29_Node000001_Node000073" title=" " alt="" coords="98,623,145,571,180,541,219,517,295,487,375,467,453,454,524,447,525,452,454,459,376,472,296,492,221,522,183,545,149,574,102,627"/>
+<area shape="rect" id="Node000074" href="$classTTAMachine_1_1Guard.html#a8b989bd2f8023ac8af0844b73ebde059" title=" " alt="" coords="568,485,724,525"/>
+<area shape="poly" id="edge33_Node000001_Node000074" title=" " alt="" coords="106,623,155,590,219,560,306,535,395,519,480,509,554,504,554,509,481,514,396,524,307,540,221,564,157,595,108,627"/>
+<area shape="rect" id="Node000075" href="$classTTAProgram_1_1Move.html#a5e8e936995153fa49e1deeedbcbf19a5" title=" " alt="" coords="519,549,773,575"/>
+<area shape="poly" id="edge35_Node000001_Node000075" title=" " alt="" coords="119,623,166,606,219,591,292,579,366,570,505,561,505,566,367,576,293,584,221,597,168,611,121,628"/>
+<area shape="rect" id="Node000076" href="$classException.html#aa08aba8a4c7a6ec2a354bb74246dcfcf" title=" " alt="" coords="236,701,455,727"/>
+<area shape="poly" id="edge19_Node000001_Node000076" title=" " alt="" coords="126,648,221,679,279,695,277,700,219,685,125,653"/>
+<area shape="rect" id="Node000015" href="$classTTAMachine_1_1Port.html#ad12e41e813636ebc9edb4e7cbd5cefb1" title=" " alt="" coords="236,751,455,776"/>
+<area shape="poly" id="edge30_Node000001_Node000015" title=" " alt="" coords="104,649,153,692,186,716,221,736,244,744,243,749,219,740,183,720,149,696,101,653"/>
+<area shape="rect" id="Node000082" href="$classResourceBroker.html#a4a4217bfbf150db52cdbe16de17ef412" title=" " alt="" coords="245,801,446,841"/>
+<area shape="poly" id="edge32_Node000001_Node000082" title=" " alt="" coords="100,650,146,715,181,753,221,785,236,793,233,798,219,790,177,757,141,718,95,653"/>
+<area shape="rect" id="Node000083" href="$classTTAProgram_1_1Terminal.html#af2f32024b01497be4864c698e1bdfaf9" title=" " alt="" coords="263,865,428,905"/>
+<area shape="poly" id="edge34_Node000001_Node000083" title=" " alt="" coords="96,650,111,690,136,744,173,802,196,828,222,850,251,866,249,871,218,855,192,832,169,805,132,747,106,692,91,652"/>
+<area shape="rect" id="Node000084" href="$classResourceBroker.html#acf5ea4a222e95c746926ab809e3a4b69" title=" " alt="" coords="231,1107,459,1132"/>
+<area shape="poly" id="edge36_Node000001_Node000084" title=" " alt="" coords="94,651,109,740,136,874,154,944,175,1008,197,1059,222,1094,226,1097,223,1101,218,1097,193,1062,170,1010,149,945,131,875,104,740,89,651"/>
+<area shape="rect" id="Node000021" href="$classTTAMachine_1_1Component.html#aca1a5cd64b40a19ccad0c589ff9de98f" title=" " alt="" coords="253,993,437,1033"/>
+<area shape="poly" id="edge39_Node000001_Node000021" title=" " alt="" coords="93,651,101,710,120,799,137,848,159,896,187,940,222,979,242,992,239,997,218,983,183,943,154,898,132,850,115,800,95,711,88,651"/>
+<area shape="rect" id="Node000085" href="$classTTAMachine_1_1Port.html#af0cebb9dec6dfad48aefda771af1b739" title=" " alt="" coords="255,1057,435,1083"/>
+<area shape="poly" id="edge40_Node000001_Node000085" title=" " alt="" coords="92,651,95,721,101,771,111,827,127,886,150,943,181,997,222,1043,244,1057,241,1061,218,1047,177,1000,145,946,122,887,106,828,96,772,90,721,87,651"/>
+<area shape="rect" id="Node000086" href="$classTTAMachine_1_1Port.html#a01f6c609241315164ada5d805f7f3499" title=" " alt="" coords="253,929,438,969"/>
+<area shape="poly" id="edge41_Node000001_Node000086" title=" " alt="" coords="95,650,105,700,128,772,145,811,166,849,191,884,222,915,241,927,238,932,218,919,187,888,161,852,140,813,123,774,100,701,89,651"/>
+<area shape="rect" id="Node000087" href="$classResourceBroker.html#a3fdb7c4e467be341714a20e52e23047f" title=" " alt="" coords="244,1156,447,1181"/>
+<area shape="poly" id="edge45_Node000001_Node000087" title=" " alt="" coords="94,651,107,748,133,897,151,975,172,1047,195,1105,208,1127,222,1143,233,1151,230,1156,218,1147,204,1130,191,1107,167,1048,146,977,128,898,102,749,89,651"/>
+<area shape="rect" id="Node000088" href="$classTTAProgram_1_1Move.html#a794b6868d4e25c3afc063e740378e6ab" title=" " alt="" coords="247,1205,443,1231"/>
+<area shape="poly" id="edge46_Node000001_Node000088" title=" " alt="" coords="94,651,105,757,130,921,148,1007,169,1086,194,1150,207,1174,222,1192,236,1203,233,1207,218,1196,203,1177,189,1152,164,1087,142,1008,125,922,100,757,89,651"/>
+<area shape="rect" id="Node000003" href="$classBusResource.html#aedd4b4881fbb72ad7495b3060af39193" title=" " alt="" coords="553,5,739,31"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="436,15,540,15,540,21,436,21"/>
+<area shape="poly" id="edge9_Node000006_Node000006" title=" " alt="" coords="304,332,295,322,300,312,317,306,345,304,381,308,392,313,396,318,391,321,388,317,380,313,345,309,318,311,303,316,300,322,308,329"/>
+<area shape="rect" id="Node000007" href="$classMachineConnectivityCheck.html#a8fe56dda5add69c09da49a7f6b025e97" title=" " alt="" coords="541,321,751,361"/>
+<area shape="poly" id="edge4_Node000006_Node000007" title=" " alt="" coords="471,340,527,339,527,344,471,345"/>
+<area shape="rect" id="Node000033" href="$classMoveNode.html#aab63e854878c28c92d44e2c4d5e557c1" title=" " alt="" coords="866,300,1003,325"/>
+<area shape="poly" id="edge17_Node000006_Node000033" title=" " alt="" coords="396,328,454,316,518,306,608,300,698,299,853,304,852,309,697,304,608,305,519,311,455,321,397,333"/>
+<area shape="poly" id="edge10_Node000006_Node000063" title=" " alt="" coords="351,329,374,291,410,240,459,186,487,162,517,141,530,135,533,139,520,146,490,166,463,190,415,243,378,294,356,332"/>
+<area shape="poly" id="edge11_Node000006_Node000070" title=" " alt="" coords="355,329,419,262,465,224,517,192,539,183,541,188,520,196,468,228,422,266,359,332"/>
+<area shape="poly" id="edge12_Node000006_Node000071" title=" " alt="" coords="371,328,437,297,518,262,560,248,562,253,520,267,439,301,373,333"/>
+<area shape="poly" id="edge13_Node000006_Node000072" title=" " alt="" coords="416,353,563,380,562,385,415,359"/>
+<area shape="poly" id="edge14_Node000006_Node000073" title=" " alt="" coords="371,354,437,386,520,419,554,429,553,434,518,425,435,391,369,358"/>
+<area shape="poly" id="edge15_Node000006_Node000074" title=" " alt="" coords="362,354,427,410,472,441,520,469,556,483,554,488,518,474,469,446,424,414,358,358"/>
+<area shape="poly" id="edge16_Node000006_Node000075" title=" " alt="" coords="356,355,379,391,416,441,464,492,491,515,520,534,536,542,534,547,517,539,488,519,460,496,412,444,375,394,352,358"/>
+<area shape="poly" id="edge5_Node000007_Node000027" title=" " alt="" coords="676,318,772,256,901,171,904,175,775,260,679,323"/>
+<area shape="poly" id="edge6_Node000007_Node000033" title=" " alt="" coords="751,328,852,318,853,323,752,333"/>
+<area shape="poly" id="edge7_Node000007_Node000047" title=" " alt="" coords="728,358,774,370,874,396,872,402,773,375,726,363"/>
+<area shape="poly" id="edge8_Node000007_Node000061" title=" " alt="" coords="753,358,775,370,792,386,803,401,824,438,910,548,906,551,819,441,798,404,788,389,772,375,750,363"/>
+<area shape="rect" id="Node000077" href="$classException.html#a0f576c82b4bc09b7ccf31de6028425f0" title=" " alt="" coords="580,849,712,875"/>
+<area shape="poly" id="edge20_Node000076_Node000077" title=" " alt="" coords="453,725,472,736,484,748,492,761,497,787,503,812,509,823,520,835,542,847,567,855,565,860,540,852,517,839,505,827,498,814,492,788,487,763,480,751,469,740,451,729"/>
+<area shape="rect" id="Node000078" href="$classException.html#acacd9a35b999ba1d9c3e1342a580d6a6" title=" " alt="" coords="555,899,737,924"/>
+<area shape="poly" id="edge21_Node000076_Node000078" title=" " alt="" coords="456,725,472,736,488,754,495,773,497,812,499,849,506,867,520,884,543,898,540,903,517,888,502,870,494,850,492,812,490,775,483,757,469,740,453,729"/>
+<area shape="rect" id="Node000079" href="$classException.html#aa583bdfc22b863208247cc8fece97534" title=" " alt="" coords="569,701,723,727"/>
+<area shape="poly" id="edge22_Node000076_Node000079" title=" " alt="" coords="455,711,555,711,555,717,455,717"/>
+<area shape="rect" id="Node000080" href="$classException.html#ae13a579b7f3fc6e54c5f3c324779ae0d" title=" " alt="" coords="567,751,725,776"/>
+<area shape="poly" id="edge23_Node000076_Node000080" title=" " alt="" coords="424,724,555,746,554,751,423,729"/>
+<area shape="rect" id="Node000081" href="$classException.html#afcb86935e383b5323f0622059c668aae" title=" " alt="" coords="571,800,721,825"/>
+<area shape="poly" id="edge24_Node000076_Node000081" title=" " alt="" coords="444,724,472,736,488,748,497,761,506,774,520,785,559,800,557,805,517,790,502,777,492,764,484,752,469,740,442,729"/>
+<area shape="rect" id="Node000016" href="$classTTAMachine_1_1Socket.html#a38432e8a0bde32e754c148001795a85b" title=" " alt="" coords="570,949,722,989"/>
+<area shape="poly" id="edge31_Node000015_Node000016" title=" " alt="" coords="454,774,472,787,488,805,495,824,498,861,500,898,507,916,521,933,538,946,558,955,556,960,535,951,517,937,502,919,495,900,493,862,490,825,483,808,469,791,451,778"/>
+<area shape="rect" id="Node000041" href="$classMapTools.html#a5a1ca012e57d4b7d8d454d60f083e747" title=" " alt="" coords="561,1079,731,1104"/>
+<area shape="poly" id="edge37_Node000084_Node000041" title=" " alt="" coords="460,1106,547,1098,547,1103,460,1111"/>
+<area shape="rect" id="Node000066" href="$classSchedulingResource.html#a60587ba186d0ca010a4435f28dddf529" title=" " alt="" coords="569,1129,723,1169"/>
+<area shape="poly" id="edge38_Node000084_Node000066" title=" " alt="" coords="460,1128,556,1137,555,1143,459,1133"/>
+<area shape="poly" id="edge42_Node000086_Node000016" title=" " alt="" coords="438,952,557,960,556,965,438,957"/>
+</map>

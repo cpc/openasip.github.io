@@ -1,0 +1,51 @@
+<map id="HDLGenerator::Generatable" name="HDLGenerator::Generatable">
+<area shape="rect" id="Node000001" title=" " alt="" coords="1389,5,1584,311"/>
+<area shape="rect" id="Node000002" href="$classHDLGenerator_1_1Asynchronous.html" title=" " alt="" coords="5,529,211,714"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="1376,166,1106,182,938,197,764,216,595,242,441,274,373,293,314,313,264,336,224,361,189,396,162,438,142,484,128,529,122,527,137,482,157,436,185,393,221,357,261,331,312,308,372,288,440,269,594,237,764,211,938,191,1105,177,1376,161"/>
+<area shape="rect" id="Node000003" href="$classHDLGenerator_1_1Behaviour.html" title=" " alt="" coords="235,499,415,744"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="1376,169,1146,190,1008,207,865,227,727,253,602,283,500,319,460,339,428,361,400,390,378,424,361,461,348,499,343,498,356,459,373,421,396,386,425,357,457,335,498,314,601,278,726,248,864,222,1007,201,1146,185,1376,164"/>
+<area shape="rect" id="Node000004" href="$classHDLGenerator_1_1BinaryConstant.html" title=" " alt="" coords="439,549,654,694"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="1376,177,1197,205,988,246,887,271,796,299,721,329,668,361,630,402,601,450,579,501,564,549,559,548,574,499,596,448,626,399,665,357,719,324,794,294,886,266,987,241,1196,200,1375,172"/>
+<area shape="rect" id="Node000005" href="$classHDLGenerator_1_1Case.html" title=" " alt="" coords="679,489,825,754"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="1376,166,1252,181,1181,195,1108,214,1035,239,964,271,898,312,839,361,816,389,797,420,783,454,772,489,767,488,778,453,792,418,811,385,835,357,895,307,962,267,1033,234,1107,209,1180,189,1251,176,1375,161"/>
+<area shape="rect" id="Node000006" href="$classHDLGenerator_1_1DefaultCase.html" title=" " alt="" coords="849,559,1044,684"/>
+<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="1377,189,1299,215,1214,251,1131,300,1093,328,1058,360,1022,407,995,459,975,511,961,559,956,558,970,510,990,457,1018,404,1054,357,1089,324,1128,295,1211,247,1297,210,1375,184"/>
+<area shape="rect" id="Node000007" href="$classHDLGenerator_1_1IntegerConstant.html" title=" " alt="" coords="1068,559,1287,684"/>
+<area shape="poly" id="edge6_Node000001_Node000007" title=" " alt="" coords="1382,262,1339,310,1301,360,1270,410,1243,463,1202,559,1197,557,1238,461,1266,408,1296,357,1335,306,1378,259"/>
+<area shape="rect" id="Node000008" href="$classHDLGenerator_1_1Module.html" title=" " alt="" coords="1311,359,1473,884"/>
+<area shape="poly" id="edge7_Node000001_Node000008" title=" " alt="" coords="1455,325,1448,359,1443,358,1450,323"/>
+<area shape="rect" id="Node000009" href="$classHDLGenerator_1_1NewLine.html" title=" " alt="" coords="1497,579,1668,664"/>
+<area shape="poly" id="edge8_Node000001_Node000009" title=" " alt="" coords="1524,324,1577,578,1571,579,1518,325"/>
+<area shape="rect" id="Node000010" href="$classHDLGenerator_1_1Option.html" title=" " alt="" coords="1692,589,1849,654"/>
+<area shape="poly" id="edge9_Node000001_Node000010" title=" " alt="" coords="1596,251,1642,302,1682,357,1714,418,1738,482,1767,588,1762,589,1733,483,1709,420,1678,360,1638,305,1592,255"/>
+<area shape="rect" id="Node000011" href="$classHDLGenerator_1_1Parameter.html" title=" " alt="" coords="1873,539,2055,704"/>
+<area shape="poly" id="edge10_Node000001_Node000011" title=" " alt="" coords="1598,192,1664,219,1735,256,1803,302,1863,357,1894,399,1918,445,1937,493,1950,538,1945,539,1932,495,1914,448,1890,402,1859,360,1800,306,1732,261,1662,224,1596,197"/>
+<area shape="rect" id="Node000012" href="$classHDLGenerator_1_1SequentialStatement.html" title=" " alt="" coords="2079,571,2262,671"/>
+<area shape="poly" id="edge11_Node000001_Node000012" title=" " alt="" coords="1598,167,1707,187,1769,202,1832,222,1896,247,1958,277,2016,314,2069,357,2090,380,2108,407,2136,464,2155,521,2166,571,2161,572,2150,522,2131,466,2103,409,2086,384,2065,361,2013,318,1955,282,1894,252,1831,227,1767,207,1706,192,1597,172"/>
+<area shape="rect" id="Node000020" href="$classHDLGenerator_1_1Synchronous.html" title=" " alt="" coords="2287,519,2484,724"/>
+<area shape="poly" id="edge19_Node000001_Node000020" title=" " alt="" coords="1598,172,1770,201,1970,243,2066,268,2153,295,2224,325,2275,357,2308,391,2333,432,2353,475,2367,517,2362,519,2348,477,2328,434,2303,395,2272,361,2222,329,2151,300,2065,273,1969,248,1769,207,1597,178"/>
+<area shape="rect" id="Node000021" href="$classHDLGenerator_1_1Variable.html" title=" " alt="" coords="2671,479,2860,764"/>
+<area shape="poly" id="edge20_Node000001_Node000021" title=" " alt="" coords="1598,158,1778,170,1889,183,2008,201,2132,227,2258,260,2381,303,2497,356,2546,386,2592,422,2672,499,2669,503,2589,426,2543,391,2495,361,2379,308,2256,265,2131,232,2007,207,1888,188,1777,176,1597,164"/>
+<area shape="rect" id="Node000025" href="$classHDLGenerator_1_1Wire.html" title=" " alt="" coords="2884,529,3028,714"/>
+<area shape="poly" id="edge24_Node000001_Node000025" title=" " alt="" coords="1598,158,1894,168,2080,180,2273,198,2462,223,2634,257,2709,278,2775,301,2831,327,2874,357,2906,393,2929,437,2944,483,2953,528,2948,529,2939,484,2924,439,2902,396,2870,361,2828,332,2773,306,2707,283,2633,263,2462,229,2273,204,2079,186,1894,174,1598,163"/>
+<area shape="rect" id="Node000013" href="$classHDLGenerator_1_1Assign.html" title=" " alt="" coords="1261,932,1419,1137"/>
+<area shape="poly" id="edge12_Node000012_Node000013" title=" " alt="" coords="2167,685,2157,736,2138,791,2109,843,2091,866,2068,886,2043,900,2012,910,1937,921,1849,922,1753,919,1658,914,1568,913,1490,918,1458,925,1432,934,1420,941,1418,936,1430,930,1457,919,1489,913,1568,907,1658,909,1754,913,1849,917,1937,915,2011,905,2041,895,2065,882,2087,863,2105,840,2133,789,2151,735,2162,684"/>
+<area shape="rect" id="Node000014" href="$classHDLGenerator_1_1CodeBlock.html" title=" " alt="" coords="1443,982,1626,1087"/>
+<area shape="poly" id="edge13_Node000012_Node000014" title=" " alt="" coords="2167,685,2156,736,2137,791,2109,843,2090,866,2068,886,2040,905,2013,919,1960,932,1910,931,1860,923,1810,914,1757,909,1701,914,1671,922,1640,934,1606,956,1577,983,1573,980,1603,952,1637,930,1669,917,1700,909,1757,904,1810,909,1861,918,1910,926,1960,926,2011,914,2037,900,2065,882,2086,862,2105,840,2132,788,2151,734,2161,684"/>
+<area shape="rect" id="Node000015" href="$classHDLGenerator_1_1DefaultAssign.html" title=" " alt="" coords="1651,972,1856,1097"/>
+<area shape="poly" id="edge14_Node000012_Node000015" title=" " alt="" coords="2165,685,2154,735,2135,789,2107,841,2089,865,2068,886,2043,904,2019,913,1995,917,1972,917,1924,918,1898,923,1869,934,1841,952,1814,974,1811,969,1837,948,1867,930,1896,918,1923,913,1972,912,1995,912,2017,908,2040,899,2065,882,2085,862,2103,838,2130,787,2148,733,2160,684"/>
+<area shape="rect" id="Node000016" href="$classHDLGenerator_1_1HDLOperation.html" title=" " alt="" coords="1880,932,2085,1137"/>
+<area shape="poly" id="edge15_Node000012_Node000016" title=" " alt="" coords="2151,685,2115,780,2069,885,2044,933,2040,931,2064,883,2110,778,2146,683"/>
+<area shape="rect" id="Node000017" href="$classHDLGenerator_1_1If.html" title=" " alt="" coords="2109,952,2232,1117"/>
+<area shape="poly" id="edge16_Node000012_Node000017" title=" " alt="" coords="2173,685,2173,952,2168,952,2168,685"/>
+<area shape="rect" id="Node000018" href="$classHDLGenerator_1_1RawCodeLine.html" title=" " alt="" coords="2256,982,2459,1087"/>
+<area shape="poly" id="edge17_Node000012_Node000018" title=" " alt="" coords="2195,683,2232,778,2277,883,2329,980,2324,983,2272,885,2227,780,2190,685"/>
+<area shape="rect" id="Node000019" href="$classHDLGenerator_1_1Switch.html" title=" " alt="" coords="2483,962,2640,1107"/>
+<area shape="poly" id="edge18_Node000012_Node000019" title=" " alt="" coords="2182,685,2193,734,2212,787,2239,838,2256,862,2276,882,2301,899,2324,907,2369,910,2417,911,2444,917,2472,930,2509,960,2506,964,2469,934,2442,922,2417,916,2369,915,2322,912,2298,903,2273,886,2252,865,2234,841,2207,789,2188,735,2176,686"/>
+<area shape="rect" id="Node000022" href="$classHDLGenerator_1_1LogicVariable.html" title=" " alt="" coords="2665,982,2866,1087"/>
+<area shape="poly" id="edge21_Node000021_Node000022" title=" " alt="" coords="2768,778,2768,982,2763,982,2763,778"/>
+<area shape="rect" id="Node000023" href="$classHDLGenerator_1_1SignedVariable.html" title=" " alt="" coords="2891,972,3101,1097"/>
+<area shape="poly" id="edge22_Node000021_Node000023" title=" " alt="" coords="2822,776,2846,830,2874,883,2906,928,2940,970,2936,974,2901,931,2870,885,2841,833,2817,778"/>
+<area shape="rect" id="Node000024" href="$classHDLGenerator_1_1UnsignedVariable.html" title=" " alt="" coords="3126,982,3354,1087"/>
+<area shape="poly" id="edge23_Node000021_Node000024" title=" " alt="" coords="2802,776,2832,834,2851,860,2874,882,2904,902,2932,912,2959,915,2987,914,3046,912,3079,917,3114,930,3154,952,3189,980,3186,984,3151,957,3112,934,3077,922,3046,917,2987,919,2959,920,2931,917,2901,907,2870,886,2847,863,2827,837,2798,778"/>
+</map>

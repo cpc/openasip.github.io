@@ -1,0 +1,28 @@
+var searchData=
+[
+  ['joinbb_5f_0',['joinBB_',['../structSimpleIfConverter_1_1CandidateBlocks.html#ac248ae6bce8f279e6e7a1ffd0cbba429',1,'SimpleIfConverter::CandidateBlocks']]],
+  ['joinnode_5f_1',['joinNode_',['../structSimpleIfConverter_1_1CandidateBlocks.html#a3e417d9905951f8e05de31f68dc9e6b5',1,'SimpleIfConverter::CandidateBlocks']]],
+  ['joinstate_2',['joinState',['../classFUFiniteStateAutomaton.html#aae3204a8522b581b882be5c573fdb4b7',1,'FUFiniteStateAutomaton']]],
+  ['jump_3',['jump',['../MachineValidator_8cc.html#a6dc62e29c5604b9693a48470f9ab1704',1,'JUMP:&#160;MachineValidator.cc'],['../NetlistGenerator_8cc.html#a6dc62e29c5604b9693a48470f9ab1704',1,'JUMP:&#160;NetlistGenerator.cc'],['../ProcessorGenerator_8cc.html#a6dc62e29c5604b9693a48470f9ab1704',1,'JUMP:&#160;ProcessorGenerator.cc'],['../DefaultDecoderGenerator_8cc.html#a6dc62e29c5604b9693a48470f9ab1704',1,'JUMP:&#160;DefaultDecoderGenerator.cc']]],
+  ['jump_5fnot_5fremoved_4',['JUMP_NOT_REMOVED',['../classControlFlowGraph.html#a391f123a3c5f7c0a2581eb39b641f95dafa0ee7304f67500753023cccc7d7123c',1,'ControlFlowGraph']]],
+  ['jump_5fremoved_5',['JUMP_REMOVED',['../classControlFlowGraph.html#a391f123a3c5f7c0a2581eb39b641f95da8e16919d3d78320cc6dba24b365e7baa',1,'ControlFlowGraph']]],
+  ['jump_5fstatement_6',['jump_statement',['../structOperationDAGLanguageGrammar_1_1definition.html#a1f0a77534c470c7dee8ae63ac438e7b2',1,'OperationDAGLanguageGrammar::definition::jump_statement'],['../classTokenizerData.html#ace2459a3915e2a38a4dd484d6a81375aaec980c7633020d16d03c8a12316f2600',1,'TokenizerData::JUMP_STATEMENT']]],
+  ['jumpdestbb_5f_7',['jumpDestBB_',['../structSimpleIfConverter_1_1CandidateBlocks.html#ac9f67e46be46661cd6788dd8eff7976f',1,'SimpleIfConverter::CandidateBlocks']]],
+  ['jumpdestnode_5f_8',['jumpDestNode_',['../structSimpleIfConverter_1_1CandidateBlocks.html#af32f0aeb165ef32a0771eb3d7f6c2023',1,'SimpleIfConverter::CandidateBlocks']]],
+  ['jumpguard_9',['jumpGuard',['../classBF2Scheduler.html#a6ce1c63190d5bc4ef72048d84236329e',1,'BF2Scheduler']]],
+  ['jumpguardavailablecycle_10',['jumpGuardAvailableCycle',['../classBFOptimization.html#abb55c488e62928c836450e6ef64a2591',1,'BFOptimization']]],
+  ['jumpguardwrite_5f_11',['jumpGuardWrite_',['../classBF2Scheduler.html#ae08644a2394361967d440ae3552de804',1,'BF2Scheduler']]],
+  ['jumplimitmove_5f_12',['jumpLimitMove_',['../classBFScheduleExact.html#aa8addc39e91dd8fe35b1fa3c22e384bf',1,'BFScheduleExact']]],
+  ['jumpmove_5f_13',['jumpMove_',['../classBUBasicBlockScheduler.html#a3505712fa80dc443c19d1d2acc087b41',1,'BUBasicBlockScheduler']]],
+  ['jumpnode_14',['jumpNode',['../classBF2Scheduler.html#a121d3fd56e4b88e8fe76e3fdb41f5064',1,'BF2Scheduler']]],
+  ['jumpnode_5f_15',['jumpnode_',['../classBasicBlockScheduler.html#a1900786e6953f0710271a5f5b470e2fd',1,'BasicBlockScheduler::jumpNode_'],['../classBF2Scheduler.html#aeaa96f2e952bcf5cd9d45d293f0818a8',1,'BF2Scheduler::jumpNode_']]],
+  ['jumpr_16',['JUMPR',['../DefaultDecoderGenerator_8cc.html#a42b5f4f6a9e4d10de62ff1f1842bbda2',1,'DefaultDecoderGenerator.cc']]],
+  ['jumpsuccessor_17',['jumpSuccessor',['../classControlFlowGraph.html#a8fb3d6dc638c7823cc7a74476dfd0bed',1,'ControlFlowGraph']]],
+  ['jumptable_18',['JumpTable',['../CompiledSimulationPimpl_8hh.html#a986dc1b371e2863b00020cc8668a1731',1,'CompiledSimulationPimpl.hh']]],
+  ['jumptable_5f_19',['jumpTable_',['../classCompiledSimulationPimpl.html#ac333a4c90c455a81aa109acb7c52ecd7',1,'CompiledSimulationPimpl']]],
+  ['jumptablerecord_5f_20',['jumpTableRecord_',['../classllvm_1_1LLVMTCEIRBuilder.html#a617e1d8b149876b214795c59b4365284',1,'llvm::LLVMTCEIRBuilder']]],
+  ['jumptarget_5f_21',['jumpTarget_',['../classCompiledSimulation.html#aeb2f1add3d9e0d576bf46e2f4273ae74',1,'CompiledSimulation']]],
+  ['jumptargetfunc_5f_22',['jumpTargetFunc_',['../classCompiledSimulation.html#a2059a65ed5c8043e3cb74a4639cb0e50',1,'CompiledSimulation']]],
+  ['jumptargetsettersymbol_23',['jumpTargetSetterSymbol',['../classCompiledSimSymbolGenerator.html#afa895466c2ddd74fcc46cbaa30a28f58',1,'CompiledSimSymbolGenerator']]],
+  ['jumptobbn_24',['jumptobbn',['../classControlFlowGraph.html#a44fe6e4d32e3884c71858c7d6e4e288c',1,'ControlFlowGraph::jumpToBBN()'],['../classBusBroker.html#a02879129857fa60d536f424445ea97d0',1,'BusBroker::jumpToBBN()']]]
+];

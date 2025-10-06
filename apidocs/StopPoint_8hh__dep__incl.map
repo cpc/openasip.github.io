@@ -1,0 +1,62 @@
+<map id="StopPoint.hh" name="StopPoint.hh">
+<area shape="rect" id="Node000001" title=" " alt="" coords="927,5,1031,31"/>
+<area shape="rect" id="Node000002" href="$Breakpoint_8hh.html" title=" " alt="" coords="1067,79,1181,104"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="1015,34,1101,76,1099,81,1013,39"/>
+<area shape="rect" id="Node000006" href="$ProximBreakpointWindow_8cc.html" title=" " alt="" coords="109,152,317,177"/>
+<area shape="poly" id="edge11_Node000001_Node000006" title=" " alt="" coords="913,25,624,43,471,60,409,70,362,81,323,97,286,117,230,154,227,150,283,112,321,92,361,76,408,65,471,54,624,38,913,19"/>
+<area shape="rect" id="Node000008" href="$ProximDisassemblyWindow_8cc.html" title=" " alt="" coords="725,152,947,177"/>
+<area shape="poly" id="edge12_Node000001_Node000008" title=" " alt="" coords="959,43,849,154,846,150,955,39"/>
+<area shape="rect" id="Node000012" href="$StopPoint_8cc.html" title=" " alt="" coords="1951,79,2054,104"/>
+<area shape="poly" id="edge13_Node000001_Node000012" title=" " alt="" coords="1044,18,1424,34,1680,51,1939,76,1951,78,1951,83,1938,81,1679,56,1424,39,1044,23"/>
+<area shape="rect" id="Node000013" href="$StopPointManager_8hh.html" title=" " alt="" coords="1767,79,1927,104"/>
+<area shape="poly" id="edge14_Node000001_Node000013" title=" " alt="" coords="1045,22,1767,81,1766,86,1044,27"/>
+<area shape="rect" id="Node000023" href="$Watch_8hh.html" title=" " alt="" coords="373,79,456,104"/>
+<area shape="poly" id="edge32_Node000001_Node000023" title=" " alt="" coords="914,30,456,87,456,82,913,25"/>
+<area shape="rect" id="Node000003" href="$BPCommand_8cc.html" title=" " alt="" coords="1785,152,1909,177"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="1195,95,1450,116,1774,149,1785,151,1784,156,1773,155,1450,121,1194,100"/>
+<area shape="rect" id="Node000004" href="$Breakpoint_8cc.html" title=" " alt="" coords="971,152,1082,177"/>
+<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="1099,114,1044,154,1041,150,1096,110"/>
+<area shape="rect" id="Node000005" href="$BreakpointPropertiesDialog_8cc.html" title=" " alt="" coords="1933,152,2152,177"/>
+<area shape="poly" id="edge4_Node000002_Node000005" title=" " alt="" coords="1195,95,1922,149,1933,150,1933,156,1921,155,1195,100"/>
+<area shape="poly" id="edge5_Node000002_Node000006" title=" " alt="" coords="1054,100,740,122,330,155,318,156,317,150,329,149,739,117,1053,95"/>
+<area shape="rect" id="Node000007" href="$ProximDisassemblyGridTable_8cc.html" title=" " alt="" coords="1106,152,1337,177"/>
+<area shape="poly" id="edge6_Node000002_Node000007" title=" " alt="" coords="1152,110,1207,150,1204,154,1149,114"/>
+<area shape="poly" id="edge7_Node000002_Node000008" title=" " alt="" coords="1065,110,883,154,882,149,1064,105"/>
+<area shape="rect" id="Node000009" href="$SimControlLanguageCommand_8cc.html" title=" " alt="" coords="1361,152,1604,177"/>
+<area shape="poly" id="edge8_Node000002_Node000009" title=" " alt="" coords="1195,104,1425,149,1424,155,1194,109"/>
+<area shape="rect" id="Node000010" href="$TBPCommand_8cc.html" title=" " alt="" coords="1629,152,1761,177"/>
+<area shape="poly" id="edge9_Node000002_Node000010" title=" " alt="" coords="1195,98,1616,149,1629,151,1628,156,1616,155,1194,103"/>
+<area shape="rect" id="Node000011" href="$WatchCommand_8cc.html" title=" " alt="" coords="341,152,488,177"/>
+<area shape="poly" id="edge10_Node000002_Node000011" title=" " alt="" coords="1054,101,809,123,500,155,489,156,488,151,500,149,808,118,1053,96"/>
+<area shape="poly" id="edge15_Node000013_Node000003" title=" " alt="" coords="1849,118,1849,152,1844,152,1844,118"/>
+<area shape="poly" id="edge16_Node000013_Node000005" title=" " alt="" coords="1892,106,2012,149,2010,154,1890,111"/>
+<area shape="poly" id="edge23_Node000013_Node000006" title=" " alt="" coords="1753,97,1154,114,746,131,330,155,318,156,317,150,329,149,745,126,1154,109,1753,92"/>
+<area shape="poly" id="edge24_Node000013_Node000007" title=" " alt="" coords="1753,106,1322,155,1321,149,1753,101"/>
+<area shape="poly" id="edge25_Node000013_Node000008" title=" " alt="" coords="1753,101,1404,123,960,155,947,156,947,150,960,149,1404,118,1753,96"/>
+<area shape="poly" id="edge26_Node000013_Node000009" title=" " alt="" coords="1776,109,1542,155,1541,149,1774,104"/>
+<area shape="poly" id="edge29_Node000013_Node000010" title=" " alt="" coords="1811,112,1721,154,1718,149,1809,107"/>
+<area shape="poly" id="edge30_Node000013_Node000011" title=" " alt="" coords="1753,97,1220,111,863,129,500,155,488,156,488,151,500,149,863,123,1220,106,1752,91"/>
+<area shape="rect" id="Node000014" href="$ConditionCommand_8cc.html" title=" " alt="" coords="3454,152,3623,177"/>
+<area shape="poly" id="edge17_Node000013_Node000014" title=" " alt="" coords="1941,101,2170,116,2364,123,2694,126,3023,128,3216,135,3443,149,3454,150,3454,156,3442,155,3215,140,3023,133,2694,131,2364,128,2170,121,1940,107"/>
+<area shape="rect" id="Node000015" href="$DeleteBPCommand_8cc.html" title=" " alt="" coords="2177,152,2343,177"/>
+<area shape="poly" id="edge18_Node000013_Node000015" title=" " alt="" coords="1927,104,2194,149,2193,155,1926,109"/>
+<area shape="rect" id="Node000016" href="$DisableBPCommand_8cc.html" title=" " alt="" coords="2368,152,2541,177"/>
+<area shape="poly" id="edge19_Node000013_Node000016" title=" " alt="" coords="1941,101,2368,151,2368,156,1940,107"/>
+<area shape="rect" id="Node000017" href="$EnableBPCommand_8cc.html" title=" " alt="" coords="2565,152,2733,177"/>
+<area shape="poly" id="edge20_Node000013_Node000017" title=" " alt="" coords="1941,101,2114,117,2249,126,2383,135,2554,149,2565,151,2565,156,2553,155,2383,140,2249,131,2114,122,1940,107"/>
+<area shape="rect" id="Node000018" href="$IgnoreCommand_8cc.html" title=" " alt="" coords="2758,152,2906,177"/>
+<area shape="poly" id="edge21_Node000013_Node000018" title=" " alt="" coords="1941,101,2168,118,2345,125,2521,132,2746,149,2758,151,2758,156,2745,155,2521,137,2345,130,2168,123,1940,107"/>
+<area shape="rect" id="Node000019" href="$InfoCommand_8cc.html" title=" " alt="" coords="2930,152,3062,177"/>
+<area shape="poly" id="edge22_Node000013_Node000019" title=" " alt="" coords="1941,101,2217,118,2432,123,2646,129,2919,149,2930,151,2930,156,2918,155,2646,135,2432,129,2217,124,1941,107"/>
+<area shape="rect" id="Node000020" href="$SimulatorFrontend_8cc.html" title=" " alt="" coords="3087,152,3247,177"/>
+<area shape="poly" id="edge27_Node000013_Node000020" title=" " alt="" coords="1941,101,2114,113,2261,120,2510,125,2758,130,2904,137,3075,149,3087,150,3086,156,3074,155,2903,142,2758,135,2510,130,2261,125,2114,119,1940,107"/>
+<area shape="rect" id="Node000021" href="$StopPointManager_8cc.html" title=" " alt="" coords="3271,152,3430,177"/>
+<area shape="poly" id="edge28_Node000013_Node000021" title=" " alt="" coords="1941,101,2142,114,2312,121,2602,125,2890,129,3060,136,3259,149,3271,150,3271,156,3258,155,3059,141,2890,134,2602,130,2312,127,2142,120,1940,107"/>
+<area shape="rect" id="Node000022" href="$WatchPropertiesDialog_8cc.html" title=" " alt="" coords="513,152,701,177"/>
+<area shape="poly" id="edge31_Node000013_Node000022" title=" " alt="" coords="1753,99,1305,118,1011,134,714,155,701,156,701,150,713,149,1011,129,1305,112,1753,93"/>
+<area shape="poly" id="edge33_Node000023_Node000006" title=" " alt="" coords="370,111,247,154,245,149,368,106"/>
+<area shape="poly" id="edge35_Node000023_Node000011" title=" " alt="" coords="417,118,417,152,412,152,412,118"/>
+<area shape="poly" id="edge36_Node000023_Node000022" title=" " alt="" coords="459,106,576,149,574,154,458,111"/>
+<area shape="rect" id="Node000024" href="$Watch_8cc.html" title=" " alt="" coords="5,152,85,177"/>
+<area shape="poly" id="edge34_Node000023_Node000024" title=" " alt="" coords="360,105,98,155,86,157,85,152,97,149,359,100"/>
+</map>

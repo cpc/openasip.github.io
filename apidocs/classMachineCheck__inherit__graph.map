@@ -1,0 +1,17 @@
+<map id="MachineCheck" name="MachineCheck">
+<area shape="rect" id="Node000001" title=" " alt="" coords="722,5,867,191"/>
+<area shape="rect" id="Node000002" href="$classAddressSpaceCheck.html" title=" " alt="" coords="5,389,187,494"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="708,113,578,133,429,162,292,198,238,219,200,241,169,273,144,311,125,352,111,389,106,387,120,350,139,309,164,270,197,237,236,214,290,193,428,156,578,128,708,108"/>
+<area shape="rect" id="Node000003" href="$classFullyConnectedCheck.html" title=" " alt="" coords="211,269,429,614"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="710,119,646,137,576,163,506,197,443,241,413,270,410,267,440,237,504,192,574,158,645,132,708,114"/>
+<area shape="rect" id="Node000004" href="$classMachineConnectivityCheck.html" title=" " alt="" coords="453,239,680,644"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="720,203,694,240,682,258,678,255,690,237,716,200"/>
+<area shape="rect" id="Node000005" href="$classMinimalOpSetCheck.html" title=" " alt="" coords="704,319,885,564"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="797,205,797,319,792,319,792,205"/>
+<area shape="rect" id="Node000006" href="$classOperationBindingCheck.html" title=" " alt="" coords="909,399,1101,484"/>
+<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="875,201,900,237,949,322,988,397,983,400,944,324,895,240,871,204"/>
+<area shape="rect" id="Node000007" href="$classRFPortCheck.html" title=" " alt="" coords="1125,389,1259,494"/>
+<area shape="poly" id="edge6_Node000001_Node000007" title=" " alt="" coords="881,115,939,133,1001,158,1062,193,1115,237,1142,272,1162,311,1176,351,1186,388,1181,389,1171,353,1157,313,1137,275,1111,241,1059,197,999,163,937,138,880,120"/>
+<area shape="rect" id="Node000008" href="$classRegisterQuantityCheck.html" title=" " alt="" coords="1283,289,1483,594"/>
+<area shape="poly" id="edge7_Node000001_Node000008" title=" " alt="" coords="881,102,970,115,1072,139,1125,157,1177,178,1227,205,1272,237,1297,260,1318,287,1314,290,1293,264,1269,241,1224,209,1175,183,1123,162,1071,144,969,120,880,108"/>
+</map>

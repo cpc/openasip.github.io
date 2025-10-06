@@ -1,0 +1,42 @@
+<map id="CopyingDelaySlotFiller::fillDelaySlots" name="CopyingDelaySlotFiller::fillDelaySlots">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,312,176,352"/>
+<area shape="poly" id="edge8_Node000001_Node000001" title=" " alt="" coords="47,312,44,302,51,293,67,287,91,285,118,288,133,295,131,300,117,293,91,291,68,293,54,297,49,303,52,311"/>
+<area shape="rect" id="Node000002" href="$classTTAMachine_1_1Machine.html#a696a769918a9743e43a252b5be8a040a" title=" " alt="" coords="243,104,407,144"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="99,311,118,277,145,235,181,191,222,154,231,148,234,153,226,158,184,195,150,238,123,279,104,313"/>
+<area shape="rect" id="Node000003" href="$classTTAMachine_1_1ControlUnit.html#ad16251f030417f0c29a37ab16e40267a" title=" " alt="" coords="234,168,417,208"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="111,310,160,268,223,224,250,211,252,216,225,229,163,272,115,314"/>
+<area shape="rect" id="Node000004" href="$classSimpleResourceManager.html#a11c14e829453b809725d0c84f4c18e9f" title=" " alt="" coords="501,101,685,141"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="129,309,223,268,281,254,329,251,374,243,398,233,425,218,441,202,448,186,457,168,473,151,487,143,490,147,476,155,461,171,453,188,445,205,428,222,401,238,376,248,330,256,282,260,225,273,132,314"/>
+<area shape="rect" id="Node000039" href="$classCopyingDelaySlotFiller.html#ada59956de5447760130abb8dcfc992b7" title=" " alt="" coords="240,283,411,323"/>
+<area shape="poly" id="edge9_Node000001_Node000039" title=" " alt="" coords="176,319,226,312,226,318,177,324"/>
+<area shape="rect" id="Node000043" href="$classBasicBlockNode.html#a17cdc958d5d97d4155935bd5b6d20a05" title=" " alt="" coords="487,429,699,454"/>
+<area shape="poly" id="edge19_Node000001_Node000043" title=" " alt="" coords="177,333,297,348,364,363,428,383,452,398,476,414,502,422,500,428,473,418,449,403,426,388,362,368,296,354,176,339"/>
+<area shape="rect" id="Node000242" href="$classUniversalMachine.html#a77e8287b9a00fe1dd1e6394c70026b88" title=" " alt="" coords="224,398,427,423"/>
+<area shape="poly" id="edge17_Node000001_Node000242" title=" " alt="" coords="149,350,225,376,271,391,269,396,223,381,147,355"/>
+<area shape="rect" id="Node000047" href="$classBoostGraph.html#a7c677e09f6702fb37f4481c6ffc295de" title=" " alt="" coords="232,447,419,502"/>
+<area shape="poly" id="edge20_Node000001_Node000047" title=" " alt="" coords="116,350,164,391,225,432,238,439,235,444,223,437,161,395,112,354"/>
+<area shape="rect" id="Node000324" href="$classBoostGraph.html#a1eaf1f27ff0ea3435351e174a6643dc6" title=" " alt="" coords="237,526,413,551"/>
+<area shape="poly" id="edge21_Node000001_Node000324" title=" " alt="" coords="103,351,121,386,148,430,183,475,226,513,235,518,233,523,222,517,179,479,143,433,116,389,98,353"/>
+<area shape="rect" id="Node000005" href="$classSimpleResourceManager.html#a84216e46b9d0c345b1f84159f5c2b9f9" title="Clears all bookkeeping done by this RM. The RM can then be reused for different BB." alt="" coords="769,5,953,45"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="643,99,759,55,782,47,783,52,761,60,645,104"/>
+<area shape="rect" id="Node000035" href="$classExecutionPipelineResourceTable.html#ae284e50ec5ca0a32dd0e2ff6b1092ec0" title=" " alt="" coords="763,69,960,109"/>
+<area shape="poly" id="edge5_Node000004_Node000035" title=" " alt="" coords="685,108,748,100,749,105,686,113"/>
+<area shape="rect" id="Node000037" href="$classSimpleResourceManager.html#a2edf03acca008e4a99ec62a3ee6ca594" title=" " alt="" coords="769,133,953,173"/>
+<area shape="poly" id="edge6_Node000004_Node000037" title=" " alt="" coords="686,130,756,138,755,143,685,135"/>
+<area shape="rect" id="Node000038" href="$classResourceManager.html#a484523eb343217b4c095d7fd05c43e41" title=" " alt="" coords="760,198,963,223"/>
+<area shape="poly" id="edge7_Node000004_Node000038" title=" " alt="" coords="682,139,713,151,737,167,761,183,784,191,782,196,759,188,734,172,711,156,680,144"/>
+<area shape="poly" id="edge11_Node000039_Node000004" title=" " alt="" coords="398,280,425,262,436,249,442,235,447,207,453,179,460,165,473,151,487,141,491,145,476,155,465,168,458,181,453,208,447,237,440,251,428,266,401,285"/>
+<area shape="rect" id="Node000040" href="$classBasicBlockNode.html#a139fec79be289e1de9728c03508d42de" title=" " alt="" coords="491,166,696,191"/>
+<area shape="poly" id="edge10_Node000039_Node000040" title=" " alt="" coords="393,280,425,262,440,247,448,231,457,215,473,200,484,194,487,199,476,205,461,219,452,234,444,250,428,266,395,285"/>
+<area shape="rect" id="Node000041" href="$classBoostGraph.html#aeebb989727b973ae45f75ae5be2ce529" title=" " alt="" coords="515,215,672,241"/>
+<area shape="poly" id="edge12_Node000039_Node000041" title=" " alt="" coords="379,280,474,249,508,241,509,246,475,255,381,285"/>
+<area shape="rect" id="Node000042" href="$classControlFlowEdge.html#abfdc1e60515a108555cc3aa92f623184" title=" " alt="" coords="475,265,712,290"/>
+<area shape="poly" id="edge13_Node000039_Node000042" title=" " alt="" coords="411,292,461,287,461,293,411,297"/>
+<area shape="poly" id="edge14_Node000039_Node000043" title=" " alt="" coords="397,321,428,339,445,359,452,379,460,397,476,414,488,421,485,425,473,418,456,400,447,381,440,362,425,343,395,325"/>
+<area shape="rect" id="Node000044" href="$classBoostGraph.html#ac72c43613494986ce187527c3ad1a4fd" title=" " alt="" coords="513,314,674,339"/>
+<area shape="poly" id="edge15_Node000039_Node000044" title=" " alt="" coords="411,308,499,316,499,321,411,313"/>
+<area shape="rect" id="Node000045" href="$classCopyingDelaySlotFiller.html#ab018f6b62128c69cb995cc4ba327c493" title=" " alt="" coords="507,364,680,404"/>
+<area shape="poly" id="edge16_Node000039_Node000045" title=" " alt="" coords="387,320,475,348,508,358,506,363,474,353,386,325"/>
+<area shape="rect" id="Node000243" href="$classUniversalMachine.html#a92573ba2a8e001744e2869909913dcb0" title=" " alt="" coords="489,479,698,519"/>
+<area shape="poly" id="edge18_Node000242_Node000243" title=" " alt="" coords="395,421,428,432,452,448,476,464,494,472,492,477,473,469,449,453,425,437,393,426"/>
+</map>

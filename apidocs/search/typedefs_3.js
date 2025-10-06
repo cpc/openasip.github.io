@@ -1,0 +1,25 @@
+var searchData=
+[
+  ['dagcontainer_0',['DAGContainer',['../classOperationPimpl.html#a2b608f57d1064a6ff5b4614522d73969',1,'OperationPimpl']]],
+  ['dataaddress_1',['DataAddress',['../BaseType_8hh.html#a4709f96b399d723694a471079b79e351',1,'BaseType.hh']]],
+  ['datadefmap_2',['DataDefMap',['../classTTAProgram_1_1DataMemory.html#a635d36ccfd724c89863ca1818775adda',1,'TTAProgram::DataMemory']]],
+  ['datalabellist_3',['DataLabelList',['../classTTAProgram_1_1Scope.html#ac5fe3518996747ffec65fb82d789a86a',1,'TTAProgram::Scope']]],
+  ['datamemindex_4',['DataMemIndex',['../classllvm_1_1LLVMTCEBuilder.html#aaef4c66ad599d0379d70947982610648',1,'llvm::LLVMTCEBuilder']]],
+  ['datamemlist_5',['DataMemList',['../classTTAProgram_1_1Program.html#ac0d2ee2906eb8ba08ad8488e2fcb16e2',1,'TTAProgram::Program']]],
+  ['dataobjectlist_6',['DataObjectList',['../classHDB_1_1HDBManager.html#afef03a7da50c48ed3f54df8931d81e6b',1,'HDB::HDBManager']]],
+  ['definermap_7',['DefinerMap',['../classMachineInstrDDG.html#a5d7076fe4085658e48496a80d0cb28de',1,'MachineInstrDDG']]],
+  ['definitiontable_8',['DefinitionTable',['../classOperationIndex.html#a08bacc77c89e29619719a15ab0f47c39',1,'OperationIndex']]],
+  ['delayedassignments_9',['DelayedAssignments',['../classCompiledSimCodeGenerator.html#a6fea1d60653e2407190cc14d0dd14466',1,'CompiledSimCodeGenerator']]],
+  ['delayinnanoseconds_10',['DelayInNanoSeconds',['../namespaceCostEstimator.html#a6a52098375ec577534367ec76174e318',1,'CostEstimator']]],
+  ['delaymap_11',['delaymap',['../classCostDBEntryStats.html#a104466f1feb2080a09d8c572e298f6ab',1,'CostDBEntryStats::DelayMap'],['../classCostDBEntryStatsRF.html#a722cb7a22d6bbd29eb41aa648743dc39',1,'CostDBEntryStatsRF::DelayMap']]],
+  ['dependencemap_12',['DependenceMap',['../classControlDependenceGraph.html#ae8e2e16896c40fcfff3bc332961aaa93',1,'ControlDependenceGraph']]],
+  ['dependenton_13',['DependentOn',['../classControlDependenceGraph.html#a02944082583071f50e507db0f42d0597',1,'ControlDependenceGraph']]],
+  ['descriptor_5fiterator_14',['descriptor_iterator',['../classProGe_1_1Netlist.html#ac819cbe7105658f2768d8a5a3a63ac71',1,'ProGe::Netlist']]],
+  ['descriptormap_15',['descriptormap',['../classProgramDependenceGraph.html#a71369f0caf260baa13c5fe87f07b8602',1,'ProgramDependenceGraph::DescriptorMap'],['../classControlDependenceGraph.html#a782024a61352f22f52c2ff4c68fcd349',1,'ControlDependenceGraph::DescriptorMap'],['../classProGe_1_1Netlist.html#a3999ed818059634878715d2bb220be61',1,'ProGe::Netlist::DescriptorMap']]],
+  ['descriptors_16',['descriptors',['../classControlDependenceGraph.html#a555238d3537cf3c95bc83f93c3cb6ad7',1,'ControlDependenceGraph::Descriptors'],['../classProgramDependenceGraph.html#ae9a6aade4bf10f7d3a0dcb59fc6a9b74',1,'ProgramDependenceGraph::Descriptors']]],
+  ['destructionmap_17',['DestructionMap',['../classOperationBehaviorLoader.html#ae67bc552e7f0eb5dd46f9d6286ec6417',1,'OperationBehaviorLoader']]],
+  ['dictionary_18',['dictionary',['../classInstructionDictionary.html#a4635d0ca685a6367e991e2df357e24ba',1,'InstructionDictionary::Dictionary'],['../classMoveSlotDictionary.html#ac658db6c5946a638141f3392abd6b592',1,'MoveSlotDictionary::Dictionary']]],
+  ['doublefloatword_19',['DoubleFloatWord',['../classSimValue.html#aa96d1cfd3bb5d623f9552ba8f94c23de',1,'SimValue']]],
+  ['doubleword_20',['DoubleWord',['../BaseType_8hh.html#ae57d83b0cb2b369fd46a250ac8dcdc3c',1,'BaseType.hh']]],
+  ['dumpfileindex_21',['DumpFileIndex',['../structInnerLoopFinder.html#aeb1d9f8c87ea1b841e2eecdde77ad85e',1,'InnerLoopFinder']]]
+];

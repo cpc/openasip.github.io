@@ -1,0 +1,48 @@
+<map id="TPEF::AOutReader" name="TPEF::AOutReader">
+<area shape="rect" id="Node000001" title=" " alt="" coords="753,1673,966,2379"/>
+<area shape="poly" id="edge29_Node000001_Node000001" title=" " alt="" coords="968,1961,978,1971,986,1986,993,2026,989,2056,980,2079,975,2076,984,2055,987,2026,981,1987,974,1974,965,1964"/>
+<area shape="rect" id="Node000002" href="$classTPEF_1_1BinaryReader.html" title=" " alt="" coords="69,1335,247,1521"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="206,1532,242,1592,285,1648,340,1701,399,1751,524,1841,647,1916,754,1972,751,1977,645,1920,521,1846,396,1755,336,1705,281,1651,237,1595,202,1534"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="5,1993,236,2059"/>
+<area shape="poly" id="edge3_Node000003_Node000002" title=" " alt="" coords="126,1522,110,1577,98,1635,91,1730,94,1824,103,1910,114,1977,109,1978,98,1910,89,1825,86,1730,93,1634,105,1576,121,1520"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="120,1993,149,1537,154,1537,125,1993"/>
+<area shape="rect" id="Node000006" href="$classTPEF_1_1ASpaceElement.html" title=" " alt="" coords="250,767,405,1073"/>
+<area shape="poly" id="edge4_Node000001_Node000006" title=" " alt="" coords="310,1073,295,1218,287,1373,287,1446,290,1512,299,1568,312,1610,351,1673,398,1732,451,1785,509,1833,569,1876,629,1913,739,1971,737,1976,626,1918,566,1880,506,1837,448,1789,394,1735,346,1676,308,1612,293,1569,285,1513,281,1446,281,1373,290,1217,305,1073"/>
+<area shape="rect" id="Node000007" href="$classTPEF_1_1SectionElement.html" title=" " alt="" coords="250,243,405,328"/>
+<area shape="poly" id="edge5_Node000006_Node000007" title=" " alt="" coords="330,342,330,767,325,767,325,342"/>
+<area shape="rect" id="Node000009" href="$classTPEF_1_1ReferenceManager_1_1SafePointer.html" title=" " alt="" coords="545,5,765,565"/>
+<area shape="poly" id="edge6_Node000006_Node000009" title=" " alt="" coords="548,500,415,756,410,754,543,498"/>
+<area shape="poly" id="edge7_Node000009_Node000009" title=" " alt="" coords="768,230,785,251,792,285,789,310,780,329,775,326,784,309,787,285,780,253,764,234"/>
+<area shape="rect" id="Node000015" href="$classTPEF_1_1Section.html" title=" " alt="" coords="641,657,846,1183"/>
+<area shape="poly" id="edge10_Node000015_Node000009" title=" " alt="" coords="697,565,707,641,702,642,692,566"/>
+<area shape="rect" id="Node000014" href="$classTPEF_1_1ResourceSection.html" title=" " alt="" coords="420,1345,581,1511"/>
+<area shape="poly" id="edge8_Node000001_Node000014" title=" " alt="" coords="552,1509,746,1832,742,1835,548,1512"/>
+<area shape="poly" id="edge11_Node000014_Node000014" title=" " alt="" coords="583,1388,601,1402,608,1428,605,1445,597,1458,593,1455,600,1444,603,1428,596,1405,580,1393"/>
+<area shape="poly" id="edge9_Node000014_Node000015" title=" " alt="" coords="637,1149,542,1346,538,1344,632,1146"/>
+<area shape="rect" id="Node000018" href="$classTPEF_1_1NullSection.html" title=" " alt="" coords="680,1365,807,1491"/>
+<area shape="poly" id="edge13_Node000018_Node000015" title=" " alt="" coords="746,1196,746,1365,741,1365,741,1196"/>
+<area shape="rect" id="Node000019" href="$classTPEF_1_1DebugSection.html" title=" " alt="" coords="905,1365,1048,1491"/>
+<area shape="poly" id="edge16_Node000019_Node000015" title=" " alt="" coords="854,1155,951,1364,946,1366,849,1157"/>
+<area shape="rect" id="Node000028" href="$classTPEF_1_1CodeSection.html" title=" " alt="" coords="1147,1245,1353,1611"/>
+<area shape="poly" id="edge23_Node000028_Node000015" title=" " alt="" coords="858,1034,940,1109,1029,1180,1083,1211,1114,1228,1136,1243,1149,1257,1145,1261,1132,1247,1111,1232,1080,1215,1026,1185,937,1113,855,1038"/>
+<area shape="poly" id="edge12_Node000001_Node000018" title=" " alt="" coords="758,1490,790,1657,785,1658,753,1491"/>
+<area shape="poly" id="edge14_Node000018_Node000018" title=" " alt="" coords="808,1387,818,1392,826,1400,831,1412,833,1428,831,1447,823,1459,819,1457,826,1445,828,1428,826,1414,822,1403,815,1396,806,1392"/>
+<area shape="poly" id="edge15_Node000001_Node000019" title=" " alt="" coords="967,1491,934,1658,929,1657,962,1490"/>
+<area shape="poly" id="edge17_Node000019_Node000019" title=" " alt="" coords="1050,1388,1067,1401,1073,1413,1075,1428,1072,1446,1064,1459,1060,1456,1067,1444,1069,1428,1068,1414,1063,1404,1047,1392"/>
+<area shape="rect" id="Node000020" href="$classTPEF_1_1StringSection.html" title=" " alt="" coords="1451,1345,1590,1511"/>
+<area shape="poly" id="edge18_Node000001_Node000020" title=" " alt="" coords="1497,1512,1473,1564,1441,1612,1390,1670,1333,1724,1273,1775,1211,1822,1089,1903,982,1966,979,1961,1087,1899,1208,1818,1270,1771,1330,1720,1386,1666,1437,1609,1469,1561,1492,1510"/>
+<area shape="poly" id="edge21_Node000020_Node000020" title=" " alt="" coords="1592,1388,1609,1401,1615,1413,1617,1428,1614,1446,1607,1459,1602,1456,1609,1444,1611,1428,1610,1414,1605,1404,1589,1392"/>
+<area shape="rect" id="Node000021" href="$classTPEF_1_1DataSection.html" title=" " alt="" coords="1454,747,1587,1093"/>
+<area shape="poly" id="edge19_Node000020_Node000021" title=" " alt="" coords="1523,1106,1523,1345,1518,1345,1518,1106"/>
+<area shape="poly" id="edge20_Node000021_Node000021" title=" " alt="" coords="1589,865,1599,871,1607,883,1612,899,1614,920,1611,946,1603,964,1598,962,1606,945,1609,920,1607,900,1602,886,1595,875,1586,869"/>
+<area shape="poly" id="edge22_Node000001_Node000028" title=" " alt="" coords="1149,1592,1136,1612,978,1853,973,1850,1132,1609,1145,1589"/>
+<area shape="poly" id="edge24_Node000028_Node000028" title=" " alt="" coords="1355,1390,1372,1404,1379,1428,1377,1444,1369,1456,1364,1453,1372,1442,1374,1428,1368,1407,1351,1394"/>
+<area shape="rect" id="Node000029" title=" " alt="" coords="1039,887,1186,953"/>
+<area shape="poly" id="edge25_Node000028_Node000029" title=" " alt="" coords="1107,953,1096,1006,1089,1074,1092,1149,1099,1185,1111,1220,1122,1232,1136,1243,1139,1247,1135,1251,1132,1247,1118,1236,1106,1223,1094,1187,1087,1149,1084,1074,1091,1005,1102,952"/>
+<area shape="rect" id="Node000030" title=" " alt="" coords="1222,873,1379,967"/>
+<area shape="poly" id="edge26_Node000028_Node000030" title=" " alt="" coords="1299,968,1274,1222,1273,1229,1268,1229,1269,1221,1294,967"/>
+<area shape="rect" id="Node000034" href="$classTPEF_1_1AOutReader_1_1Header.html" title=" " alt="" coords="1689,1295,1891,1561"/>
+<area shape="poly" id="edge27_Node000001_Node000034" title=" " alt="" coords="1722,1563,1679,1613,1595,1681,1505,1744,1411,1800,1316,1851,1223,1894,1134,1932,983,1989,981,1984,1132,1927,1221,1890,1314,1846,1409,1796,1503,1740,1592,1677,1675,1609,1718,1559"/>
+<area shape="rect" id="Node000035" href="$structTPEF_1_1AOutReader_1_1Header_1_1HeaderRawData.html" title="This structure holds the sizes of every section in bytes." alt="" coords="1697,820,1883,1020"/>
+<area shape="poly" id="edge28_Node000034_Node000035" title=" " alt="" coords="1793,1021,1793,1279,1787,1279,1787,1021"/>
+</map>

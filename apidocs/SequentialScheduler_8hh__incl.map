@@ -1,0 +1,37 @@
+<map id="SequentialScheduler.hh" name="SequentialScheduler.hh">
+<area shape="rect" id="Node000001" title=" " alt="" coords="332,5,507,31"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="65,299,128,324"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="332,22,253,31,167,53,125,70,86,92,52,119,24,153,12,178,8,200,13,223,24,249,41,272,63,289,59,294,37,276,20,252,8,225,3,200,6,176,20,151,49,116,83,87,123,65,165,48,252,26,331,17"/>
+<area shape="rect" id="Node000003" href="$BasicBlockPass_8hh.html" title=" " alt="" coords="253,79,396,104"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="406,33,353,72,349,68,402,29"/>
+<area shape="rect" id="Node000052" href="$ControlFlowGraphPass_8hh.html" title=" " alt="" coords="420,79,608,104"/>
+<area shape="poly" id="edge9_Node000001_Node000052" title=" " alt="" coords="436,29,489,68,486,72,433,33"/>
+<area shape="rect" id="Node000053" href="$ProcedurePass_8hh.html" title=" " alt="" coords="633,79,769,104"/>
+<area shape="poly" id="edge12_Node000001_Node000053" title=" " alt="" coords="465,28,642,73,641,78,464,33"/>
+<area shape="rect" id="Node000054" href="$ProgramPass_8hh.html" title=" " alt="" coords="793,79,920,104"/>
+<area shape="poly" id="edge15_Node000001_Node000054" title=" " alt="" coords="490,28,780,75,780,80,489,33"/>
+<area shape="rect" id="Node000055" href="$RegisterCopyAdder_8hh.html" title=" " alt="" coords="35,152,201,177"/>
+<area shape="poly" id="edge18_Node000001_Node000055" title=" " alt="" coords="374,33,310,53,242,81,188,113,144,146,141,141,185,109,239,76,308,48,373,28"/>
+<area shape="rect" id="Node000004" href="$Exception_8hh.html" title=" " alt="" coords="647,152,754,177"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="385,101,634,148,633,153,384,107"/>
+<area shape="rect" id="Node000007" href="$SchedulerPass_8hh.html" title=" " alt="" coords="488,152,623,177"/>
+<area shape="poly" id="edge4_Node000003_Node000007" title=" " alt="" coords="362,101,506,145,504,151,361,107"/>
+<area shape="rect" id="Node000008" href="$DataDependenceGraphBuilder_8hh.html" title=" " alt="" coords="225,152,464,177"/>
+<area shape="poly" id="edge5_Node000003_Node000008" title=" " alt="" coords="330,104,340,138,335,140,325,105"/>
+<area shape="rect" id="Node000009" href="$DataDependenceGraph_8hh.html" title=" " alt="" coords="235,225,428,251"/>
+<area shape="poly" id="edge6_Node000008_Node000009" title=" " alt="" coords="345,178,339,212,333,211,340,177"/>
+<area shape="poly" id="edge8_Node000009_Node000002" title=" " alt="" coords="294,253,142,299,140,294,293,248"/>
+<area shape="rect" id="Node000010" title=" " alt="" coords="238,299,289,324"/>
+<area shape="poly" id="edge7_Node000009_Node000010" title=" " alt="" coords="322,253,286,290,282,287,318,249"/>
+<area shape="poly" id="edge10_Node000052_Node000004" title=" " alt="" coords="545,102,658,145,656,149,543,107"/>
+<area shape="poly" id="edge11_Node000052_Node000007" title=" " alt="" coords="523,103,544,139,539,141,518,106"/>
+<area shape="poly" id="edge13_Node000053_Node000004" title=" " alt="" coords="703,104,703,138,698,138,698,104"/>
+<area shape="poly" id="edge14_Node000053_Node000007" title=" " alt="" coords="678,106,592,148,590,144,676,102"/>
+<area shape="poly" id="edge16_Node000054_Node000004" title=" " alt="" coords="833,106,740,149,737,144,830,102"/>
+<area shape="poly" id="edge17_Node000054_Node000007" title=" " alt="" coords="809,107,618,151,616,146,808,101"/>
+<area shape="poly" id="edge20_Node000055_Node000009" title=" " alt="" coords="153,175,285,218,283,223,151,180"/>
+<area shape="poly" id="edge19_Node000055_Node000010" title=" " alt="" coords="132,176,244,287,240,291,128,180"/>
+<area shape="rect" id="Node000056" href="$FunctionUnit_8hh.html" title=" " alt="" coords="35,225,159,251"/>
+<area shape="poly" id="edge21_Node000055_Node000056" title=" " alt="" coords="117,178,106,213,101,211,112,177"/>
+<area shape="poly" id="edge22_Node000056_Node000002" title=" " alt="" coords="99,251,99,285,94,285,94,251"/>
+</map>

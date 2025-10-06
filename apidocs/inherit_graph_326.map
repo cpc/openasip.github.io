@@ -1,0 +1,152 @@
+<map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
+<area shape="rect" id="Node000000" href="$classOSEdListener.html" title=" " alt="" coords="5,31,113,56"/>
+<area shape="rect" id="Node000001" href="$classMemoryDialog.html" title=" " alt="" coords="227,5,346,31"/>
+<area shape="poly" id="edge640_Node000000_Node000001" title=" " alt="" coords="127,33,227,22,227,27,127,39"/>
+<area shape="rect" id="Node000067" href="$classSimulationInfoDialog.html" title=" " alt="" coords="207,55,366,80"/>
+<area shape="poly" id="edge641_Node000000_Node000067" title=" " alt="" coords="127,48,207,56,207,62,127,53"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="18,1772,101,1797"/>
+<area shape="poly" id="edge678_Node000002_Node000001" title=" " alt="" coords="59,1758,68,1409,88,845,102,558,119,308,138,126,148,69,159,40,174,28,190,20,227,12,228,17,192,25,177,32,164,44,153,71,143,127,124,309,108,558,94,845,73,1409,64,1758"/>
+<area shape="poly" id="edge707_Node000002_Node000067" title=" " alt="" coords="59,1758,68,1418,89,870,103,592,120,350,138,173,148,118,159,90,181,73,206,64,208,69,183,78,163,93,153,119,143,173,125,350,109,592,94,870,74,1418,64,1758"/>
+<area shape="rect" id="Node000003" href="$classAboutDialog.html" title=" " alt="" coords="235,400,338,425"/>
+<area shape="poly" id="edge642_Node000002_Node000003" title=" " alt="" coords="58,1758,61,1490,75,1068,87,852,105,661,116,581,128,515,143,465,159,435,175,422,194,413,234,406,235,412,196,418,178,426,163,438,148,467,133,516,121,582,110,661,92,852,80,1068,67,1490,63,1758"/>
+<area shape="rect" id="Node000004" href="$classAddBreakpointDialog.html" title=" " alt="" coords="207,449,367,475"/>
+<area shape="poly" id="edge643_Node000002_Node000004" title=" " alt="" coords="58,1758,62,1498,76,1092,89,885,106,701,129,561,143,514,159,484,181,468,206,459,208,464,183,473,163,488,148,516,134,562,111,702,94,885,81,1093,67,1499,63,1758"/>
+<area shape="rect" id="Node000005" href="$classAddFUFromHDBDialog.html" title=" " alt="" coords="202,499,371,524"/>
+<area shape="poly" id="edge644_Node000002_Node000005" title=" " alt="" coords="58,1758,63,1508,77,1118,90,918,108,742,130,607,144,562,159,534,178,519,201,510,203,515,181,523,163,537,149,564,135,609,113,743,96,919,83,1118,68,1508,64,1758"/>
+<area shape="rect" id="Node000006" href="$classAddIUFromHDBDialog.html" title=" " alt="" coords="204,548,369,573"/>
+<area shape="poly" id="edge645_Node000002_Node000006" title=" " alt="" coords="58,1758,64,1517,79,1143,92,951,109,782,131,654,144,610,159,583,179,568,203,559,204,564,182,572,163,586,149,612,136,655,114,783,97,952,84,1143,69,1517,64,1759"/>
+<area shape="rect" id="Node000007" href="$classAddModuleDialog.html" title=" " alt="" coords="218,597,355,623"/>
+<area shape="poly" id="edge646_Node000002_Node000007" title=" " alt="" coords="58,1758,64,1525,81,1167,94,984,111,823,132,700,145,658,159,632,186,614,217,605,218,611,188,619,163,636,150,660,137,701,116,823,99,984,86,1167,70,1525,64,1758"/>
+<area shape="rect" id="Node000008" href="$classAddRFFromHDBDialog.html" title=" " alt="" coords="203,647,371,672"/>
+<area shape="poly" id="edge647_Node000002_Node000008" title=" " alt="" coords="59,1758,65,1534,82,1191,95,1017,112,863,133,746,146,706,159,682,179,667,201,658,203,663,181,671,163,685,150,708,138,747,117,864,101,1018,87,1192,71,1534,64,1758"/>
+<area shape="rect" id="Node000009" href="$classAddWatchDialog.html" title=" " alt="" coords="222,696,351,721"/>
+<area shape="poly" id="edge648_Node000002_Node000009" title=" " alt="" coords="59,1758,66,1543,84,1216,97,1050,114,904,134,792,146,754,159,731,173,720,188,712,221,704,222,709,190,717,176,724,163,734,151,756,139,793,119,904,102,1051,89,1216,71,1543,64,1758"/>
+<area shape="rect" id="Node000010" href="$classAddressSpaceDialog.html" title=" " alt="" coords="209,745,364,771"/>
+<area shape="poly" id="edge649_Node000002_Node000010" title=" " alt="" coords="59,1758,67,1552,85,1241,99,1083,115,944,135,838,147,802,159,780,182,764,208,755,210,760,184,769,163,784,152,805,140,840,120,945,104,1084,90,1242,72,1553,64,1758"/>
+<area shape="rect" id="Node000011" href="$classAddressSpacesDialog.html" title=" " alt="" coords="205,795,368,820"/>
+<area shape="poly" id="edge650_Node000002_Node000011" title=" " alt="" coords="59,1758,68,1562,87,1267,100,1118,117,986,136,886,147,852,159,831,180,815,204,806,206,811,183,820,163,834,152,854,141,887,122,987,106,1118,92,1267,73,1562,64,1758"/>
+<area shape="rect" id="Node000012" href="$classAutoSelectImplementationsDialog.html" title=" " alt="" coords="185,845,388,885"/>
+<area shape="poly" id="edge651_Node000002_Node000012" title=" " alt="" coords="59,1758,69,1574,90,1300,103,1161,120,1039,138,946,148,915,159,895,183,877,186,881,163,898,153,917,143,948,125,1040,109,1162,95,1300,75,1574,65,1758"/>
+<area shape="rect" id="Node000013" href="$classBlockImplementationDialog.html" title=" " alt="" coords="185,909,389,935"/>
+<area shape="poly" id="edge652_Node000002_Node000013" title=" " alt="" coords="59,1758,70,1583,90,1324,104,1194,120,1079,138,992,148,963,159,944,183,927,186,932,163,948,153,965,144,994,125,1080,109,1195,96,1325,75,1583,65,1759"/>
+<area shape="rect" id="Node000014" href="$classBlockImplementationFileDialog.html" title=" " alt="" coords="173,959,400,984"/>
+<area shape="poly" id="edge653_Node000002_Node000014" title=" " alt="" coords="57,1758,57,1603,67,1373,79,1254,98,1144,124,1055,140,1020,159,994,173,982,177,986,163,997,145,1023,129,1057,103,1146,85,1254,73,1373,63,1603,63,1758"/>
+<area shape="rect" id="Node000015" href="$classBreakpointPropertiesDialog.html" title=" " alt="" coords="186,1008,387,1033"/>
+<area shape="poly" id="edge654_Node000002_Node000015" title=" " alt="" coords="58,1758,59,1611,70,1396,83,1285,101,1183,126,1100,141,1067,159,1043,184,1026,187,1030,163,1047,146,1070,131,1102,106,1184,88,1286,76,1396,64,1611,63,1758"/>
+<area shape="rect" id="Node000016" href="$classBridgeDialog.html" title=" " alt="" coords="233,1057,340,1083"/>
+<area shape="poly" id="edge655_Node000002_Node000016" title=" " alt="" coords="58,1758,61,1620,73,1420,86,1317,104,1222,128,1145,143,1115,159,1092,175,1080,194,1071,232,1064,233,1070,195,1076,178,1084,163,1096,147,1118,133,1147,109,1224,91,1318,79,1420,66,1620,63,1758"/>
+<area shape="rect" id="Node000017" href="$classBusDialog.html" title=" " alt="" coords="243,1107,331,1132"/>
+<area shape="poly" id="edge656_Node000002_Node000017" title=" " alt="" coords="58,1758,62,1628,77,1443,89,1348,107,1261,130,1190,144,1162,159,1141,178,1128,199,1119,242,1113,243,1119,200,1124,180,1132,163,1145,148,1165,135,1192,112,1262,95,1349,82,1443,68,1628,64,1758"/>
+<area shape="rect" id="Node000018" href="$classCallExplorerPluginWindow.html" title=" " alt="" coords="190,1156,383,1181"/>
+<area shape="poly" id="edge657_Node000002_Node000018" title=" " alt="" coords="59,1758,64,1637,80,1467,93,1380,110,1300,132,1235,145,1210,160,1191,188,1172,191,1177,163,1195,149,1213,137,1237,115,1302,98,1381,85,1467,70,1637,64,1758"/>
+<area shape="rect" id="Node000019" href="$classCostEstimationDataDialog.html" title=" " alt="" coords="189,1205,384,1231"/>
+<area shape="poly" id="edge658_Node000002_Node000019" title=" " alt="" coords="59,1758,66,1646,83,1491,96,1412,113,1339,134,1280,146,1258,160,1240,188,1222,191,1227,163,1244,150,1260,138,1283,118,1341,101,1413,88,1492,72,1647,64,1758"/>
+<area shape="rect" id="Node000020" href="$classCostFunctionPluginDialog.html" title=" " alt="" coords="193,1255,381,1280"/>
+<area shape="poly" id="edge659_Node000002_Node000020" title=" " alt="" coords="60,1758,68,1655,86,1515,99,1443,116,1379,136,1326,159,1290,174,1278,191,1270,194,1275,177,1283,163,1293,140,1328,121,1380,105,1445,92,1516,74,1656,65,1759"/>
+<area shape="rect" id="Node000021" href="$classEditParameterDialog.html" title=" " alt="" coords="209,1304,365,1329"/>
+<area shape="poly" id="edge660_Node000002_Node000021" title=" " alt="" coords="60,1758,70,1664,90,1539,103,1475,119,1418,138,1371,159,1339,182,1324,208,1315,209,1320,184,1328,163,1343,142,1373,124,1420,108,1477,95,1540,76,1665,66,1759"/>
+<area shape="rect" id="Node000022" href="$classFUArchitectureDialog.html" title=" " alt="" coords="206,1353,367,1379"/>
+<area shape="poly" id="edge661_Node000002_Node000022" title=" " alt="" coords="61,1758,73,1674,93,1563,122,1457,140,1416,159,1388,181,1374,205,1365,206,1370,183,1379,163,1392,144,1419,127,1459,98,1564,78,1675,66,1759"/>
+<area shape="rect" id="Node000023" href="$classFUDialog.html" title=" " alt="" coords="245,1403,328,1428"/>
+<area shape="poly" id="edge662_Node000002_Node000023" title=" " alt="" coords="57,1758,59,1693,72,1606,85,1560,103,1515,128,1473,160,1437,179,1424,201,1416,244,1410,245,1416,202,1421,181,1429,163,1441,132,1477,108,1517,90,1562,78,1607,65,1694,62,1759"/>
+<area shape="rect" id="Node000024" href="$classFUExternalPortDialog.html" title=" " alt="" coords="205,1452,368,1477"/>
+<area shape="poly" id="edge663_Node000002_Node000024" title=" " alt="" coords="59,1758,64,1701,79,1627,92,1589,109,1551,132,1517,160,1487,181,1473,204,1465,206,1470,183,1478,163,1491,136,1520,114,1554,97,1591,84,1629,69,1702,64,1758"/>
+<area shape="rect" id="Node000025" href="$classFUGuardDialog.html" title=" " alt="" coords="226,1501,347,1527"/>
+<area shape="poly" id="edge664_Node000002_Node000025" title=" " alt="" coords="61,1758,69,1710,86,1649,115,1588,135,1560,160,1536,191,1519,225,1511,226,1517,193,1524,163,1540,140,1563,120,1591,91,1651,74,1711,66,1759"/>
+<area shape="rect" id="Node000026" href="$classFUImplementationDialog.html" title=" " alt="" coords="193,1551,380,1576"/>
+<area shape="poly" id="edge665_Node000002_Node000026" title=" " alt="" coords="64,1757,75,1718,94,1672,122,1625,139,1603,160,1585,192,1569,194,1574,163,1590,143,1607,126,1628,99,1674,80,1720,69,1759"/>
+<area shape="rect" id="Node000027" href="$classFUPortDialog.html" title=" " alt="" coords="233,1600,341,1625"/>
+<area shape="poly" id="edge666_Node000002_Node000027" title=" " alt="" coords="68,1758,102,1695,128,1662,160,1634,195,1619,232,1611,233,1617,197,1624,163,1639,132,1666,106,1698,73,1761"/>
+<area shape="rect" id="Node000028" href="$classFUPortImplementationDialog.html" title=" " alt="" coords="181,1649,393,1675"/>
+<area shape="poly" id="edge667_Node000002_Node000028" title=" " alt="" coords="76,1759,112,1720,135,1700,160,1684,188,1672,190,1677,163,1688,138,1704,115,1724,80,1763"/>
+<area shape="rect" id="Node000029" href="$classGCUDialog.html" title=" " alt="" coords="240,1699,333,1724"/>
+<area shape="poly" id="edge668_Node000002_Node000029" title=" " alt="" coords="93,1763,160,1733,239,1715,240,1720,162,1738,95,1768"/>
+<area shape="rect" id="Node000030" href="$classGenerateProcessorDialog.html" title=" " alt="" coords="193,1748,380,1773"/>
+<area shape="poly" id="edge669_Node000002_Node000030" title=" " alt="" coords="114,1776,193,1768,194,1773,114,1782"/>
+<area shape="rect" id="Node000031" href="$classHDBEditorAboutDialog.html" title=" " alt="" coords="202,1797,371,1823"/>
+<area shape="poly" id="edge670_Node000002_Node000031" title=" " alt="" coords="115,1788,202,1798,201,1803,114,1793"/>
+<area shape="rect" id="Node000032" href="$classIUDialog.html" title=" " alt="" coords="247,1847,326,1872"/>
+<area shape="poly" id="edge671_Node000002_Node000032" title=" " alt="" coords="96,1802,162,1831,206,1844,248,1852,247,1857,205,1849,160,1837,94,1807"/>
+<area shape="rect" id="Node000033" href="$classIUPortDialog.html" title=" " alt="" coords="235,1896,339,1921"/>
+<area shape="poly" id="edge672_Node000002_Node000033" title=" " alt="" coords="80,1807,116,1846,138,1865,163,1881,198,1895,235,1902,234,1907,197,1900,160,1886,135,1869,112,1850,76,1810"/>
+<area shape="rect" id="Node000034" href="$classImmediateSlotDialog.html" title=" " alt="" coords="207,1945,367,1971"/>
+<area shape="poly" id="edge673_Node000002_Node000034" title=" " alt="" coords="73,1809,107,1871,132,1904,163,1930,184,1941,207,1949,205,1954,182,1946,160,1935,128,1907,102,1874,68,1811"/>
+<area shape="rect" id="Node000035" href="$classImplementationParameterDialog.html" title=" " alt="" coords="169,1995,404,2020"/>
+<area shape="poly" id="edge674_Node000002_Node000035" title=" " alt="" coords="69,1810,80,1849,99,1895,126,1942,143,1962,163,1980,185,1992,182,1997,160,1984,139,1966,122,1945,94,1898,75,1851,64,1812"/>
+<area shape="rect" id="Node000036" href="$classInputOperandDialog.html" title=" " alt="" coords="211,2044,363,2069"/>
+<area shape="poly" id="edge675_Node000002_Node000036" title=" " alt="" coords="66,1811,75,1859,92,1918,120,1979,140,2006,163,2029,186,2043,211,2051,210,2056,183,2048,160,2033,136,2009,116,1982,87,1920,69,1860,61,1812"/>
+<area shape="rect" id="Node000037" href="$classKeyboardShortcutDialog.html" title=" " alt="" coords="197,2093,376,2119"/>
+<area shape="poly" id="edge676_Node000002_Node000037" title=" " alt="" coords="64,1811,69,1868,85,1940,97,1978,114,2015,136,2049,163,2079,179,2090,198,2097,196,2102,177,2094,160,2083,132,2053,110,2018,92,1980,79,1942,64,1868,59,1812"/>
+<area shape="rect" id="Node000038" href="$classMachineDialog.html" title=" " alt="" coords="227,2143,346,2168"/>
+<area shape="poly" id="edge677_Node000002_Node000038" title=" " alt="" coords="63,1811,65,1876,78,1962,90,2007,108,2052,132,2093,163,2128,193,2146,228,2153,226,2159,191,2151,160,2132,128,2096,103,2054,85,2009,73,1963,60,1876,57,1811"/>
+<area shape="rect" id="Node000039" href="$classMemoryValueDialog.html" title=" " alt="" coords="209,2192,364,2217"/>
+<area shape="poly" id="edge679_Node000002_Node000039" title=" " alt="" coords="66,1810,78,1894,98,2005,127,2110,144,2151,163,2177,185,2192,210,2200,208,2205,182,2196,159,2181,140,2153,122,2112,93,2006,73,1895,61,1811"/>
+<area shape="rect" id="Node000040" href="$classOSEdAboutDialog.html" title=" " alt="" coords="219,2241,355,2267"/>
+<area shape="poly" id="edge680_Node000002_Node000040" title=" " alt="" coords="66,1811,76,1904,95,2030,108,2093,124,2150,142,2196,163,2227,189,2243,219,2251,218,2257,187,2248,159,2231,138,2198,119,2151,103,2094,90,2030,71,1905,60,1811"/>
+<area shape="rect" id="Node000041" href="$classOSEdOptionsDialog.html" title=" " alt="" coords="213,2291,361,2316"/>
+<area shape="poly" id="edge681_Node000002_Node000041" title=" " alt="" coords="65,1811,74,1913,92,2054,105,2125,121,2189,140,2241,163,2276,186,2292,213,2300,211,2305,184,2296,159,2280,136,2244,116,2191,100,2126,86,2054,68,1914,60,1811"/>
+<area shape="rect" id="Node000042" href="$classOTAFormatListDialog.html" title=" " alt="" coords="207,2340,366,2365"/>
+<area shape="poly" id="edge682_Node000002_Node000042" title=" " alt="" coords="64,1811,72,1922,88,2078,101,2156,118,2228,139,2287,150,2309,163,2325,184,2340,208,2348,206,2353,181,2345,159,2329,146,2312,134,2289,113,2230,96,2158,83,2078,66,1923,59,1811"/>
+<area shape="rect" id="Node000043" href="$classOTAOperationDialog.html" title=" " alt="" coords="209,2389,364,2415"/>
+<area shape="poly" id="edge683_Node000002_Node000043" title=" " alt="" coords="64,1811,70,1932,85,2102,98,2189,115,2267,137,2332,149,2356,163,2375,184,2390,210,2398,208,2403,182,2394,159,2379,145,2359,132,2334,110,2269,93,2190,80,2102,64,1932,59,1811"/>
+<area shape="rect" id="Node000044" href="$classOperationDAGDialog.html" title=" " alt="" coords="208,2439,365,2464"/>
+<area shape="poly" id="edge684_Node000002_Node000044" title=" " alt="" coords="64,1811,68,1941,82,2126,95,2220,112,2307,135,2377,148,2404,163,2424,184,2439,209,2448,207,2453,182,2444,159,2428,144,2407,130,2379,107,2308,90,2221,77,2126,63,1941,58,1811"/>
+<area shape="rect" id="Node000045" href="$classOperationDialog.html" title=" " alt="" coords="223,2488,351,2513"/>
+<area shape="poly" id="edge685_Node000002_Node000045" title=" " alt="" coords="63,1811,66,1949,79,2149,91,2252,109,2345,133,2422,147,2452,163,2473,190,2491,223,2499,221,2505,188,2496,159,2477,143,2454,128,2424,104,2347,86,2252,74,2149,61,1949,58,1811"/>
+<area shape="rect" id="Node000046" href="$classOperationImplementationDialog.html" title=" " alt="" coords="171,2537,403,2563"/>
+<area shape="poly" id="edge686_Node000002_Node000046" title=" " alt="" coords="63,1811,64,1958,76,2173,88,2283,106,2385,131,2467,146,2499,163,2523,179,2535,175,2539,159,2527,142,2502,126,2469,101,2386,83,2284,71,2173,59,1958,58,1811"/>
+<area shape="rect" id="Node000047" href="$classOperationImplementationResourceDialog.html" title=" " alt="" coords="161,2587,412,2627"/>
+<area shape="poly" id="edge687_Node000002_Node000047" title=" " alt="" coords="63,1811,64,1966,75,2195,87,2314,105,2422,130,2512,146,2546,163,2572,178,2585,175,2589,159,2576,141,2549,125,2514,100,2423,81,2314,69,2195,58,1966,58,1811"/>
+<area shape="rect" id="Node000048" href="$classOperationPropertyDialog.html" title=" " alt="" coords="195,2652,378,2677"/>
+<area shape="poly" id="edge688_Node000002_Node000048" title=" " alt="" coords="65,1811,75,1990,95,2253,109,2386,125,2502,143,2591,153,2620,163,2638,178,2650,196,2658,194,2663,175,2654,159,2641,148,2622,138,2592,120,2503,104,2387,90,2254,70,1990,59,1812"/>
+<area shape="rect" id="Node000049" href="$classOpsetDialog.html" title=" " alt="" coords="235,2701,338,2727"/>
+<area shape="poly" id="edge689_Node000002_Node000049" title=" " alt="" coords="64,1811,74,1999,94,2278,107,2419,124,2543,142,2637,153,2668,163,2687,178,2699,196,2707,236,2714,235,2719,195,2712,176,2704,159,2690,148,2670,137,2638,118,2544,102,2419,88,2278,69,1999,59,1811"/>
+<area shape="rect" id="Node000050" href="$classOptionsDialog.html" title=" " alt="" coords="229,2751,344,2776"/>
+<area shape="poly" id="edge690_Node000002_Node000050" title=" " alt="" coords="64,1811,73,2008,92,2303,106,2452,122,2584,141,2683,152,2716,163,2736,177,2748,193,2755,229,2763,228,2768,191,2761,174,2752,159,2740,147,2719,136,2685,117,2584,100,2453,87,2303,68,2008,59,1811"/>
+<area shape="rect" id="Node000052" href="$classOutputOperandDialog.html" title=" " alt="" coords="205,2800,368,2825"/>
+<area shape="poly" id="edge692_Node000002_Node000052" title=" " alt="" coords="64,1811,72,2017,91,2328,104,2485,121,2624,140,2729,152,2765,163,2786,182,2800,206,2809,204,2814,180,2805,159,2789,147,2767,135,2731,115,2625,99,2486,85,2328,67,2017,59,1811"/>
+<area shape="rect" id="Node000053" href="$classProDeBusOrderDialog.html" title=" " alt="" coords="205,2849,368,2875"/>
+<area shape="poly" id="edge693_Node000002_Node000053" title=" " alt="" coords="64,1811,71,2026,89,2353,102,2519,119,2665,139,2776,151,2813,163,2835,182,2850,206,2858,204,2863,180,2854,159,2838,146,2815,134,2777,114,2666,97,2519,84,2353,66,2027,59,1811"/>
+<area shape="rect" id="Node000054" href="$classProcessorImplementationWindow.html" title=" " alt="" coords="166,2899,407,2924"/>
+<area shape="poly" id="edge694_Node000002_Node000054" title=" " alt="" coords="64,1811,71,2035,88,2377,101,2551,118,2705,139,2822,150,2861,163,2884,178,2896,175,2900,159,2888,146,2863,133,2823,112,2706,95,2552,82,2378,65,2035,59,1811"/>
+<area shape="rect" id="Node000055" href="$classProximAboutDialog.html" title=" " alt="" coords="213,2948,361,2973"/>
+<area shape="poly" id="edge695_Node000002_Node000055" title=" " alt="" coords="64,1811,70,2044,86,2402,99,2585,116,2746,138,2868,150,2909,163,2934,186,2950,213,2958,212,2964,183,2955,159,2937,145,2911,132,2869,111,2747,94,2585,81,2403,65,2044,58,1811"/>
+<area shape="rect" id="Node000056" href="$classProximStopDialog.html" title=" " alt="" coords="217,2997,356,3023"/>
+<area shape="poly" id="edge696_Node000002_Node000056" title=" " alt="" coords="64,1811,69,2052,84,2426,97,2617,115,2786,137,2914,149,2957,163,2983,188,3000,218,3009,216,3014,186,3005,159,2986,144,2959,131,2916,109,2787,92,2618,79,2427,64,2052,58,1811"/>
+<area shape="rect" id="Node000057" href="$classRFArchitectureDialog.html" title=" " alt="" coords="207,3047,366,3072"/>
+<area shape="poly" id="edge697_Node000002_Node000057" title=" " alt="" coords="64,1811,68,2062,83,2452,96,2651,113,2827,136,2961,149,3006,163,3032,183,3048,208,3056,206,3061,181,3052,159,3036,144,3008,130,2962,108,2828,91,2651,78,2452,63,2062,58,1811"/>
+<area shape="rect" id="Node000058" href="$classRFDialog.html" title=" " alt="" coords="246,3096,327,3121"/>
+<area shape="poly" id="edge698_Node000002_Node000058" title=" " alt="" coords="64,1811,68,2071,82,2476,94,2684,112,2867,135,3007,148,3054,163,3082,181,3095,202,3104,246,3109,245,3115,200,3109,178,3100,159,3085,143,3056,129,3008,106,2868,89,2684,76,2477,62,2071,58,1811"/>
+<area shape="rect" id="Node000059" href="$classRFExternalPortDialog.html" title=" " alt="" coords="206,3145,367,3171"/>
+<area shape="poly" id="edge699_Node000002_Node000059" title=" " alt="" coords="63,1811,67,2079,80,2501,93,2717,110,2908,134,3053,148,3102,163,3131,183,3146,207,3155,205,3160,180,3151,159,3134,143,3104,128,3054,105,2908,87,2717,75,2501,61,2079,58,1811"/>
+<area shape="rect" id="Node000060" href="$classRFGuardDialog.html" title=" " alt="" coords="227,3195,347,3220"/>
+<area shape="poly" id="edge700_Node000002_Node000060" title=" " alt="" coords="63,1811,66,2088,79,2525,91,2749,109,2948,120,3031,133,3099,147,3150,163,3180,176,3192,192,3199,227,3207,226,3212,190,3204,173,3196,159,3184,142,3152,127,3101,115,3032,103,2949,86,2750,73,2525,61,2088,58,1811"/>
+<area shape="rect" id="Node000061" href="$classRFImplementationDialog.html" title=" " alt="" coords="194,3244,379,3269"/>
+<area shape="poly" id="edge701_Node000002_Node000061" title=" " alt="" coords="63,1811,65,2096,77,2549,89,2782,107,2988,119,3075,132,3145,147,3198,163,3230,178,3242,195,3250,193,3255,175,3246,159,3233,142,3200,126,3147,113,3075,102,2989,84,2782,72,2549,60,2096,58,1811"/>
+<area shape="rect" id="Node000062" href="$classRFPortDialog.html" title=" " alt="" coords="233,3293,340,3319"/>
+<area shape="poly" id="edge702_Node000002_Node000062" title=" " alt="" coords="63,1811,65,2105,76,2574,88,2815,106,3029,117,3118,131,3192,146,3246,163,3279,178,3291,195,3299,233,3306,232,3312,193,3304,175,3296,159,3282,141,3248,126,3193,112,3119,100,3030,82,2816,70,2574,59,2105,58,1811"/>
+<area shape="rect" id="Node000063" href="$classRFPortImplementationDialog.html" title=" " alt="" coords="181,3343,392,3368"/>
+<area shape="poly" id="edge703_Node000002_Node000063" title=" " alt="" coords="63,1811,64,2113,74,2598,86,2848,104,3069,116,3162,130,3238,146,3294,163,3328,183,3343,180,3348,159,3332,141,3296,125,3239,111,3163,99,3070,81,2848,69,2598,59,2113,58,1811"/>
+<area shape="rect" id="Node000064" href="$classResultDialog.html" title=" " alt="" coords="234,3392,339,3417"/>
+<area shape="poly" id="edge704_Node000002_Node000064" title=" " alt="" coords="63,1812,63,2124,73,2624,85,2882,103,3110,115,3206,129,3284,145,3343,163,3378,178,3390,195,3398,234,3405,233,3410,194,3403,175,3394,159,3381,140,3345,124,3285,109,3206,97,3111,79,2882,67,2624,58,2124,58,1812"/>
+<area shape="rect" id="Node000065" href="$classSRPortDialog.html" title=" " alt="" coords="233,3441,340,3467"/>
+<area shape="poly" id="edge705_Node000002_Node000065" title=" " alt="" coords="63,1811,62,2131,65,2378,71,2648,83,2914,101,3150,113,3249,128,3330,144,3391,163,3427,178,3439,195,3447,233,3454,232,3460,193,3452,175,3444,159,3430,139,3393,123,3331,108,3250,96,3151,78,2914,66,2648,60,2378,57,2131,58,1811"/>
+<area shape="rect" id="Node000066" href="$classSimulateDialog.html" title=" " alt="" coords="225,3491,348,3516"/>
+<area shape="poly" id="edge706_Node000002_Node000066" title=" " alt="" coords="64,1811,74,2151,95,2699,109,2977,125,3219,144,3396,153,3450,164,3476,176,3487,191,3495,226,3503,225,3508,189,3500,173,3492,159,3480,148,3451,138,3397,120,3220,103,2977,89,2699,69,2151,59,1811"/>
+<area shape="rect" id="Node000068" href="$classSimulatorSettingsDialog.html" title=" " alt="" coords="197,3540,377,3565"/>
+<area shape="poly" id="edge708_Node000002_Node000068" title=" " alt="" coords="64,1811,73,2160,94,2724,108,3011,124,3261,143,3443,153,3499,164,3526,179,3538,197,3547,195,3552,176,3543,159,3529,148,3500,138,3443,119,3261,103,3011,89,2724,68,2161,59,1811"/>
+<area shape="rect" id="Node000069" href="$classSocketDialog.html" title=" " alt="" coords="233,104,340,129"/>
+<area shape="poly" id="edge709_Node000002_Node000069" title=" " alt="" coords="58,1758,57,1438,59,1191,66,921,77,655,96,418,108,319,122,238,139,177,159,139,175,126,193,117,232,110,233,116,195,122,178,130,163,142,144,178,128,239,113,320,101,419,83,655,71,921,65,1191,62,1438,63,1758"/>
+<area shape="rect" id="Node000070" href="$classTemplateListDialog.html" title=" " alt="" coords="213,153,360,179"/>
+<area shape="poly" id="edge710_Node000002_Node000070" title=" " alt="" coords="58,1758,58,1446,67,945,79,687,97,458,109,363,123,284,140,225,159,188,184,171,212,162,214,167,186,175,163,192,145,227,129,285,114,363,103,459,84,687,73,945,63,1446,63,1758"/>
+<area shape="rect" id="Node000071" href="$classTemplateSlotDialog.html" title=" " alt="" coords="212,203,361,228"/>
+<area shape="poly" id="edge711_Node000002_Node000071" title=" " alt="" coords="58,1758,58,1456,69,971,81,721,99,499,110,407,124,330,140,273,159,238,183,220,211,212,212,217,185,225,163,241,145,275,130,331,116,407,104,500,86,721,74,971,64,1456,63,1759"/>
+<area shape="rect" id="Node000072" href="$classValidateMachineDialog.html" title=" " alt="" coords="201,252,373,277"/>
+<area shape="poly" id="edge712_Node000002_Node000072" title=" " alt="" coords="58,1758,59,1464,70,995,82,753,100,539,112,450,125,376,141,321,159,287,178,272,199,264,201,269,180,277,163,290,146,323,131,377,117,451,105,540,87,754,75,995,64,1464,63,1758"/>
+<area shape="rect" id="Node000073" href="$classVariableDialog.html" title=" " alt="" coords="228,301,345,327"/>
+<area shape="poly" id="edge713_Node000002_Node000073" title=" " alt="" coords="58,1758,60,1473,72,1020,84,787,102,580,113,494,126,423,142,369,159,336,174,324,191,316,227,308,228,313,193,321,177,328,163,340,147,371,131,424,118,495,107,581,89,787,77,1020,65,1473,63,1758"/>
+<area shape="rect" id="Node000074" href="$classWatchPropertiesDialog.html" title=" " alt="" coords="201,351,372,376"/>
+<area shape="poly" id="edge714_Node000002_Node000074" title=" " alt="" coords="58,1758,61,1482,73,1044,85,819,103,620,114,537,127,469,142,417,159,386,178,371,200,362,202,367,181,375,163,389,147,419,132,470,120,538,108,621,91,820,78,1044,66,1482,63,1758"/>
+<area shape="rect" id="Node000051" href="$classProDeOptionsDialog.html" title=" " alt="" coords="460,2751,613,2776"/>
+<area shape="poly" id="edge691_Node000050_Node000051" title=" " alt="" coords="358,2761,460,2761,460,2766,358,2766"/>
+</map>

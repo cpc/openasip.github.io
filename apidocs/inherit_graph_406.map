@@ -1,0 +1,119 @@
+<map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
+<area shape="rect" id="Node000000" href="$classReversible.html" title=" " alt="" coords="5,943,96,968"/>
+<area shape="rect" id="Node000001" href="$classBFOptimization.html" title=" " alt="" coords="144,943,267,968"/>
+<area shape="poly" id="edge773_Node000000_Node000001" title=" " alt="" coords="110,953,143,953,143,958,110,958"/>
+<area shape="rect" id="Node000002" href="$classBF2ScheduleFront.html" title=" " alt="" coords="360,5,499,31"/>
+<area shape="poly" id="edge774_Node000001_Node000002" title=" " alt="" coords="205,929,216,740,238,457,253,314,270,189,290,93,301,60,313,40,334,25,359,16,361,21,337,29,317,44,306,63,295,94,276,189,258,315,244,458,222,740,211,929"/>
+<area shape="rect" id="Node000003" href="$classBFAssignToBody.html" title=" " alt="" coords="366,55,493,80"/>
+<area shape="poly" id="edge775_Node000001_Node000003" title=" " alt="" coords="206,929,217,748,240,482,255,347,272,229,291,139,302,109,313,90,337,73,365,65,367,70,339,77,317,93,306,111,296,141,277,230,260,348,245,482,223,749,211,929"/>
+<area shape="rect" id="Node000004" href="$classBFClearLiveRangeUse.html" title=" " alt="" coords="346,104,513,129"/>
+<area shape="poly" id="edge776_Node000001_Node000004" title=" " alt="" coords="204,929,205,768,208,654,216,531,229,408,249,295,276,202,293,166,313,139,328,127,345,119,347,124,330,131,317,142,298,169,281,204,254,296,235,409,222,531,214,655,210,768,209,929"/>
+<area shape="rect" id="Node000005" href="$classBFConnectNodes.html" title=" " alt="" coords="363,153,496,179"/>
+<area shape="poly" id="edge777_Node000001_Node000005" title=" " alt="" coords="204,929,206,778,219,555,232,440,252,334,278,247,294,214,313,188,335,172,362,164,363,169,338,177,317,192,299,217,283,249,257,336,238,441,225,555,211,778,209,929"/>
+<area shape="rect" id="Node000006" href="$classBFDropPreShared.html" title=" " alt="" coords="361,203,497,228"/>
+<area shape="poly" id="edge778_Node000001_Node000006" title=" " alt="" coords="204,928,208,785,222,578,236,471,255,373,280,292,295,261,313,237,335,222,361,214,362,219,337,227,317,241,300,264,285,294,260,374,241,472,228,578,213,786,209,929"/>
+<area shape="rect" id="Node000007" href="$classBFEarlyBypass.html" title=" " alt="" coords="370,252,489,277"/>
+<area shape="poly" id="edge779_Node000001_Node000007" title=" " alt="" coords="204,929,210,795,225,602,239,503,258,412,282,338,296,309,313,287,339,269,369,262,370,267,341,274,316,291,301,312,287,340,263,414,244,504,231,603,215,795,210,929"/>
+<area shape="rect" id="Node000008" href="$classBFEarlyBypasser.html" title=" " alt="" coords="363,301,495,327"/>
+<area shape="poly" id="edge780_Node000001_Node000008" title=" " alt="" coords="205,929,211,804,229,626,242,534,261,451,284,383,297,356,313,336,336,320,363,312,364,317,338,325,317,340,302,359,289,385,266,453,248,535,234,626,217,804,210,929"/>
+<area shape="rect" id="Node000009" href="$classBFEarlyGuardBypass.html" title=" " alt="" coords="350,351,509,376"/>
+<area shape="poly" id="edge781_Node000001_Node000009" title=" " alt="" coords="205,929,213,813,232,650,246,566,264,490,286,428,299,404,313,385,330,373,349,365,351,370,332,377,317,389,303,407,291,430,269,492,251,567,237,650,219,813,211,929"/>
+<area shape="rect" id="Node000010" href="$classBFInsertLiveRangeUse.html" title=" " alt="" coords="345,400,514,425"/>
+<area shape="poly" id="edge782_Node000001_Node000010" title=" " alt="" coords="206,928,215,821,235,673,249,597,267,529,288,473,313,435,327,424,343,416,345,421,330,428,317,438,293,475,272,531,255,599,240,673,221,821,211,929"/>
+<area shape="rect" id="Node000011" href="$classBFKillNode.html" title=" " alt="" coords="382,449,477,475"/>
+<area shape="poly" id="edge783_Node000001_Node000011" title=" " alt="" coords="206,929,217,831,238,697,253,630,270,569,290,518,313,484,328,473,345,465,381,458,382,463,347,470,331,477,317,488,294,521,275,570,258,631,244,698,223,832,212,929"/>
+<area shape="rect" id="Node000016" href="$classBFLateBypass.html" title=" " alt="" coords="372,499,487,524"/>
+<area shape="poly" id="edge788_Node000001_Node000016" title=" " alt="" coords="207,929,220,840,242,721,273,608,292,564,313,533,340,517,371,509,372,514,342,521,316,537,296,566,278,610,247,723,225,841,212,930"/>
+<area shape="rect" id="Node000018" href="$classBFLateBypasses.html" title=" " alt="" coords="365,548,494,573"/>
+<area shape="poly" id="edge790_Node000001_Node000018" title=" " alt="" coords="203,929,206,860,219,766,233,716,252,667,279,622,313,583,337,568,363,560,365,565,339,572,316,587,283,625,257,670,238,718,225,767,211,860,208,929"/>
+<area shape="rect" id="Node000019" href="$classBFMergeAndKeepUser.html" title=" " alt="" coords="346,597,513,623"/>
+<area shape="poly" id="edge791_Node000001_Node000019" title=" " alt="" coords="205,929,210,868,226,787,240,745,258,703,283,665,313,632,344,614,347,619,316,636,287,668,263,706,245,747,231,789,215,868,210,929"/>
+<area shape="rect" id="Node000020" href="$classBFPostpassBypass.html" title=" " alt="" coords="357,647,501,672"/>
+<area shape="poly" id="edge792_Node000001_Node000020" title=" " alt="" coords="206,928,215,876,233,809,247,774,265,740,286,708,313,681,334,669,356,661,358,666,336,673,316,685,291,712,269,742,252,776,238,810,220,877,212,929"/>
+<area shape="rect" id="Node000021" href="$classBFPostpassBypasser.html" title=" " alt="" coords="351,696,508,721"/>
+<area shape="poly" id="edge793_Node000001_Node000021" title=" " alt="" coords="209,928,220,885,240,831,271,776,290,752,313,731,331,720,350,713,352,718,333,725,316,735,294,755,275,779,245,833,226,886,214,930"/>
+<area shape="rect" id="Node000022" href="$classBFPostpassLoopDRE.html" title=" " alt="" coords="352,745,507,771"/>
+<area shape="poly" id="edge794_Node000001_Node000022" title=" " alt="" coords="213,928,227,894,248,854,277,813,313,780,351,763,353,768,316,784,281,817,253,857,232,896,218,930"/>
+<area shape="rect" id="Node000023" href="$classBFPushAntidepsDown.html" title=" " alt="" coords="347,795,511,820"/>
+<area shape="poly" id="edge795_Node000001_Node000023" title=" " alt="" coords="219,929,257,878,283,851,313,829,346,815,348,820,316,834,287,855,261,881,223,932"/>
+<area shape="rect" id="Node000024" href="$classBFPushDepsUp.html" title=" " alt="" coords="369,844,490,869"/>
+<area shape="poly" id="edge796_Node000001_Node000024" title=" " alt="" coords="230,932,268,904,314,878,368,862,369,867,316,883,271,908,233,936"/>
+<area shape="rect" id="Node000025" href="$classBFRegCopy.html" title=" " alt="" coords="381,893,478,919"/>
+<area shape="poly" id="edge797_Node000001_Node000025" title=" " alt="" coords="273,937,314,927,380,913,381,918,315,933,274,942"/>
+<area shape="rect" id="Node000029" href="$classBFRemoveEdge.html" title=" " alt="" coords="367,943,492,968"/>
+<area shape="poly" id="edge801_Node000001_Node000029" title=" " alt="" coords="281,953,366,953,366,958,281,958"/>
+<area shape="rect" id="Node000030" href="$classBFRemoveGuard.html" title=" " alt="" coords="363,992,495,1017"/>
+<area shape="poly" id="edge802_Node000001_Node000030" title=" " alt="" coords="277,968,371,989,370,995,276,974"/>
+<area shape="rect" id="Node000031" href="$classBFRemoveGuardFromSucc.html" title=" " alt="" coords="332,1041,527,1067"/>
+<area shape="poly" id="edge803_Node000001_Node000031" title=" " alt="" coords="234,975,271,1002,316,1026,353,1039,352,1044,314,1031,268,1006,231,979"/>
+<area shape="rect" id="Node000032" href="$classBFRemoveGuardsFromSuccs.html" title=" " alt="" coords="325,1091,534,1116"/>
+<area shape="poly" id="edge804_Node000001_Node000032" title=" " alt="" coords="223,978,261,1029,287,1054,316,1076,344,1088,342,1093,313,1080,283,1058,257,1032,219,981"/>
+<area shape="rect" id="Node000033" href="$classBFRemoveLoopChecksAndJump.html" title=" " alt="" coords="315,1140,544,1165"/>
+<area shape="poly" id="edge805_Node000001_Node000033" title=" " alt="" coords="218,980,232,1014,253,1053,281,1092,316,1125,340,1137,337,1142,313,1130,277,1096,249,1056,227,1016,213,982"/>
+<area shape="rect" id="Node000034" href="$classBFRenameLiveRange.html" title=" " alt="" coords="349,1189,510,1215"/>
+<area shape="poly" id="edge806_Node000001_Node000034" title=" " alt="" coords="214,981,226,1024,246,1077,275,1130,294,1154,316,1174,349,1191,347,1196,313,1179,290,1158,271,1133,241,1079,221,1026,209,982"/>
+<area shape="rect" id="Node000035" href="$classBFRenameSource.html" title=" " alt="" coords="361,1239,498,1264"/>
+<area shape="poly" id="edge807_Node000001_Node000035" title=" " alt="" coords="212,981,220,1033,239,1099,252,1134,269,1167,291,1198,316,1224,337,1237,361,1245,359,1250,335,1242,313,1228,287,1201,265,1170,247,1136,234,1101,215,1035,207,982"/>
+<area shape="rect" id="Node000036" href="$classBFRescheduleResultClose.html" title=" " alt="" coords="334,1288,525,1313"/>
+<area shape="poly" id="edge808_Node000001_Node000036" title=" " alt="" coords="210,981,216,1042,232,1121,245,1163,264,1203,287,1241,316,1273,335,1286,332,1290,313,1277,283,1244,259,1206,240,1165,227,1122,210,1043,205,982"/>
+<area shape="rect" id="Node000037" href="$classBFRescheduleResultsClose.html" title=" " alt="" coords="330,1337,529,1363"/>
+<area shape="poly" id="edge809_Node000001_Node000037" title=" " alt="" coords="209,982,211,1051,225,1143,239,1192,258,1240,283,1284,316,1323,335,1335,332,1339,313,1327,279,1287,253,1242,234,1194,220,1144,206,1051,203,982"/>
+<area shape="rect" id="Node000038" href="$classBFRescheduleSuccessorsClose.html" title=" " alt="" coords="318,1387,541,1412"/>
+<area shape="poly" id="edge810_Node000001_Node000038" title=" " alt="" coords="213,981,225,1070,247,1188,278,1300,296,1343,317,1372,334,1384,331,1389,313,1376,292,1346,273,1302,242,1189,220,1071,207,982"/>
+<area shape="rect" id="Node000039" href="$classBFScheduleMove.html" title=" " alt="" coords="363,1436,496,1461"/>
+<area shape="poly" id="edge811_Node000001_Node000039" title=" " alt="" coords="212,981,223,1079,244,1211,258,1278,275,1339,295,1389,317,1421,338,1436,363,1444,362,1449,336,1441,313,1425,290,1391,270,1341,253,1280,239,1212,218,1079,206,982"/>
+<area shape="rect" id="Node000044" href="$classBFSchedulePreLoopShared.html" title=" " alt="" coords="332,1485,527,1511"/>
+<area shape="poly" id="edge816_Node000001_Node000044" title=" " alt="" coords="211,982,221,1089,241,1236,255,1311,272,1379,293,1434,317,1471,333,1483,330,1487,313,1474,288,1436,267,1380,250,1312,235,1237,216,1090,206,982"/>
+<area shape="rect" id="Node000045" href="$classBFShareOperand.html" title=" " alt="" coords="364,1535,495,1560"/>
+<area shape="poly" id="edge817_Node000001_Node000045" title=" " alt="" coords="211,981,219,1097,237,1259,251,1342,269,1418,291,1479,303,1503,317,1520,339,1535,365,1543,363,1548,336,1540,313,1524,299,1505,286,1481,264,1419,246,1343,232,1260,214,1098,205,982"/>
+<area shape="rect" id="Node000048" href="$classBFShareOperands.html" title=" " alt="" coords="361,1584,498,1609"/>
+<area shape="poly" id="edge820_Node000001_Node000048" title=" " alt="" coords="210,982,217,1106,234,1284,248,1374,266,1457,289,1524,302,1550,317,1569,337,1584,361,1592,359,1597,334,1589,313,1573,298,1553,284,1526,261,1458,243,1375,229,1284,212,1107,205,982"/>
+<area shape="rect" id="Node000049" href="$classBFShareOperandsLate.html" title=" " alt="" coords="347,1633,512,1659"/>
+<area shape="poly" id="edge821_Node000001_Node000049" title=" " alt="" coords="210,982,215,1115,231,1307,245,1406,263,1496,287,1570,301,1598,317,1619,331,1630,347,1638,345,1642,328,1635,313,1623,296,1600,282,1572,258,1497,239,1407,226,1308,210,1115,204,982"/>
+<area shape="rect" id="Node000050" href="$classBFSwapOperands.html" title=" " alt="" coords="362,1683,497,1708"/>
+<area shape="poly" id="edge822_Node000001_Node000050" title=" " alt="" coords="209,982,213,1124,228,1331,241,1438,260,1535,285,1615,300,1645,317,1668,337,1683,363,1691,361,1696,335,1688,313,1672,295,1648,280,1617,255,1536,236,1439,223,1332,208,1125,204,982"/>
+<area shape="rect" id="Node000051" href="$classBFTryRemoveGuard.html" title=" " alt="" coords="354,1732,505,1757"/>
+<area shape="poly" id="edge823_Node000001_Node000051" title=" " alt="" coords="209,982,212,1132,225,1354,238,1469,257,1574,283,1660,299,1693,317,1717,334,1731,355,1739,353,1744,331,1735,313,1721,294,1696,278,1662,252,1575,233,1470,220,1355,206,1133,204,982"/>
+<area shape="rect" id="Node000052" href="$classBFUnscheduleFromBody.html" title=" " alt="" coords="339,1781,520,1807"/>
+<area shape="poly" id="edge824_Node000001_Node000052" title=" " alt="" coords="209,982,210,1142,214,1255,222,1378,235,1501,254,1613,281,1705,298,1740,317,1767,340,1783,337,1788,313,1771,293,1743,276,1707,249,1614,230,1502,217,1379,209,1256,205,1142,204,982"/>
+<area shape="rect" id="Node000053" href="$classBFUnscheduleMove.html" title=" " alt="" coords="354,1831,505,1856"/>
+<area shape="poly" id="edge825_Node000001_Node000053" title=" " alt="" coords="211,982,223,1162,245,1428,260,1562,277,1679,296,1769,306,1799,317,1816,334,1830,355,1838,353,1843,331,1834,313,1820,302,1801,291,1770,272,1680,255,1562,240,1428,217,1162,206,982"/>
+<area shape="rect" id="Node000058" href="$classBFUpdateMoveOnBypass.html" title=" " alt="" coords="336,1880,523,1905"/>
+<area shape="poly" id="edge830_Node000001_Node000058" title=" " alt="" coords="211,981,222,1170,244,1452,259,1594,276,1720,295,1815,306,1847,317,1866,337,1881,334,1885,313,1869,301,1849,290,1816,271,1721,253,1595,239,1453,217,1171,205,982"/>
+<area shape="rect" id="Node000012" href="$classBFDREEarly.html" title=" " alt="" coords="656,351,755,376"/>
+<area shape="poly" id="edge784_Node000011_Node000012" title=" " alt="" coords="490,453,517,445,543,434,557,423,566,410,575,397,591,385,622,372,655,365,656,370,624,377,593,390,579,401,570,413,561,427,545,439,519,451,491,458"/>
+<area shape="rect" id="Node000013" href="$classBFDRELate.html" title=" " alt="" coords="658,400,753,425"/>
+<area shape="poly" id="edge785_Node000011_Node000013" title=" " alt="" coords="490,449,657,418,658,424,491,454"/>
+<area shape="rect" id="Node000014" href="$classBFDRELoop.html" title=" " alt="" coords="657,449,754,475"/>
+<area shape="poly" id="edge786_Node000011_Node000014" title=" " alt="" coords="491,459,656,459,656,465,491,465"/>
+<area shape="rect" id="Node000015" href="$classBFPostpassDRE.html" title=" " alt="" coords="643,499,767,524"/>
+<area shape="poly" id="edge787_Node000011_Node000015" title=" " alt="" coords="491,470,643,498,643,503,490,475"/>
+<area shape="rect" id="Node000017" href="$classBFLateBypassGuard.html" title=" " alt="" coords="629,548,782,573"/>
+<area shape="poly" id="edge789_Node000016_Node000017" title=" " alt="" coords="501,521,634,545,633,551,500,527"/>
+<area shape="rect" id="Node000026" href="$classBFCopyRegWithOp.html" title=" " alt="" coords="633,844,778,869"/>
+<area shape="poly" id="edge798_Node000025_Node000026" title=" " alt="" coords="491,892,633,867,634,872,492,898"/>
+<area shape="rect" id="Node000027" href="$classBFRegCopyAfter.html" title=" " alt="" coords="641,893,769,919"/>
+<area shape="poly" id="edge799_Node000025_Node000027" title=" " alt="" coords="492,903,641,903,641,909,492,909"/>
+<area shape="rect" id="Node000028" href="$classBFRegCopyBefore.html" title=" " alt="" coords="635,943,775,968"/>
+<area shape="poly" id="edge800_Node000025_Node000028" title=" " alt="" coords="492,914,635,940,634,945,491,920"/>
+<area shape="rect" id="Node000040" href="$classBFSchedule.html" title=" " alt="" coords="657,1337,754,1363"/>
+<area shape="poly" id="edge812_Node000039_Node000040" title=" " alt="" coords="509,1435,543,1421,557,1410,566,1397,575,1384,591,1372,623,1359,656,1351,657,1357,625,1364,593,1376,579,1388,570,1400,561,1413,545,1426,511,1440"/>
+<area shape="rect" id="Node000041" href="$classBFScheduleBU.html" title=" " alt="" coords="647,1387,763,1412"/>
+<area shape="poly" id="edge813_Node000039_Node000041" title=" " alt="" coords="509,1432,646,1407,647,1412,510,1437"/>
+<area shape="rect" id="Node000042" href="$classBFScheduleExact.html" title=" " alt="" coords="639,1436,772,1461"/>
+<area shape="poly" id="edge814_Node000039_Node000042" title=" " alt="" coords="510,1446,639,1446,639,1451,510,1451"/>
+<area shape="rect" id="Node000043" href="$classBFScheduleTD.html" title=" " alt="" coords="648,1485,763,1511"/>
+<area shape="poly" id="edge815_Node000039_Node000043" title=" " alt="" coords="510,1460,648,1485,647,1490,509,1466"/>
+<area shape="rect" id="Node000046" href="$classBFShareOperandLate.html" title=" " alt="" coords="626,1535,785,1560"/>
+<area shape="poly" id="edge818_Node000045_Node000046" title=" " alt="" coords="508,1545,626,1545,626,1550,508,1550"/>
+<area shape="rect" id="Node000047" href="$classBFShareOperandWithScheduled.html" title=" " alt="" coords="592,1584,819,1609"/>
+<area shape="poly" id="edge819_Node000045_Node000047" title=" " alt="" coords="509,1559,634,1581,633,1587,508,1564"/>
+<area shape="rect" id="Node000054" href="$classBFPushMoveUp2.html" title=" " alt="" coords="639,1805,771,1831"/>
+<area shape="poly" id="edge826_Node000053_Node000054" title=" " alt="" coords="518,1833,639,1821,639,1827,519,1838"/>
+<area shape="rect" id="Node000055" href="$classBFRescheduleMove.html" title=" " alt="" coords="630,1855,781,1880"/>
+<area shape="poly" id="edge827_Node000053_Node000055" title=" " alt="" coords="519,1848,630,1858,629,1863,518,1854"/>
+<area shape="rect" id="Node000056" href="$classBFPushAntidepDown.html" title=" " alt="" coords="867,1829,1024,1855"/>
+<area shape="poly" id="edge828_Node000055_Node000056" title=" " alt="" coords="794,1855,866,1848,867,1853,795,1861"/>
+<area shape="rect" id="Node000057" href="$classBFPushMoveUp.html" title=" " alt="" coords="883,1879,1007,1904"/>
+<area shape="poly" id="edge829_Node000055_Node000057" title=" " alt="" coords="795,1874,884,1883,883,1888,794,1879"/>
+</map>

@@ -1,0 +1,38 @@
+<map id="BasicBlockPass::handleBasicBlock" name="BasicBlockPass::handleBasicBlock">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,131,215,171"/>
+<area shape="rect" id="Node000002" href="$classBasicBlockPass.html#a4a3380f2159f6d3b434708801280a120" title=" " alt="" coords="263,306,503,331"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="145,169,351,297,348,301,142,173"/>
+<area shape="rect" id="Node000103" href="$classTTAProgram_1_1CodeSnippet.html#a4aee6662836f4869ad9a62c00b8a38f9" title=" " alt="" coords="863,12,1053,52"/>
+<area shape="poly" id="edge22_Node000001_Node000103" title=" " alt="" coords="159,128,233,99,329,66,438,35,550,12,621,4,676,3,803,12,849,16,849,21,802,17,676,9,621,9,551,17,440,40,331,71,235,104,161,133"/>
+<area shape="rect" id="Node000003" href="$classTTAMachine_1_1Machine.html#a696a769918a9743e43a252b5be8a040a" title=" " alt="" coords="876,205,1040,245"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="416,303,477,282,550,263,632,248,715,238,862,226,863,232,715,243,633,254,551,268,479,287,418,308"/>
+<area shape="rect" id="Node000004" href="$classBasicBlockPass.html#a5f223e2ecb010399b2f4529def452834" title=" " alt="" coords="569,363,784,389"/>
+<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="449,329,598,358,597,363,448,334"/>
+<area shape="rect" id="Node000109" href="$classTTAMachine_1_1ControlUnit.html#ad16251f030417f0c29a37ab16e40267a" title=" " alt="" coords="867,277,1049,317"/>
+<area shape="poly" id="edge15_Node000002_Node000109" title=" " alt="" coords="436,303,491,292,550,284,621,279,677,279,803,284,853,286,853,292,803,289,676,284,621,284,551,289,492,298,437,308"/>
+<area shape="poly" id="edge17_Node000002_Node000103" title=" " alt="" coords="385,305,402,256,434,186,456,149,483,113,514,81,549,55,585,37,622,24,701,9,779,6,849,11,849,16,779,11,701,15,624,29,587,42,552,60,517,85,487,117,461,152,439,188,407,258,390,307"/>
+<area shape="rect" id="Node000167" href="$classApplication.html#aeb2ac2bb91d6d150565357d09d1859b9" title=" " alt="" coords="1113,462,1284,487"/>
+<area shape="poly" id="edge18_Node000002_Node000167" title=" " alt="" coords="394,330,417,363,453,405,498,448,524,467,552,482,630,509,711,524,795,531,877,529,955,523,1026,512,1140,488,1141,493,1027,518,955,528,877,535,794,536,711,530,628,514,550,486,521,471,495,452,449,409,413,366,390,333"/>
+<area shape="rect" id="Node000196" href="$classSimpleResourceManager.html#a0215fd8565d65e394e326e1e684771be" title=" " alt="" coords="866,400,1050,440"/>
+<area shape="poly" id="edge20_Node000002_Node000196" title=" " alt="" coords="405,329,468,365,509,383,551,397,629,413,708,421,784,424,852,424,852,429,784,429,708,426,628,418,550,403,507,388,466,370,402,334"/>
+<area shape="rect" id="Node000200" href="$classApplication.html#ac938674edada696f957e23154cdbd471" title=" " alt="" coords="863,465,1053,490"/>
+<area shape="poly" id="edge21_Node000002_Node000200" title=" " alt="" coords="399,329,462,381,505,408,552,431,627,453,705,467,781,474,849,477,849,482,780,480,704,472,626,458,550,436,502,413,458,385,396,333"/>
+<area shape="rect" id="Node000201" href="$classBasicBlockPass.html#ac03e409fabfe43bc6837606026261d52" title=" " alt="" coords="551,617,803,642"/>
+<area shape="poly" id="edge11_Node000002_Node000201" title=" " alt="" coords="390,331,408,381,440,453,462,492,488,530,518,565,552,595,578,609,575,614,549,599,514,569,484,533,458,494,435,455,403,383,385,332"/>
+<area shape="rect" id="Node000462" href="$classSimpleResourceManager.html#a7a0ff647eebcbacc6cc377979b443459" title=" " alt="" coords="585,69,769,109"/>
+<area shape="poly" id="edge12_Node000002_Node000462" title=" " alt="" coords="389,304,411,267,447,217,493,164,520,140,549,119,570,108,573,113,552,124,524,144,497,168,451,220,416,270,393,307"/>
+<area shape="rect" id="Node000463" href="$classBasicBlockPass.html#ae5909502fc0f3fd39c81d73a5527cbf2" title=" " alt="" coords="851,566,1065,591"/>
+<area shape="poly" id="edge13_Node000002_Node000463" title=" " alt="" coords="391,330,410,374,444,434,491,495,520,522,552,544,589,562,628,575,709,590,789,594,861,590,861,595,789,599,709,595,627,580,587,567,549,549,517,526,487,499,439,436,406,376,386,333"/>
+<area shape="rect" id="Node000486" href="$classSimpleResourceManager.html#a11c14e829453b809725d0c84f4c18e9f" title=" " alt="" coords="585,133,769,173"/>
+<area shape="poly" id="edge16_Node000002_Node000486" title=" " alt="" coords="396,304,459,249,503,218,549,190,582,175,584,180,552,194,506,222,462,253,399,308"/>
+<area shape="rect" id="Node000512" href="$structLiveRangeData.html#a64c00a4bee6aca593e4b8401cc4e67ad" title=" " alt="" coords="583,299,770,339"/>
+<area shape="poly" id="edge19_Node000002_Node000512" title=" " alt="" coords="503,316,570,316,570,321,503,321"/>
+<area shape="poly" id="edge4_Node000004_Node000003" title=" " alt="" coords="779,361,801,349,818,329,825,308,832,286,849,263,869,249,872,254,853,267,837,288,830,310,823,332,804,353,781,365"/>
+<area shape="poly" id="edge5_Node000004_Node000109" title=" " alt="" coords="748,361,802,348,891,319,893,324,803,353,750,366"/>
+<area shape="poly" id="edge6_Node000004_Node000103" title=" " alt="" coords="783,361,801,349,817,331,826,314,833,278,835,239,839,216,848,192,889,120,930,61,935,64,893,123,853,194,844,218,840,239,838,279,831,315,821,334,804,353,786,365"/>
+<area shape="poly" id="edge7_Node000004_Node000167" title=" " alt="" coords="784,361,849,359,920,360,994,369,1066,385,1098,398,1127,415,1175,451,1172,455,1124,420,1095,403,1065,390,993,374,920,366,849,364,784,367"/>
+<area shape="poly" id="edge8_Node000004_Node000196" title=" " alt="" coords="759,386,853,401,852,406,758,391"/>
+<area shape="poly" id="edge10_Node000004_Node000200" title=" " alt="" coords="704,386,770,417,852,449,883,459,881,464,850,454,768,422,702,391"/>
+<area shape="poly" id="edge9_Node000196_Node000167" title=" " alt="" coords="1047,437,1129,456,1128,461,1046,443"/>
+<area shape="poly" id="edge14_Node000463_Node000167" title=" " alt="" coords="1008,563,1064,544,1118,518,1164,492,1167,497,1120,523,1066,549,1010,568"/>
+</map>

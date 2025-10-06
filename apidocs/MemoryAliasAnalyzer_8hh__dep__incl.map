@@ -1,0 +1,70 @@
+<map id="MemoryAliasAnalyzer.hh" name="MemoryAliasAnalyzer.hh">
+<area shape="rect" id="Node000001" title=" " alt="" coords="2839,5,3023,31"/>
+<area shape="rect" id="Node000002" href="$ConstantAliasAnalyzer_8hh.html" title=" " alt="" coords="2205,79,2393,104"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="2825,34,2393,82,2393,77,2825,29"/>
+<area shape="rect" id="Node000004" href="$DataDependenceGraphBuilder_8cc.html" title=" " alt="" coords="2830,159,3066,185"/>
+<area shape="poly" id="edge5_Node000001_Node000004" title=" " alt="" coords="2949,41,2965,78,2968,101,2966,124,2955,160,2950,158,2960,123,2962,101,2960,79,2944,43"/>
+<area shape="rect" id="Node000006" href="$DataDependenceGraphBuilder_8hh.html" title=" " alt="" coords="1089,79,1327,104"/>
+<area shape="poly" id="edge6_Node000001_Node000006" title=" " alt="" coords="2825,26,1328,88,1328,82,2825,21"/>
+<area shape="rect" id="Node000040" href="$FalseAliasAnalyzer_8hh.html" title=" " alt="" coords="2417,79,2580,104"/>
+<area shape="poly" id="edge20_Node000001_Node000040" title=" " alt="" coords="2848,36,2569,81,2568,76,2847,30"/>
+<area shape="rect" id="Node000042" href="$GlobalVsStackAA_8hh.html" title=" " alt="" coords="2796,79,2951,104"/>
+<area shape="poly" id="edge23_Node000001_Node000042" title=" " alt="" coords="2915,43,2885,80,2881,77,2911,40"/>
+<area shape="rect" id="Node000043" href="$LLVMAliasAnalyzer_8hh.html" title=" " alt="" coords="3026,79,3190,104"/>
+<area shape="poly" id="edge26_Node000001_Node000043" title=" " alt="" coords="2973,33,3080,76,3078,81,2971,38"/>
+<area shape="rect" id="Node000045" href="$MemoryAliasAnalyzer_8cc.html" title=" " alt="" coords="3614,79,3797,104"/>
+<area shape="poly" id="edge29_Node000001_Node000045" title=" " alt="" coords="3037,25,3603,76,3614,77,3613,82,3602,81,3037,31"/>
+<area shape="rect" id="Node000046" href="$OffsetAliasAnalyzer_8hh.html" title=" " alt="" coords="3214,79,3383,104"/>
+<area shape="poly" id="edge30_Node000001_Node000046" title=" " alt="" coords="3004,31,3240,76,3239,81,3003,36"/>
+<area shape="rect" id="Node000048" href="$PRegionAliasAnalyzer_8hh.html" title=" " alt="" coords="3407,79,3590,104"/>
+<area shape="poly" id="edge33_Node000001_Node000048" title=" " alt="" coords="3036,30,3407,76,3407,81,3035,35"/>
+<area shape="rect" id="Node000050" href="$StackAliasAnalyzer_8hh.html" title=" " alt="" coords="2605,79,2771,104"/>
+<area shape="poly" id="edge36_Node000001_Node000050" title=" " alt="" coords="2880,37,2728,81,2727,76,2878,32"/>
+<area shape="rect" id="Node000003" href="$ConstantAliasAnalyzer_8cc.html" title=" " alt="" coords="2068,159,2255,185"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="2268,113,2183,161,2180,157,2265,108"/>
+<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="2407,102,2818,149,2871,157,2871,162,2817,155,2406,107"/>
+<area shape="rect" id="Node000005" href="$GlobalVsStackAA_8cc.html" title=" " alt="" coords="2653,159,2805,185"/>
+<area shape="poly" id="edge4_Node000002_Node000005" title=" " alt="" coords="2382,104,2640,149,2677,157,2676,162,2640,155,2381,109"/>
+<area shape="poly" id="edge14_Node000006_Node000004" title=" " alt="" coords="1341,90,1611,93,1978,102,2395,120,2818,149,2879,157,2878,162,2817,155,2395,125,1978,107,1611,98,1341,96"/>
+<area shape="rect" id="Node000007" href="$BBSchedulerController_8cc.html" title=" " alt="" coords="1641,159,1826,185"/>
+<area shape="poly" id="edge7_Node000006_Node000007" title=" " alt="" coords="1309,103,1628,149,1671,157,1671,162,1628,155,1308,108"/>
+<area shape="rect" id="Node000008" href="$BUBasicBlockScheduler_8cc.html" title=" " alt="" coords="1850,159,2043,185"/>
+<area shape="poly" id="edge8_Node000006_Node000008" title=" " alt="" coords="1342,100,1574,120,1838,149,1885,157,1885,162,1837,155,1573,125,1341,105"/>
+<area shape="rect" id="Node000009" href="$BUMoveNodeSelector_8cc.html" title=" " alt="" coords="5,159,187,185"/>
+<area shape="poly" id="edge9_Node000006_Node000009" title=" " alt="" coords="1075,98,681,114,440,131,199,155,152,162,151,157,198,149,440,125,681,109,1075,93"/>
+<area shape="rect" id="Node000010" href="$BasicBlockPass_8cc.html" title=" " alt="" coords="267,240,407,265"/>
+<area shape="poly" id="edge10_Node000006_Node000010" title=" " alt="" coords="1075,100,689,119,515,135,454,144,419,154,393,173,372,197,345,241,341,238,368,193,390,169,416,150,453,139,514,129,688,113,1075,94"/>
+<area shape="rect" id="Node000011" href="$BasicBlockPass_8hh.html" title=" " alt="" coords="211,159,354,185"/>
+<area shape="poly" id="edge11_Node000006_Node000011" title=" " alt="" coords="1075,99,755,117,564,133,374,155,332,162,331,157,373,149,563,127,754,111,1075,94"/>
+<area shape="rect" id="Node000030" href="$CriticalPathBBMoveNodeSelector_8cc.html" title=" " alt="" coords="430,159,685,185"/>
+<area shape="poly" id="edge13_Node000006_Node000030" title=" " alt="" coords="1092,108,696,155,640,162,639,157,696,149,1091,103"/>
+<area shape="rect" id="Node000031" href="$LLVMTCEDataDependenceGraphBuilder_8hh.html" title=" " alt="" coords="709,152,939,192"/>
+<area shape="poly" id="edge15_Node000006_Node000031" title=" " alt="" coords="1139,109,916,155,915,149,1138,104"/>
+<area shape="rect" id="Node000033" href="$LLVMTCEIRBuilder_8hh.html" title=" " alt="" coords="963,159,1122,185"/>
+<area shape="poly" id="edge16_Node000006_Node000033" title=" " alt="" coords="1173,112,1068,162,1066,157,1170,107"/>
+<area shape="rect" id="Node000037" href="$PreOptimizer_8cc.html" title=" " alt="" coords="1146,159,1270,185"/>
+<area shape="poly" id="edge17_Node000006_Node000037" title=" " alt="" coords="1211,118,1211,159,1205,159,1205,118"/>
+<area shape="rect" id="Node000038" href="$ProgramGraph_8cc.html" title=" " alt="" coords="1294,159,1429,185"/>
+<area shape="poly" id="edge18_Node000006_Node000038" title=" " alt="" coords="1244,108,1340,157,1337,161,1242,113"/>
+<area shape="rect" id="Node000039" href="$RegisterCopyAdder_8cc.html" title=" " alt="" coords="1453,159,1617,185"/>
+<area shape="poly" id="edge19_Node000006_Node000039" title=" " alt="" coords="1269,105,1488,157,1486,162,1268,110"/>
+<area shape="poly" id="edge12_Node000011_Node000010" title=" " alt="" coords="301,194,331,238,327,241,296,197"/>
+<area shape="poly" id="edge21_Node000040_Node000004" title=" " alt="" coords="2578,104,2883,157,2882,162,2577,109"/>
+<area shape="rect" id="Node000041" href="$FalseAliasAnalyzer_8cc.html" title=" " alt="" coords="2279,159,2441,185"/>
+<area shape="poly" id="edge22_Node000040_Node000041" title=" " alt="" coords="2468,113,2382,161,2379,157,2465,108"/>
+<area shape="poly" id="edge24_Node000042_Node000004" title=" " alt="" coords="2896,112,2939,157,2935,161,2892,116"/>
+<area shape="poly" id="edge25_Node000042_Node000005" title=" " alt="" coords="2842,113,2752,161,2749,157,2839,108"/>
+<area shape="poly" id="edge27_Node000043_Node000004" title=" " alt="" coords="3074,112,2972,162,2970,157,3071,108"/>
+<area shape="rect" id="Node000044" href="$LLVMAliasAnalyzer_8cc.html" title=" " alt="" coords="3091,159,3253,185"/>
+<area shape="poly" id="edge28_Node000043_Node000044" title=" " alt="" coords="3128,113,3165,157,3160,161,3124,116"/>
+<area shape="poly" id="edge31_Node000046_Node000004" title=" " alt="" coords="3235,110,3000,162,2998,157,3234,104"/>
+<area shape="rect" id="Node000047" href="$OffsetAliasAnalyzer_8cc.html" title=" " alt="" coords="3278,159,3445,185"/>
+<area shape="poly" id="edge32_Node000046_Node000047" title=" " alt="" coords="3318,113,3354,157,3350,161,3314,116"/>
+<area shape="poly" id="edge34_Node000048_Node000004" title=" " alt="" coords="3405,109,3079,155,3028,162,3027,157,3078,149,3404,103"/>
+<area shape="rect" id="Node000049" href="$PRegionAliasAnalyzer_8cc.html" title=" " alt="" coords="3469,159,3651,185"/>
+<area shape="poly" id="edge35_Node000048_Node000049" title=" " alt="" coords="3518,113,3553,157,3549,161,3514,116"/>
+<area shape="poly" id="edge37_Node000050_Node000004" title=" " alt="" coords="2739,105,2911,157,2909,162,2738,110"/>
+<area shape="poly" id="edge38_Node000050_Node000005" title=" " alt="" coords="2703,115,2726,158,2721,160,2698,117"/>
+<area shape="rect" id="Node000051" href="$StackAliasAnalyzer_8cc.html" title=" " alt="" coords="2465,159,2629,185"/>
+<area shape="poly" id="edge39_Node000050_Node000051" title=" " alt="" coords="2656,113,2569,161,2566,157,2654,108"/>
+</map>

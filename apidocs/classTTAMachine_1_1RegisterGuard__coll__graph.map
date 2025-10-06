@@ -1,0 +1,16 @@
+<map id="TTAMachine::RegisterGuard" name="TTAMachine::RegisterGuard">
+<area shape="rect" id="Node000001" title=" " alt="" coords="384,1604,579,1849"/>
+<area shape="rect" id="Node000002" href="$classTTAMachine_1_1Guard.html" title=" " alt="" coords="405,1229,558,1555"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="484,1568,484,1604,479,1604,479,1568"/>
+<area shape="rect" id="Node000003" href="$classTTAMachine_1_1SubComponent.html" title=" " alt="" coords="381,431,581,556"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="484,570,484,1229,479,1229,479,570"/>
+<area shape="rect" id="Node000006" title=" " alt="" coords="494,5,573,71"/>
+<area shape="poly" id="edge6_Node000001_Node000006" title=" " alt="" coords="494,48,410,67,358,83,304,104,251,130,201,164,157,204,122,252,87,319,59,382,37,442,22,500,13,555,9,609,9,662,14,715,36,823,71,937,162,1204,205,1311,259,1413,318,1508,376,1590,372,1593,314,1511,255,1416,200,1313,157,1206,66,939,31,824,9,716,4,663,3,609,7,555,17,499,32,441,54,380,82,317,118,249,153,200,198,160,248,126,302,99,357,77,408,61,493,43"/>
+<area shape="poly" id="edge3_Node000002_Node000006" title=" " alt="" coords="574,55,596,72,613,93,625,129,624,159,617,189,613,227,612,482,608,593,596,736,581,861,562,987,521,1214,516,1213,557,986,576,860,591,736,602,593,606,482,608,227,612,188,618,158,619,129,608,96,592,75,571,60"/>
+<area shape="rect" id="Node000008" href="$classTTAMachine_1_1Bus.html" title=" " alt="" coords="133,251,358,736"/>
+<area shape="poly" id="edge5_Node000008_Node000006" title=" " alt="" coords="496,72,471,96,417,167,369,242,364,239,413,164,467,93,492,69"/>
+<area shape="rect" id="Node000033" href="$classTTAMachine_1_1RegisterFile.html" title=" " alt="" coords="666,760,891,1205"/>
+<area shape="poly" id="edge8_Node000033_Node000006" title=" " alt="" coords="574,51,612,68,650,93,692,129,723,161,747,198,768,250,786,311,799,373,815,501,819,627,813,744,808,743,813,627,810,502,794,374,781,312,763,252,742,201,719,164,689,133,646,97,610,73,572,56"/>
+<area shape="poly" id="edge4_Node000002_Node000008" title=" " alt="" coords="300,736,355,964,420,1205,422,1213,417,1215,415,1206,350,965,295,737"/>
+<area shape="poly" id="edge7_Node000001_Node000033" title=" " alt="" coords="707,1206,644,1379,572,1556,556,1590,551,1588,567,1554,639,1377,702,1204"/>
+</map>

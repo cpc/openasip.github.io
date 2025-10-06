@@ -1,0 +1,22 @@
+<map id="OperationDAGDialog" name="OperationDAGDialog">
+<area shape="rect" id="Node000001" title=" " alt="" coords="159,1344,353,1809"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="67,1016,141,1081"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="114,1094,132,1181,156,1281,175,1343,170,1345,151,1282,126,1182,109,1095"/>
+<area shape="rect" id="Node000003" href="$classOperation.html" title=" " alt="" coords="165,816,347,1281"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="259,1282,259,1327,253,1327,253,1282"/>
+<area shape="rect" id="Node000004" href="$classSerializable.html" title=" " alt="" coords="5,398,131,503"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="84,516,110,627,145,753,168,820,163,821,140,754,105,629,79,518"/>
+<area shape="rect" id="Node000005" href="$classOperationPimpl.html" title=" " alt="" coords="155,148,357,753"/>
+<area shape="poly" id="edge4_Node000003_Node000005" title=" " alt="" coords="259,754,259,799,253,799,253,754"/>
+<area shape="rect" id="Node000007" title=" " alt="" coords="253,5,331,71"/>
+<area shape="poly" id="edge5_Node000005_Node000007" title=" " alt="" coords="278,72,271,95,263,132,258,131,265,94,273,70"/>
+<area shape="rect" id="Node000038" href="$classObjectState.html" title=" " alt="" coords="381,288,566,613"/>
+<area shape="poly" id="edge7_Node000038_Node000007" title=" " alt="" coords="333,65,359,93,385,135,406,180,439,271,434,273,401,182,380,138,355,96,329,68"/>
+<area shape="poly" id="edge6_Node000001_Node000038" title=" " alt="" coords="453,614,425,816,410,948,401,1050,388,1153,361,1282,349,1329,344,1327,356,1281,383,1152,396,1050,405,947,420,816,448,613"/>
+<area shape="poly" id="edge8_Node000038_Node000038" title=" " alt="" coords="568,392,578,400,586,413,593,451,589,478,580,498,576,495,584,477,587,451,581,415,574,404,564,396"/>
+<area shape="rect" id="Node000039" title=" " alt="" coords="476,1016,676,1081"/>
+<area shape="poly" id="edge10_Node000039_Node000038" title=" " alt="" coords="458,614,459,703,469,791,485,849,506,906,552,1000,547,1002,501,908,480,851,464,793,453,703,453,614"/>
+<area shape="poly" id="edge9_Node000038_Node000039" title=" " alt="" coords="572,1016,563,910,547,778,517,630,522,629,552,777,569,910,577,1016"/>
+<area shape="rect" id="Node000040" title=" " alt="" coords="388,5,559,71"/>
+<area shape="poly" id="edge11_Node000038_Node000040" title=" " alt="" coords="476,71,476,272,471,272,471,71"/>
+</map>

@@ -1,0 +1,21 @@
+<map id="TTAMachine::PipelineElement" name="TTAMachine::PipelineElement">
+<area shape="rect" id="Node000001" title=" " alt="" coords="136,336,343,481"/>
+<area shape="rect" id="Node000075" title=" " alt="" coords="5,1015,236,1080"/>
+<area shape="poly" id="edge9_Node000075_Node000001" title=" " alt="" coords="200,483,191,506,172,574,158,643,137,781,127,905,124,998,118,998,122,905,132,781,152,642,167,572,186,504,195,481"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="367,135,445,200"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="368,186,338,203,311,226,281,271,261,321,256,319,277,269,307,222,335,198,365,181"/>
+<area shape="rect" id="Node000004" href="$classTTAMachine_1_1FunctionUnit.html" title=" " alt="" coords="293,1143,519,1508"/>
+<area shape="poly" id="edge6_Node000004_Node000002" title=" " alt="" coords="405,200,391,333,379,505,372,748,379,991,388,1126,383,1126,374,991,367,748,374,505,386,333,400,200"/>
+<area shape="rect" id="Node000005" href="$classTTAMachine_1_1Unit.html" title=" " alt="" coords="561,505,787,991"/>
+<area shape="poly" id="edge5_Node000005_Node000002" title=" " alt="" coords="423,199,558,489,553,492,418,201"/>
+<area shape="rect" id="Node000048" href="$classTTAMachine_1_1AddressSpace.html" title=" " alt="" coords="794,585,986,911"/>
+<area shape="poly" id="edge11_Node000048_Node000002" title=" " alt="" coords="446,171,515,187,553,202,588,222,630,256,669,296,705,338,737,384,791,478,833,569,829,571,787,480,732,387,701,342,665,299,627,260,584,226,550,207,514,192,445,176"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="341,5,471,85"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="409,99,409,134,403,134,403,99"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="319,1143,301,1081,284,995,276,921,274,855,276,794,279,667,275,592,263,506,262,498,267,497,269,505,280,592,284,666,281,794,280,855,281,920,289,994,306,1079,324,1142"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="550,997,527,1004,504,1003,484,1005,465,1017,444,1044,428,1075,416,1109,408,1143,403,1142,411,1107,423,1073,440,1041,462,1013,483,1000,504,998,526,998,549,992"/>
+<area shape="rect" id="Node000067" title=" " alt="" coords="623,1015,834,1080"/>
+<area shape="poly" id="edge7_Node000004_Node000067" title=" " alt="" coords="693,1082,533,1219,530,1215,690,1078"/>
+<area shape="poly" id="edge8_Node000004_Node000075" title=" " alt="" coords="126,1079,130,1099,139,1117,169,1157,204,1192,242,1224,281,1252,278,1256,239,1228,200,1196,165,1160,134,1120,125,1101,121,1081"/>
+<area shape="poly" id="edge10_Node000004_Node000048" title=" " alt="" coords="853,913,827,957,790,993,764,1003,730,1007,646,1004,563,1002,530,1006,506,1017,492,1033,478,1059,453,1127,448,1126,473,1057,488,1030,503,1013,528,1001,563,997,646,999,730,1002,763,998,787,988,822,953,848,910"/>
+</map>
