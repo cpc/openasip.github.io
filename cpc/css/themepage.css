@@ -1,0 +1,51 @@
+.news-headline {
+    background-color: #c3b9d7;
+    padding: 4px;
+    font-size: medium;
+    font-weight: bold;
+}
+
+p.item-intro {
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-style: italic;
+	font-size: 16px;
+}
+.text-muted {
+	color: #777;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-weight: 700;
+}
+
+.pbox {
+	margin-bottom: 30px;
+}
+
+table {
+	width: 600px;
+}
+
+table,
+td,
+th {
+  border: 1px solid #000;
+  border-collapse: collapse;
+}
+
+td,
+th {
+  text-align: center;
+  padding: 4px;
+}
+
+caption {
+	text-align: left;
+	padding-bottom: 10px;
+  }
