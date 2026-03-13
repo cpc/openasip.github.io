@@ -143,6 +143,15 @@ group at the
           <h1>News and updates</h1>
 
           <div class="news-headline">
+            March 13th, 2026: <a href="https://github.com/cpc/openasip/releases/tag/v2.2">OpenASIP 2.2</a> released!</div>
+
+          <p>New in this release is support for LLVM versions 21 and 22, various fixes for building and running the tools on Ubuntu 24.04 LTS, automated RISC-V custom instruction compiler retargeting, CV-X and ROCC interface support for SFU generation, an automated design space exploration flow (AEx), among others.  See the
+            <a href="https://github.com/cpc/openasip/releases/tag/v2.2">release notes</a>
+            for more details.</p>
+            <p>Install instructions can be found in the <a href="https://github.com/cpc/openasip/tree/openasip-2.2?tab=readme-ov-file#installing-prerequisities">README</a>.
+          </p>
+
+        <div class="news-headline">
             <a id="ntnu-asip"></a>
             November 18th, 2024: OpenASIP used for a customized processor for medical ultrasound beamforming by an NTNU researcher
           </div>
@@ -169,6 +178,7 @@ group at the
             In a recent work Yanık et al. used OpenASIP toolset as a basis for rapidly extending the instruction set of RISC-V cores. They use Vitis HLS tool to generate custom function units (FU) directly from C program descriptions. What a great idea! The user needs to only give the description of the custom operation in C and the tools generate a full function unit out of it. After that, their scripts integrate the function unit into a RISC-V ASIP using OpenASIP. It’s great to see how our easy-to-use custom FU integration enables people to create experiments like this. 
 Their paper DELTA-V: An Open-Source High-Level Synthesis Driven ASIP Design Automation Tool for RISC-V Microprocessors was published in 2023 14th International Conference on Electrical and Electronics Engineering (ELECO). The paper is available <a href="https://doi.org/10.1109/ELECO60389.2023.10416066"> here</a> and the source code <a href="https://github.com/DELTAICLAB/DELTA-V"> here</a>. 
           </p>
+
           <div class="news-headline">
             December 20th, 2023: <a href="https://github.com/cpc/openasip/tree/openasip-2.1/openasip">OpenASIP 2.1</a> released!</div>
 
